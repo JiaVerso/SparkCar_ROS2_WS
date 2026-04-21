@@ -1,0 +1,7 @@
+{
+  "package_name": "livox_ros_driver2",
+  "non_idl_tuples": [
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/livox_ros_driver2:msg/CustomPoint.msg",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/livox_ros_driver2:msg/CustomMsg.msg"
+  ]
+}

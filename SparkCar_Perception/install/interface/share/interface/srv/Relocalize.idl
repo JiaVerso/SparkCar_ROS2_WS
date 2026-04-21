@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interface/srv/Relocalize.srv
+// generated code does not contain a copyright notice
+
+
+module interface {
+  module srv {
+    struct Relocalize_Request {
+      string pcd_path;
+
+      float x;
+
+      float y;
+
+      float z;
+
+      float yaw;
+
+      float pitch;
+
+      float roll;
+    };
+    struct Relocalize_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

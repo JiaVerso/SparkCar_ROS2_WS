@@ -1,0 +1,10 @@
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/uninstall.dir
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/localizer_uninstall.dir
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/localizer_node.dir
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/test.dir
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/edit_cache.dir
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/rebuild_cache.dir
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/list_install_components.dir
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/install.dir
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/install/local.dir
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/install/strip.dir

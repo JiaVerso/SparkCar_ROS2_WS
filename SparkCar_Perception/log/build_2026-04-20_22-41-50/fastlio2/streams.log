@@ -1,0 +1,393 @@
+[0.021s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/opt/ros/humble /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2 -DROS_EDITION=ROS2 -DDISTRO_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2
+[0.093s] -- The C compiler identification is GNU 11.4.0
+[0.158s] -- The CXX compiler identification is GNU 11.4.0
+[0.166s] -- Detecting C compiler ABI info
+[0.249s] -- Detecting C compiler ABI info - done
+[0.260s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.261s] -- Detecting C compile features
+[0.261s] -- Detecting C compile features - done
+[0.265s] -- Detecting CXX compiler ABI info
+[0.370s] -- Detecting CXX compiler ABI info - done
+[0.379s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.380s] -- Detecting CXX compile features
+[0.380s] -- Detecting CXX compile features - done
+[0.384s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.568s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.676s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.724s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.731s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.742s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.756s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.776s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.829s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.833s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.938s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.977s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.029s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.038s] -- Looking for pthread.h
+[1.187s] -- Looking for pthread.h - found
+[1.189s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.320s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.321s] -- Found Threads: TRUE  
+[1.430s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[1.483s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.660s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.698s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.734s] -- Found livox_ros_driver2: 1.0.0 (/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[1.821s] -- Checking for module 'eigen3'
+[1.857s] --   Found eigen3, version 3.4.0
+[1.925s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.925s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.964s] -- Checking for module 'flann'
+[1.981s] --   Found flann, version 1.9.1
+[2.044s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.044s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.405s] -- Checking for module 'libusb-1.0'
+[3.424s] --   Found libusb-1.0, version 1.0.25
+[3.473s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.473s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.554s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.815s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.830s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.842s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.184s] -- Found Qhull version 8.0.2
+[4.514s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.731s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.733s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.734s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.735s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.737s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.739s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.741s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.741s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.741s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.743s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.745s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.746s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.747s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.749s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.750s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.752s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.756s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.756s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.756s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.757s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.758s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.759s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.763s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.765s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.767s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[5.202s] [33mCMake Warning (dev) at CMakeLists.txt:35 (find_package):
+[5.202s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[5.202s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[5.202s]   command to set the policy and suppress this warning.
+[5.202s] 
+[5.202s]   CMake variable PCL_ROOT is set to:
+[5.202s] 
+[5.203s]     /usr
+[5.203s] 
+[5.203s]   For compatibility, CMake is ignoring the variable.
+[5.203s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.203s] [0m
+[5.238s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.340s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.340s] -- Configured cppcheck include dirs: 
+[5.340s] -- Configured cppcheck exclude dirs and/or files: 
+[5.342s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.343s] -- Added test 'lint_cmake' to check CMake code style
+[5.344s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.346s] -- Added test 'uncrustify' to check C / C++ code style
+[5.347s] -- Configured uncrustify additional arguments: 
+[5.347s] -- Added test 'xmllint' to check XML markup files
+[5.349s] -- Configuring done
+[5.396s] -- Generating done
+[5.401s] [33mCMake Warning:
+[5.401s]   Manually-specified variables were not used by the project:
+[5.401s] 
+[5.401s]     DISTRO_ROS
+[5.402s]     ROS_EDITION
+[5.402s] 
+[5.402s] [0m
+[5.416s] -- Build files have been written to: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2
+[5.444s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2' returned '0': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/opt/ros/humble /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2 -DROS_EDITION=ROS2 -DDISTRO_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2
+[5.449s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2 -- -j8 -l8
+[5.519s] [ 11%] [32mBuilding CXX object CMakeFiles/lio_node.dir/src/lio_node.cpp.o[0m
+[5.523s] [ 22%] [32mBuilding CXX object CMakeFiles/lio_node.dir/src/map_builder/imu_processor.cpp.o[0m
+[5.531s] [ 33%] [32mBuilding CXX object CMakeFiles/lio_node.dir/src/map_builder/ikd_Tree.cpp.o[0m
+[5.531s] [ 55%] [32mBuilding CXX object CMakeFiles/lio_node.dir/src/map_builder/ieskf.cpp.o[0m
+[5.533s] [ 55%] [32mBuilding CXX object CMakeFiles/lio_node.dir/src/map_builder/commons.cpp.o[0m
+[5.536s] [ 66%] [32mBuilding CXX object CMakeFiles/lio_node.dir/src/map_builder/lidar_processor.cpp.o[0m
+[5.542s] [ 77%] [32mBuilding CXX object CMakeFiles/lio_node.dir/src/utils.cpp.o[0m
+[5.545s] [ 88%] [32mBuilding CXX object CMakeFiles/lio_node.dir/src/map_builder/map_builder.cpp.o[0m
+[12.944s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::multi_thread_rebuild() [with PointType = pcl::PointXYZ][m[K’:
+[12.944s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:[m[K   required from here
+[12.944s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:329:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvalid_old[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.944s]   329 |             int [01;35m[Kvalid_old[m[K = old_root_node->TreeSize - old_root_node->invalid_point_num;
+[12.945s]       |                 [01;35m[K^~~~~~~~~[m[K
+[12.945s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:330:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvalid_new[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.945s]   330 |             int [01;35m[Kvalid_new[m[K = new_root_node->TreeSize - new_root_node->invalid_point_num;
+[12.946s]       |                 [01;35m[K^~~~~~~~~[m[K
+[12.949s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:231:33:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knew_node_ptr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.949s]   231 |     KD_TREE_NODE *father_ptr, **[01;35m[Knew_node_ptr[m[K;
+[12.949s]       |                                 [01;35m[K^~~~~~~~~~~~[m[K
+[12.952s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::Rebuild(KD_TREE<PointType>::KD_TREE_NODE**) [with PointType = pcl::PointXYZ][m[K’:
+[12.952s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:[m[K   required from here
+[12.953s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:751:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize_rec[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.953s]   751 |         int [01;35m[Ksize_rec[m[K = (*root)->TreeSize;
+[12.953s]       |             [01;35m[K^~~~~~~~[m[K
+[12.954s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kint KD_TREE<PointType>::Delete_by_range(KD_TREE<PointType>::KD_TREE_NODE**, BoxPointType, bool, bool) [with PointType = pcl::PointXYZ][m[K’:
+[12.955s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:[m[K   required from here
+[12.956s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:802:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.956s]   802 |     struct timespec [01;35m[KTimeout[m[K;
+[12.956s]       |                     [01;35m[K^~~~~~~[m[K
+[12.958s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::Delete_by_point(KD_TREE<PointType>::KD_TREE_NODE**, PointType, bool) [with PointType = pcl::PointXYZ][m[K’:
+[12.958s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:[m[K   required from here
+[12.958s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:867:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.958s]   867 |     struct timespec [01;35m[KTimeout[m[K;
+[12.958s]       |                     [01;35m[K^~~~~~~[m[K
+[12.958s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::Add_by_point(KD_TREE<PointType>::KD_TREE_NODE**, PointType, bool, int) [with PointType = pcl::PointXYZ][m[K’:
+[12.958s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:[m[K   required from here
+[12.959s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1006:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.959s]  1006 |     struct timespec [01;35m[KTimeout[m[K;
+[12.959s]       |                     [01;35m[K^~~~~~~[m[K
+[12.961s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::Add_by_range(KD_TREE<PointType>::KD_TREE_NODE**, BoxPointType, bool) [with PointType = pcl::PointXYZ][m[K’:
+[12.961s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:[m[K   required from here
+[12.961s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:946:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.961s]   946 |     struct timespec [01;35m[KTimeout[m[K;
+[12.961s]       |                     [01;35m[K^~~~~~~[m[K
+[12.961s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::Search(KD_TREE<PointType>::KD_TREE_NODE*, int, PointType, KD_TREE<PointType>::MANUAL_HEAP&, float) [with PointType = pcl::PointXYZ][m[K’:
+[12.961s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:[m[K   required from here
+[12.962s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1097:63:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[12.962s]  1097 |     if (q.size() < k_nearest || [01;35m[Kdist_left_node < q.top().dist && dist_right_node < q.top().dist[m[K)
+[12.962s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.963s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1094:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcur_search_counter[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.967s]  1094 |     int [01;35m[Kcur_search_counter[m[K;
+[12.967s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[12.974s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kint KD_TREE<PointType>::Add_Points(KD_TREE<PointType>::PointVector&, bool) [with PointType = pcl::PointXYZ; KD_TREE<PointType>::PointVector = std::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >][m[K’:
+[12.975s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:[m[K   required from here
+[12.975s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:485:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[12.975s]   485 |     for (int i = 0; [01;35m[Ki < PointToAdd.size()[m[K; i++)
+[12.975s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[12.976s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:502:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[12.976s]   502 |             for (int index = 0; [01;35m[Kindex < Downsample_Storage.size()[m[K; index++)
+[12.976s]       |                                 [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.977s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:478:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNewPointSize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.977s]   478 |     int [01;35m[KNewPointSize[m[K = PointToAdd.size();
+[12.977s]       |         [01;35m[K^~~~~~~~~~~~[m[K
+[12.978s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:479:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktree_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.978s]   479 |     int [01;35m[Ktree_size[m[K = size();
+[12.978s]       |         [01;35m[K^~~~~~~~~[m[K
+[12.978s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::Add_Point_Boxes(std::vector<BoxPointType>&) [with PointType = pcl::PointXYZ][m[K’:
+[12.979s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:[m[K   required from here
+[12.979s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:576:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<BoxPointType>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[12.979s]   576 |     for (int i = 0; [01;35m[Ki < BoxPoints.size()[m[K; i++)
+[12.979s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[12.979s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::Delete_Points(KD_TREE<PointType>::PointVector&) [with PointType = pcl::PointXYZ; KD_TREE<PointType>::PointVector = std::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >][m[K’:
+[12.980s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:[m[K   required from here
+[12.980s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:604:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[12.980s]   604 |     for (int i = 0; [01;35m[Ki < PointToDel.size()[m[K; i++)
+[12.980s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[12.980s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kint KD_TREE<PointType>::Delete_Point_Boxes(std::vector<BoxPointType>&) [with PointType = pcl::PointXYZ][m[K’:
+[12.981s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:[m[K   required from here
+[12.981s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:633:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<BoxPointType>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[12.982s]   633 |     for (int i = 0; [01;35m[Ki < BoxPoints.size()[m[K; i++)
+[12.982s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[12.982s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::acquire_removed_points(KD_TREE<PointType>::PointVector&) [with PointType = pcl::PointXYZ; KD_TREE<PointType>::PointVector = std::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >][m[K’:
+[12.982s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:[m[K   required from here
+[12.982s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:662:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[12.982s]   662 |     for (int i = 0; [01;35m[Ki < Points_deleted.size()[m[K; i++)
+[12.982s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.982s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:666:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[12.985s]   666 |     for (int i = 0; [01;35m[Ki < Multithread_Points_deleted.size()[m[K; i++)
+[12.985s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.987s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::multi_thread_rebuild() [with PointType = pcl::PointXYZI][m[K’:
+[12.987s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:[m[K   required from here
+[12.988s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:329:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvalid_old[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.988s]   329 |             int [01;35m[Kvalid_old[m[K = old_root_node->TreeSize - old_root_node->invalid_point_num;
+[12.988s]       |                 [01;35m[K^~~~~~~~~[m[K
+[12.988s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:330:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvalid_new[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.988s]   330 |             int [01;35m[Kvalid_new[m[K = new_root_node->TreeSize - new_root_node->invalid_point_num;
+[12.988s]       |                 [01;35m[K^~~~~~~~~[m[K
+[12.989s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:231:33:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knew_node_ptr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.989s]   231 |     KD_TREE_NODE *father_ptr, **[01;35m[Knew_node_ptr[m[K;
+[12.989s]       |                                 [01;35m[K^~~~~~~~~~~~[m[K
+[12.992s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::Rebuild(KD_TREE<PointType>::KD_TREE_NODE**) [with PointType = pcl::PointXYZI][m[K’:
+[12.993s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:[m[K   required from here
+[12.993s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:751:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize_rec[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.993s]   751 |         int [01;35m[Ksize_rec[m[K = (*root)->TreeSize;
+[12.994s]       |             [01;35m[K^~~~~~~~[m[K
+[12.994s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kint KD_TREE<PointType>::Delete_by_range(KD_TREE<PointType>::KD_TREE_NODE**, BoxPointType, bool, bool) [with PointType = pcl::PointXYZI][m[K’:
+[12.994s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:[m[K   required from here
+[12.994s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:802:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.995s]   802 |     struct timespec [01;35m[KTimeout[m[K;
+[12.995s]       |                     [01;35m[K^~~~~~~[m[K
+[12.996s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::Delete_by_point(KD_TREE<PointType>::KD_TREE_NODE**, PointType, bool) [with PointType = pcl::PointXYZI][m[K’:
+[12.996s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:[m[K   required from here
+[12.996s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:867:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.996s]   867 |     struct timespec [01;35m[KTimeout[m[K;
+[12.996s]       |                     [01;35m[K^~~~~~~[m[K
+[12.997s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::Add_by_point(KD_TREE<PointType>::KD_TREE_NODE**, PointType, bool, int) [with PointType = pcl::PointXYZI][m[K’:
+[12.998s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:[m[K   required from here
+[12.998s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1006:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.998s]  1006 |     struct timespec [01;35m[KTimeout[m[K;
+[12.999s]       |                     [01;35m[K^~~~~~~[m[K
+[12.999s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::Add_by_range(KD_TREE<PointType>::KD_TREE_NODE**, BoxPointType, bool) [with PointType = pcl::PointXYZI][m[K’:
+[12.999s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:[m[K   required from here
+[13.000s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:946:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.000s]   946 |     struct timespec [01;35m[KTimeout[m[K;
+[13.000s]       |                     [01;35m[K^~~~~~~[m[K
+[13.000s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::Search(KD_TREE<PointType>::KD_TREE_NODE*, int, PointType, KD_TREE<PointType>::MANUAL_HEAP&, float) [with PointType = pcl::PointXYZI][m[K’:
+[13.000s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:[m[K   required from here
+[13.000s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1097:63:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[13.000s]  1097 |     if (q.size() < k_nearest || [01;35m[Kdist_left_node < q.top().dist && dist_right_node < q.top().dist[m[K)
+[13.001s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.002s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1094:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcur_search_counter[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.002s]  1094 |     int [01;35m[Kcur_search_counter[m[K;
+[13.002s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[13.012s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kint KD_TREE<PointType>::Add_Points(KD_TREE<PointType>::PointVector&, bool) [with PointType = pcl::PointXYZI; KD_TREE<PointType>::PointVector = std::vector<pcl::PointXYZI, Eigen::aligned_allocator<pcl::PointXYZI> >][m[K’:
+[13.012s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:[m[K   required from here
+[13.012s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:485:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZI, Eigen::aligned_allocator<pcl::PointXYZI> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.012s]   485 |     for (int i = 0; [01;35m[Ki < PointToAdd.size()[m[K; i++)
+[13.012s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[13.013s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:502:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZI, Eigen::aligned_allocator<pcl::PointXYZI> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.013s]   502 |             for (int index = 0; [01;35m[Kindex < Downsample_Storage.size()[m[K; index++)
+[13.013s]       |                                 [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.013s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:478:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNewPointSize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.013s]   478 |     int [01;35m[KNewPointSize[m[K = PointToAdd.size();
+[13.013s]       |         [01;35m[K^~~~~~~~~~~~[m[K
+[13.013s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:479:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktree_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.014s]   479 |     int [01;35m[Ktree_size[m[K = size();
+[13.014s]       |         [01;35m[K^~~~~~~~~[m[K
+[13.015s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::Add_Point_Boxes(std::vector<BoxPointType>&) [with PointType = pcl::PointXYZI][m[K’:
+[13.015s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:[m[K   required from here
+[13.015s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:576:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<BoxPointType>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.015s]   576 |     for (int i = 0; [01;35m[Ki < BoxPoints.size()[m[K; i++)
+[13.015s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[13.015s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::Delete_Points(KD_TREE<PointType>::PointVector&) [with PointType = pcl::PointXYZI; KD_TREE<PointType>::PointVector = std::vector<pcl::PointXYZI, Eigen::aligned_allocator<pcl::PointXYZI> >][m[K’:
+[13.015s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:[m[K   required from here
+[13.015s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:604:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZI, Eigen::aligned_allocator<pcl::PointXYZI> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.015s]   604 |     for (int i = 0; [01;35m[Ki < PointToDel.size()[m[K; i++)
+[13.016s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[13.016s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kint KD_TREE<PointType>::Delete_Point_Boxes(std::vector<BoxPointType>&) [with PointType = pcl::PointXYZI][m[K’:
+[13.016s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:[m[K   required from here
+[13.017s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:633:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<BoxPointType>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.017s]   633 |     for (int i = 0; [01;35m[Ki < BoxPoints.size()[m[K; i++)
+[13.017s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[13.017s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::acquire_removed_points(KD_TREE<PointType>::PointVector&) [with PointType = pcl::PointXYZI; KD_TREE<PointType>::PointVector = std::vector<pcl::PointXYZI, Eigen::aligned_allocator<pcl::PointXYZI> >][m[K’:
+[13.017s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:[m[K   required from here
+[13.018s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:662:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZI, Eigen::aligned_allocator<pcl::PointXYZI> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.018s]   662 |     for (int i = 0; [01;35m[Ki < Points_deleted.size()[m[K; i++)
+[13.018s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.020s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:666:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZI, Eigen::aligned_allocator<pcl::PointXYZI> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.020s]   666 |     for (int i = 0; [01;35m[Ki < Multithread_Points_deleted.size()[m[K; i++)
+[13.020s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.023s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::multi_thread_rebuild() [with PointType = pcl::PointXYZINormal][m[K’:
+[13.023s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:[m[K   required from here
+[13.023s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:329:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvalid_old[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.024s]   329 |             int [01;35m[Kvalid_old[m[K = old_root_node->TreeSize - old_root_node->invalid_point_num;
+[13.024s]       |                 [01;35m[K^~~~~~~~~[m[K
+[13.024s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:330:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvalid_new[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.024s]   330 |             int [01;35m[Kvalid_new[m[K = new_root_node->TreeSize - new_root_node->invalid_point_num;
+[13.024s]       |                 [01;35m[K^~~~~~~~~[m[K
+[13.024s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:231:33:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knew_node_ptr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.024s]   231 |     KD_TREE_NODE *father_ptr, **[01;35m[Knew_node_ptr[m[K;
+[13.025s]       |                                 [01;35m[K^~~~~~~~~~~~[m[K
+[13.030s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::Rebuild(KD_TREE<PointType>::KD_TREE_NODE**) [with PointType = pcl::PointXYZINormal][m[K’:
+[13.030s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:[m[K   required from here
+[13.030s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:751:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize_rec[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.030s]   751 |         int [01;35m[Ksize_rec[m[K = (*root)->TreeSize;
+[13.030s]       |             [01;35m[K^~~~~~~~[m[K
+[13.030s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kint KD_TREE<PointType>::Delete_by_range(KD_TREE<PointType>::KD_TREE_NODE**, BoxPointType, bool, bool) [with PointType = pcl::PointXYZINormal][m[K’:
+[13.030s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:[m[K   required from here
+[13.030s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:802:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.030s]   802 |     struct timespec [01;35m[KTimeout[m[K;
+[13.030s]       |                     [01;35m[K^~~~~~~[m[K
+[13.032s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::Delete_by_point(KD_TREE<PointType>::KD_TREE_NODE**, PointType, bool) [with PointType = pcl::PointXYZINormal][m[K’:
+[13.033s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:[m[K   required from here
+[13.033s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:867:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.033s]   867 |     struct timespec [01;35m[KTimeout[m[K;
+[13.033s]       |                     [01;35m[K^~~~~~~[m[K
+[13.033s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::Add_by_point(KD_TREE<PointType>::KD_TREE_NODE**, PointType, bool, int) [with PointType = pcl::PointXYZINormal][m[K’:
+[13.033s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:[m[K   required from here
+[13.033s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1006:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.033s]  1006 |     struct timespec [01;35m[KTimeout[m[K;
+[13.033s]       |                     [01;35m[K^~~~~~~[m[K
+[13.035s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::Add_by_range(KD_TREE<PointType>::KD_TREE_NODE**, BoxPointType, bool) [with PointType = pcl::PointXYZINormal][m[K’:
+[13.035s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:[m[K   required from here
+[13.036s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:946:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.036s]   946 |     struct timespec [01;35m[KTimeout[m[K;
+[13.036s]       |                     [01;35m[K^~~~~~~[m[K
+[13.036s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::Search(KD_TREE<PointType>::KD_TREE_NODE*, int, PointType, KD_TREE<PointType>::MANUAL_HEAP&, float) [with PointType = pcl::PointXYZINormal][m[K’:
+[13.036s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:[m[K   required from here
+[13.036s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1097:63:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[13.036s]  1097 |     if (q.size() < k_nearest || [01;35m[Kdist_left_node < q.top().dist && dist_right_node < q.top().dist[m[K)
+[13.037s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.038s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1094:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcur_search_counter[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.038s]  1094 |     int [01;35m[Kcur_search_counter[m[K;
+[13.038s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[13.048s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kint KD_TREE<PointType>::Add_Points(KD_TREE<PointType>::PointVector&, bool) [with PointType = pcl::PointXYZINormal; KD_TREE<PointType>::PointVector = std::vector<pcl::PointXYZINormal, Eigen::aligned_allocator<pcl::PointXYZINormal> >][m[K’:
+[13.048s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:[m[K   required from here
+[13.048s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:485:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZINormal, Eigen::aligned_allocator<pcl::PointXYZINormal> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.048s]   485 |     for (int i = 0; [01;35m[Ki < PointToAdd.size()[m[K; i++)
+[13.048s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[13.049s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:502:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZINormal, Eigen::aligned_allocator<pcl::PointXYZINormal> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.050s]   502 |             for (int index = 0; [01;35m[Kindex < Downsample_Storage.size()[m[K; index++)
+[13.050s]       |                                 [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.050s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:478:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNewPointSize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.050s]   478 |     int [01;35m[KNewPointSize[m[K = PointToAdd.size();
+[13.050s]       |         [01;35m[K^~~~~~~~~~~~[m[K
+[13.050s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:479:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktree_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.051s]   479 |     int [01;35m[Ktree_size[m[K = size();
+[13.051s]       |         [01;35m[K^~~~~~~~~[m[K
+[13.051s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::Add_Point_Boxes(std::vector<BoxPointType>&) [with PointType = pcl::PointXYZINormal][m[K’:
+[13.051s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:[m[K   required from here
+[13.051s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:576:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<BoxPointType>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.051s]   576 |     for (int i = 0; [01;35m[Ki < BoxPoints.size()[m[K; i++)
+[13.051s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[13.052s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::Delete_Points(KD_TREE<PointType>::PointVector&) [with PointType = pcl::PointXYZINormal; KD_TREE<PointType>::PointVector = std::vector<pcl::PointXYZINormal, Eigen::aligned_allocator<pcl::PointXYZINormal> >][m[K’:
+[13.053s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:[m[K   required from here
+[13.053s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:604:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZINormal, Eigen::aligned_allocator<pcl::PointXYZINormal> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.058s]   604 |     for (int i = 0; [01;35m[Ki < PointToDel.size()[m[K; i++)
+[13.058s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[13.058s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kint KD_TREE<PointType>::Delete_Point_Boxes(std::vector<BoxPointType>&) [with PointType = pcl::PointXYZINormal][m[K’:
+[13.058s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:[m[K   required from here
+[13.058s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:633:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<BoxPointType>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.058s]   633 |     for (int i = 0; [01;35m[Ki < BoxPoints.size()[m[K; i++)
+[13.058s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[13.059s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘[01m[Kvoid KD_TREE<PointType>::acquire_removed_points(KD_TREE<PointType>::PointVector&) [with PointType = pcl::PointXYZINormal; KD_TREE<PointType>::PointVector = std::vector<pcl::PointXYZINormal, Eigen::aligned_allocator<pcl::PointXYZINormal> >][m[K’:
+[13.059s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:[m[K   required from here
+[13.059s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:662:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZINormal, Eigen::aligned_allocator<pcl::PointXYZINormal> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.059s]   662 |     for (int i = 0; [01;35m[Ki < Points_deleted.size()[m[K; i++)
+[13.059s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.059s] [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:666:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZINormal, Eigen::aligned_allocator<pcl::PointXYZINormal> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.059s]   666 |     for (int i = 0; [01;35m[Ki < Multithread_Points_deleted.size()[m[K; i++)
+[13.059s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[39.493s] [100%] [32m[1mLinking CXX executable lio_node[0m
+[40.197s] [100%] Built target lio_node
+[40.207s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2' returned '0': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2 -- -j8 -l8
+[40.209s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2
+[40.215s] -- Install configuration: "Release"
+[40.215s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/lib/fastlio2/lio_node
+[40.216s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/lib/fastlio2/lio_node" to ""
+[40.216s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/launch
+[40.216s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/launch/lio_launch.py
+[40.217s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/rviz
+[40.217s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/rviz/fastlio2.rviz
+[40.217s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/config
+[40.217s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/config/lio.yaml
+[40.217s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/ament_index/resource_index/package_run_dependencies/fastlio2
+[40.217s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/ament_index/resource_index/parent_prefix_path/fastlio2
+[40.218s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/environment/ament_prefix_path.sh
+[40.218s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/environment/ament_prefix_path.dsv
+[40.218s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/environment/path.sh
+[40.218s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/environment/path.dsv
+[40.218s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/local_setup.bash
+[40.218s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/local_setup.sh
+[40.218s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/local_setup.zsh
+[40.218s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/local_setup.dsv
+[40.218s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/package.dsv
+[40.218s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/ament_index/resource_index/packages/fastlio2
+[40.219s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/cmake/fastlio2Config.cmake
+[40.219s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/cmake/fastlio2Config-version.cmake
+[40.219s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/package.xml
+[40.221s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2' returned '0': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2

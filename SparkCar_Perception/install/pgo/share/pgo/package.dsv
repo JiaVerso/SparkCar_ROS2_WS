@@ -1,0 +1,8 @@
+source;share/pgo/hook/cmake_prefix_path.ps1
+source;share/pgo/hook/cmake_prefix_path.dsv
+source;share/pgo/hook/cmake_prefix_path.sh
+source;share/pgo/local_setup.bash
+source;share/pgo/local_setup.dsv
+source;share/pgo/local_setup.ps1
+source;share/pgo/local_setup.sh
+source;share/pgo/local_setup.zsh

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interface/srv/SavePoses.srv
+// generated code does not contain a copyright notice
+
+
+module interface {
+  module srv {
+    struct SavePoses_Request {
+      string file_path;
+    };
+    struct SavePoses_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

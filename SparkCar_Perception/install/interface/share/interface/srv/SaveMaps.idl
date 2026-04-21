@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interface/srv/SaveMaps.srv
+// generated code does not contain a copyright notice
+
+
+module interface {
+  module srv {
+    struct SaveMaps_Request {
+      string file_path;
+
+      boolean save_patches;
+    };
+    struct SaveMaps_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+source;share/hba/local_setup.bash
+source;share/hba/local_setup.dsv
+source;share/hba/local_setup.sh
+source;share/hba/local_setup.zsh

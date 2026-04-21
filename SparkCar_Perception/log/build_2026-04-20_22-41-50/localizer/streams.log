@@ -1,0 +1,146 @@
+[0.009s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/localizer -DROS_EDITION=ROS2 -DDISTRO_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer
+[0.067s] -- The C compiler identification is GNU 11.4.0
+[0.126s] -- The CXX compiler identification is GNU 11.4.0
+[0.137s] -- Detecting C compiler ABI info
+[0.239s] -- Detecting C compiler ABI info - done
+[0.260s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.260s] -- Detecting C compile features
+[0.262s] -- Detecting C compile features - done
+[0.265s] -- Detecting CXX compiler ABI info
+[0.403s] -- Detecting CXX compiler ABI info - done
+[0.423s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.425s] -- Detecting CXX compile features
+[0.426s] -- Detecting CXX compile features - done
+[0.430s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.795s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.967s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[1.037s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.049s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.072s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.101s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.141s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.212s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.278s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.302s] -- Found message_filters: 4.3.15 (/opt/ros/humble/share/message_filters/cmake)
+[1.350s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.353s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.513s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.560s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.632s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.649s] -- Looking for pthread.h
+[1.881s] -- Looking for pthread.h - found
+[1.881s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.027s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.033s] -- Found Threads: TRUE  
+[2.154s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.491s] -- Found interface: 0.0.0 (/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake)
+[2.549s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.666s] -- Checking for module 'eigen3'
+[2.699s] --   Found eigen3, version 3.4.0
+[2.785s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.787s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.854s] -- Checking for module 'flann'
+[2.894s] --   Found flann, version 1.9.1
+[3.029s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[3.029s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[4.942s] -- Checking for module 'libusb-1.0'
+[4.960s] --   Found libusb-1.0, version 1.0.25
+[4.995s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[4.996s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.053s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.195s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.200s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.205s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.322s] -- Found Qhull version 8.0.2
+[5.475s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.646s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.648s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.649s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.650s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.651s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.652s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.652s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[5.653s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[5.654s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.655s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.656s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.658s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.658s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.659s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.661s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.661s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.662s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.664s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.664s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.665s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.666s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[5.666s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[5.667s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[5.668s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.669s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[5.678s] [33mCMake Warning (dev) at CMakeLists.txt:28 (find_package):
+[5.678s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[5.678s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[5.678s]   command to set the policy and suppress this warning.
+[5.678s] 
+[5.679s]   CMake variable PCL_ROOT is set to:
+[5.679s] 
+[5.679s]     /usr
+[5.679s] 
+[5.679s]   For compatibility, CMake is ignoring the variable.
+[5.679s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.679s] [0m
+[5.705s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.768s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.768s] -- Configured cppcheck include dirs: 
+[5.768s] -- Configured cppcheck exclude dirs and/or files: 
+[5.769s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.769s] -- Added test 'lint_cmake' to check CMake code style
+[5.770s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.770s] -- Added test 'uncrustify' to check C / C++ code style
+[5.770s] -- Configured uncrustify additional arguments: 
+[5.771s] -- Added test 'xmllint' to check XML markup files
+[5.772s] -- Configuring done
+[5.810s] -- Generating done
+[5.812s] [33mCMake Warning:
+[5.813s]   Manually-specified variables were not used by the project:
+[5.813s] 
+[5.813s]     DISTRO_ROS
+[5.813s]     ROS_EDITION
+[5.813s] 
+[5.813s] [0m
+[5.823s] -- Build files have been written to: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer
+[5.848s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer' returned '0': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/localizer -DROS_EDITION=ROS2 -DDISTRO_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer
+[5.851s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer -- -j8 -l8
+[5.925s] [ 25%] [32mBuilding CXX object CMakeFiles/localizer_node.dir/src/localizer_node.cpp.o[0m
+[5.934s] [ 50%] [32mBuilding CXX object CMakeFiles/localizer_node.dir/src/localizers/icp_localizer.cpp.o[0m
+[5.941s] [ 75%] [32mBuilding CXX object CMakeFiles/localizer_node.dir/src/localizers/commons.cpp.o[0m
+[55.872s] [100%] [32m[1mLinking CXX executable localizer_node[0m
+[57.288s] [100%] Built target localizer_node
+[57.299s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer' returned '0': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer -- -j8 -l8
+[57.301s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer
+[57.307s] -- Install configuration: "Release"
+[57.307s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/lib/localizer/localizer_node
+[57.308s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/lib/localizer/localizer_node" to ""
+[57.308s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/launch
+[57.308s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/launch/localizer_launch.py
+[57.308s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/config
+[57.309s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/config/localizer.yaml
+[57.309s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/rviz
+[57.309s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/rviz/localizer.rviz
+[57.309s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/ament_index/resource_index/package_run_dependencies/localizer
+[57.309s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/ament_index/resource_index/parent_prefix_path/localizer
+[57.309s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/environment/ament_prefix_path.sh
+[57.310s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/environment/ament_prefix_path.dsv
+[57.310s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/environment/path.sh
+[57.310s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/environment/path.dsv
+[57.310s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/local_setup.bash
+[57.310s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/local_setup.sh
+[57.310s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/local_setup.zsh
+[57.310s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/local_setup.dsv
+[57.310s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/package.dsv
+[57.311s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/ament_index/resource_index/packages/localizer
+[57.311s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/cmake/localizerConfig.cmake
+[57.311s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/cmake/localizerConfig-version.cmake
+[57.311s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/package.xml
+[57.313s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer' returned '0': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer

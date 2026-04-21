@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interface/srv/RefineMap.srv
+// generated code does not contain a copyright notice
+
+
+module interface {
+  module srv {
+    struct RefineMap_Request {
+      string maps_path;
+    };
+    struct RefineMap_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

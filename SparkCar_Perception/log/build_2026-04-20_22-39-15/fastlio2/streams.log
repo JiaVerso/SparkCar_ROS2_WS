@@ -1,0 +1,79 @@
+[0.009s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/opt/ros/humble /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2 -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2
+[0.023s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.117s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.125s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.152s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.154s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.158s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.164s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.173s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.196s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.197s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.295s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.358s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[0.379s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.482s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.502s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.523s] -- Found livox_ros_driver2: 1.0.0 (/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[0.577s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.613s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.909s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.914s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.027s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.034s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.039s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.200s] -- Found Qhull version 8.0.2
+[1.369s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.521s] [33mCMake Warning (dev) at CMakeLists.txt:35 (find_package):
+[1.521s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.521s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.521s]   command to set the policy and suppress this warning.
+[1.521s] 
+[1.521s]   CMake variable PCL_ROOT is set to:
+[1.521s] 
+[1.521s]     /usr
+[1.521s] 
+[1.521s]   For compatibility, CMake is ignoring the variable.
+[1.521s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.521s] [0m
+[1.546s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.603s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.603s] -- Configured cppcheck include dirs: 
+[1.603s] -- Configured cppcheck exclude dirs and/or files: 
+[1.604s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.604s] -- Added test 'lint_cmake' to check CMake code style
+[1.605s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.606s] -- Added test 'uncrustify' to check C / C++ code style
+[1.606s] -- Configured uncrustify additional arguments: 
+[1.607s] -- Added test 'xmllint' to check XML markup files
+[1.608s] -- Configuring done
+[1.649s] -- Generating done
+[1.656s] -- Build files have been written to: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2
+[1.668s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2' returned '0': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/opt/ros/humble /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2 -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2
+[1.670s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2 -- -j8 -l8
+[1.707s] [35m[1mConsolidate compiler generated dependencies of target lio_node[0m
+[1.741s] [100%] Built target lio_node
+[1.755s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2' returned '0': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2 -- -j8 -l8
+[1.756s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2
+[1.766s] -- Install configuration: "Release"
+[1.767s] -- Execute custom install script
+[1.767s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/lib/fastlio2/lio_node
+[1.767s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/launch/lio_launch.py
+[1.768s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/rviz/fastlio2.rviz
+[1.768s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/config/lio.yaml
+[1.768s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/ament_index/resource_index/package_run_dependencies/fastlio2
+[1.769s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/ament_index/resource_index/parent_prefix_path/fastlio2
+[1.769s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/environment/ament_prefix_path.sh
+[1.769s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/environment/ament_prefix_path.dsv
+[1.769s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/environment/path.sh
+[1.769s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/environment/path.dsv
+[1.769s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/local_setup.bash
+[1.770s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/local_setup.sh
+[1.770s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/local_setup.zsh
+[1.770s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/local_setup.dsv
+[1.770s] -- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/package.dsv
+[1.777s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/ament_index/resource_index/packages/fastlio2
+[1.777s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/cmake/fastlio2Config.cmake
+[1.777s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/cmake/fastlio2Config-version.cmake
+[1.777s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/package.xml
+[1.781s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2' returned '0': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2

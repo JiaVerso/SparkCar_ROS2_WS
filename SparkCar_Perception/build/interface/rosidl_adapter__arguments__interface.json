@@ -1,0 +1,10 @@
+{
+  "package_name": "interface",
+  "non_idl_tuples": [
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/interface:srv/SaveMaps.srv",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/interface:srv/Relocalize.srv",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/interface:srv/IsValid.srv",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/interface:srv/RefineMap.srv",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/interface:srv/SavePoses.srv"
+  ]
+}

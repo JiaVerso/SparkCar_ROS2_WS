@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interface/srv/IsValid.srv
+// generated code does not contain a copyright notice
+
+
+module interface {
+  module srv {
+    struct IsValid_Request {
+      int32 code;
+    };
+    struct IsValid_Response {
+      boolean valid;
+    };
+  };
+};
