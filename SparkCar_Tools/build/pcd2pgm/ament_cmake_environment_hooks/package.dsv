@@ -1,0 +1,4 @@
+source;share/pcd2pgm/local_setup.bash
+source;share/pcd2pgm/local_setup.dsv
+source;share/pcd2pgm/local_setup.sh
+source;share/pcd2pgm/local_setup.zsh

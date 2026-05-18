@@ -1,0 +1,41 @@
+[0.008s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm -- -j8 -l8
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target pcd2pgm_node[0m
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target pcd2pgm[0m
+[0.052s] [ 50%] Built target pcd2pgm_node
+[0.060s] [100%] Built target pcd2pgm
+[0.067s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm -- -j8 -l8
+[0.075s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm
+[0.080s] -- Install configuration: ""
+[0.080s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib/pcd2pgm/pcd2pgm_node
+[0.080s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/include/pcd2pgm
+[0.080s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/include/pcd2pgm/pcd2pgm
+[0.080s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/include/pcd2pgm/pcd2pgm/pcd2pgm.hpp
+[0.080s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/environment/library_path.sh
+[0.080s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/environment/library_path.dsv
+[0.080s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib/libpcd2pgm.so
+[0.081s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/config
+[0.081s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/config/pcd2pgm.yaml
+[0.081s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/launch
+[0.081s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/launch/pcd2pgm_launch.py
+[0.081s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/rviz
+[0.081s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/rviz/pcd2pgm.rviz
+[0.081s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/ament_index/resource_index/package_run_dependencies/pcd2pgm
+[0.081s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/ament_index/resource_index/parent_prefix_path/pcd2pgm
+[0.081s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/environment/ament_prefix_path.sh
+[0.081s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/environment/ament_prefix_path.dsv
+[0.082s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/environment/path.sh
+[0.082s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/environment/path.dsv
+[0.082s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/local_setup.bash
+[0.082s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/local_setup.sh
+[0.082s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/local_setup.zsh
+[0.082s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/local_setup.dsv
+[0.082s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/package.dsv
+[0.082s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/ament_index/resource_index/packages/pcd2pgm
+[0.082s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/ament_index/resource_index/rclcpp_components/pcd2pgm
+[0.082s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.082s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.083s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/cmake/ament_cmake_export_libraries-extras.cmake
+[0.083s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/cmake/pcd2pgmConfig.cmake
+[0.083s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/cmake/pcd2pgmConfig-version.cmake
+[0.083s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/package.xml
+[0.084s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm

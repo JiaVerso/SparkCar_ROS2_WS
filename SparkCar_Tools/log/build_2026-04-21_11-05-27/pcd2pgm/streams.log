@@ -1,0 +1,125 @@
+[0.009s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/pcd2pgm -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.093s] -- The CXX compiler identification is GNU 11.4.0
+[0.100s] -- Detecting C compiler ABI info
+[0.156s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.161s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.164s] -- Detecting CXX compiler ABI info
+[0.222s] -- Detecting CXX compiler ABI info - done
+[0.231s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.232s] -- Detecting CXX compile features
+[0.232s] -- Detecting CXX compile features - done
+[0.236s] -- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.362s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.541s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.546s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.556s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.571s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.589s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.641s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.644s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.718s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.746s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.785s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.794s] -- Looking for pthread.h
+[0.855s] -- Looking for pthread.h - found
+[0.855s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.907s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.908s] -- Found Threads: TRUE  
+[1.040s] -- Checking for module 'eigen3'
+[1.048s] --   Found eigen3, version 3.4.0
+[1.070s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.070s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.095s] -- Checking for module 'flann'
+[1.104s] --   Found flann, version 1.9.1
+[1.130s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.131s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.807s] -- Checking for module 'libusb-1.0'
+[1.816s] --   Found libusb-1.0, version 1.0.25
+[1.843s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.843s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.882s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.996s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.001s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.006s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.116s] -- Found Qhull version 8.0.2
+[2.223s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.328s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.329s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.330s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.331s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.332s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.333s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.333s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.333s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.334s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.335s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.336s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.336s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.337s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.338s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.339s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.339s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.340s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.341s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.341s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.342s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.343s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.343s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.343s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.344s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.344s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.356s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.380s] -- Added test 'xmllint' to check XML markup files
+[2.381s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.383s] -- Configuring done
+[2.405s] -- Generating done
+[2.412s] -- Build files have been written to: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm
+[2.425s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/pcd2pgm -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm
+[2.426s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm -- -j8 -l8
+[2.465s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd2pgm_node.dir/rclcpp_components/node_main_pcd2pgm_node.cpp.o[0m
+[2.465s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd2pgm.dir/src/pcd2pgm.cpp.o[0m
+[4.822s] [ 75%] [32m[1mLinking CXX executable pcd2pgm_node[0m
+[4.920s] [ 75%] Built target pcd2pgm_node
+[11.015s] [100%] [32m[1mLinking CXX shared library libpcd2pgm.so[0m
+[11.629s] [100%] Built target pcd2pgm
+[11.637s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm -- -j8 -l8
+[11.644s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm
+[11.649s] -- Install configuration: ""
+[11.649s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib/pcd2pgm/pcd2pgm_node
+[11.649s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib/pcd2pgm/pcd2pgm_node" to ""
+[11.650s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/include/pcd2pgm
+[11.650s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/include/pcd2pgm/pcd2pgm
+[11.650s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/include/pcd2pgm/pcd2pgm/pcd2pgm.hpp
+[11.650s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/environment/library_path.sh
+[11.650s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/environment/library_path.dsv
+[11.650s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib/libpcd2pgm.so
+[11.652s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib/libpcd2pgm.so" to ""
+[11.652s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/config
+[11.652s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/config/pcd2pgm.yaml
+[11.652s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/launch
+[11.652s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/launch/pcd2pgm_launch.py
+[11.652s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/rviz
+[11.652s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/rviz/pcd2pgm.rviz
+[11.652s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/ament_index/resource_index/package_run_dependencies/pcd2pgm
+[11.652s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/ament_index/resource_index/parent_prefix_path/pcd2pgm
+[11.652s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/environment/ament_prefix_path.sh
+[11.652s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/environment/ament_prefix_path.dsv
+[11.652s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/environment/path.sh
+[11.652s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/environment/path.dsv
+[11.653s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/local_setup.bash
+[11.653s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/local_setup.sh
+[11.653s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/local_setup.zsh
+[11.653s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/local_setup.dsv
+[11.653s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/package.dsv
+[11.653s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/ament_index/resource_index/packages/pcd2pgm
+[11.653s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/ament_index/resource_index/rclcpp_components/pcd2pgm
+[11.653s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.653s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.653s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/cmake/ament_cmake_export_libraries-extras.cmake
+[11.653s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/cmake/pcd2pgmConfig.cmake
+[11.653s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/cmake/pcd2pgmConfig-version.cmake
+[11.653s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/package.xml
+[11.655s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm

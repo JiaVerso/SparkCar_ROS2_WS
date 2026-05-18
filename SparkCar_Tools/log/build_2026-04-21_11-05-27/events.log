@@ -1,0 +1,249 @@
+[0.000000] (-) TimerEvent: {}
+[0.000102] (pcd2pgm) JobQueued: {'identifier': 'pcd2pgm', 'dependencies': OrderedDict()}
+[0.000122] (pcd2pgm) JobStarted: {'identifier': 'pcd2pgm'}
+[0.006584] (pcd2pgm) JobProgress: {'identifier': 'pcd2pgm', 'progress': 'cmake'}
+[0.006887] (pcd2pgm) Command: {'cmd': ['/usr/bin/cmake', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/pcd2pgm', '-DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm'], 'cwd': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('USER', 'jiaverso'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jiaverso'), ('OLDPWD', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '3745'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jiaverso'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jiaverso'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/NUC11:@/tmp/.ICE-unix/1922,unix/NUC11:/tmp/.ICE-unix/1922'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c2b97410_96bf_4252_8f87_f16427c307e2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/opt/ros/humble')]), 'shell': False}
+[0.049884] (pcd2pgm) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.092625] (pcd2pgm) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099450] (-) TimerEvent: {}
+[0.099609] (pcd2pgm) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.155875] (pcd2pgm) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.161287] (pcd2pgm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.161526] (pcd2pgm) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.161739] (pcd2pgm) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.163855] (pcd2pgm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199550] (-) TimerEvent: {}
+[0.222373] (pcd2pgm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.231327] (pcd2pgm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.231651] (pcd2pgm) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.232187] (pcd2pgm) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.236062] (pcd2pgm) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.299648] (-) TimerEvent: {}
+[0.362049] (pcd2pgm) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.399730] (-) TimerEvent: {}
+[0.499948] (-) TimerEvent: {}
+[0.540673] (pcd2pgm) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.546144] (pcd2pgm) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.555879] (pcd2pgm) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.570589] (pcd2pgm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.588571] (pcd2pgm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600011] (-) TimerEvent: {}
+[0.640557] (pcd2pgm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.643718] (pcd2pgm) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700135] (-) TimerEvent: {}
+[0.718262] (pcd2pgm) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.745954] (pcd2pgm) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.785437] (pcd2pgm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.794179] (pcd2pgm) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800209] (-) TimerEvent: {}
+[0.854452] (pcd2pgm) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.854714] (pcd2pgm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900345] (-) TimerEvent: {}
+[0.907295] (pcd2pgm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.908119] (pcd2pgm) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.000484] (-) TimerEvent: {}
+[1.039663] (pcd2pgm) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.048524] (pcd2pgm) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.069685] (pcd2pgm) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.069860] (pcd2pgm) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.095260] (pcd2pgm) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.100535] (-) TimerEvent: {}
+[1.104130] (pcd2pgm) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.130263] (pcd2pgm) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.130669] (pcd2pgm) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.200694] (-) TimerEvent: {}
+[1.301080] (-) TimerEvent: {}
+[1.401432] (-) TimerEvent: {}
+[1.501725] (-) TimerEvent: {}
+[1.601954] (-) TimerEvent: {}
+[1.702203] (-) TimerEvent: {}
+[1.802460] (-) TimerEvent: {}
+[1.806663] (pcd2pgm) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.815803] (pcd2pgm) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[1.842677] (pcd2pgm) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.843434] (pcd2pgm) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.881586] (pcd2pgm) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.902531] (-) TimerEvent: {}
+[1.996302] (pcd2pgm) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.000780] (pcd2pgm) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.002622] (-) TimerEvent: {}
+[2.005571] (pcd2pgm) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.102749] (-) TimerEvent: {}
+[2.115635] (pcd2pgm) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.202888] (-) TimerEvent: {}
+[2.223262] (pcd2pgm) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.302997] (-) TimerEvent: {}
+[2.328489] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.329309] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.330068] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.330860] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.331816] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.332709] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.333003] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.333294] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.334065] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.334832] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.335804] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.336521] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.337353] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.338076] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.338640] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.339375] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.340050] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.340612] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.341385] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.342052] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.342605] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.342806] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.343072] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.343685] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.344429] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.355852] (pcd2pgm) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.380365] (pcd2pgm) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.381001] (pcd2pgm) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.383210] (pcd2pgm) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.403110] (-) TimerEvent: {}
+[2.404960] (pcd2pgm) StdoutLine: {'line': b'-- Generating done\n'}
+[2.412254] (pcd2pgm) StdoutLine: {'line': b'-- Build files have been written to: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm\n'}
+[2.424481] (pcd2pgm) CommandEnded: {'returncode': 0}
+[2.425106] (pcd2pgm) JobProgress: {'identifier': 'pcd2pgm', 'progress': 'build'}
+[2.425695] (pcd2pgm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm', '--', '-j8', '-l8'], 'cwd': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('USER', 'jiaverso'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jiaverso'), ('OLDPWD', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '3745'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jiaverso'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jiaverso'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/NUC11:@/tmp/.ICE-unix/1922,unix/NUC11:/tmp/.ICE-unix/1922'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c2b97410_96bf_4252_8f87_f16427c307e2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/opt/ros/humble')]), 'shell': False}
+[2.465043] (pcd2pgm) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pcd2pgm_node.dir/rclcpp_components/node_main_pcd2pgm_node.cpp.o\x1b[0m\n'}
+[2.465184] (pcd2pgm) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pcd2pgm.dir/src/pcd2pgm.cpp.o\x1b[0m\n'}
+[2.503219] (-) TimerEvent: {}
+[2.603519] (-) TimerEvent: {}
+[2.703807] (-) TimerEvent: {}
+[2.804094] (-) TimerEvent: {}
+[2.904396] (-) TimerEvent: {}
+[3.004700] (-) TimerEvent: {}
+[3.104998] (-) TimerEvent: {}
+[3.205302] (-) TimerEvent: {}
+[3.305611] (-) TimerEvent: {}
+[3.405900] (-) TimerEvent: {}
+[3.506186] (-) TimerEvent: {}
+[3.606480] (-) TimerEvent: {}
+[3.706774] (-) TimerEvent: {}
+[3.807073] (-) TimerEvent: {}
+[3.907384] (-) TimerEvent: {}
+[4.007722] (-) TimerEvent: {}
+[4.108052] (-) TimerEvent: {}
+[4.208367] (-) TimerEvent: {}
+[4.308680] (-) TimerEvent: {}
+[4.408989] (-) TimerEvent: {}
+[4.509293] (-) TimerEvent: {}
+[4.609610] (-) TimerEvent: {}
+[4.709921] (-) TimerEvent: {}
+[4.810221] (-) TimerEvent: {}
+[4.822009] (pcd2pgm) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable pcd2pgm_node\x1b[0m\n'}
+[4.910351] (-) TimerEvent: {}
+[4.919654] (pcd2pgm) StdoutLine: {'line': b'[ 75%] Built target pcd2pgm_node\n'}
+[5.010478] (-) TimerEvent: {}
+[5.110788] (-) TimerEvent: {}
+[5.211096] (-) TimerEvent: {}
+[5.311450] (-) TimerEvent: {}
+[5.411843] (-) TimerEvent: {}
+[5.512158] (-) TimerEvent: {}
+[5.612473] (-) TimerEvent: {}
+[5.712777] (-) TimerEvent: {}
+[5.813081] (-) TimerEvent: {}
+[5.913377] (-) TimerEvent: {}
+[6.013766] (-) TimerEvent: {}
+[6.114293] (-) TimerEvent: {}
+[6.214634] (-) TimerEvent: {}
+[6.314905] (-) TimerEvent: {}
+[6.415139] (-) TimerEvent: {}
+[6.515396] (-) TimerEvent: {}
+[6.615640] (-) TimerEvent: {}
+[6.715958] (-) TimerEvent: {}
+[6.816306] (-) TimerEvent: {}
+[6.916645] (-) TimerEvent: {}
+[7.016898] (-) TimerEvent: {}
+[7.117154] (-) TimerEvent: {}
+[7.217526] (-) TimerEvent: {}
+[7.317796] (-) TimerEvent: {}
+[7.418088] (-) TimerEvent: {}
+[7.518384] (-) TimerEvent: {}
+[7.618622] (-) TimerEvent: {}
+[7.718890] (-) TimerEvent: {}
+[7.819159] (-) TimerEvent: {}
+[7.919412] (-) TimerEvent: {}
+[8.019685] (-) TimerEvent: {}
+[8.119931] (-) TimerEvent: {}
+[8.220192] (-) TimerEvent: {}
+[8.320450] (-) TimerEvent: {}
+[8.420720] (-) TimerEvent: {}
+[8.520981] (-) TimerEvent: {}
+[8.621218] (-) TimerEvent: {}
+[8.721455] (-) TimerEvent: {}
+[8.821678] (-) TimerEvent: {}
+[8.921916] (-) TimerEvent: {}
+[9.022163] (-) TimerEvent: {}
+[9.122389] (-) TimerEvent: {}
+[9.222667] (-) TimerEvent: {}
+[9.322911] (-) TimerEvent: {}
+[9.423131] (-) TimerEvent: {}
+[9.523353] (-) TimerEvent: {}
+[9.623597] (-) TimerEvent: {}
+[9.723842] (-) TimerEvent: {}
+[9.824105] (-) TimerEvent: {}
+[9.924368] (-) TimerEvent: {}
+[10.024612] (-) TimerEvent: {}
+[10.124857] (-) TimerEvent: {}
+[10.225092] (-) TimerEvent: {}
+[10.325331] (-) TimerEvent: {}
+[10.425581] (-) TimerEvent: {}
+[10.525827] (-) TimerEvent: {}
+[10.626092] (-) TimerEvent: {}
+[10.726349] (-) TimerEvent: {}
+[10.826577] (-) TimerEvent: {}
+[10.926831] (-) TimerEvent: {}
+[11.014884] (pcd2pgm) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libpcd2pgm.so\x1b[0m\n'}
+[11.026946] (-) TimerEvent: {}
+[11.127280] (-) TimerEvent: {}
+[11.227609] (-) TimerEvent: {}
+[11.327972] (-) TimerEvent: {}
+[11.428333] (-) TimerEvent: {}
+[11.528678] (-) TimerEvent: {}
+[11.628934] (-) TimerEvent: {}
+[11.629302] (pcd2pgm) StdoutLine: {'line': b'[100%] Built target pcd2pgm\n'}
+[11.637187] (pcd2pgm) CommandEnded: {'returncode': 0}
+[11.637677] (pcd2pgm) JobProgress: {'identifier': 'pcd2pgm', 'progress': 'install'}
+[11.643718] (pcd2pgm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm'], 'cwd': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('USER', 'jiaverso'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jiaverso'), ('OLDPWD', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '3745'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jiaverso'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jiaverso'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/NUC11:@/tmp/.ICE-unix/1922,unix/NUC11:/tmp/.ICE-unix/1922'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c2b97410_96bf_4252_8f87_f16427c307e2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/pcd2pgm'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/opt/ros/humble')]), 'shell': False}
+[11.649168] (pcd2pgm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.649273] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib/pcd2pgm/pcd2pgm_node\n'}
+[11.649575] (pcd2pgm) StdoutLine: {'line': b'-- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib/pcd2pgm/pcd2pgm_node" to ""\n'}
+[11.649635] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/include/pcd2pgm\n'}
+[11.649698] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/include/pcd2pgm/pcd2pgm\n'}
+[11.649742] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/include/pcd2pgm/pcd2pgm/pcd2pgm.hpp\n'}
+[11.649814] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/environment/library_path.sh\n'}
+[11.649880] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/environment/library_path.dsv\n'}
+[11.649957] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib/libpcd2pgm.so\n'}
+[11.651864] (pcd2pgm) StdoutLine: {'line': b'-- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib/libpcd2pgm.so" to ""\n'}
+[11.651918] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/config\n'}
+[11.651955] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/config/pcd2pgm.yaml\n'}
+[11.652021] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/launch\n'}
+[11.652069] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/launch/pcd2pgm_launch.py\n'}
+[11.652131] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/rviz\n'}
+[11.652176] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/rviz/pcd2pgm.rviz\n'}
+[11.652237] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/ament_index/resource_index/package_run_dependencies/pcd2pgm\n'}
+[11.652305] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/ament_index/resource_index/parent_prefix_path/pcd2pgm\n'}
+[11.652358] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/environment/ament_prefix_path.sh\n'}
+[11.652422] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/environment/ament_prefix_path.dsv\n'}
+[11.652489] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/environment/path.sh\n'}
+[11.652552] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/environment/path.dsv\n'}
+[11.652618] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/local_setup.bash\n'}
+[11.652681] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/local_setup.sh\n'}
+[11.652747] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/local_setup.zsh\n'}
+[11.652809] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/local_setup.dsv\n'}
+[11.652871] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/package.dsv\n'}
+[11.652957] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/ament_index/resource_index/packages/pcd2pgm\n'}
+[11.653044] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/ament_index/resource_index/rclcpp_components/pcd2pgm\n'}
+[11.653129] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.653196] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.653270] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.653336] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/cmake/pcd2pgmConfig.cmake\n'}
+[11.653388] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/cmake/pcd2pgmConfig-version.cmake\n'}
+[11.653457] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/share/pcd2pgm/package.xml\n'}
+[11.654869] (pcd2pgm) CommandEnded: {'returncode': 0}
+[11.679904] (pcd2pgm) JobEnded: {'identifier': 'pcd2pgm', 'rc': 0}
+[11.680574] (-) EventReactorShutdown: {}
