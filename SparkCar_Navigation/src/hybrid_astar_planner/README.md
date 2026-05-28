@@ -1,0 +1,64 @@
+# 安装依赖 ubuntu22.04 ros2 humble
+sudo apt update
+
+sudo apt install \
+  ros-humble-navigation2 \
+  ros-humble-nav2-bringup \
+  ros-humble-nav2-map-server \
+  ros-humble-nav2-costmap-2d \
+  ros-humble-rviz2 \
+  ros-humble-tf2 \
+  ros-humble-tf2-ros \
+  ros-humble-tf2-geometry-msgs \
+  ros-humble-robot-state-publisher \
+  ros-humble-joint-state-publisher \
+  ros-humble-xacro \
+  libeigen3-dev \
+  libgoogle-glog-dev \
+  python3-colcon-common-extensions
+
+
+  sudo apt install \
+  ros-humble-rclcpp \
+  ros-humble-nav-msgs \
+  ros-humble-geometry-msgs \
+  ros-humble-visualization-msgs \
+  ros-humble-tf2 \
+  ros-humble-tf2-ros \
+  ros-humble-tf2-geometry-msgs \
+  ros-humble-nav2-map-server \
+  ros-humble-rviz2 \
+  libeigen3-dev \
+  libgoogle-glog-dev \
+  python3-colcon-common-extensions
+
+  # 移植注意点 
+  ros::NodeHandle              -> rclcpp::Node
+ros::Publisher               -> rclcpp::Publisher<T>::SharedPtr
+ros::Subscriber              -> rclcpp::Subscription<T>::SharedPtr
+ros::Rate                    -> rclcpp::Rate
+ros::spinOnce()              -> rclcpp::spin_some()
+ros::Time::now()             -> node->now()
+tf::getYaw                   -> tf2::getYaw
+tf::createQuaternionMsg...   -> tf2::Quaternion + tf2::toMsg
+roslaunch                    -> ROS2 Python launch
+catkin_make                  -> colcon build
+package.xml catkin           -> ament_cmake
+CMakeLists.txt catkin        -> ament_cmake 写法
+
+# 保留部分 
+
+src/hybrid_a_star.cpp
+src/rs_path.cpp
+include/hybrid_a_star/hybrid_a_star.h
+include/hybrid_a_star/rs_path.h
+include/hybrid_a_star/state_node.h
+include/hybrid_a_star/type.h
+
+# ROS 通信层
+
+src/costmap_subscriber.cpp
+src/init_pose_subscriber.cpp
+src/goal_pose_subscriber.cpp
+src/hybrid_a_star_flow.cpp
+app/run_hybrid_astar.cpp
