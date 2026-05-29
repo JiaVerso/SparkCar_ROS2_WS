@@ -314,3 +314,48 @@ endfunction()
 message(STATUS "Execute custom install script")
 
 # begin of custom install code
+
+# install(DIRECTORY "launch" "config" "maps" "rviz" "DESTINATION" "share/sparkcar_nav_bringup")
+ament_cmake_symlink_install_directory("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup" DIRECTORY "launch" "config" "maps" "rviz" "DESTINATION" "share/sparkcar_nav_bringup")
+
+# install(FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/sparkcar_nav_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup" FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/sparkcar_nav_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+
+# install(FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/sparkcar_nav_bringup" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup" FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/sparkcar_nav_bringup" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/sparkcar_nav_bringup/environment")
+ament_cmake_symlink_install_files("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/sparkcar_nav_bringup/environment")
+
+# install(FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/sparkcar_nav_bringup/environment")
+ament_cmake_symlink_install_files("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup" FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/sparkcar_nav_bringup/environment")
+
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/sparkcar_nav_bringup/environment")
+ament_cmake_symlink_install_files("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/sparkcar_nav_bringup/environment")
+
+# install(FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/sparkcar_nav_bringup/environment")
+ament_cmake_symlink_install_files("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup" FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/sparkcar_nav_bringup/environment")
+
+# install(FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/sparkcar_nav_bringup")
+ament_cmake_symlink_install_files("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup" FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/sparkcar_nav_bringup")
+
+# install(FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/sparkcar_nav_bringup")
+ament_cmake_symlink_install_files("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup" FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/sparkcar_nav_bringup")
+
+# install(FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/sparkcar_nav_bringup")
+ament_cmake_symlink_install_files("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup" FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/sparkcar_nav_bringup")
+
+# install(FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/sparkcar_nav_bringup")
+ament_cmake_symlink_install_files("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup" FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/sparkcar_nav_bringup")
+
+# install(FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/sparkcar_nav_bringup")
+ament_cmake_symlink_install_files("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup" FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/sparkcar_nav_bringup")
+
+# install(FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_index/share/ament_index/resource_index/packages/sparkcar_nav_bringup" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup" FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_index/share/ament_index/resource_index/packages/sparkcar_nav_bringup" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_core/sparkcar_nav_bringupConfig.cmake" "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_core/sparkcar_nav_bringupConfig-version.cmake" "DESTINATION" "share/sparkcar_nav_bringup/cmake")
+ament_cmake_symlink_install_files("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup" FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_core/sparkcar_nav_bringupConfig.cmake" "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_core/sparkcar_nav_bringupConfig-version.cmake" "DESTINATION" "share/sparkcar_nav_bringup/cmake")
+
+# install(FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup/package.xml" "DESTINATION" "share/sparkcar_nav_bringup")
+ament_cmake_symlink_install_files("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup" FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup/package.xml" "DESTINATION" "share/sparkcar_nav_bringup")

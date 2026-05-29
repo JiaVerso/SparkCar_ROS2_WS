@@ -1,0 +1,68 @@
+[0.019s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/hybrid_astar_planner -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner
+[0.123s] -- The C compiler identification is GNU 11.4.0
+[0.209s] -- The CXX compiler identification is GNU 11.4.0
+[0.215s] -- Detecting C compiler ABI info
+[0.282s] -- Detecting C compiler ABI info - done
+[0.292s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.292s] -- Detecting C compile features
+[0.293s] -- Detecting C compile features - done
+[0.295s] -- Detecting CXX compiler ABI info
+[0.360s] -- Detecting CXX compiler ABI info - done
+[0.370s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.370s] -- Detecting CXX compile features
+[0.371s] -- Detecting CXX compile features - done
+[0.376s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.545s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.629s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.663s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.667s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.674s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.685s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.698s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.735s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.737s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.806s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.832s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.863s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.871s] -- Looking for pthread.h
+[0.932s] -- Looking for pthread.h - found
+[0.933s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.989s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.989s] -- Found Threads: TRUE  
+[1.028s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.052s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.087s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[1.096s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.165s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.176s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.177s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.177s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.180s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.241s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.241s] -- Added test 'lint_cmake' to check CMake code style
+[1.242s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.243s] -- Added test 'xmllint' to check XML markup files
+[1.244s] -- Configuring done
+[1.247s] -- Generating done
+[1.249s] -- Build files have been written to: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner
+[1.256s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/hybrid_astar_planner -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner
+[1.257s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner -- -j8 -l8
+[1.291s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner -- -j8 -l8
+[1.293s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner
+[1.298s] -- Install configuration: ""
+[1.298s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/ament_index/resource_index/package_run_dependencies/hybrid_astar_planner
+[1.298s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/ament_index/resource_index/parent_prefix_path/hybrid_astar_planner
+[1.299s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/environment/ament_prefix_path.sh
+[1.299s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/environment/ament_prefix_path.dsv
+[1.299s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/environment/path.sh
+[1.299s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/environment/path.dsv
+[1.299s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/local_setup.bash
+[1.299s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/local_setup.sh
+[1.299s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/local_setup.zsh
+[1.299s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/local_setup.dsv
+[1.299s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/package.dsv
+[1.299s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/ament_index/resource_index/packages/hybrid_astar_planner
+[1.300s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/cmake/hybrid_astar_plannerConfig.cmake
+[1.300s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/cmake/hybrid_astar_plannerConfig-version.cmake
+[1.300s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/package.xml
+[1.301s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner

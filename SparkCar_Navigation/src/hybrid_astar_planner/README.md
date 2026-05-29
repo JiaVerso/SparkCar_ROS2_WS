@@ -62,3 +62,14 @@ src/init_pose_subscriber.cpp
 src/goal_pose_subscriber.cpp
 src/hybrid_a_star_flow.cpp
 app/run_hybrid_astar.cpp
+
+
+##  测试命令
+
+source /opt/ros/humble/setup.bash
+source ~/SparkCar_ROS2_WS/SparkCar_Tools/install/setup.bash
+
+ros2 launch pcd2pgm pcd2pgm_launch.py
+
+// 保存pcd点云地图为栅格地图
+ros2 run nav2_map_server map_saver_cli -f /home/jiaverso/Desktop/Save_Map/nav2_map

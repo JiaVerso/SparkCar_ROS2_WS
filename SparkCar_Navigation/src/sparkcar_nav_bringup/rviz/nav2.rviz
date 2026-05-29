@@ -1,0 +1,124 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Selection
+    Name: Selection
+  - Class: rviz_common/Tool Properties
+    Name: Tool Properties
+  - Class: rviz_common/Views
+    Name: Views
+
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Enabled: true
+      Name: Grid
+      Plane: XY
+      Reference Frame: map
+
+    - Class: rviz_default_plugins/TF
+      Enabled: true
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+
+    - Class: rviz_default_plugins/Map
+      Enabled: true
+      Name: Static Map
+      Topic:
+        Value: /map
+      Alpha: 0.7
+      Draw Behind: true
+      Color Scheme: map
+
+    - Class: rviz_default_plugins/Map
+      Enabled: true
+      Name: Global Costmap
+      Topic:
+        Value: /global_costmap/costmap
+      Alpha: 0.4
+      Draw Behind: false
+      Color Scheme: costmap
+
+    - Class: rviz_default_plugins/Map
+      Enabled: true
+      Name: Local Costmap
+      Topic:
+        Value: /local_costmap/costmap
+      Alpha: 0.5
+      Draw Behind: false
+      Color Scheme: costmap
+
+    - Class: rviz_default_plugins/Path
+      Enabled: true
+      Name: Global Plan
+      Topic:
+        Value: /plan
+      Color: 0; 255; 0
+      Line Style: Lines
+      Line Width: 0.05
+
+    - Class: rviz_default_plugins/Path
+      Enabled: true
+      Name: Local Plan
+      Topic:
+        Value: /local_plan
+      Color: 255; 128; 0
+      Line Style: Lines
+      Line Width: 0.04
+
+    - Class: rviz_default_plugins/LaserScan
+      Enabled: false
+      Name: LaserScan
+      Topic:
+        Value: /scan
+      Size (m): 0.03
+      Style: Points
+      Color: 255; 0; 0
+
+    - Class: rviz_default_plugins/PointCloud2
+      Enabled: true
+      Name: Livox PointCloud
+      Topic:
+        Value: /livox/lidar
+      Size (m): 0.03
+      Style: Points
+      Color Transformer: FlatColor
+      Color: 255; 255; 255
+
+    - Class: rviz_default_plugins/RobotModel
+      Enabled: false
+      Name: RobotModel
+
+  Enabled: true
+  Global Options:
+    Fixed Frame: map
+    Frame Rate: 30
+  Name: root
+
+  Tools:
+    - Class: rviz_default_plugins/Interact
+      Hide Inactive Objects: true
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/SetInitialPose
+      Topic:
+        Value: /initialpose
+    - Class: rviz_default_plugins/SetGoal
+      Topic:
+        Value: /goal_pose
+
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 20
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0
+      Name: Current View
+      Pitch: 1.2
+      Target Frame: map
+      Yaw: 0.0

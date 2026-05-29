@@ -1,0 +1,9 @@
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/CMakeFiles/uninstall.dir
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/CMakeFiles/sparkcar_nav_bringup_uninstall.dir
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/CMakeFiles/test.dir
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/CMakeFiles/edit_cache.dir
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/CMakeFiles/rebuild_cache.dir
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/CMakeFiles/list_install_components.dir
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/CMakeFiles/install.dir
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/CMakeFiles/install/local.dir
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/CMakeFiles/install/strip.dir
