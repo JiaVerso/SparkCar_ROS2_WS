@@ -73,3 +73,12 @@ ros2 launch pcd2pgm pcd2pgm_launch.py
 
 // 保存pcd点云地图为栅格地图
 ros2 run nav2_map_server map_saver_cli -f /home/jiaverso/Desktop/Save_Map/nav2_map
+// 查看nav2 生命周期节点
+ros2 lifecycle get /map_server
+// 确认定位是否正确
+ros2 run tf2_ros tf2_echo map body
+ros2 lifecycle get /bt_navigator
+ros2 lifecycle get /planner_server
+ros2 lifecycle get /controller_server
+ros2 topic echo /plan
+ros2 topic echo /cmd_vel
