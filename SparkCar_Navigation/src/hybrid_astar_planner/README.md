@@ -82,3 +82,8 @@ ros2 lifecycle get /planner_server
 ros2 lifecycle get /controller_server
 ros2 topic echo /plan
 ros2 topic echo /cmd_vel
+
+
+# 备忘录库
+
+geometry_msgs/msg/Twist 是 ROS2 里的一个标准消息类型，用来表示速度指令。
