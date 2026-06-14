@@ -315,6 +315,9 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install("TARGETS" "twist_to_ackermann" "DESTINATION" "lib/sparkcar_nav_bringup")
+include("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
 # install(DIRECTORY "launch" "config" "maps" "rviz" "DESTINATION" "share/sparkcar_nav_bringup")
 ament_cmake_symlink_install_directory("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup" DIRECTORY "launch" "config" "maps" "rviz" "DESTINATION" "share/sparkcar_nav_bringup")
 

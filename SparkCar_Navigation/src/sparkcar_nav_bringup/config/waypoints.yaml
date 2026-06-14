@@ -1,0 +1,29 @@
+patrol:
+  dwell_time: 2.0
+  loop: false
+
+waypoint_control:
+  action_name: navigate_through_poses
+  frame_id: map
+  loop: false
+  repeat_count: 1
+  behavior_tree: ""
+
+waypoints:
+  - name: point_1
+    frame_id: map
+    x: 0.0
+    y: 0.0
+    yaw: 0.0
+
+  - name: point_2
+    frame_id: map
+    x: 1.0
+    y: 0.0
+    yaw: 0.0
+
+  - name: point_3
+    frame_id: map
+    x: 1.0
+    y: 1.0
+    yaw: 1.57

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/twist_to_ackermann" "TARGETS" "twist_to_ackermann" "DESTINATION" "lib/sparkcar_nav_bringup")
