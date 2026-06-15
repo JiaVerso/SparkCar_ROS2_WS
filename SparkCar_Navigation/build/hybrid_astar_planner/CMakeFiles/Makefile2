@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/b
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/a_star_demo.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +73,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/hybrid_astar_planner_uninstall.dir/clean
+clean: CMakeFiles/a_star_demo.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -126,6 +127,32 @@ hybrid_astar_planner_uninstall: CMakeFiles/hybrid_astar_planner_uninstall.dir/ru
 CMakeFiles/hybrid_astar_planner_uninstall.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hybrid_astar_planner_uninstall.dir/build.make CMakeFiles/hybrid_astar_planner_uninstall.dir/clean
 .PHONY : CMakeFiles/hybrid_astar_planner_uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/a_star_demo.dir
+
+# All Build rule for target.
+CMakeFiles/a_star_demo.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a_star_demo.dir/build.make CMakeFiles/a_star_demo.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a_star_demo.dir/build.make CMakeFiles/a_star_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/CMakeFiles --progress-num=1,2 "Built target a_star_demo"
+.PHONY : CMakeFiles/a_star_demo.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/a_star_demo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/a_star_demo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/CMakeFiles 0
+.PHONY : CMakeFiles/a_star_demo.dir/rule
+
+# Convenience name for target.
+a_star_demo: CMakeFiles/a_star_demo.dir/rule
+.PHONY : a_star_demo
+
+# clean rule for target.
+CMakeFiles/a_star_demo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a_star_demo.dir/build.make CMakeFiles/a_star_demo.dir/clean
+.PHONY : CMakeFiles/a_star_demo.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

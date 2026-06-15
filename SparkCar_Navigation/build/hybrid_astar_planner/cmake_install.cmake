@@ -43,62 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/hybrid_astar_planner")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/hybrid_astar_planner")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hybrid_astar_planner/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hybrid_astar_planner/environment" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hybrid_astar_planner/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hybrid_astar_planner/environment" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hybrid_astar_planner" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hybrid_astar_planner" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hybrid_astar_planner" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hybrid_astar_planner" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hybrid_astar_planner" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/ament_cmake_index/share/ament_index/resource_index/packages/hybrid_astar_planner")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hybrid_astar_planner/cmake" TYPE FILE FILES
-    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/ament_cmake_core/hybrid_astar_plannerConfig.cmake"
-    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/ament_cmake_core/hybrid_astar_plannerConfig-version.cmake"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hybrid_astar_planner" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/hybrid_astar_planner/package.xml")
+  include("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

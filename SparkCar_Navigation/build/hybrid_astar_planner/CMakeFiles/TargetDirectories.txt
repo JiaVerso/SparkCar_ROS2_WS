@@ -1,5 +1,6 @@
 /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/CMakeFiles/uninstall.dir
 /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/CMakeFiles/hybrid_astar_planner_uninstall.dir
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/CMakeFiles/a_star_demo.dir
 /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/CMakeFiles/test.dir
 /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/CMakeFiles/edit_cache.dir
 /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/CMakeFiles/rebuild_cache.dir

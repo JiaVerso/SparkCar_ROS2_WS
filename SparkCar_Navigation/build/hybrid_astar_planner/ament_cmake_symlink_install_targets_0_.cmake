@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner/a_star_demo" "TARGETS" "a_star_demo" "DESTINATION" "lib/hybrid_astar_planner")

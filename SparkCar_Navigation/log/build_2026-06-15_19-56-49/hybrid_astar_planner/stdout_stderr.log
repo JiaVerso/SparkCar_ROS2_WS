@@ -1,0 +1,22 @@
+[100%] Built target a_star_demo
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/lib/hybrid_astar_planner/a_star_demo
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/launch/hybrid_astar_test.py
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/config/hybrid_astar_params.yaml
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/rviz/hybrid_astar.rviz
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/ament_index/resource_index/package_run_dependencies/hybrid_astar_planner
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/ament_index/resource_index/parent_prefix_path/hybrid_astar_planner
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/environment/path.sh
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/environment/path.dsv
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/local_setup.bash
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/local_setup.sh
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/local_setup.zsh
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/local_setup.dsv
+-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/package.dsv
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/ament_index/resource_index/packages/hybrid_astar_planner
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/cmake/hybrid_astar_plannerConfig.cmake
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/cmake/hybrid_astar_plannerConfig-version.cmake
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/package.xml

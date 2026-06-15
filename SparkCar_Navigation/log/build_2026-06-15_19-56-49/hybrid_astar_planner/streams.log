@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner -- -j8 -l8
+[0.057s] [100%] Built target a_star_demo
+[0.065s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner -- -j8 -l8
+[0.072s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner
+[0.077s] -- Install configuration: ""
+[0.077s] -- Execute custom install script
+[0.077s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/lib/hybrid_astar_planner/a_star_demo
+[0.078s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/launch/hybrid_astar_test.py
+[0.078s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/config/hybrid_astar_params.yaml
+[0.078s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/rviz/hybrid_astar.rviz
+[0.078s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/ament_index/resource_index/package_run_dependencies/hybrid_astar_planner
+[0.078s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/ament_index/resource_index/parent_prefix_path/hybrid_astar_planner
+[0.078s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/environment/ament_prefix_path.sh
+[0.079s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/environment/ament_prefix_path.dsv
+[0.079s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/environment/path.sh
+[0.079s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/environment/path.dsv
+[0.079s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/local_setup.bash
+[0.079s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/local_setup.sh
+[0.079s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/local_setup.zsh
+[0.079s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/local_setup.dsv
+[0.079s] -- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/package.dsv
+[0.086s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/ament_index/resource_index/packages/hybrid_astar_planner
+[0.086s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/cmake/hybrid_astar_plannerConfig.cmake
+[0.086s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/cmake/hybrid_astar_plannerConfig-version.cmake
+[0.086s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/package.xml
+[0.087s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner

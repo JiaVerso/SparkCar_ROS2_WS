@@ -197,6 +197,43 @@ hybrid_astar_planner_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hybrid_astar_planner_uninstall.dir/build.make CMakeFiles/hybrid_astar_planner_uninstall.dir/build
 .PHONY : hybrid_astar_planner_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named a_star_demo
+
+# Build rule for target.
+a_star_demo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a_star_demo
+.PHONY : a_star_demo
+
+# fast build rule for target.
+a_star_demo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a_star_demo.dir/build.make CMakeFiles/a_star_demo.dir/build
+.PHONY : a_star_demo/fast
+
+src/a_star.o: src/a_star.cpp.o
+.PHONY : src/a_star.o
+
+# target to build an object file
+src/a_star.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a_star_demo.dir/build.make CMakeFiles/a_star_demo.dir/src/a_star.cpp.o
+.PHONY : src/a_star.cpp.o
+
+src/a_star.i: src/a_star.cpp.i
+.PHONY : src/a_star.i
+
+# target to preprocess a source file
+src/a_star.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a_star_demo.dir/build.make CMakeFiles/a_star_demo.dir/src/a_star.cpp.i
+.PHONY : src/a_star.cpp.i
+
+src/a_star.s: src/a_star.cpp.s
+.PHONY : src/a_star.s
+
+# target to generate assembly for a file
+src/a_star.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a_star_demo.dir/build.make CMakeFiles/a_star_demo.dir/src/a_star.cpp.s
+.PHONY : src/a_star.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... hybrid_astar_planner_uninstall"
 	@echo "... uninstall"
+	@echo "... a_star_demo"
+	@echo "... src/a_star.o"
+	@echo "... src/a_star.i"
+	@echo "... src/a_star.s"
 .PHONY : help
 
 
