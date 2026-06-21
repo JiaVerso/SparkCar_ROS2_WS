@@ -1,3 +1,10 @@
+/*
+* 状态：x, y
+* 扩展：八邻域
+* 碰撞：检查一个栅格点
+* 路径：栅格折线
+*
+*/
 #include <algorithm>
 #include <array>
 #include <cmath>
