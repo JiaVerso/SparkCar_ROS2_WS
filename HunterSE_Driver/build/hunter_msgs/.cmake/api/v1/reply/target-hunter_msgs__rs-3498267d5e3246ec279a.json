@@ -1,0 +1,73 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_msgs/hunter_msgs__rs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "hunter_msgs__rs::@f9085dcd243d5154814d",
+	"name" : "hunter_msgs__rs",
+	"paths" : 
+	{
+		"build" : "hunter_msgs__rs",
+		"source" : "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_msgs/hunter_msgs__rs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_msgs/hunter_msgs__rs/CMakeFiles/hunter_msgs__rs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_msgs/hunter_msgs__rs/CMakeFiles/hunter_msgs__rs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_msgs/rosidl_generator_rs/hunter_msgs/rust/src/lib.rs.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

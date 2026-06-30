@@ -1,0 +1,10 @@
+{
+  "package_name": "hunter_msgs",
+  "non_idl_tuples": [
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_msgs:msg/HunterActuatorState.msg",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_msgs:msg/HunterLightCmd.msg",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_msgs:msg/HunterLightState.msg",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_msgs:msg/HunterRCState.msg",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_msgs:msg/HunterStatus.msg"
+  ]
+}

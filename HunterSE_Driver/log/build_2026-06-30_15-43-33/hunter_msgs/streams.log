@@ -1,0 +1,359 @@
+[0.015s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_msgs -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.114s] -- The CXX compiler identification is GNU 11.4.0
+[0.139s] -- Detecting C compiler ABI info
+[0.202s] -- Detecting C compiler ABI info - done
+[0.208s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.208s] -- Detecting C compile features
+[0.208s] -- Detecting C compile features - done
+[0.210s] -- Detecting CXX compiler ABI info
+[0.268s] -- Detecting CXX compiler ABI info - done
+[0.273s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.273s] -- Detecting CXX compile features
+[0.274s] -- Detecting CXX compile features - done
+[0.276s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.388s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.469s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.495s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.499s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.506s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.516s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.528s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.540s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.550s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.774s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.102s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.213s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.230s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.231s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.252s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.252s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.252s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.252s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.267s] -- Found PythonExtra: .so  
+[1.361s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.380s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.382s] -- Added test 'lint_cmake' to check CMake code style
+[1.383s] -- Added test 'xmllint' to check XML markup files
+[1.386s] -- Configuring done
+[1.432s] -- Generating done
+[1.446s] -- Build files have been written to: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_msgs
+[1.453s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_msgs -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs
+[1.454s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_msgs -- -j8 -l8
+[1.484s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.490s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.490s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.520s] [  4%] Built target ament_cmake_python_copy_hunter_msgs
+[1.797s] [  4%] Built target hunter_msgs__rs
+[1.899s] running egg_info
+[1.899s] creating hunter_msgs.egg-info
+[1.899s] writing hunter_msgs.egg-info/PKG-INFO
+[1.900s] writing dependency_links to hunter_msgs.egg-info/dependency_links.txt
+[1.900s] writing top-level names to hunter_msgs.egg-info/top_level.txt
+[1.900s] writing manifest file 'hunter_msgs.egg-info/SOURCES.txt'
+[1.900s] reading manifest file 'hunter_msgs.egg-info/SOURCES.txt'
+[1.901s] writing manifest file 'hunter_msgs.egg-info/SOURCES.txt'
+[1.938s] [  4%] Built target ament_cmake_python_build_hunter_msgs_egg
+[1.970s] [  6%] [32mBuilding C object CMakeFiles/hunter_msgs__rosidl_generator_c.dir/rosidl_generator_c/hunter_msgs/msg/detail/hunter_actuator_state__functions.c.o[0m
+[1.972s] [  7%] [32mBuilding C object CMakeFiles/hunter_msgs__rosidl_generator_c.dir/rosidl_generator_c/hunter_msgs/msg/detail/hunter_light_cmd__functions.c.o[0m
+[1.975s] [  9%] [32mBuilding C object CMakeFiles/hunter_msgs__rosidl_generator_c.dir/rosidl_generator_c/hunter_msgs/msg/detail/hunter_light_state__functions.c.o[0m
+[1.978s] [ 10%] [32mBuilding C object CMakeFiles/hunter_msgs__rosidl_generator_c.dir/rosidl_generator_c/hunter_msgs/msg/detail/hunter_rc_state__functions.c.o[0m
+[1.980s] [ 10%] Built target hunter_msgs__cpp
+[1.990s] [ 12%] [32mBuilding C object CMakeFiles/hunter_msgs__rosidl_generator_c.dir/rosidl_generator_c/hunter_msgs/msg/detail/hunter_status__functions.c.o[0m
+[1.993s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.996s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.002s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.125s] [ 18%] [32m[1mLinking C shared library libhunter_msgs__rosidl_generator_c.so[0m
+[2.154s] [ 18%] Built target hunter_msgs__rosidl_generator_c
+[2.165s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.166s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.166s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.450s] [ 25%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hunter_msgs/msg/detail/dds_fastrtps/hunter_actuator_state__type_support.cpp.o[0m
+[2.483s] [ 26%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hunter_msgs/msg/detail/dds_fastrtps/hunter_light_cmd__type_support.cpp.o[0m
+[2.497s] [ 28%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hunter_msgs/msg/detail/dds_fastrtps/hunter_light_state__type_support.cpp.o[0m
+[2.616s] [ 29%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hunter_msgs/msg/hunter_actuator_state__type_support.cpp.o[0m
+[2.717s] [ 31%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hunter_msgs/msg/detail/hunter_actuator_state__type_support.cpp.o[0m
+[2.918s] [ 32%] [32mBuilding C object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hunter_msgs/msg/detail/hunter_actuator_state__type_support.c.o[0m
+[2.920s] [ 34%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hunter_msgs/msg/hunter_actuator_state__type_support.cpp.o[0m
+[2.957s] [ 35%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hunter_msgs/msg/hunter_light_cmd__type_support.cpp.o[0m
+[2.958s] [ 37%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hunter_msgs/msg/hunter_light_cmd__type_support.cpp.o[0m
+[2.960s] [ 39%] [32mBuilding C object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hunter_msgs/msg/detail/hunter_light_cmd__type_support.c.o[0m
+[2.967s] [ 40%] [32mBuilding C object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hunter_msgs/msg/detail/hunter_light_state__type_support.c.o[0m
+[2.968s] [ 42%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hunter_msgs/msg/detail/hunter_actuator_state__type_support_c.cpp.o[0m
+[2.998s] [ 43%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hunter_msgs/msg/hunter_light_state__type_support.cpp.o[0m
+[3.005s] [ 45%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hunter_msgs/msg/hunter_rc_state__type_support.cpp.o[0m
+[3.007s] [ 46%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hunter_msgs/msg/hunter_status__type_support.cpp.o[0m
+[3.016s] [ 48%] [32mBuilding C object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hunter_msgs/msg/detail/hunter_rc_state__type_support.c.o[0m
+[3.038s] [ 50%] [32mBuilding C object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hunter_msgs/msg/detail/hunter_status__type_support.c.o[0m
+[3.045s] [ 51%] [32m[1mLinking CXX shared library libhunter_msgs__rosidl_typesupport_c.so[0m
+[3.048s] [ 53%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hunter_msgs/msg/detail/dds_fastrtps/hunter_rc_state__type_support.cpp.o[0m
+[3.055s] [ 54%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hunter_msgs/msg/hunter_light_state__type_support.cpp.o[0m
+[3.084s] [ 56%] [32m[1mLinking C shared library libhunter_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.106s] [ 56%] Built target hunter_msgs__rosidl_typesupport_c
+[3.116s] [ 57%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hunter_msgs/msg/hunter_rc_state__type_support.cpp.o[0m
+[3.150s] [ 57%] Built target hunter_msgs__rosidl_typesupport_introspection_c
+[3.160s] [ 59%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hunter_msgs/msg/hunter_status__type_support.cpp.o[0m
+[3.290s] [ 60%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hunter_msgs/msg/detail/dds_fastrtps/hunter_status__type_support.cpp.o[0m
+[3.392s] [ 62%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hunter_msgs/msg/detail/hunter_light_cmd__type_support_c.cpp.o[0m
+[3.423s] [ 64%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hunter_msgs/msg/detail/hunter_light_cmd__type_support.cpp.o[0m
+[3.520s] [ 65%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hunter_msgs/msg/detail/hunter_light_state__type_support.cpp.o[0m
+[3.525s] [ 67%] [32m[1mLinking CXX shared library libhunter_msgs__rosidl_typesupport_cpp.so[0m
+[3.619s] [ 68%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hunter_msgs/msg/detail/hunter_light_state__type_support_c.cpp.o[0m
+[3.650s] [ 68%] Built target hunter_msgs__rosidl_typesupport_cpp
+[3.661s] [ 70%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hunter_msgs/msg/detail/hunter_rc_state__type_support.cpp.o[0m
+[3.667s] [ 71%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hunter_msgs/msg/detail/hunter_status__type_support.cpp.o[0m
+[3.840s] [ 73%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hunter_msgs/msg/detail/hunter_rc_state__type_support_c.cpp.o[0m
+[3.851s] [ 75%] [32m[1mLinking CXX shared library libhunter_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.924s] [ 76%] [32mBuilding CXX object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hunter_msgs/msg/detail/hunter_status__type_support_c.cpp.o[0m
+[3.985s] [ 76%] Built target hunter_msgs__rosidl_typesupport_fastrtps_cpp
+[4.207s] [ 78%] [32m[1mLinking CXX shared library libhunter_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.266s] [ 78%] Built target hunter_msgs__rosidl_typesupport_fastrtps_c
+[4.340s] [ 79%] [32m[1mLinking CXX shared library libhunter_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.394s] [ 79%] Built target hunter_msgs__rosidl_typesupport_introspection_cpp
+[4.408s] [ 79%] Built target hunter_msgs
+[4.424s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.058s] [ 81%] Built target hunter_msgs__py
+[5.074s] [ 82%] [32mBuilding C object CMakeFiles/hunter_msgs__rosidl_generator_py.dir/rosidl_generator_py/hunter_msgs/msg/_hunter_rc_state_s.c.o[0m
+[5.074s] [ 84%] [32mBuilding C object CMakeFiles/hunter_msgs__rosidl_generator_py.dir/rosidl_generator_py/hunter_msgs/msg/_hunter_status_s.c.o[0m
+[5.075s] [ 87%] [32mBuilding C object CMakeFiles/hunter_msgs__rosidl_generator_py.dir/rosidl_generator_py/hunter_msgs/msg/_hunter_light_cmd_s.c.o[0m
+[5.076s] [ 87%] [32mBuilding C object CMakeFiles/hunter_msgs__rosidl_generator_py.dir/rosidl_generator_py/hunter_msgs/msg/_hunter_actuator_state_s.c.o[0m
+[5.080s] [ 89%] [32mBuilding C object CMakeFiles/hunter_msgs__rosidl_generator_py.dir/rosidl_generator_py/hunter_msgs/msg/_hunter_light_state_s.c.o[0m
+[5.224s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/hunter_msgs/libhunter_msgs__rosidl_generator_py.so[0m
+[5.254s] [ 90%] Built target hunter_msgs__rosidl_generator_py
+[5.269s] [ 95%] [32mBuilding C object CMakeFiles/hunter_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hunter_msgs/_hunter_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.269s] [ 95%] [32mBuilding C object CMakeFiles/hunter_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hunter_msgs/_hunter_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.269s] [ 95%] [32mBuilding C object CMakeFiles/hunter_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hunter_msgs/_hunter_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.348s] [100%] [32m[1mLinking C shared library rosidl_generator_py/hunter_msgs/hunter_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.348s] [100%] [32m[1mLinking C shared library rosidl_generator_py/hunter_msgs/hunter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.348s] [100%] [32m[1mLinking C shared library rosidl_generator_py/hunter_msgs/hunter_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.376s] [100%] Built target hunter_msgs__rosidl_typesupport_introspection_c__pyext
+[5.376s] [100%] Built target hunter_msgs__rosidl_typesupport_c__pyext
+[5.379s] [100%] Built target hunter_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.389s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_msgs -- -j8 -l8
+[5.390s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_msgs
+[5.396s] -- Install configuration: ""
+[5.396s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/ament_index/resource_index/rosidl_interfaces/hunter_msgs
+[5.396s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs
+[5.396s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg
+[5.396s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/hunter_rc_state.h
+[5.396s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail
+[5.396s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_actuator_state__struct.h
+[5.396s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_cmd__type_support.h
+[5.397s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_state__functions.c
+[5.397s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_rc_state__struct.h
+[5.397s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_status__struct.h
+[5.397s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_actuator_state__functions.h
+[5.397s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_status__functions.h
+[5.397s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_state__struct.h
+[5.397s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_cmd__functions.c
+[5.397s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_rc_state__type_support.h
+[5.397s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_state__functions.h
+[5.397s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_state__type_support.h
+[5.397s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_status__type_support.h
+[5.397s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_actuator_state__type_support.h
+[5.397s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_actuator_state__functions.c
+[5.398s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_status__functions.c
+[5.398s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_rc_state__functions.h
+[5.398s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_rc_state__functions.c
+[5.398s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_cmd__functions.h
+[5.398s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_cmd__struct.h
+[5.398s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/hunter_light_cmd.h
+[5.398s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/hunter_status.h
+[5.398s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.398s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/hunter_actuator_state.h
+[5.398s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/hunter_light_state.h
+[5.398s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/environment/library_path.sh
+[5.398s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/environment/library_path.dsv
+[5.398s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib/libhunter_msgs__rosidl_generator_c.so
+[5.399s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib/libhunter_msgs__rosidl_generator_c.so" to ""
+[5.399s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs
+[5.399s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg
+[5.399s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail
+[5.399s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_status__rosidl_typesupport_fastrtps_c.h
+[5.399s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_rc_state__rosidl_typesupport_fastrtps_c.h
+[5.399s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_state__rosidl_typesupport_fastrtps_c.h
+[5.399s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_actuator_state__rosidl_typesupport_fastrtps_c.h
+[5.399s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_cmd__rosidl_typesupport_fastrtps_c.h
+[5.399s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.399s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib/libhunter_msgs__rosidl_typesupport_fastrtps_c.so
+[5.399s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib/libhunter_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.400s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs
+[5.400s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg
+[5.400s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail
+[5.400s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_cmd__traits.hpp
+[5.400s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_rc_state__traits.hpp
+[5.400s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_status__traits.hpp
+[5.400s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_state__struct.hpp
+[5.400s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_state__traits.hpp
+[5.400s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_status__builder.hpp
+[5.400s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_rc_state__builder.hpp
+[5.400s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_status__struct.hpp
+[5.400s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_actuator_state__builder.hpp
+[5.400s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_cmd__struct.hpp
+[5.400s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_actuator_state__struct.hpp
+[5.400s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_rc_state__struct.hpp
+[5.400s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_rc_state__type_support.hpp
+[5.401s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_cmd__type_support.hpp
+[5.401s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_actuator_state__traits.hpp
+[5.401s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_actuator_state__type_support.hpp
+[5.401s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_status__type_support.hpp
+[5.401s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_cmd__builder.hpp
+[5.401s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_state__builder.hpp
+[5.401s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_state__type_support.hpp
+[5.401s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.401s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/hunter_rc_state.hpp
+[5.401s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/hunter_actuator_state.hpp
+[5.401s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/hunter_status.hpp
+[5.401s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/hunter_light_state.hpp
+[5.401s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/hunter_light_cmd.hpp
+[5.402s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs
+[5.402s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg
+[5.402s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail
+[5.402s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/dds_fastrtps
+[5.402s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_state__rosidl_typesupport_fastrtps_cpp.hpp
+[5.402s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_rc_state__rosidl_typesupport_fastrtps_cpp.hpp
+[5.402s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[5.402s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.402s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_actuator_state__rosidl_typesupport_fastrtps_cpp.hpp
+[5.402s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.402s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib/libhunter_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.402s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib/libhunter_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.402s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs
+[5.402s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg
+[5.402s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail
+[5.402s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_state__rosidl_typesupport_introspection_c.h
+[5.403s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_actuator_state__rosidl_typesupport_introspection_c.h
+[5.403s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_rc_state__rosidl_typesupport_introspection_c.h
+[5.403s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_status__rosidl_typesupport_introspection_c.h
+[5.403s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_actuator_state__type_support.c
+[5.403s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_cmd__rosidl_typesupport_introspection_c.h
+[5.403s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_status__type_support.c
+[5.403s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_state__type_support.c
+[5.403s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_rc_state__type_support.c
+[5.403s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_cmd__type_support.c
+[5.403s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.403s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib/libhunter_msgs__rosidl_typesupport_introspection_c.so
+[5.403s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib/libhunter_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.403s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib/libhunter_msgs__rosidl_typesupport_c.so
+[5.404s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib/libhunter_msgs__rosidl_typesupport_c.so" to ""
+[5.404s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs
+[5.404s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg
+[5.404s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail
+[5.404s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_rc_state__rosidl_typesupport_introspection_cpp.hpp
+[5.404s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_state__rosidl_typesupport_introspection_cpp.hpp
+[5.404s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_status__type_support.cpp
+[5.404s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_status__rosidl_typesupport_introspection_cpp.hpp
+[5.404s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_rc_state__type_support.cpp
+[5.404s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_actuator_state__type_support.cpp
+[5.404s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_cmd__type_support.cpp
+[5.404s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_actuator_state__rosidl_typesupport_introspection_cpp.hpp
+[5.404s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_cmd__rosidl_typesupport_introspection_cpp.hpp
+[5.404s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/include/hunter_msgs/hunter_msgs/msg/detail/hunter_light_state__type_support.cpp
+[5.404s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib/libhunter_msgs__rosidl_typesupport_introspection_cpp.so
+[5.405s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib/libhunter_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.405s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib/libhunter_msgs__rosidl_typesupport_cpp.so
+[5.405s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib/libhunter_msgs__rosidl_typesupport_cpp.so" to ""
+[5.405s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/environment/pythonpath.sh
+[5.405s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/environment/pythonpath.dsv
+[5.405s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs-0.0.1-py3.10.egg-info
+[5.405s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs-0.0.1-py3.10.egg-info/top_level.txt
+[5.405s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs-0.0.1-py3.10.egg-info/dependency_links.txt
+[5.405s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs-0.0.1-py3.10.egg-info/SOURCES.txt
+[5.405s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs-0.0.1-py3.10.egg-info/PKG-INFO
+[5.406s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs
+[5.406s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/_hunter_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.406s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/libhunter_msgs__rosidl_generator_py.so
+[5.406s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/hunter_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.406s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/__init__.py
+[5.406s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/_hunter_msgs_s.ep.rosidl_typesupport_c.c
+[5.406s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/_hunter_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.406s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/hunter_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.406s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/msg
+[5.406s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/msg/_hunter_actuator_state_s.c
+[5.406s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/msg/_hunter_rc_state.py
+[5.406s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/msg/_hunter_light_state_s.c
+[5.406s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/msg/_hunter_light_cmd.py
+[5.407s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/msg/_hunter_actuator_state.py
+[5.407s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/msg/__init__.py
+[5.407s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/msg/_hunter_light_state.py
+[5.407s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/msg/_hunter_status.py
+[5.407s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/msg/_hunter_status_s.c
+[5.407s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/msg/_hunter_light_cmd_s.c
+[5.407s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/msg/_hunter_rc_state_s.c
+[5.407s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/hunter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.436s] Listing '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs'...
+[5.436s] Compiling '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/__init__.py'...
+[5.436s] Listing '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/msg'...
+[5.436s] Compiling '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/msg/__init__.py'...
+[5.436s] Compiling '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/msg/_hunter_actuator_state.py'...
+[5.437s] Compiling '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/msg/_hunter_light_cmd.py'...
+[5.437s] Compiling '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/msg/_hunter_light_state.py'...
+[5.437s] Compiling '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/msg/_hunter_rc_state.py'...
+[5.437s] Compiling '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/msg/_hunter_status.py'...
+[5.440s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/hunter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.441s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/hunter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.441s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/hunter_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.441s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/hunter_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.441s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/hunter_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.441s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages/hunter_msgs/hunter_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.441s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib/libhunter_msgs__rosidl_generator_py.so
+[5.441s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib/libhunter_msgs__rosidl_generator_py.so" to ""
+[5.441s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/ament_index/resource_index/rust_packages/hunter_msgs
+[5.442s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/rust
+[5.442s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/rust/Cargo.toml
+[5.442s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/rust/src
+[5.442s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/rust/src/msg.rs
+[5.442s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/rust/src/msg
+[5.442s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/rust/src/msg/rmw.rs
+[5.442s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/rust/src/lib.rs
+[5.442s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/rust/build.rs
+[5.442s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/msg/HunterActuatorState.idl
+[5.442s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/msg/HunterLightCmd.idl
+[5.443s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/msg/HunterLightState.idl
+[5.443s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/msg/HunterRCState.idl
+[5.443s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/msg/HunterStatus.idl
+[5.443s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/msg/HunterActuatorState.msg
+[5.443s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/msg/HunterLightCmd.msg
+[5.443s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/msg/HunterLightState.msg
+[5.443s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/msg/HunterRCState.msg
+[5.443s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/msg/HunterStatus.msg
+[5.443s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/ament_index/resource_index/package_run_dependencies/hunter_msgs
+[5.443s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/ament_index/resource_index/parent_prefix_path/hunter_msgs
+[5.443s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/environment/ament_prefix_path.sh
+[5.444s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/environment/ament_prefix_path.dsv
+[5.444s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/environment/path.sh
+[5.444s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/environment/path.dsv
+[5.444s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/local_setup.bash
+[5.444s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/local_setup.sh
+[5.444s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/local_setup.zsh
+[5.444s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/local_setup.dsv
+[5.444s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/package.dsv
+[5.445s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/ament_index/resource_index/packages/hunter_msgs
+[5.445s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/export_hunter_msgs__rosidl_generator_cExport.cmake
+[5.445s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/export_hunter_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.445s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/export_hunter_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.445s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/export_hunter_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.446s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/export_hunter_msgs__rosidl_generator_cppExport.cmake
+[5.446s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/export_hunter_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.446s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/export_hunter_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.446s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/hunter_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.446s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/hunter_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.446s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/hunter_msgs__rosidl_typesupport_cExport.cmake
+[5.446s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/hunter_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.446s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/hunter_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.446s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/hunter_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.446s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/hunter_msgs__rosidl_typesupport_cppExport.cmake
+[5.446s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/hunter_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.446s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/export_hunter_msgs__rosidl_generator_pyExport.cmake
+[5.446s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/export_hunter_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.446s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/rosidl_cmake-extras.cmake
+[5.447s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.447s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.447s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.447s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.447s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.447s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.447s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/hunter_msgsConfig.cmake
+[5.447s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake/hunter_msgsConfig-version.cmake
+[5.447s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/package.xml
+[5.449s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_msgs

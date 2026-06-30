@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-21eafeb540453e26f664.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "hunter_msgs__py",
+					"jsonFile" : "directory-hunter_msgs__py-60ade65de1820ee3af63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_msgs/hunter_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "hunter_msgs__rs",
+					"jsonFile" : "directory-hunter_msgs__rs-34ef720ebee5e6fba01b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_msgs/hunter_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "hunter_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_hunter_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_hunter_msgs_egg-c56557cacec88fb375b3.json",
+					"name" : "ament_cmake_python_build_hunter_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_hunter_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_hunter_msgs-5fad4a2e49990e314efa.json",
+					"name" : "ament_cmake_python_copy_hunter_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hunter_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hunter_msgs-efd537aeea392ca62d3b.json",
+					"name" : "hunter_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hunter_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hunter_msgs__cpp-07adcfeddc499c0b72e9.json",
+					"name" : "hunter_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "hunter_msgs__py::@09e562bc8eab98b6470a",
+					"jsonFile" : "target-hunter_msgs__py-e4b3570a416f566dcd84.json",
+					"name" : "hunter_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hunter_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hunter_msgs__rosidl_generator_c-6048bd1981d7ca7eb970.json",
+					"name" : "hunter_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hunter_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hunter_msgs__rosidl_generator_py-70d2976cb012eb8b0812.json",
+					"name" : "hunter_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hunter_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hunter_msgs__rosidl_typesupport_c-8334e57ea738a0f96286.json",
+					"name" : "hunter_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hunter_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hunter_msgs__rosidl_typesupport_c__pyext-039b18ea6ad0a6558faf.json",
+					"name" : "hunter_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hunter_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hunter_msgs__rosidl_typesupport_cpp-0b7be71037b0a956163e.json",
+					"name" : "hunter_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hunter_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hunter_msgs__rosidl_typesupport_fastrtps_c-23de0d62d3b083e19f73.json",
+					"name" : "hunter_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hunter_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hunter_msgs__rosidl_typesupport_fastrtps_c__pyext-67a481910aa7445276af.json",
+					"name" : "hunter_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hunter_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hunter_msgs__rosidl_typesupport_fastrtps_cpp-9f2473c8f87c3fd558e9.json",
+					"name" : "hunter_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hunter_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hunter_msgs__rosidl_typesupport_introspection_c-019ecd82dc64929ff439.json",
+					"name" : "hunter_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hunter_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hunter_msgs__rosidl_typesupport_introspection_c__pyext-3f7cb9db6fbd4aae21e8.json",
+					"name" : "hunter_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hunter_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hunter_msgs__rosidl_typesupport_introspection_cpp-ac84650260f408b82867.json",
+					"name" : "hunter_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "hunter_msgs__rs::@f9085dcd243d5154814d",
+					"jsonFile" : "target-hunter_msgs__rs-3498267d5e3246ec279a.json",
+					"name" : "hunter_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hunter_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hunter_msgs_uninstall-f81a656c20637e4bf020.json",
+					"name" : "hunter_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-601a898622bcd3bf76ef.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_msgs",
+		"source" : "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
