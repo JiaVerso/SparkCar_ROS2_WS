@@ -1,0 +1,70 @@
+[0.013s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup
+[0.023s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.132s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.138s] -- Found nav2_map_server: 1.1.20 (/opt/ros/humble/share/nav2_map_server/cmake)
+[0.162s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.164s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.168s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.187s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.316s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.318s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.405s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.475s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.476s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.528s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[0.540s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.555s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.625s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.626s] -- Configured cppcheck include dirs: 
+[0.626s] -- Configured cppcheck exclude dirs and/or files: 
+[0.626s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.626s] -- Added test 'lint_cmake' to check CMake code style
+[0.626s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.627s] -- Added test 'uncrustify' to check C / C++ code style
+[0.627s] -- Configured uncrustify additional arguments: 
+[0.628s] -- Added test 'xmllint' to check XML markup files
+[0.629s] -- Configuring done
+[0.651s] -- Generating done
+[0.656s] -- Build files have been written to: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup
+[0.664s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup
+[0.665s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup -- -j8 -l8
+[0.710s] Consolidate compiler generated dependencies of target twist_to_ackermann
+[0.715s] [ 25%] Building CXX object CMakeFiles/obstacle_cloud_filter.dir/src/obstacle_cloud_filter.cpp.o
+[0.726s] [ 50%] Building CXX object CMakeFiles/twist_to_ackermann.dir/src/twist_to_ackermann.cpp.o
+[9.052s] [ 75%] Linking CXX executable twist_to_ackermann
+[9.100s] [100%] Linking CXX executable obstacle_cloud_filter
+[9.627s] [100%] Built target twist_to_ackermann
+[9.670s] [100%] Built target obstacle_cloud_filter
+[9.679s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup -- -j8 -l8
+[9.688s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup
+[9.695s] -- Install configuration: ""
+[9.696s] -- Execute custom install script
+[9.696s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/lib/sparkcar_nav_bringup/twist_to_ackermann
+[9.696s] -- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/lib/sparkcar_nav_bringup/obstacle_cloud_filter
+[9.703s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/launch/__pycache__/nav_bringup.launch.cpython-310.pyc
+[9.703s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/launch/nav_bringup.launch.py
+[9.703s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/launch/waypoint_control.py
+[9.704s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/config/copy.yaml
+[9.704s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/config/nav2_params.yaml
+[9.704s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/config/waypoints.yaml
+[9.704s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/maps/.gitkeep
+[9.705s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/maps/main.pgm
+[9.705s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/maps/main.yaml
+[9.705s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/rviz/nav2.rviz
+[9.705s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/ament_index/resource_index/package_run_dependencies/sparkcar_nav_bringup
+[9.705s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/ament_index/resource_index/parent_prefix_path/sparkcar_nav_bringup
+[9.705s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/environment/ament_prefix_path.sh
+[9.705s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/environment/ament_prefix_path.dsv
+[9.706s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/environment/path.sh
+[9.706s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/environment/path.dsv
+[9.706s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/local_setup.bash
+[9.706s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/local_setup.sh
+[9.706s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/local_setup.zsh
+[9.706s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/local_setup.dsv
+[9.707s] -- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/package.dsv
+[9.716s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/ament_index/resource_index/packages/sparkcar_nav_bringup
+[9.716s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/cmake/sparkcar_nav_bringupConfig.cmake
+[9.716s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/cmake/sparkcar_nav_bringupConfig-version.cmake
+[9.716s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/package.xml
+[9.718s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup

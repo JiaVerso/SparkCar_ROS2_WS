@@ -1,0 +1,229 @@
+[0.000000] (-) TimerEvent: {}
+[0.000162] (-) JobUnselected: {'identifier': 'hunter_msgs'}
+[0.000316] (-) JobUnselected: {'identifier': 'ugv_sdk'}
+[0.000331] (hunter_base) JobQueued: {'identifier': 'hunter_base', 'dependencies': OrderedDict([('hunter_msgs', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs'), ('ugv_sdk', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk')])}
+[0.000418] (hunter_base) JobStarted: {'identifier': 'hunter_base'}
+[0.011408] (hunter_base) JobProgress: {'identifier': 'hunter_base', 'progress': 'cmake'}
+[0.012402] (hunter_base) Command: {'cmd': ['/usr/bin/cmake', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base'], 'cwd': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/jiaverso'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'jiaverso'), ('SSH_CLIENT', '192.168.110.167 54721 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/home/jiaverso/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/jiaverso/.vscode-server/data/clp/2db50d1c46f47c4c235851f1f1d16e15.zh-cn/tcf.json","messagesFile":"/home/jiaverso/.vscode-server/data/clp/2db50d1c46f47c4c235851f1f1d16e15.zh-cn/7e7950df89d055b5a378379db9ee14290772148a/nls.messages.json","corruptMarkerFile":"/home/jiaverso/.vscode-server/data/clp/2db50d1c46f47c4c235851f1f1d16e15.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"2db50d1c46f47c4c235851f1f1d16e15.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/jiaverso/.vscode-server/data/clp/2db50d1c46f47c4c235851f1f1d16e15.zh-cn/tcf.json","_cacheRoot":"/home/jiaverso/.vscode-server/data/clp/2db50d1c46f47c4c235851f1f1d16e15.zh-cn","_resolvedLanguagePackCoreLocation":"/home/jiaverso/.vscode-server/data/clp/2db50d1c46f47c4c235851f1f1d16e15.zh-cn/7e7950df89d055b5a378379db9ee14290772148a","_corruptedFile":"/home/jiaverso/.vscode-server/data/clp/2db50d1c46f47c4c235851f1f1d16e15.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('DEBUG', 'release'), ('ROS_PACKAGE_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk/share'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/jiaverso/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/helpers/browser.sh'), ('OPENAI_BASE_URL', 'https://api.ai-pixel.online'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jiaverso'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-213f5675-7888-4dc6-8500-d03438f308da.sock'), ('ROS_PYTHON_VERSION', '3'), ('OPENAI_API_KEY', 'sk-ad00539cf26ae5f0778a31c9e07066c4600e76f8d0864285c18cb39c205e1577'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('COLCON_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jiaverso'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('PKG_CONFIG_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk/lib/pkgconfig'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '8'), ('VSCODE_CLI_REQUIRE_TOKEN', '16d02105-4f6c-4c36-9c77-edcad13dc0d7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jiaverso/.codex/tmp/arg0/codex-arg0j5bhGY:/home/jiaverso/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jiaverso/.vscode-server/extensions/openai.chatgpt-26.623.81905-linux-x64/bin/linux-x86_64'), ('VSCODE_AGENT_FOLDER', '/home/jiaverso/.vscode-server'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019f1c77-f533-7dc0-aef5-1bbd57d28757'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('PWD', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_base'), ('LC_ALL', 'C.UTF-8'), ('SSH_CONNECTION', '192.168.110.167 54721 192.168.110.154 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk:/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm')]), 'shell': False}
+[0.022341] (hunter_base) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099963] (-) TimerEvent: {}
+[0.111573] (hunter_base) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.116598] (hunter_base) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.136160] (hunter_base) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.137861] (hunter_base) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.141948] (hunter_base) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.148366] (hunter_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.157025] (hunter_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.178843] (hunter_base) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.179840] (hunter_base) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.200066] (-) TimerEvent: {}
+[0.251904] (hunter_base) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.285229] (hunter_base) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.293332] (hunter_base) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.300142] (-) TimerEvent: {}
+[0.304718] (hunter_base) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.315886] (hunter_base) StdoutLine: {'line': b'-- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.318405] (hunter_base) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.372260] (hunter_base) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.376113] (hunter_base) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.377015] (hunter_base) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.378229] (hunter_base) StdoutLine: {'line': b'-- Found hunter_msgs: 0.0.1 (/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/share/hunter_msgs/cmake)\n'}
+[0.400283] (-) TimerEvent: {}
+[0.408749] (hunter_base) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.462188] (hunter_base) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.465245] (hunter_base) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.465413] (hunter_base) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/include\n'}
+[0.465491] (hunter_base) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.467950] (hunter_base) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.468093] (hunter_base) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.468451] (hunter_base) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.469279] (hunter_base) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.469802] (hunter_base) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.472410] (hunter_base) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.472518] (hunter_base) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.472883] (hunter_base) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.474307] (hunter_base) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.487437] (hunter_base) StdoutLine: {'line': b'-- Generating done\n'}
+[0.491753] (hunter_base) StdoutLine: {'line': b'-- Build files have been written to: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_base\n'}
+[0.498824] (hunter_base) CommandEnded: {'returncode': 0}
+[0.499339] (hunter_base) JobProgress: {'identifier': 'hunter_base', 'progress': 'build'}
+[0.499891] (hunter_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_base', '--', '-j8', '-l8'], 'cwd': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/jiaverso'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'jiaverso'), ('SSH_CLIENT', '192.168.110.167 54721 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/home/jiaverso/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/jiaverso/.vscode-server/data/clp/2db50d1c46f47c4c235851f1f1d16e15.zh-cn/tcf.json","messagesFile":"/home/jiaverso/.vscode-server/data/clp/2db50d1c46f47c4c235851f1f1d16e15.zh-cn/7e7950df89d055b5a378379db9ee14290772148a/nls.messages.json","corruptMarkerFile":"/home/jiaverso/.vscode-server/data/clp/2db50d1c46f47c4c235851f1f1d16e15.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"2db50d1c46f47c4c235851f1f1d16e15.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/jiaverso/.vscode-server/data/clp/2db50d1c46f47c4c235851f1f1d16e15.zh-cn/tcf.json","_cacheRoot":"/home/jiaverso/.vscode-server/data/clp/2db50d1c46f47c4c235851f1f1d16e15.zh-cn","_resolvedLanguagePackCoreLocation":"/home/jiaverso/.vscode-server/data/clp/2db50d1c46f47c4c235851f1f1d16e15.zh-cn/7e7950df89d055b5a378379db9ee14290772148a","_corruptedFile":"/home/jiaverso/.vscode-server/data/clp/2db50d1c46f47c4c235851f1f1d16e15.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('DEBUG', 'release'), ('ROS_PACKAGE_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk/share'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/jiaverso/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/helpers/browser.sh'), ('OPENAI_BASE_URL', 'https://api.ai-pixel.online'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jiaverso'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-213f5675-7888-4dc6-8500-d03438f308da.sock'), ('ROS_PYTHON_VERSION', '3'), ('OPENAI_API_KEY', 'sk-ad00539cf26ae5f0778a31c9e07066c4600e76f8d0864285c18cb39c205e1577'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('COLCON_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jiaverso'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('PKG_CONFIG_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk/lib/pkgconfig'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '8'), ('VSCODE_CLI_REQUIRE_TOKEN', '16d02105-4f6c-4c36-9c77-edcad13dc0d7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jiaverso/.codex/tmp/arg0/codex-arg0j5bhGY:/home/jiaverso/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jiaverso/.vscode-server/extensions/openai.chatgpt-26.623.81905-linux-x64/bin/linux-x86_64'), ('VSCODE_AGENT_FOLDER', '/home/jiaverso/.vscode-server'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019f1c77-f533-7dc0-aef5-1bbd57d28757'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('PWD', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_base'), ('LC_ALL', 'C.UTF-8'), ('SSH_CONNECTION', '192.168.110.167 54721 192.168.110.154 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk:/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm')]), 'shell': False}
+[0.500961] (-) TimerEvent: {}
+[0.546011] (hunter_base) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target hunter_base_node\n'}
+[0.562884] (hunter_base) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/hunter_base_node.dir/src/hunter_base_node.cpp.o\n'}
+[0.563019] (hunter_base) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/hunter_base_node.dir/src/hunter_base_ros.cpp.o\n'}
+[0.601052] (-) TimerEvent: {}
+[0.701243] (-) TimerEvent: {}
+[0.801443] (-) TimerEvent: {}
+[0.901603] (-) TimerEvent: {}
+[1.001809] (-) TimerEvent: {}
+[1.102000] (-) TimerEvent: {}
+[1.202214] (-) TimerEvent: {}
+[1.302430] (-) TimerEvent: {}
+[1.402652] (-) TimerEvent: {}
+[1.502876] (-) TimerEvent: {}
+[1.603085] (-) TimerEvent: {}
+[1.703313] (-) TimerEvent: {}
+[1.803521] (-) TimerEvent: {}
+[1.903729] (-) TimerEvent: {}
+[2.003948] (-) TimerEvent: {}
+[2.104176] (-) TimerEvent: {}
+[2.204395] (-) TimerEvent: {}
+[2.304633] (-) TimerEvent: {}
+[2.404926] (-) TimerEvent: {}
+[2.505111] (-) TimerEvent: {}
+[2.605288] (-) TimerEvent: {}
+[2.705467] (-) TimerEvent: {}
+[2.757712] (hunter_base) StderrLine: {'line': b'In file included from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/Recorder.h:25,\n'}
+[2.757968] (hunter_base) StderrLine: {'line': b'                 from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/Ascent.h:17,\n'}
+[2.758074] (hunter_base) StderrLine: {'line': b'                 from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/include/hunter_base/hunter_messenger.hpp:24,\n'}
+[2.758150] (hunter_base) StderrLine: {'line': b'                 from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/src/hunter_base_ros.cpp:12:\n'}
+[2.758220] (hunter_base) StderrLine: {'line': b'/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/containers/stack.h:54:7: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[2.758293] (hunter_base) StderrLine: {'line': b'   54 |       const pointer operator->() const noexcept\n'}
+[2.758363] (hunter_base) StderrLine: {'line': b'      |       ^~~~~\n'}
+[2.758432] (hunter_base) StderrLine: {'line': b'/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/containers/stack.h:113:7: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[2.758504] (hunter_base) StderrLine: {'line': b'  113 |       const pointer operator->() const\n'}
+[2.758575] (hunter_base) StderrLine: {'line': b'      |       ^~~~~\n'}
+[2.761167] (hunter_base) StderrLine: {'line': b'In file included from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/integrators/RK2.h:17,\n'}
+[2.761351] (hunter_base) StderrLine: {'line': b'                 from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/Ascent.h:26,\n'}
+[2.761444] (hunter_base) StderrLine: {'line': b'                 from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/include/hunter_base/hunter_messenger.hpp:24,\n'}
+[2.761518] (hunter_base) StderrLine: {'line': b'                 from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/src/hunter_base_ros.cpp:12:\n'}
+[2.761589] (hunter_base) StderrLine: {'line': b'/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/Utility.h:25:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[2.761659] (hunter_base) StderrLine: {'line': b'   25 |    constexpr const value_t cx(long double v) { return static_cast<value_t>(v); }\n'}
+[2.761725] (hunter_base) StderrLine: {'line': b'      |              ^~~~~\n'}
+[2.761794] (hunter_base) StderrLine: {'line': b'/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/Utility.h:26:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[2.761862] (hunter_base) StderrLine: {'line': b'   26 |    constexpr const value_t operator"" _v(long double v) { return static_cast<value_t>(v); }\n'}
+[2.761933] (hunter_base) StderrLine: {'line': b'      |              ^~~~~\n'}
+[2.805577] (-) TimerEvent: {}
+[2.905799] (-) TimerEvent: {}
+[3.006024] (-) TimerEvent: {}
+[3.106238] (-) TimerEvent: {}
+[3.206465] (-) TimerEvent: {}
+[3.306682] (-) TimerEvent: {}
+[3.406901] (-) TimerEvent: {}
+[3.507126] (-) TimerEvent: {}
+[3.607343] (-) TimerEvent: {}
+[3.707508] (-) TimerEvent: {}
+[3.807694] (-) TimerEvent: {}
+[3.907886] (-) TimerEvent: {}
+[4.008067] (-) TimerEvent: {}
+[4.108253] (-) TimerEvent: {}
+[4.208455] (-) TimerEvent: {}
+[4.308706] (-) TimerEvent: {}
+[4.408912] (-) TimerEvent: {}
+[4.509104] (-) TimerEvent: {}
+[4.609278] (-) TimerEvent: {}
+[4.709455] (-) TimerEvent: {}
+[4.809638] (-) TimerEvent: {}
+[4.909841] (-) TimerEvent: {}
+[5.010042] (-) TimerEvent: {}
+[5.110210] (-) TimerEvent: {}
+[5.210395] (-) TimerEvent: {}
+[5.310564] (-) TimerEvent: {}
+[5.410731] (-) TimerEvent: {}
+[5.510907] (-) TimerEvent: {}
+[5.611083] (-) TimerEvent: {}
+[5.711274] (-) TimerEvent: {}
+[5.811465] (-) TimerEvent: {}
+[5.911678] (-) TimerEvent: {}
+[6.011888] (-) TimerEvent: {}
+[6.112075] (-) TimerEvent: {}
+[6.212292] (-) TimerEvent: {}
+[6.312500] (-) TimerEvent: {}
+[6.412711] (-) TimerEvent: {}
+[6.512906] (-) TimerEvent: {}
+[6.613117] (-) TimerEvent: {}
+[6.713323] (-) TimerEvent: {}
+[6.813514] (-) TimerEvent: {}
+[6.913672] (-) TimerEvent: {}
+[7.013839] (-) TimerEvent: {}
+[7.114002] (-) TimerEvent: {}
+[7.214159] (-) TimerEvent: {}
+[7.314510] (-) TimerEvent: {}
+[7.414782] (-) TimerEvent: {}
+[7.515019] (-) TimerEvent: {}
+[7.615315] (-) TimerEvent: {}
+[7.715526] (-) TimerEvent: {}
+[7.815729] (-) TimerEvent: {}
+[7.915930] (-) TimerEvent: {}
+[8.016276] (-) TimerEvent: {}
+[8.116477] (-) TimerEvent: {}
+[8.141715] (hunter_base) StdoutLine: {'line': b'[ 75%] Linking CXX executable hunter_base_node\n'}
+[8.216602] (-) TimerEvent: {}
+[8.316818] (-) TimerEvent: {}
+[8.417106] (-) TimerEvent: {}
+[8.517284] (-) TimerEvent: {}
+[8.549441] (hunter_base) StdoutLine: {'line': b'[100%] Built target hunter_base_node\n'}
+[8.557476] (hunter_base) CommandEnded: {'returncode': 0}
+[8.557967] (hunter_base) JobProgress: {'identifier': 'hunter_base', 'progress': 'install'}
+[8.564108] (hunter_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_base'], 'cwd': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/jiaverso'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'jiaverso'), ('SSH_CLIENT', '192.168.110.167 54721 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/home/jiaverso/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/jiaverso/.vscode-server/data/clp/2db50d1c46f47c4c235851f1f1d16e15.zh-cn/tcf.json","messagesFile":"/home/jiaverso/.vscode-server/data/clp/2db50d1c46f47c4c235851f1f1d16e15.zh-cn/7e7950df89d055b5a378379db9ee14290772148a/nls.messages.json","corruptMarkerFile":"/home/jiaverso/.vscode-server/data/clp/2db50d1c46f47c4c235851f1f1d16e15.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"2db50d1c46f47c4c235851f1f1d16e15.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/jiaverso/.vscode-server/data/clp/2db50d1c46f47c4c235851f1f1d16e15.zh-cn/tcf.json","_cacheRoot":"/home/jiaverso/.vscode-server/data/clp/2db50d1c46f47c4c235851f1f1d16e15.zh-cn","_resolvedLanguagePackCoreLocation":"/home/jiaverso/.vscode-server/data/clp/2db50d1c46f47c4c235851f1f1d16e15.zh-cn/7e7950df89d055b5a378379db9ee14290772148a","_corruptedFile":"/home/jiaverso/.vscode-server/data/clp/2db50d1c46f47c4c235851f1f1d16e15.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('DEBUG', 'release'), ('ROS_PACKAGE_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk/share'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/jiaverso/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/helpers/browser.sh'), ('OPENAI_BASE_URL', 'https://api.ai-pixel.online'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jiaverso'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-213f5675-7888-4dc6-8500-d03438f308da.sock'), ('ROS_PYTHON_VERSION', '3'), ('OPENAI_API_KEY', 'sk-ad00539cf26ae5f0778a31c9e07066c4600e76f8d0864285c18cb39c205e1577'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('COLCON_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jiaverso'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('PKG_CONFIG_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk/lib/pkgconfig'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '8'), ('VSCODE_CLI_REQUIRE_TOKEN', '16d02105-4f6c-4c36-9c77-edcad13dc0d7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jiaverso/.codex/tmp/arg0/codex-arg0j5bhGY:/home/jiaverso/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jiaverso/.vscode-server/extensions/openai.chatgpt-26.623.81905-linux-x64/bin/linux-x86_64'), ('VSCODE_AGENT_FOLDER', '/home/jiaverso/.vscode-server'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019f1c77-f533-7dc0-aef5-1bbd57d28757'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('PWD', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_base'), ('LC_ALL', 'C.UTF-8'), ('SSH_CONNECTION', '192.168.110.167 54721 192.168.110.154 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk:/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm')]), 'shell': False}
+[8.569889] (hunter_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.570244] (hunter_base) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.570378] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/ascent/cmake/ascentConfig.cmake\n'}
+[8.576805] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/ascent/cmake/ascentConfigVersion.cmake\n'}
+[8.584393] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/Ascent.h\n'}
+[8.591184] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/ChaiEngine.h\n'}
+[8.597755] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/Param.h\n'}
+[8.604146] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/ParamV.h\n'}
+[8.610451] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/Recorder.h\n'}
+[8.616715] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/System.h\n'}
+[8.617355] (-) TimerEvent: {}
+[8.623428] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/Utility.h\n'}
+[8.629832] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/Vector.h\n'}
+[8.635854] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/algorithms/Derivative.h\n'}
+[8.642257] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/containers/stack.h\n'}
+[8.648435] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/direct/State.h\n'}
+[8.654537] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/DOPRI45.h\n'}
+[8.660871] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/Euler.h\n'}
+[8.667156] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/Midpoint.h\n'}
+[8.673504] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/PC233.h\n'}
+[8.679751] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/RK2.h\n'}
+[8.685981] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/RK4.h\n'}
+[8.692191] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/RKMM.h\n'}
+[8.698409] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/RTAM4.h\n'}
+[8.704843] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_direct/Euler.h\n'}
+[8.711590] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_direct/RK4.h\n'}
+[8.717466] (-) TimerEvent: {}
+[8.717790] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/DOPRI45.h\n'}
+[8.724047] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/Euler.h\n'}
+[8.730308] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/Heun.h\n'}
+[8.736394] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/Midpoint.h\n'}
+[8.742874] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/ModularIntegrators.h\n'}
+[8.748953] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/NCRK4.h\n'}
+[8.755103] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/PC233.h\n'}
+[8.761258] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/RK2.h\n'}
+[8.767586] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/RK3.h\n'}
+[8.773887] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/RK4.h\n'}
+[8.780200] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/RTAM2.h\n'}
+[8.786764] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/RTAM3.h\n'}
+[8.792956] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/RTAM4.h\n'}
+[8.799363] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/modular/Link.h\n'}
+[8.806323] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/modular/Module.h\n'}
+[8.813173] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/threading/Pool.h\n'}
+[8.817581] (-) TimerEvent: {}
+[8.820023] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/threading/Queue.h\n'}
+[8.826630] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/timing/Sampler.h\n'}
+[8.833058] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/timing/TimeAdvanced.h\n'}
+[8.840243] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/timing/Timing.h\n'}
+[8.846726] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/lib/hunter_base/hunter_base_node\n'}
+[8.853306] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base//launch/hunter_base.launch.py\n'}
+[8.859656] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/ament_index/resource_index/package_run_dependencies/hunter_base\n'}
+[8.866209] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/ament_index/resource_index/parent_prefix_path/hunter_base\n'}
+[8.872348] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/environment/ament_prefix_path.sh\n'}
+[8.879028] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/environment/ament_prefix_path.dsv\n'}
+[8.885440] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/environment/path.sh\n'}
+[8.891732] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/environment/path.dsv\n'}
+[8.898184] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/local_setup.bash\n'}
+[8.904828] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/local_setup.sh\n'}
+[8.911205] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/local_setup.zsh\n'}
+[8.917694] (-) TimerEvent: {}
+[8.917854] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/local_setup.dsv\n'}
+[8.924205] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/package.dsv\n'}
+[8.930812] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/ament_index/resource_index/packages/hunter_base\n'}
+[8.937294] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/cmake/hunter_baseConfig.cmake\n'}
+[8.943802] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/cmake/hunter_baseConfig-version.cmake\n'}
+[8.950249] (hunter_base) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/package.xml\n'}
+[8.957062] (hunter_base) StdoutLine: {'line': b'-- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/ascent/cmake/ascentTargets.cmake\n'}
+[8.958202] (hunter_base) CommandEnded: {'returncode': 0}
+[8.970756] (hunter_base) JobEnded: {'identifier': 'hunter_base', 'rc': 0}
+[8.971171] (-) EventReactorShutdown: {}

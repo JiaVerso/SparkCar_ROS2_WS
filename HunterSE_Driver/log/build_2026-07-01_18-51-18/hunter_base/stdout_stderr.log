@@ -1,0 +1,87 @@
+Consolidate compiler generated dependencies of target hunter_base_node
+[ 25%] Building CXX object CMakeFiles/hunter_base_node.dir/src/hunter_base_ros.cpp.o
+In file included from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/Recorder.h:25,
+                 from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/Ascent.h:17,
+                 from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/include/hunter_base/hunter_messenger.hpp:24,
+                 from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/src/hunter_base_ros.cpp:12:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/containers/stack.h:54:7: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   54 |       const pointer operator->() const noexcept
+      |       ^~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/containers/stack.h:113:7: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+  113 |       const pointer operator->() const
+      |       ^~~~~
+In file included from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/integrators/RK2.h:17,
+                 from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/Ascent.h:26,
+                 from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/include/hunter_base/hunter_messenger.hpp:24,
+                 from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/src/hunter_base_ros.cpp:12:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/Utility.h:25:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   25 |    constexpr const value_t cx(long double v) { return static_cast<value_t>(v); }
+      |              ^~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/Utility.h:26:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   26 |    constexpr const value_t operator"" _v(long double v) { return static_cast<value_t>(v); }
+      |              ^~~~~
+[ 50%] Linking CXX executable hunter_base_node
+[100%] Built target hunter_base_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/ascent/cmake/ascentConfig.cmake
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/ascent/cmake/ascentConfigVersion.cmake
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/Ascent.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/ChaiEngine.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/Param.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/ParamV.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/Recorder.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/System.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/Utility.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/Vector.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/algorithms/Derivative.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/containers/stack.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/direct/State.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/DOPRI45.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/Euler.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/Midpoint.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/PC233.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/RK2.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/RK4.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/RKMM.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/RTAM4.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_direct/Euler.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_direct/RK4.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/DOPRI45.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/Euler.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/Heun.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/Midpoint.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/ModularIntegrators.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/NCRK4.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/PC233.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/RK2.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/RK3.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/RK4.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/RTAM2.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/RTAM3.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/RTAM4.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/modular/Link.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/modular/Module.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/threading/Pool.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/threading/Queue.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/timing/Sampler.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/timing/TimeAdvanced.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/timing/Timing.h
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/lib/hunter_base/hunter_base_node
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base//launch/hunter_base.launch.py
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/ament_index/resource_index/package_run_dependencies/hunter_base
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/ament_index/resource_index/parent_prefix_path/hunter_base
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/environment/path.sh
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/environment/path.dsv
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/local_setup.bash
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/local_setup.sh
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/local_setup.zsh
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/local_setup.dsv
+-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/package.dsv
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/ament_index/resource_index/packages/hunter_base
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/cmake/hunter_baseConfig.cmake
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/cmake/hunter_baseConfig-version.cmake
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/package.xml
+-- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/ascent/cmake/ascentTargets.cmake

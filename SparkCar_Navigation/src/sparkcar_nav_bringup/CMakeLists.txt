@@ -14,8 +14,10 @@ find_package(tf2_ros REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(ackermann_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 
 add_executable(twist_to_ackermann src/twist_to_ackermann.cpp)
+add_executable(obstacle_cloud_filter src/obstacle_cloud_filter.cpp)
 
 # 把节点和依赖库联系起来
 ament_target_dependencies(twist_to_ackermann
@@ -24,15 +26,22 @@ ament_target_dependencies(twist_to_ackermann
   ackermann_msgs
 )
 
+ament_target_dependencies(obstacle_cloud_filter
+  rclcpp
+  sensor_msgs
+)
+
 # 安装节点
 install(TARGETS
   twist_to_ackermann
+  obstacle_cloud_filter
   DESTINATION lib/${PROJECT_NAME}
 )
 
 # 安装工作路径到 share 目录下，方便 launch 文件和配置文件的访问
 install(DIRECTORY
   launch
+  behavior_trees
   config
   maps
   rviz

@@ -210,6 +210,43 @@ twist_to_ackermann/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/twist_to_ackermann.dir/build.make CMakeFiles/twist_to_ackermann.dir/build
 .PHONY : twist_to_ackermann/fast
 
+#=============================================================================
+# Target rules for targets named obstacle_cloud_filter
+
+# Build rule for target.
+obstacle_cloud_filter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 obstacle_cloud_filter
+.PHONY : obstacle_cloud_filter
+
+# fast build rule for target.
+obstacle_cloud_filter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_cloud_filter.dir/build.make CMakeFiles/obstacle_cloud_filter.dir/build
+.PHONY : obstacle_cloud_filter/fast
+
+src/obstacle_cloud_filter.o: src/obstacle_cloud_filter.cpp.o
+.PHONY : src/obstacle_cloud_filter.o
+
+# target to build an object file
+src/obstacle_cloud_filter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_cloud_filter.dir/build.make CMakeFiles/obstacle_cloud_filter.dir/src/obstacle_cloud_filter.cpp.o
+.PHONY : src/obstacle_cloud_filter.cpp.o
+
+src/obstacle_cloud_filter.i: src/obstacle_cloud_filter.cpp.i
+.PHONY : src/obstacle_cloud_filter.i
+
+# target to preprocess a source file
+src/obstacle_cloud_filter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_cloud_filter.dir/build.make CMakeFiles/obstacle_cloud_filter.dir/src/obstacle_cloud_filter.cpp.i
+.PHONY : src/obstacle_cloud_filter.cpp.i
+
+src/obstacle_cloud_filter.s: src/obstacle_cloud_filter.cpp.s
+.PHONY : src/obstacle_cloud_filter.s
+
+# target to generate assembly for a file
+src/obstacle_cloud_filter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_cloud_filter.dir/build.make CMakeFiles/obstacle_cloud_filter.dir/src/obstacle_cloud_filter.cpp.s
+.PHONY : src/obstacle_cloud_filter.cpp.s
+
 src/twist_to_ackermann.o: src/twist_to_ackermann.cpp.o
 .PHONY : src/twist_to_ackermann.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... sparkcar_nav_bringup_uninstall"
 	@echo "... uninstall"
+	@echo "... obstacle_cloud_filter"
 	@echo "... twist_to_ackermann"
+	@echo "... src/obstacle_cloud_filter.o"
+	@echo "... src/obstacle_cloud_filter.i"
+	@echo "... src/obstacle_cloud_filter.s"
 	@echo "... src/twist_to_ackermann.o"
 	@echo "... src/twist_to_ackermann.i"
 	@echo "... src/twist_to_ackermann.s"

@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/b
 
 # The main recursive "all" target.
 all: CMakeFiles/twist_to_ackermann.dir/all
+all: CMakeFiles/obstacle_cloud_filter.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/sparkcar_nav_bringup_uninstall.dir/clean
 clean: CMakeFiles/twist_to_ackermann.dir/clean
+clean: CMakeFiles/obstacle_cloud_filter.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -135,7 +137,7 @@ CMakeFiles/sparkcar_nav_bringup_uninstall.dir/clean:
 CMakeFiles/twist_to_ackermann.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/twist_to_ackermann.dir/build.make CMakeFiles/twist_to_ackermann.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/twist_to_ackermann.dir/build.make CMakeFiles/twist_to_ackermann.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/CMakeFiles --progress-num=1,2 "Built target twist_to_ackermann"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/CMakeFiles --progress-num=3,4 "Built target twist_to_ackermann"
 .PHONY : CMakeFiles/twist_to_ackermann.dir/all
 
 # Build rule for subdir invocation for target.
@@ -153,6 +155,32 @@ twist_to_ackermann: CMakeFiles/twist_to_ackermann.dir/rule
 CMakeFiles/twist_to_ackermann.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/twist_to_ackermann.dir/build.make CMakeFiles/twist_to_ackermann.dir/clean
 .PHONY : CMakeFiles/twist_to_ackermann.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/obstacle_cloud_filter.dir
+
+# All Build rule for target.
+CMakeFiles/obstacle_cloud_filter.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_cloud_filter.dir/build.make CMakeFiles/obstacle_cloud_filter.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_cloud_filter.dir/build.make CMakeFiles/obstacle_cloud_filter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/CMakeFiles --progress-num=1,2 "Built target obstacle_cloud_filter"
+.PHONY : CMakeFiles/obstacle_cloud_filter.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/obstacle_cloud_filter.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/obstacle_cloud_filter.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/CMakeFiles 0
+.PHONY : CMakeFiles/obstacle_cloud_filter.dir/rule
+
+# Convenience name for target.
+obstacle_cloud_filter: CMakeFiles/obstacle_cloud_filter.dir/rule
+.PHONY : obstacle_cloud_filter
+
+# clean rule for target.
+CMakeFiles/obstacle_cloud_filter.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/obstacle_cloud_filter.dir/build.make CMakeFiles/obstacle_cloud_filter.dir/clean
+.PHONY : CMakeFiles/obstacle_cloud_filter.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

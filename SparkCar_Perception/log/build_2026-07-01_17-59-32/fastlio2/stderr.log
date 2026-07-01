@@ -1,0 +1,255 @@
+CMake Warning (dev) at CMakeLists.txt:35 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::multi_thread_rebuild() [with PointType = pcl::PointXYZ]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:329:17: warning: unused variable ‘valid_old’ [-Wunused-variable]
+  329 |             int valid_old = old_root_node->TreeSize - old_root_node->invalid_point_num;
+      |                 ^~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:330:17: warning: unused variable ‘valid_new’ [-Wunused-variable]
+  330 |             int valid_new = new_root_node->TreeSize - new_root_node->invalid_point_num;
+      |                 ^~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:231:33: warning: unused variable ‘new_node_ptr’ [-Wunused-variable]
+  231 |     KD_TREE_NODE *father_ptr, **new_node_ptr;
+      |                                 ^~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::Rebuild(KD_TREE<PointType>::KD_TREE_NODE**) [with PointType = pcl::PointXYZ]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:751:13: warning: unused variable ‘size_rec’ [-Wunused-variable]
+  751 |         int size_rec = (*root)->TreeSize;
+      |             ^~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘int KD_TREE<PointType>::Delete_by_range(KD_TREE<PointType>::KD_TREE_NODE**, BoxPointType, bool, bool) [with PointType = pcl::PointXYZ]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:802:21: warning: unused variable ‘Timeout’ [-Wunused-variable]
+  802 |     struct timespec Timeout;
+      |                     ^~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::Delete_by_point(KD_TREE<PointType>::KD_TREE_NODE**, PointType, bool) [with PointType = pcl::PointXYZ]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:867:21: warning: unused variable ‘Timeout’ [-Wunused-variable]
+  867 |     struct timespec Timeout;
+      |                     ^~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::Add_by_point(KD_TREE<PointType>::KD_TREE_NODE**, PointType, bool, int) [with PointType = pcl::PointXYZ]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1006:21: warning: unused variable ‘Timeout’ [-Wunused-variable]
+ 1006 |     struct timespec Timeout;
+      |                     ^~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::Add_by_range(KD_TREE<PointType>::KD_TREE_NODE**, BoxPointType, bool) [with PointType = pcl::PointXYZ]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:946:21: warning: unused variable ‘Timeout’ [-Wunused-variable]
+  946 |     struct timespec Timeout;
+      |                     ^~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::Search(KD_TREE<PointType>::KD_TREE_NODE*, int, PointType, KD_TREE<PointType>::MANUAL_HEAP&, float) [with PointType = pcl::PointXYZ]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1097:63: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+ 1097 |     if (q.size() < k_nearest || dist_left_node < q.top().dist && dist_right_node < q.top().dist)
+      |                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1094:9: warning: unused variable ‘cur_search_counter’ [-Wunused-variable]
+ 1094 |     int cur_search_counter;
+      |         ^~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘int KD_TREE<PointType>::Add_Points(KD_TREE<PointType>::PointVector&, bool) [with PointType = pcl::PointXYZ; KD_TREE<PointType>::PointVector = std::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:485:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  485 |     for (int i = 0; i < PointToAdd.size(); i++)
+      |                     ~~^~~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:502:39: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  502 |             for (int index = 0; index < Downsample_Storage.size(); index++)
+      |                                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:478:9: warning: unused variable ‘NewPointSize’ [-Wunused-variable]
+  478 |     int NewPointSize = PointToAdd.size();
+      |         ^~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:479:9: warning: unused variable ‘tree_size’ [-Wunused-variable]
+  479 |     int tree_size = size();
+      |         ^~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::Add_Point_Boxes(std::vector<BoxPointType>&) [with PointType = pcl::PointXYZ]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:576:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<BoxPointType>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  576 |     for (int i = 0; i < BoxPoints.size(); i++)
+      |                     ~~^~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::Delete_Points(KD_TREE<PointType>::PointVector&) [with PointType = pcl::PointXYZ; KD_TREE<PointType>::PointVector = std::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:604:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  604 |     for (int i = 0; i < PointToDel.size(); i++)
+      |                     ~~^~~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘int KD_TREE<PointType>::Delete_Point_Boxes(std::vector<BoxPointType>&) [with PointType = pcl::PointXYZ]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:633:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<BoxPointType>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  633 |     for (int i = 0; i < BoxPoints.size(); i++)
+      |                     ~~^~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::acquire_removed_points(KD_TREE<PointType>::PointVector&) [with PointType = pcl::PointXYZ; KD_TREE<PointType>::PointVector = std::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1730:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:662:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  662 |     for (int i = 0; i < Points_deleted.size(); i++)
+      |                     ~~^~~~~~~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:666:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  666 |     for (int i = 0; i < Multithread_Points_deleted.size(); i++)
+      |                     ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::multi_thread_rebuild() [with PointType = pcl::PointXYZI]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:329:17: warning: unused variable ‘valid_old’ [-Wunused-variable]
+  329 |             int valid_old = old_root_node->TreeSize - old_root_node->invalid_point_num;
+      |                 ^~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:330:17: warning: unused variable ‘valid_new’ [-Wunused-variable]
+  330 |             int valid_new = new_root_node->TreeSize - new_root_node->invalid_point_num;
+      |                 ^~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:231:33: warning: unused variable ‘new_node_ptr’ [-Wunused-variable]
+  231 |     KD_TREE_NODE *father_ptr, **new_node_ptr;
+      |                                 ^~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::Rebuild(KD_TREE<PointType>::KD_TREE_NODE**) [with PointType = pcl::PointXYZI]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:751:13: warning: unused variable ‘size_rec’ [-Wunused-variable]
+  751 |         int size_rec = (*root)->TreeSize;
+      |             ^~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘int KD_TREE<PointType>::Delete_by_range(KD_TREE<PointType>::KD_TREE_NODE**, BoxPointType, bool, bool) [with PointType = pcl::PointXYZI]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:802:21: warning: unused variable ‘Timeout’ [-Wunused-variable]
+  802 |     struct timespec Timeout;
+      |                     ^~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::Delete_by_point(KD_TREE<PointType>::KD_TREE_NODE**, PointType, bool) [with PointType = pcl::PointXYZI]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:867:21: warning: unused variable ‘Timeout’ [-Wunused-variable]
+  867 |     struct timespec Timeout;
+      |                     ^~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::Add_by_point(KD_TREE<PointType>::KD_TREE_NODE**, PointType, bool, int) [with PointType = pcl::PointXYZI]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1006:21: warning: unused variable ‘Timeout’ [-Wunused-variable]
+ 1006 |     struct timespec Timeout;
+      |                     ^~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::Add_by_range(KD_TREE<PointType>::KD_TREE_NODE**, BoxPointType, bool) [with PointType = pcl::PointXYZI]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:946:21: warning: unused variable ‘Timeout’ [-Wunused-variable]
+  946 |     struct timespec Timeout;
+      |                     ^~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::Search(KD_TREE<PointType>::KD_TREE_NODE*, int, PointType, KD_TREE<PointType>::MANUAL_HEAP&, float) [with PointType = pcl::PointXYZI]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1097:63: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+ 1097 |     if (q.size() < k_nearest || dist_left_node < q.top().dist && dist_right_node < q.top().dist)
+      |                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1094:9: warning: unused variable ‘cur_search_counter’ [-Wunused-variable]
+ 1094 |     int cur_search_counter;
+      |         ^~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘int KD_TREE<PointType>::Add_Points(KD_TREE<PointType>::PointVector&, bool) [with PointType = pcl::PointXYZI; KD_TREE<PointType>::PointVector = std::vector<pcl::PointXYZI, Eigen::aligned_allocator<pcl::PointXYZI> >]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:485:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pcl::PointXYZI, Eigen::aligned_allocator<pcl::PointXYZI> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  485 |     for (int i = 0; i < PointToAdd.size(); i++)
+      |                     ~~^~~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:502:39: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pcl::PointXYZI, Eigen::aligned_allocator<pcl::PointXYZI> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  502 |             for (int index = 0; index < Downsample_Storage.size(); index++)
+      |                                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:478:9: warning: unused variable ‘NewPointSize’ [-Wunused-variable]
+  478 |     int NewPointSize = PointToAdd.size();
+      |         ^~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:479:9: warning: unused variable ‘tree_size’ [-Wunused-variable]
+  479 |     int tree_size = size();
+      |         ^~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::Add_Point_Boxes(std::vector<BoxPointType>&) [with PointType = pcl::PointXYZI]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:576:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<BoxPointType>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  576 |     for (int i = 0; i < BoxPoints.size(); i++)
+      |                     ~~^~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::Delete_Points(KD_TREE<PointType>::PointVector&) [with PointType = pcl::PointXYZI; KD_TREE<PointType>::PointVector = std::vector<pcl::PointXYZI, Eigen::aligned_allocator<pcl::PointXYZI> >]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:604:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pcl::PointXYZI, Eigen::aligned_allocator<pcl::PointXYZI> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  604 |     for (int i = 0; i < PointToDel.size(); i++)
+      |                     ~~^~~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘int KD_TREE<PointType>::Delete_Point_Boxes(std::vector<BoxPointType>&) [with PointType = pcl::PointXYZI]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:633:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<BoxPointType>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  633 |     for (int i = 0; i < BoxPoints.size(); i++)
+      |                     ~~^~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::acquire_removed_points(KD_TREE<PointType>::PointVector&) [with PointType = pcl::PointXYZI; KD_TREE<PointType>::PointVector = std::vector<pcl::PointXYZI, Eigen::aligned_allocator<pcl::PointXYZI> >]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1731:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:662:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pcl::PointXYZI, Eigen::aligned_allocator<pcl::PointXYZI> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  662 |     for (int i = 0; i < Points_deleted.size(); i++)
+      |                     ~~^~~~~~~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:666:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pcl::PointXYZI, Eigen::aligned_allocator<pcl::PointXYZI> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  666 |     for (int i = 0; i < Multithread_Points_deleted.size(); i++)
+      |                     ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::multi_thread_rebuild() [with PointType = pcl::PointXYZINormal]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:329:17: warning: unused variable ‘valid_old’ [-Wunused-variable]
+  329 |             int valid_old = old_root_node->TreeSize - old_root_node->invalid_point_num;
+      |                 ^~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:330:17: warning: unused variable ‘valid_new’ [-Wunused-variable]
+  330 |             int valid_new = new_root_node->TreeSize - new_root_node->invalid_point_num;
+      |                 ^~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:231:33: warning: unused variable ‘new_node_ptr’ [-Wunused-variable]
+  231 |     KD_TREE_NODE *father_ptr, **new_node_ptr;
+      |                                 ^~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::Rebuild(KD_TREE<PointType>::KD_TREE_NODE**) [with PointType = pcl::PointXYZINormal]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:751:13: warning: unused variable ‘size_rec’ [-Wunused-variable]
+  751 |         int size_rec = (*root)->TreeSize;
+      |             ^~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘int KD_TREE<PointType>::Delete_by_range(KD_TREE<PointType>::KD_TREE_NODE**, BoxPointType, bool, bool) [with PointType = pcl::PointXYZINormal]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:802:21: warning: unused variable ‘Timeout’ [-Wunused-variable]
+  802 |     struct timespec Timeout;
+      |                     ^~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::Delete_by_point(KD_TREE<PointType>::KD_TREE_NODE**, PointType, bool) [with PointType = pcl::PointXYZINormal]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:867:21: warning: unused variable ‘Timeout’ [-Wunused-variable]
+  867 |     struct timespec Timeout;
+      |                     ^~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::Add_by_point(KD_TREE<PointType>::KD_TREE_NODE**, PointType, bool, int) [with PointType = pcl::PointXYZINormal]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1006:21: warning: unused variable ‘Timeout’ [-Wunused-variable]
+ 1006 |     struct timespec Timeout;
+      |                     ^~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::Add_by_range(KD_TREE<PointType>::KD_TREE_NODE**, BoxPointType, bool) [with PointType = pcl::PointXYZINormal]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:946:21: warning: unused variable ‘Timeout’ [-Wunused-variable]
+  946 |     struct timespec Timeout;
+      |                     ^~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::Search(KD_TREE<PointType>::KD_TREE_NODE*, int, PointType, KD_TREE<PointType>::MANUAL_HEAP&, float) [with PointType = pcl::PointXYZINormal]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1097:63: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+ 1097 |     if (q.size() < k_nearest || dist_left_node < q.top().dist && dist_right_node < q.top().dist)
+      |                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1094:9: warning: unused variable ‘cur_search_counter’ [-Wunused-variable]
+ 1094 |     int cur_search_counter;
+      |         ^~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘int KD_TREE<PointType>::Add_Points(KD_TREE<PointType>::PointVector&, bool) [with PointType = pcl::PointXYZINormal; KD_TREE<PointType>::PointVector = std::vector<pcl::PointXYZINormal, Eigen::aligned_allocator<pcl::PointXYZINormal> >]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:485:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pcl::PointXYZINormal, Eigen::aligned_allocator<pcl::PointXYZINormal> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  485 |     for (int i = 0; i < PointToAdd.size(); i++)
+      |                     ~~^~~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:502:39: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pcl::PointXYZINormal, Eigen::aligned_allocator<pcl::PointXYZINormal> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  502 |             for (int index = 0; index < Downsample_Storage.size(); index++)
+      |                                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:478:9: warning: unused variable ‘NewPointSize’ [-Wunused-variable]
+  478 |     int NewPointSize = PointToAdd.size();
+      |         ^~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:479:9: warning: unused variable ‘tree_size’ [-Wunused-variable]
+  479 |     int tree_size = size();
+      |         ^~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::Add_Point_Boxes(std::vector<BoxPointType>&) [with PointType = pcl::PointXYZINormal]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:576:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<BoxPointType>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  576 |     for (int i = 0; i < BoxPoints.size(); i++)
+      |                     ~~^~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::Delete_Points(KD_TREE<PointType>::PointVector&) [with PointType = pcl::PointXYZINormal; KD_TREE<PointType>::PointVector = std::vector<pcl::PointXYZINormal, Eigen::aligned_allocator<pcl::PointXYZINormal> >]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:604:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pcl::PointXYZINormal, Eigen::aligned_allocator<pcl::PointXYZINormal> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  604 |     for (int i = 0; i < PointToDel.size(); i++)
+      |                     ~~^~~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘int KD_TREE<PointType>::Delete_Point_Boxes(std::vector<BoxPointType>&) [with PointType = pcl::PointXYZINormal]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:633:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<BoxPointType>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  633 |     for (int i = 0; i < BoxPoints.size(); i++)
+      |                     ~~^~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp: In instantiation of ‘void KD_TREE<PointType>::acquire_removed_points(KD_TREE<PointType>::PointVector&) [with PointType = pcl::PointXYZINormal; KD_TREE<PointType>::PointVector = std::vector<pcl::PointXYZINormal, Eigen::aligned_allocator<pcl::PointXYZINormal> >]’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:1732:16:   required from here
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:662:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pcl::PointXYZINormal, Eigen::aligned_allocator<pcl::PointXYZINormal> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  662 |     for (int i = 0; i < Points_deleted.size(); i++)
+      |                     ~~^~~~~~~~~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2/src/map_builder/ikd_Tree.cpp:666:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pcl::PointXYZINormal, Eigen::aligned_allocator<pcl::PointXYZINormal> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  666 |     for (int i = 0; i < Multithread_Points_deleted.size(); i++)
+      |                     ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

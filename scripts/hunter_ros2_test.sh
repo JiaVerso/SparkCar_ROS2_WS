@@ -13,6 +13,9 @@ ODOM_FRAME=${ODOM_FRAME:-odom}
 BASE_FRAME=${BASE_FRAME:-body}
 ODOM_TOPIC=${ODOM_TOPIC:-odom}
 USE_RVIZ=${USE_RVIZ:-true}
+LIVOX_LAUNCH=${LIVOX_LAUNCH:-$WS/SparkCar_Perception/src/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py}
+LOCALIZER_LAUNCH=${LOCALIZER_LAUNCH:-$WS/SparkCar_Perception/src/FASTLIO2_ROS2/localizer/launch/localizer_launch.py}
+TF_WAIT_TIMEOUT=${TF_WAIT_TIMEOUT:-45}
 
 # Set SETUP_CAN=0 to skip CAN setup when can0 is already up.
 SETUP_CAN=${SETUP_CAN:-1}
@@ -47,10 +50,43 @@ start_bg()
   echo "$name PID: $pid"
 }
 
+wait_for_tf()
+{
+  local target_frame="$1"
+  local source_frame="$2"
+  local timeout_sec="$3"
+  local start_time
+  local now
+  local tmp_file
+
+  start_time=$(date +%s)
+  tmp_file=$(mktemp /tmp/hunter_tf_wait.XXXXXX)
+
+  echo
+  echo "Waiting for TF $target_frame -> $source_frame..."
+  while true; do
+    timeout 2 ros2 run tf2_ros tf2_echo "$target_frame" "$source_frame" > "$tmp_file" 2>&1 || true
+    if grep -q "Translation:" "$tmp_file"; then
+      echo "TF $target_frame -> $source_frame is available."
+      return 0
+    fi
+
+    now=$(date +%s)
+    if (( now - start_time >= timeout_sec )); then
+      echo "Timed out waiting for TF $target_frame -> $source_frame."
+      echo "Last TF error:"
+      tail -n 5 "$tmp_file" || true
+      return 1
+    fi
+    sleep 1
+  done
+}
+
 trap cleanup EXIT INT TERM
 
 source /opt/ros/humble/setup.bash
 source "$WS/HunterSE_Driver/install/setup.bash"
+source "$WS/SparkCar_Perception/install/setup.bash"
 source "$WS/SparkCar_Navigation/install/setup.bash"
 
 if [[ "$SETUP_CAN" == "1" ]]; then
@@ -76,6 +112,24 @@ start_bg "Hunter base driver" \
     odom_topic_name:="$ODOM_TOPIC"
 
 sleep 3
+
+start_bg "Livox MID360" \
+  ros2 launch "$LIVOX_LAUNCH"
+
+sleep 5
+
+start_bg "Fast-LIO2 localizer" \
+  ros2 launch "$LOCALIZER_LAUNCH" \
+    use_rviz:=false
+
+sleep 3
+
+wait_for_tf map "$BASE_FRAME" "$TF_WAIT_TIMEOUT"
+
+start_bg "Nav2 obstacle cloud filter" \
+  ros2 run sparkcar_nav_bringup obstacle_cloud_filter
+
+sleep 1
 
 start_bg "Nav2 bringup" \
   ros2 launch sparkcar_nav_bringup nav_bringup.launch.py \

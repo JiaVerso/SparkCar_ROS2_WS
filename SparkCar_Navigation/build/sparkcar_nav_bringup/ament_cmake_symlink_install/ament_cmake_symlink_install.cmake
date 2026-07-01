@@ -315,11 +315,11 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "twist_to_ackermann" "DESTINATION" "lib/sparkcar_nav_bringup")
+# install("TARGETS" "twist_to_ackermann" "obstacle_cloud_filter" "DESTINATION" "lib/sparkcar_nav_bringup")
 include("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(DIRECTORY "launch" "config" "maps" "rviz" "DESTINATION" "share/sparkcar_nav_bringup")
-ament_cmake_symlink_install_directory("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup" DIRECTORY "launch" "config" "maps" "rviz" "DESTINATION" "share/sparkcar_nav_bringup")
+# install(DIRECTORY "launch" "behavior_trees" "config" "maps" "rviz" "DESTINATION" "share/sparkcar_nav_bringup")
+ament_cmake_symlink_install_directory("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup" DIRECTORY "launch" "behavior_trees" "config" "maps" "rviz" "DESTINATION" "share/sparkcar_nav_bringup")
 
 # install(FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/sparkcar_nav_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup" FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/sparkcar_nav_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

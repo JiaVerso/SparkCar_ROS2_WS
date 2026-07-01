@@ -1,0 +1,91 @@
+[0.011s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_base': AMENT_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk:/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk/share /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_base -- -j8 -l8
+[0.053s] Consolidate compiler generated dependencies of target hunter_base_node
+[0.067s] [ 25%] Building CXX object CMakeFiles/hunter_base_node.dir/src/hunter_base_ros.cpp.o
+[2.273s] In file included from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/Recorder.h:25,
+[2.273s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/Ascent.h:17,
+[2.273s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/include/hunter_base/hunter_messenger.hpp:24,
+[2.273s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/src/hunter_base_ros.cpp:12:
+[2.274s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/containers/stack.h:54:7: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[2.274s]    54 |       const pointer operator->() const noexcept
+[2.274s]       |       ^~~~~
+[2.274s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/containers/stack.h:113:7: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[2.274s]   113 |       const pointer operator->() const
+[2.274s]       |       ^~~~~
+[2.276s] In file included from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/integrators/RK2.h:17,
+[2.277s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/Ascent.h:26,
+[2.277s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/include/hunter_base/hunter_messenger.hpp:24,
+[2.277s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/src/hunter_base_ros.cpp:12:
+[2.277s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/Utility.h:25:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[2.277s]    25 |    constexpr const value_t cx(long double v) { return static_cast<value_t>(v); }
+[2.277s]       |              ^~~~~
+[2.277s] /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent/Utility.h:26:14: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[2.277s]    26 |    constexpr const value_t operator"" _v(long double v) { return static_cast<value_t>(v); }
+[2.277s]       |              ^~~~~
+[8.465s] [ 50%] Linking CXX executable hunter_base_node
+[8.910s] [100%] Built target hunter_base_node
+[8.918s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_base' returned '0': AMENT_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk:/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk/share /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_base -- -j8 -l8
+[8.926s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_base': AMENT_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk:/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk/share /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_base
+[8.931s] -- Install configuration: ""
+[8.931s] -- Execute custom install script
+[8.931s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/ascent/cmake/ascentConfig.cmake
+[8.931s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/ascent/cmake/ascentConfigVersion.cmake
+[8.932s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/Ascent.h
+[8.932s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/ChaiEngine.h
+[8.933s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/Param.h
+[8.933s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/ParamV.h
+[8.933s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/Recorder.h
+[8.933s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/System.h
+[8.933s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/Utility.h
+[8.933s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/Vector.h
+[8.933s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/algorithms/Derivative.h
+[8.933s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/containers/stack.h
+[8.934s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/direct/State.h
+[8.934s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/DOPRI45.h
+[8.934s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/Euler.h
+[8.934s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/Midpoint.h
+[8.934s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/PC233.h
+[8.934s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/RK2.h
+[8.935s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/RK4.h
+[8.935s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/RKMM.h
+[8.935s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators/RTAM4.h
+[8.935s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_direct/Euler.h
+[8.935s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_direct/RK4.h
+[8.935s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/DOPRI45.h
+[8.935s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/Euler.h
+[8.935s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/Heun.h
+[8.935s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/Midpoint.h
+[8.935s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/ModularIntegrators.h
+[8.935s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/NCRK4.h
+[8.936s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/PC233.h
+[8.936s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/RK2.h
+[8.936s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/RK3.h
+[8.936s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/RK4.h
+[8.936s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/RTAM2.h
+[8.936s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/RTAM3.h
+[8.936s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/integrators_modular/RTAM4.h
+[8.936s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/modular/Link.h
+[8.936s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/modular/Module.h
+[8.937s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/threading/Pool.h
+[8.937s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/threading/Queue.h
+[8.937s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/timing/Sampler.h
+[8.937s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/timing/TimeAdvanced.h
+[8.937s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/include/ascent/timing/Timing.h
+[8.937s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/lib/hunter_base/hunter_base_node
+[8.937s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base//launch/hunter_base.launch.py
+[8.937s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/ament_index/resource_index/package_run_dependencies/hunter_base
+[8.937s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/ament_index/resource_index/parent_prefix_path/hunter_base
+[8.937s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/environment/ament_prefix_path.sh
+[8.937s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/environment/ament_prefix_path.dsv
+[8.937s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/environment/path.sh
+[8.937s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/environment/path.dsv
+[8.937s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/local_setup.bash
+[8.938s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/local_setup.sh
+[8.938s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/local_setup.zsh
+[8.938s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/local_setup.dsv
+[8.938s] -- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/package.dsv
+[8.944s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/ament_index/resource_index/packages/hunter_base
+[8.944s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/cmake/hunter_baseConfig.cmake
+[8.944s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/cmake/hunter_baseConfig-version.cmake
+[8.944s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/hunter_base/package.xml
+[8.945s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_base/share/ascent/cmake/ascentTargets.cmake
+[8.946s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_base' returned '0': AMENT_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk:/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/hunter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/ugv_sdk/share /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_base

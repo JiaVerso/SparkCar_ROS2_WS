@@ -58,14 +58,3 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ascent/cmake" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_base/ascent/CMakeFiles/Export/share/ascent/cmake/ascentTargets.cmake")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ascent/cmake" TYPE FILE FILES
-    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_base/ascent/ascentConfig.cmake"
-    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/build/hunter_base/ascent/ascentConfigVersion.cmake"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/src/hunter_ros2/hunter_base/ascent/include/ascent")
-endif()
-

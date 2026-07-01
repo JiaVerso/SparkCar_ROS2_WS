@@ -1,1 +1,1 @@
-ackermann_msgs:geometry_msgs:nav2_bringup:nav2_bt_navigator:nav2_controller:nav2_lifecycle_manager:nav2_map_server:nav2_planner:nav2_smoother:rclcpp:rviz2:tf2_ros
+ackermann_msgs:geometry_msgs:nav2_bringup:nav2_bt_navigator:nav2_controller:nav2_lifecycle_manager:nav2_map_server:nav2_planner:nav2_smoother:rclcpp:rviz2:sensor_msgs:tf2_ros
