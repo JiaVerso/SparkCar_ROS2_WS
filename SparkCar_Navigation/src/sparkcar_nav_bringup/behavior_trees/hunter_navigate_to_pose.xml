@@ -1,4 +1,4 @@
-<!-- Ackermann-friendly Nav2 tree: no spin or backup recovery actions. -->
+<!-- Ackermann-friendly Nav2 tree: no spin recovery action. -->
 <root main_tree_to_execute="MainTree">
   <BehaviorTree ID="MainTree">
     <RecoveryNode number_of_retries="6" name="NavigateRecovery">
@@ -21,7 +21,7 @@
             <ClearEntireCostmap name="ClearLocalCostmap-Subtree" service_name="local_costmap/clear_entirely_local_costmap"/>
             <ClearEntireCostmap name="ClearGlobalCostmap-Subtree" service_name="global_costmap/clear_entirely_global_costmap"/>
           </Sequence>
-          <Wait wait_duration="3"/>
+          <BackUp backup_dist="0.50" backup_speed="0.10"/>
         </RoundRobin>
       </ReactiveFallback>
     </RecoveryNode>

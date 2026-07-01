@@ -16,14 +16,14 @@ public:
     input_topic_ = declare_parameter<std::string>("input_topic", "/fastlio2/body_cloud");
     output_topic_ = declare_parameter<std::string>("output_topic", "/nav2/obstacle_cloud");
 
-    min_x_ = declare_parameter<double>("min_x", 0.55);
-    max_x_ = declare_parameter<double>("max_x", 1.8);
+    min_x_ = declare_parameter<double>("min_x", 0.30);
+    max_x_ = declare_parameter<double>("max_x", 2.0);
     min_abs_y_ = declare_parameter<double>("min_abs_y", 0.0);
     max_abs_y_ = declare_parameter<double>("max_abs_y", 0.50);
     min_z_ = declare_parameter<double>("min_z", 0.35);
     max_z_ = declare_parameter<double>("max_z", 1.0);
-    min_range_ = declare_parameter<double>("min_range", 0.55);
-    max_range_ = declare_parameter<double>("max_range", 1.9);
+    min_range_ = declare_parameter<double>("min_range", 0.30);
+    max_range_ = declare_parameter<double>("max_range", 2.0);
 
     pub_ = create_publisher<sensor_msgs::msg::PointCloud2>(output_topic_, 10);
     sub_ = create_subscription<sensor_msgs::msg::PointCloud2>(

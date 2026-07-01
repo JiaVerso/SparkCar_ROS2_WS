@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Release-f92772ee1f2368f14db8.json",
+					"jsonFile" : "directory-.-Release-35eebabe15d58d78f739.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "pgo_node::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-pgo_node-Release-8987d9e6eaf77b78ef07.json",
+					"jsonFile" : "target-pgo_node-Release-634c1c30d84f783254a1.json",
 					"name" : "pgo_node",
 					"projectIndex" : 0
 				},
