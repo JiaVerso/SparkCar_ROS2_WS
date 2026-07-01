@@ -4,6 +4,25 @@ SparkCar ROS 2 workspace for the SparkCar robot platform. This repository groups
 
 The README style follows the lightweight structure commonly used by AgileX/Hunter ROS repositories: packages, communication setup, build, launch, and safety notes.
 
+## Contents
+
+- [Packages](#packages)
+- [Environment](#environment)
+- [CAN Interface Setup](#can-interface-setup)
+- [Build](#build)
+- [Basic Usage](#basic-usage)
+- [Start Hunter SE Chassis](#start-hunter-se-chassis)
+- [Start Livox MID360](#start-livox-mid360)
+- [PGO Mapping And Save PCD](#pgo-mapping-and-save-pcd)
+- [Convert PCD To PGM For Nav2](#convert-pcd-to-pgm-for-nav2)
+- [Start FAST-LIO2 Localizer And Nav2](#start-fast-lio2-localizer-and-nav2)
+- [Nav2 Velocity Output](#nav2-velocity-output)
+- [Twist To Ackermann Converter](#twist-to-ackermann-converter)
+- [Hybrid A* Demo](#hybrid-a-demo)
+- [Useful Topics And Checks](#useful-topics-and-checks)
+- [Safety Notes](#safety-notes)
+- [License](#license)
+
 ## Packages
 
 ```text
@@ -93,7 +112,7 @@ This repository is organized as several ROS 2 workspaces. Build each workspace f
 Build Hunter SE driver:
 
 ```bash
-cd ~/SparkCar_ROS2_WS/HunterSE_Driver
+cd /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver
 source /opt/ros/humble/setup.bash
 colcon build --symlink-install
 ```
@@ -101,7 +120,7 @@ colcon build --symlink-install
 Build navigation packages:
 
 ```bash
-cd ~/SparkCar_ROS2_WS/SparkCar_Navigation
+cd /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation
 source /opt/ros/humble/setup.bash
 colcon build --symlink-install
 ```
@@ -109,11 +128,11 @@ colcon build --symlink-install
 If perception/tools source packages are present on the target machine, build them the same way:
 
 ```bash
-cd ~/SparkCar_ROS2_WS/SparkCar_Perception
+cd /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception
 source /opt/ros/humble/setup.bash
 colcon build --symlink-install
 
-cd ~/SparkCar_ROS2_WS/SparkCar_Tools
+cd /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools
 source /opt/ros/humble/setup.bash
 colcon build --symlink-install
 ```
@@ -122,10 +141,10 @@ Source installed workspaces after build:
 
 ```bash
 source /opt/ros/humble/setup.bash
-source ~/SparkCar_ROS2_WS/HunterSE_Driver/install/setup.bash
-source ~/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.bash
-source ~/SparkCar_ROS2_WS/SparkCar_Tools/install/setup.bash
-source ~/SparkCar_ROS2_WS/SparkCar_Navigation/install/setup.bash
+source /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/setup.bash
+source /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.bash
+source /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/setup.bash
+source /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/setup.bash
 ```
 
 ## Basic Usage
@@ -134,7 +153,7 @@ source ~/SparkCar_ROS2_WS/SparkCar_Navigation/install/setup.bash
 
 ```bash
 source /opt/ros/humble/setup.bash
-source ~/SparkCar_ROS2_WS/HunterSE_Driver/install/setup.bash
+source /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/setup.bash
 
 ros2 launch hunter_base hunter_base.launch.py port_name:=can0 robot_model:=hunter_se
 ```
@@ -165,11 +184,11 @@ ros2 topic pub /cmd_vel geometry_msgs/msg/Twist \
 
 ### Start Livox MID360
 
-The helper scripts expect the installed Livox launch file:
+Start the Livox MID360 driver before mapping or localization:
 
 ```bash
 source /opt/ros/humble/setup.bash
-source ~/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.bash
+source /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.bash
 
 ros2 launch livox_ros_driver2 msg_MID360_launch.py
 ```
@@ -181,12 +200,17 @@ ros2 topic hz /livox/lidar
 ros2 topic hz /livox/imu
 ```
 
-### Mapping With PGO
+Expected raw sensor topics:
+
+- `/livox/lidar`
+- `/livox/imu`
+
+### PGO Mapping And Save PCD
 
 Run the mapping helper:
 
 ```bash
-cd ~/SparkCar_ROS2_WS
+cd /home/jiaverso/Desktop/SparkCar_ROS2_WS
 bash scripts/ControlCommand.sh
 ```
 
@@ -194,11 +218,35 @@ Manual mapping sequence:
 
 ```bash
 source /opt/ros/humble/setup.bash
-source ~/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.bash
-source ~/SparkCar_ROS2_WS/SparkCar_Tools/install/setup.bash
+source /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.bash
+source /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/setup.bash
 
+# Terminal 1: start lidar
 ros2 launch livox_ros_driver2 msg_MID360_launch.py
+
+# Terminal 2: start PGO mapping
 ros2 launch pgo pgo_launch.py
+```
+
+`pgo_launch.py` starts both FAST-LIO2 and the PGO node:
+
+```text
+livox_ros_driver2 -> /livox/lidar, /livox/imu
+FAST-LIO2         -> /fastlio2/lio_odom, /fastlio2/body_cloud
+PGO              -> optimized map and /pgo/save_maps service
+```
+
+Optional rosbag recording during mapping:
+
+```bash
+mkdir -p ~/Desktop/bags
+
+ros2 bag record \
+  /livox/lidar \
+  /livox/imu \
+  /fastlio2/lio_odom \
+  /fastlio2/body_cloud \
+  -o ~/Desktop/bags/mapping_001
 ```
 
 Save PGO map:
@@ -209,27 +257,89 @@ ros2 service call /pgo/save_maps interface/srv/SaveMaps \
   "{file_path: '$HOME/Desktop/Save_Map', save_patches: true}"
 ```
 
-Convert PCD map to occupancy grid map:
+The PGO service saves the merged map as:
 
-```bash
-ros2 launch pcd2pgm pcd2pgm_launch.py
-ros2 run nav2_map_server map_saver_cli -f ~/Desktop/Save_Map/nav2_map
+```text
+~/Desktop/Save_Map/map.pcd
 ```
 
-The installed `pcd2pgm` default parameters use:
+If the navigation workflow expects `main.pcd`, copy or rename it:
 
-- `pcd_file`: `/home/jiaverso/Desktop/Save_Map/map.pcd`
-- `map_resolution`: `0.05`
-- `map_topic_name`: `map`
+```bash
+cp ~/Desktop/Save_Map/map.pcd ~/Desktop/Save_Map/main.pcd
+```
 
-Update `pcd2pgm.yaml` or pass a custom `params_file` if your map path is different.
+If `save_patches: true` is used, PGO also saves patch files under:
 
-### Start Localization And Nav2
+```text
+~/Desktop/Save_Map/patches/
+```
+
+### Convert PCD To PGM For Nav2
+
+`pcd2pgm` converts a `.pcd` point cloud map into a 2D occupancy grid and publishes it on `/map`. Then `map_saver_cli` saves the Nav2 `.pgm` and `.yaml` map files.
+
+The default `pcd2pgm` config currently reads:
+
+```text
+~/Desktop/Save_Map/map.pcd
+```
+
+If you copied the map to `main.pcd`, update:
+
+```text
+SparkCar_Tools/src/pcd2pgm/config/pcd2pgm.yaml
+```
+
+Set:
+
+```yaml
+pcd2pgm:
+  ros__parameters:
+    pcd_file: /home/jiaverso/Desktop/Save_Map/main.pcd
+```
+
+Rebuild or use the installed config that matches your runtime environment. Then run:
+
+```bash
+source /opt/ros/humble/setup.bash
+source /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/setup.bash
+
+ros2 launch pcd2pgm pcd2pgm_launch.py \
+  params_file:=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/pcd2pgm/config/pcd2pgm.yaml
+```
+
+In another terminal, save the published `/map` as `main.pgm` and `main.yaml`:
+
+```bash
+source /opt/ros/humble/setup.bash
+mkdir -p /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup/maps
+
+ros2 run nav2_map_server map_saver_cli \
+  -f /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup/maps/main
+```
+
+This creates:
+
+```text
+SparkCar_Navigation/src/sparkcar_nav_bringup/maps/main.pgm
+SparkCar_Navigation/src/sparkcar_nav_bringup/maps/main.yaml
+```
+
+Confirm that `main.yaml` points to `main.pgm`:
+
+```yaml
+image: main.pgm
+resolution: 0.05
+origin: [...]
+```
+
+### Start FAST-LIO2 Localizer And Nav2
 
 Run the navigation helper:
 
 ```bash
-cd ~/SparkCar_ROS2_WS
+cd /home/jiaverso/Desktop/SparkCar_ROS2_WS
 bash scripts/nav2_test.sh
 ```
 
@@ -237,14 +347,39 @@ Manual navigation sequence:
 
 ```bash
 source /opt/ros/humble/setup.bash
-source ~/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.bash
-source ~/SparkCar_ROS2_WS/SparkCar_Tools/install/setup.bash
-source ~/SparkCar_ROS2_WS/SparkCar_Navigation/install/setup.bash
+source /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.bash
+source /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/setup.bash
+source /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/setup.bash
 
+# Terminal 1: start Livox MID360
 ros2 launch livox_ros_driver2 msg_MID360_launch.py
+
+# Terminal 2: start FAST-LIO2 localizer
 ros2 launch localizer localizer_launch.py
+
+# Terminal 3: start Nav2
 ros2 launch sparkcar_nav_bringup nav_bringup.launch.py
-ros2 run sparkcar_nav_bringup twist_to_ackermann
+```
+
+`localizer_launch.py` starts:
+
+```text
+fastlio2/lio_node
+localizer/localizer_node
+localizer RViz
+```
+
+`nav_bringup.launch.py` starts:
+
+```text
+map_server
+planner_server
+controller_server
+smoother_server
+behavior_server
+bt_navigator
+lifecycle_manager_navigation
+rviz2
 ```
 
 If needed, start Micro XRCE-DDS Agent:
@@ -253,13 +388,34 @@ If needed, start Micro XRCE-DDS Agent:
 sudo MicroXRCEAgent serial --dev /dev/ttyUSB1 -b 115200 -v 6
 ```
 
-`sparkcar_nav_bringup` starts map server, planner server, controller server, smoother server, behavior server, BT navigator, lifecycle manager, and RViz by default.
-
 Disable RViz:
 
 ```bash
 ros2 launch sparkcar_nav_bringup nav_bringup.launch.py use_rviz:=false
 ```
+
+### Nav2 Velocity Output
+
+Nav2 computes velocity commands from the planned path and publishes:
+
+```text
+/cmd_vel
+```
+
+Check output:
+
+```bash
+ros2 topic echo /cmd_vel
+ros2 topic hz /cmd_vel
+```
+
+If using the Hunter SE ROS2 driver directly, `hunter_base` subscribes to `/cmd_vel`, so the control chain is:
+
+```text
+Nav2 controller_server -> /cmd_vel -> hunter_base -> CAN -> Hunter SE
+```
+
+In this case, do not run `twist_to_ackermann` unless a separate lower-level controller is explicitly subscribing to `/ackermann_cmd`.
 
 ### Twist To Ackermann Converter
 
@@ -268,6 +424,8 @@ The converter subscribes to `/cmd_vel` and publishes `/ackermann_cmd`.
 ```bash
 ros2 run sparkcar_nav_bringup twist_to_ackermann
 ```
+
+Use this only when the lower-level controller expects `ackermann_msgs/msg/AckermannDrive` on `/ackermann_cmd`.
 
 Parameters:
 
@@ -281,7 +439,7 @@ Parameters:
 
 ```bash
 source /opt/ros/humble/setup.bash
-source ~/SparkCar_ROS2_WS/SparkCar_Navigation/install/setup.bash
+source /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/setup.bash
 
 ros2 launch hybrid_astar_planner hybrid_astar_test.py
 ```
