@@ -55,9 +55,8 @@ kill -INT $BAG_PID
 sleep 3
 
 echo
-echo "Map saved to: $MAP_DIR"
+echo "Map saved to: $MAP_DIR/main.pcd"
 echo "Bag saved to: $BAG_DIR"
 echo
 echo "Press Ctrl+C to stop radar and mapping."
 wait $MAPPING_PID
-
