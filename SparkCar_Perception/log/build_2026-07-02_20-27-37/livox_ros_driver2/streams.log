@@ -1,0 +1,26 @@
+[0.012s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/livox_ros_driver2 -- -j8 -l8
+[0.056s] [  6%] Built target livox_interfaces2__rosidl_generator_c
+[0.058s] [  8%] Built target livox_interfaces2__cpp
+[0.063s] [ 10%] Built target livox_interfaces2__rs
+[0.063s] [ 13%] Built target livox_ros_driver2_node
+[0.068s] [ 13%] Built target ament_cmake_python_copy_livox_ros_driver2
+[0.081s] [ 22%] Built target livox_interfaces2__rosidl_typesupport_c
+[0.081s] [ 27%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[0.085s] [ 34%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[0.085s] [ 41%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[0.088s] [ 48%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[0.089s] [ 55%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[0.105s] [ 55%] Built target livox_interfaces2
+[0.121s] [ 56%] Built target livox_interfaces2__py
+[0.124s] [ 84%] Built target livox_ros_driver2
+[0.137s] [ 89%] Built target livox_interfaces2__rosidl_generator_py
+[0.155s] [ 93%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[0.155s] [ 96%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[0.165s] [100%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[0.276s] running egg_info
+[0.276s] writing livox_ros_driver2.egg-info/PKG-INFO
+[0.276s] writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+[0.277s] writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+[0.278s] reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[0.279s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[0.301s] [100%] Built target ament_cmake_python_build_livox_ros_driver2_egg

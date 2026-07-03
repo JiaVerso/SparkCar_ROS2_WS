@@ -39,9 +39,10 @@ SparkCar_ROS2_WS
 |   +-- src
 |       +-- sparkcar_nav_bringup
 |       |   +-- launch         # Nav2 launch files
+|       |   +-- behavior_trees # Hunter SE Nav2 behavior trees
 |       |   +-- config         # Nav2 parameters and waypoints
 |       |   +-- maps           # Default map
-|       |   +-- src            # twist_to_ackermann converter
+|       |   +-- src            # twist_to_ackermann and obstacle_cloud_filter nodes
 |       +-- hybrid_astar_planner
 |           +-- launch         # Hybrid A* demo launch
 |           +-- config         # Planner parameters
@@ -50,7 +51,8 @@ SparkCar_ROS2_WS
 |   +-- install/pcd2pgm        # PCD to occupancy grid map conversion tool
 +-- scripts
     +-- ControlCommand.sh      # Mapping helper script
-    +-- nav2_test.sh           # Navigation stack helper script
+    +-- hunter_ros2_test.sh    # Hunter SE Nav2 navigation helper script
+    +-- nav2_test.sh           # Older navigation helper script
     +-- process.md             # Mapping workflow notes
 ```
 
@@ -236,6 +238,16 @@ FAST-LIO2         -> /fastlio2/lio_odom, /fastlio2/body_cloud
 PGO              -> optimized map and /pgo/save_maps service
 ```
 
+Current mapping frames:
+
+```text
+FAST-LIO2 odom frame: lio
+FAST-LIO2 body frame: body
+PGO TF: map -> lio
+Fast-LIO2 odometry topic: /fastlio2/lio_odom
+Fast-LIO2 body cloud topic: /fastlio2/body_cloud
+```
+
 Optional rosbag recording during mapping:
 
 ```bash
@@ -260,14 +272,10 @@ ros2 service call /pgo/save_maps interface/srv/SaveMaps \
 The PGO service saves the merged map as:
 
 ```text
-~/Desktop/Save_Map/map.pcd
+~/Desktop/Save_Map/main.pcd
 ```
 
-If the navigation workflow expects `main.pcd`, copy or rename it:
-
-```bash
-cp ~/Desktop/Save_Map/map.pcd ~/Desktop/Save_Map/main.pcd
-```
+Each save overwrites `main.pcd`, so no extra copy or rename step is needed.
 
 If `save_patches: true` is used, PGO also saves patch files under:
 
@@ -282,16 +290,10 @@ If `save_patches: true` is used, PGO also saves patch files under:
 The default `pcd2pgm` config currently reads:
 
 ```text
-~/Desktop/Save_Map/map.pcd
+~/Desktop/Save_Map/main.pcd
 ```
 
-If you copied the map to `main.pcd`, update:
-
-```text
-SparkCar_Tools/src/pcd2pgm/config/pcd2pgm.yaml
-```
-
-Set:
+The source config is:
 
 ```yaml
 pcd2pgm:
@@ -340,7 +342,7 @@ Run the navigation helper:
 
 ```bash
 cd /home/jiaverso/Desktop/SparkCar_ROS2_WS
-bash scripts/nav2_test.sh
+bash scripts/hunter_ros2_test.sh
 ```
 
 Manual navigation sequence:
@@ -348,16 +350,27 @@ Manual navigation sequence:
 ```bash
 source /opt/ros/humble/setup.bash
 source /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.bash
-source /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/setup.bash
 source /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/setup.bash
+source /home/jiaverso/Desktop/SparkCar_ROS2_WS/HunterSE_Driver/install/setup.bash
 
-# Terminal 1: start Livox MID360
+# Terminal 1: start Hunter SE chassis
+ros2 launch hunter_base hunter_base.launch.py \
+  port_name:=can0 \
+  robot_model:=hunter_se \
+  odom_frame:=odom \
+  base_frame:=body \
+  odom_topic_name:=odom
+
+# Terminal 2: start Livox MID360
 ros2 launch livox_ros_driver2 msg_MID360_launch.py
 
-# Terminal 2: start FAST-LIO2 localizer
-ros2 launch localizer localizer_launch.py
+# Terminal 3: start FAST-LIO2 localizer
+ros2 launch localizer localizer_launch.py use_rviz:=false
 
-# Terminal 3: start Nav2
+# Terminal 4: start Nav2 obstacle cloud filter
+ros2 run sparkcar_nav_bringup obstacle_cloud_filter
+
+# Terminal 5: start Nav2
 ros2 launch sparkcar_nav_bringup nav_bringup.launch.py
 ```
 
@@ -366,7 +379,7 @@ ros2 launch sparkcar_nav_bringup nav_bringup.launch.py
 ```text
 fastlio2/lio_node
 localizer/localizer_node
-localizer RViz
+optional localizer RViz when `use_rviz:=true`
 ```
 
 `nav_bringup.launch.py` starts:
@@ -381,6 +394,19 @@ bt_navigator
 lifecycle_manager_navigation
 rviz2
 ```
+
+Current navigation topic and TF usage:
+
+```text
+Hunter wheel odometry: /odom
+Nav2 odometry input: /odom
+Fast-LIO2 body cloud: /fastlio2/body_cloud
+Filtered obstacle cloud: /nav2/obstacle_cloud
+Nav2 local costmap obstacle input: /nav2/obstacle_cloud
+Expected TF chain: map -> odom -> body
+```
+
+The helper script waits for `map -> body` before starting Nav2. If it times out, check that the Hunter driver is publishing `odom -> body` and the localizer is publishing `map -> odom`.
 
 If needed, start Micro XRCE-DDS Agent:
 
@@ -452,6 +478,8 @@ ros2 topic echo /hunter_status
 ros2 topic echo /odom
 ros2 topic echo /cmd_vel
 ros2 topic echo /ackermann_cmd
+ros2 topic echo /fastlio2/body_cloud
+ros2 topic echo /nav2/obstacle_cloud
 ros2 topic echo /plan
 ros2 lifecycle get /map_server
 ros2 lifecycle get /planner_server

@@ -1,0 +1,372 @@
+[0.010s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/fastlio2_ros2/interface -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface
+[0.116s] -- The C compiler identification is GNU 11.4.0
+[0.162s] -- The CXX compiler identification is GNU 11.4.0
+[0.173s] -- Detecting C compiler ABI info
+[0.235s] -- Detecting C compiler ABI info - done
+[0.240s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.240s] -- Detecting C compile features
+[0.241s] -- Detecting C compile features - done
+[0.245s] -- Detecting CXX compiler ABI info
+[0.310s] -- Detecting CXX compiler ABI info - done
+[0.318s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.318s] -- Detecting CXX compile features
+[0.318s] -- Detecting CXX compile features - done
+[0.334s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.455s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.544s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.589s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.595s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.604s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.619s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.660s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.928s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.256s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.373s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.392s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.394s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.415s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.416s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.416s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.416s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.433s] -- Found PythonExtra: .so  
+[1.576s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.598s] -- Added test 'lint_cmake' to check CMake code style
+[1.600s] -- Added test 'xmllint' to check XML markup files
+[1.602s] -- Configuring done
+[1.638s] -- Generating done
+[1.650s] -- Build files have been written to: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/interface
+[1.657s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/fastlio2_ros2/interface -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface
+[1.658s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/interface -- -j8 -l8
+[1.693s] [  1%] Generating C code for ROS interfaces
+[1.701s] [  3%] Generating C++ code for ROS interfaces
+[1.706s] [  4%] Generating Rust code for ROS interfaces
+[1.711s] [  4%] Built target ament_cmake_python_copy_interface
+[1.911s] running egg_info
+[1.911s] creating interface.egg-info
+[1.911s] writing interface.egg-info/PKG-INFO
+[1.911s] writing dependency_links to interface.egg-info/dependency_links.txt
+[1.911s] writing top-level names to interface.egg-info/top_level.txt
+[1.912s] writing manifest file 'interface.egg-info/SOURCES.txt'
+[1.912s] reading manifest file 'interface.egg-info/SOURCES.txt'
+[1.912s] writing manifest file 'interface.egg-info/SOURCES.txt'
+[1.934s] [  4%] Built target ament_cmake_python_build_interface_egg
+[2.122s] [  4%] Built target interface__rs
+[2.458s] [  6%] Building C object CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/srv/detail/save_maps__functions.c.o
+[2.458s] [  7%] Building C object CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/srv/detail/relocalize__functions.c.o
+[2.464s] [  9%] Building C object CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/srv/detail/is_valid__functions.c.o
+[2.480s] [ 10%] Building C object CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/srv/detail/save_poses__functions.c.o
+[2.481s] [ 12%] Building C object CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/srv/detail/refine_map__functions.c.o
+[2.490s] [ 12%] Built target interface__cpp
+[2.520s] [ 15%] Generating C++ type support dispatch for ROS interfaces
+[2.520s] [ 15%] Generating C++ introspection for ROS interfaces
+[2.520s] [ 17%] Generating C++ type support for eProsima Fast-RTPS
+[2.561s] [ 18%] Linking C shared library libinterface__rosidl_generator_c.so
+[2.605s] [ 18%] Built target interface__rosidl_generator_c
+[2.618s] [ 23%] Generating C introspection for ROS interfaces
+[2.619s] [ 23%] Generating C type support dispatch for ROS interfaces
+[2.619s] [ 23%] Generating C type support for eProsima Fast-RTPS
+[3.051s] [ 25%] Building CXX object CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/srv/save_maps__type_support.cpp.o
+[3.060s] [ 28%] Building CXX object CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/srv/relocalize__type_support.cpp.o
+[3.060s] [ 28%] Building CXX object CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/srv/is_valid__type_support.cpp.o
+[3.326s] [ 29%] Building CXX object CMakeFiles/interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface/srv/detail/save_maps__type_support.cpp.o
+[3.365s] [ 31%] Building C object CMakeFiles/interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface/srv/detail/save_maps__type_support.c.o
+[3.378s] [ 32%] Building C object CMakeFiles/interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface/srv/detail/relocalize__type_support.c.o
+[3.420s] [ 34%] Building C object CMakeFiles/interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface/srv/detail/is_valid__type_support.c.o
+[3.420s] [ 35%] Building CXX object CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/srv/refine_map__type_support.cpp.o
+[3.425s] [ 37%] Building CXX object CMakeFiles/interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface/srv/detail/relocalize__type_support.cpp.o
+[3.468s] [ 39%] Building CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface/srv/detail/save_maps__type_support_c.cpp.o
+[3.470s] [ 40%] Building C object CMakeFiles/interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface/srv/detail/refine_map__type_support.c.o
+[3.487s] [ 42%] Building CXX object CMakeFiles/interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface/srv/detail/is_valid__type_support.cpp.o
+[3.554s] [ 43%] Building C object CMakeFiles/interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface/srv/detail/save_poses__type_support.c.o
+[3.657s] [ 45%] Building CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface/srv/detail/dds_fastrtps/save_maps__type_support.cpp.o
+[3.657s] [ 46%] Linking C shared library libinterface__rosidl_typesupport_introspection_c.so
+[3.732s] [ 46%] Built target interface__rosidl_typesupport_introspection_c
+[3.756s] [ 48%] Building CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface/srv/detail/dds_fastrtps/relocalize__type_support.cpp.o
+[3.833s] [ 50%] Building CXX object CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/srv/save_poses__type_support.cpp.o
+[3.921s] [ 51%] Building CXX object CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/srv/save_maps__type_support.cpp.o
+[3.939s] [ 53%] Building CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface/srv/detail/dds_fastrtps/is_valid__type_support.cpp.o
+[3.994s] [ 54%] Building CXX object CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/srv/relocalize__type_support.cpp.o
+[4.056s] [ 56%] Building CXX object CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/srv/is_valid__type_support.cpp.o
+[4.101s] [ 57%] Building CXX object CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/srv/refine_map__type_support.cpp.o
+[4.125s] [ 59%] Building CXX object CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/srv/save_poses__type_support.cpp.o
+[4.154s] [ 60%] Building CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface/srv/detail/relocalize__type_support_c.cpp.o
+[4.186s] [ 62%] Building CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface/srv/detail/dds_fastrtps/refine_map__type_support.cpp.o
+[4.197s] [ 64%] Building CXX object CMakeFiles/interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface/srv/detail/refine_map__type_support.cpp.o
+[4.209s] [ 65%] Linking CXX shared library libinterface__rosidl_typesupport_c.so
+[4.227s] [ 67%] Linking CXX shared library libinterface__rosidl_typesupport_cpp.so
+[4.246s] [ 68%] Building CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface/srv/detail/is_valid__type_support_c.cpp.o
+[4.274s] [ 68%] Built target interface__rosidl_typesupport_c
+[4.287s] [ 70%] Building CXX object CMakeFiles/interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface/srv/detail/save_poses__type_support.cpp.o
+[4.297s] [ 71%] Building CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface/srv/detail/dds_fastrtps/save_poses__type_support.cpp.o
+[4.335s] [ 71%] Built target interface__rosidl_typesupport_cpp
+[4.359s] [ 73%] Building CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface/srv/detail/refine_map__type_support_c.cpp.o
+[4.583s] [ 75%] Building CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface/srv/detail/save_poses__type_support_c.cpp.o
+[4.927s] [ 76%] Linking CXX shared library libinterface__rosidl_typesupport_fastrtps_cpp.so
+[4.950s] [ 78%] Linking CXX shared library libinterface__rosidl_typesupport_fastrtps_c.so
+[4.995s] [ 78%] Built target interface__rosidl_typesupport_fastrtps_cpp
+[5.023s] [ 78%] Built target interface__rosidl_typesupport_fastrtps_c
+[5.129s] [ 79%] Linking CXX shared library libinterface__rosidl_typesupport_introspection_cpp.so
+[5.182s] [ 79%] Built target interface__rosidl_typesupport_introspection_cpp
+[5.199s] [ 79%] Built target interface
+[5.217s] [ 81%] Generating Python code for ROS interfaces
+[5.937s] [ 81%] Built target interface__py
+[5.955s] [ 82%] Building C object CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_is_valid_s.c.o
+[5.960s] [ 85%] Building C object CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_relocalize_s.c.o
+[5.960s] [ 85%] Building C object CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_save_maps_s.c.o
+[5.960s] [ 87%] Building C object CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_save_poses_s.c.o
+[5.960s] [ 89%] Building C object CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_refine_map_s.c.o
+[6.084s] [ 90%] Linking C shared library rosidl_generator_py/interface/libinterface__rosidl_generator_py.so
+[6.115s] [ 90%] Built target interface__rosidl_generator_py
+[6.131s] [ 93%] Building C object CMakeFiles/interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c.o
+[6.131s] [ 93%] Building C object CMakeFiles/interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[6.131s] [ 95%] Building C object CMakeFiles/interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_c.c.o
+[6.226s] [ 96%] Linking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.226s] [ 98%] Linking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.258s] [ 98%] Built target interface__rosidl_typesupport_fastrtps_c__pyext
+[6.258s] [ 98%] Built target interface__rosidl_typesupport_introspection_c__pyext
+[6.278s] [100%] Linking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.310s] [100%] Built target interface__rosidl_typesupport_c__pyext
+[6.319s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/interface -- -j8 -l8
+[6.320s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/interface
+[6.326s] -- Install configuration: ""
+[6.326s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/ament_index/resource_index/rosidl_interfaces/interface
+[6.326s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface
+[6.327s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv
+[6.327s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail
+[6.327s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/refine_map__struct.h
+[6.327s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/relocalize__type_support.h
+[6.327s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/is_valid__type_support.h
+[6.327s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_poses__functions.h
+[6.327s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/refine_map__functions.h
+[6.327s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_maps__functions.c
+[6.327s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_maps__struct.h
+[6.327s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_maps__functions.h
+[6.327s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/is_valid__functions.c
+[6.328s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/is_valid__struct.h
+[6.328s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_maps__type_support.h
+[6.328s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/relocalize__struct.h
+[6.328s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/is_valid__functions.h
+[6.328s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_poses__struct.h
+[6.328s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/relocalize__functions.h
+[6.328s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/relocalize__functions.c
+[6.328s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/refine_map__type_support.h
+[6.328s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_poses__functions.c
+[6.329s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/refine_map__functions.c
+[6.329s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_poses__type_support.h
+[6.329s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/refine_map.h
+[6.329s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/save_maps.h
+[6.329s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/save_poses.h
+[6.329s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/relocalize.h
+[6.329s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/is_valid.h
+[6.329s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/msg
+[6.330s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/msg/rosidl_generator_c__visibility_control.h
+[6.330s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/environment/library_path.sh
+[6.330s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/environment/library_path.dsv
+[6.330s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib/libinterface__rosidl_generator_c.so
+[6.330s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib/libinterface__rosidl_generator_c.so" to ""
+[6.330s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface
+[6.331s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv
+[6.331s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail
+[6.331s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_poses__rosidl_typesupport_fastrtps_c.h
+[6.331s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/refine_map__rosidl_typesupport_fastrtps_c.h
+[6.331s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/relocalize__rosidl_typesupport_fastrtps_c.h
+[6.331s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/is_valid__rosidl_typesupport_fastrtps_c.h
+[6.331s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_maps__rosidl_typesupport_fastrtps_c.h
+[6.331s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/msg
+[6.331s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.331s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so
+[6.332s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so" to ""
+[6.332s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface
+[6.332s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv
+[6.332s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/is_valid.hpp
+[6.332s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/save_poses.hpp
+[6.332s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/save_maps.hpp
+[6.333s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/refine_map.hpp
+[6.333s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail
+[6.333s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/refine_map__builder.hpp
+[6.333s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_poses__traits.hpp
+[6.333s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_poses__struct.hpp
+[6.333s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_poses__type_support.hpp
+[6.333s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/is_valid__traits.hpp
+[6.334s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/refine_map__type_support.hpp
+[6.334s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/relocalize__builder.hpp
+[6.334s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/is_valid__builder.hpp
+[6.334s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_poses__builder.hpp
+[6.334s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/relocalize__type_support.hpp
+[6.334s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/refine_map__traits.hpp
+[6.334s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_maps__traits.hpp
+[6.334s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/is_valid__struct.hpp
+[6.335s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/refine_map__struct.hpp
+[6.335s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_maps__struct.hpp
+[6.335s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_maps__type_support.hpp
+[6.335s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/relocalize__traits.hpp
+[6.335s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/relocalize__struct.hpp
+[6.335s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/is_valid__type_support.hpp
+[6.335s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_maps__builder.hpp
+[6.335s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/relocalize.hpp
+[6.335s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/msg
+[6.336s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.336s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface
+[6.336s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv
+[6.336s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail
+[6.336s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/dds_fastrtps
+[6.336s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/relocalize__rosidl_typesupport_fastrtps_cpp.hpp
+[6.336s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_poses__rosidl_typesupport_fastrtps_cpp.hpp
+[6.336s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_maps__rosidl_typesupport_fastrtps_cpp.hpp
+[6.336s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/is_valid__rosidl_typesupport_fastrtps_cpp.hpp
+[6.337s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/refine_map__rosidl_typesupport_fastrtps_cpp.hpp
+[6.337s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/msg
+[6.337s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.337s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so
+[6.337s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.337s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface
+[6.337s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv
+[6.337s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail
+[6.337s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/refine_map__rosidl_typesupport_introspection_c.h
+[6.337s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/relocalize__rosidl_typesupport_introspection_c.h
+[6.337s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/relocalize__type_support.c
+[6.337s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_poses__rosidl_typesupport_introspection_c.h
+[6.338s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_maps__type_support.c
+[6.338s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/refine_map__type_support.c
+[6.338s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_maps__rosidl_typesupport_introspection_c.h
+[6.338s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/is_valid__rosidl_typesupport_introspection_c.h
+[6.338s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_poses__type_support.c
+[6.338s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/is_valid__type_support.c
+[6.338s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/msg
+[6.338s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.338s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so
+[6.338s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so" to ""
+[6.339s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib/libinterface__rosidl_typesupport_c.so
+[6.339s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib/libinterface__rosidl_typesupport_c.so" to ""
+[6.339s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface
+[6.339s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv
+[6.339s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail
+[6.339s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_poses__type_support.cpp
+[6.339s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/refine_map__type_support.cpp
+[6.339s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_poses__rosidl_typesupport_introspection_cpp.hpp
+[6.339s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_maps__rosidl_typesupport_introspection_cpp.hpp
+[6.340s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/is_valid__rosidl_typesupport_introspection_cpp.hpp
+[6.340s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/relocalize__type_support.cpp
+[6.340s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/is_valid__type_support.cpp
+[6.340s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/save_maps__type_support.cpp
+[6.340s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/relocalize__rosidl_typesupport_introspection_cpp.hpp
+[6.340s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/include/interface/interface/srv/detail/refine_map__rosidl_typesupport_introspection_cpp.hpp
+[6.340s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so
+[6.340s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so" to ""
+[6.340s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib/libinterface__rosidl_typesupport_cpp.so
+[6.340s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib/libinterface__rosidl_typesupport_cpp.so" to ""
+[6.340s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/environment/pythonpath.sh
+[6.340s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/environment/pythonpath.dsv
+[6.340s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info
+[6.340s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/top_level.txt
+[6.340s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.340s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.340s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/PKG-INFO
+[6.341s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface
+[6.341s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/libinterface__rosidl_generator_py.so
+[6.341s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/srv
+[6.341s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/srv/_relocalize.py
+[6.341s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/srv/_save_maps.py
+[6.341s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/srv/_save_poses_s.c
+[6.341s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/srv/_relocalize_s.c
+[6.341s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/srv/__init__.py
+[6.341s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/srv/_save_poses.py
+[6.341s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/srv/_is_valid_s.c
+[6.341s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/srv/_refine_map_s.c
+[6.341s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/srv/_save_maps_s.c
+[6.341s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/srv/_is_valid.py
+[6.341s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/srv/_refine_map.py
+[6.341s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/__init__.py
+[6.341s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.341s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.341s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c
+[6.341s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_c.c
+[6.341s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.341s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.373s] Listing '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface'...
+[6.373s] Compiling '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/__init__.py'...
+[6.373s] Listing '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/srv'...
+[6.373s] Compiling '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/srv/__init__.py'...
+[6.373s] Compiling '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/srv/_is_valid.py'...
+[6.373s] Compiling '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/srv/_refine_map.py'...
+[6.373s] Compiling '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/srv/_relocalize.py'...
+[6.373s] Compiling '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/srv/_save_maps.py'...
+[6.373s] Compiling '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/srv/_save_poses.py'...
+[6.377s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.377s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.377s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.377s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.378s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.378s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.378s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib/libinterface__rosidl_generator_py.so
+[6.378s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib/libinterface__rosidl_generator_py.so" to ""
+[6.378s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/ament_index/resource_index/rust_packages/interface
+[6.379s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/rust
+[6.379s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/rust/Cargo.toml
+[6.379s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/rust/src
+[6.379s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/rust/src/srv
+[6.379s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/rust/src/srv/rmw.rs
+[6.379s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/rust/src/srv.rs
+[6.379s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/rust/src/lib.rs
+[6.379s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/rust/build.rs
+[6.379s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/srv/SaveMaps.idl
+[6.379s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/srv/Relocalize.idl
+[6.380s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/srv/IsValid.idl
+[6.380s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/srv/RefineMap.idl
+[6.380s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/srv/SavePoses.idl
+[6.380s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/srv/SaveMaps.srv
+[6.380s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/srv/SaveMaps_Request.msg
+[6.380s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/srv/SaveMaps_Response.msg
+[6.380s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/srv/Relocalize.srv
+[6.380s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/srv/Relocalize_Request.msg
+[6.380s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/srv/Relocalize_Response.msg
+[6.381s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/srv/IsValid.srv
+[6.381s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/srv/IsValid_Request.msg
+[6.381s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/srv/IsValid_Response.msg
+[6.381s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/srv/RefineMap.srv
+[6.381s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/srv/RefineMap_Request.msg
+[6.381s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/srv/RefineMap_Response.msg
+[6.381s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/srv/SavePoses.srv
+[6.381s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/srv/SavePoses_Request.msg
+[6.381s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/srv/SavePoses_Response.msg
+[6.382s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/ament_index/resource_index/package_run_dependencies/interface
+[6.382s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/ament_index/resource_index/parent_prefix_path/interface
+[6.382s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/environment/ament_prefix_path.sh
+[6.382s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/environment/ament_prefix_path.dsv
+[6.382s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/environment/path.sh
+[6.382s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/environment/path.dsv
+[6.382s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/local_setup.bash
+[6.382s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/local_setup.sh
+[6.382s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/local_setup.zsh
+[6.382s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/local_setup.dsv
+[6.383s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/package.dsv
+[6.383s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/ament_index/resource_index/packages/interface
+[6.383s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport.cmake
+[6.383s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport-noconfig.cmake
+[6.383s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[6.383s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.383s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/export_interface__rosidl_generator_cppExport.cmake
+[6.384s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.384s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.384s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport.cmake
+[6.384s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.384s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport.cmake
+[6.384s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport-noconfig.cmake
+[6.384s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport.cmake
+[6.384s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.385s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport.cmake
+[6.385s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport-noconfig.cmake
+[6.385s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport.cmake
+[6.385s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport-noconfig.cmake
+[6.385s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/rosidl_cmake-extras.cmake
+[6.385s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.385s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.386s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/ament_cmake_export_libraries-extras.cmake
+[6.386s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/ament_cmake_export_targets-extras.cmake
+[6.386s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.386s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.386s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/interfaceConfig.cmake
+[6.386s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake/interfaceConfig-version.cmake
+[6.386s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/package.xml
+[6.389s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/interface

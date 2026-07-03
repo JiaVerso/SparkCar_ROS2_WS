@@ -1,4 +1,4 @@
-# Install script for directory: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/interface
+# Install script for directory: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/fastlio2_ros2/interface
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -384,7 +384,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/srv" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/interface/srv/SaveMaps.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/srv" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/fastlio2_ros2/interface/srv/SaveMaps.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -396,7 +396,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/srv" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/interface/srv/Relocalize.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/srv" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/fastlio2_ros2/interface/srv/Relocalize.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -408,7 +408,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/srv" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/interface/srv/IsValid.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/srv" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/fastlio2_ros2/interface/srv/IsValid.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -420,7 +420,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/srv" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/interface/srv/RefineMap.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/srv" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/fastlio2_ros2/interface/srv/RefineMap.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -432,7 +432,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/srv" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/interface/srv/SavePoses.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/srv" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/fastlio2_ros2/interface/srv/SavePoses.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -695,7 +695,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/interface/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface" TYPE FILE FILES "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/fastlio2_ros2/interface/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

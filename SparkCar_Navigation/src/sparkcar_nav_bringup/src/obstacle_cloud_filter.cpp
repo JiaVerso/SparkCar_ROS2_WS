@@ -1,11 +1,11 @@
-#include <cmath>
-#include <limits>
-#include <string>
-#include <vector>
+#include <cmath>     // 提供数学函数，如计算距离的 std::hypot 和绝对值 std::abs
+#include <limits>    // 提供数值极限，这里用于配合 std::isfinite 检查无效数字(NaN)
+#include <string>    // 字符串类
+#include <vector>    // 动态数组容器
 
-#include "rclcpp/rclcpp.hpp"
-#include "sensor_msgs/msg/point_cloud2.hpp"
-#include "sensor_msgs/point_cloud2_iterator.hpp"
+#include "rclcpp/rclcpp.hpp"                        // ROS2 C++ 核心库
+#include "sensor_msgs/msg/point_cloud2.hpp"         // ROS2 标准的点云消息接口
+#include "sensor_msgs/point_cloud2_iterator.hpp"    // 极其高效的点云数据迭代器库 (避免了引入庞大的 PCL 库)
 
 class ObstacleCloudFilter : public rclcpp::Node
 {
@@ -13,6 +13,7 @@ public:
   ObstacleCloudFilter()
   : Node("obstacle_cloud_filter")
   {
+    // 声明并获取 ROS2 参数
     input_topic_ = declare_parameter<std::string>("input_topic", "/fastlio2/body_cloud");
     output_topic_ = declare_parameter<std::string>("output_topic", "/nav2/obstacle_cloud");
 
@@ -31,6 +32,7 @@ public:
       rclcpp::SensorDataQoS(),
       std::bind(&ObstacleCloudFilter::cloudCallback, this, std::placeholders::_1));
 
+    // 打印初始化信息
     RCLCPP_INFO(
       get_logger(),
       "obstacle_cloud_filter: %s -> %s",
@@ -39,9 +41,11 @@ public:
   }
 
 private:
+  // 点云处理回调函数 
   void cloudCallback(const sensor_msgs::msg::PointCloud2::SharedPtr msg)
   {
     sensor_msgs::msg::PointCloud2 out;
+    
     out.header = msg->header;
     out.height = 1;
     out.is_bigendian = msg->is_bigendian;

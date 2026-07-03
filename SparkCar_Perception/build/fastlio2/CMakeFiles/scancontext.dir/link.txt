@@ -1,0 +1,2 @@
+/usr/bin/ar qc libscancontext.a CMakeFiles/scancontext.dir/include/sc-relo/Scancontext.cpp.o
+/usr/bin/ranlib libscancontext.a

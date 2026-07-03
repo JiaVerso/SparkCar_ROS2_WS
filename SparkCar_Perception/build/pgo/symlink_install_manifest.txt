@@ -1,4 +1,5 @@
 /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/lib/pgo/pgo_node
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/launch/__pycache__/pgo_launch.cpython-310.pyc
 /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/launch/pgo_launch.py
 /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/config/pgo.yaml
 /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/rviz/pgo.rviz

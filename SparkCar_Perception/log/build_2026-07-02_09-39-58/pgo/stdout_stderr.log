@@ -1,0 +1,25 @@
+Consolidate compiler generated dependencies of target pgo_node
+[ 25%] Building CXX object CMakeFiles/pgo_node.dir/src/pgo_node.cpp.o
+[ 50%] Linking CXX executable pgo_node
+[100%] Built target pgo_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/lib/pgo/pgo_node
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/launch/pgo_launch.py
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/config/pgo.yaml
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/rviz/pgo.rviz
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/ament_index/resource_index/package_run_dependencies/pgo
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/ament_index/resource_index/parent_prefix_path/pgo
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/environment/path.sh
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/environment/path.dsv
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/local_setup.bash
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/local_setup.sh
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/local_setup.zsh
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/local_setup.dsv
+-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/package.dsv
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/ament_index/resource_index/packages/pgo
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/cmake/pgoConfig.cmake
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/cmake/pgoConfig-version.cmake
+-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/package.xml

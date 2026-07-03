@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -36,6 +36,8 @@ AMENT_TEST_RESULTS_DIR:PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Per
 
 //Build the testing tree.
 BUILD_TESTING:BOOL=ON
+
+Boost_CHRONO_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.74.0
 
 Boost_DATE_TIME_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.74.0
 
@@ -49,9 +51,17 @@ Boost_INCLUDE_DIR:PATH=/usr/include
 
 Boost_IOSTREAMS_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.74.0
 
+Boost_PROGRAM_OPTIONS_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.74.0
+
+Boost_REGEX_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.74.0
+
 Boost_SERIALIZATION_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_serialization.so.1.74.0
 
 Boost_SYSTEM_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0
+
+Boost_THREAD_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.74.0
+
+Boost_TIMER_LIBRARY_RELEASE:STRING=/usr/lib/x86_64-linux-gnu/libboost_timer.so.1.74.0
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
@@ -248,9 +258,6 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//No help, variable specified on the command line.
-DISTRO_ROS:UNINITIALIZED=humble
-
 //Path to a file.
 EIGEN_INCLUDE_DIR:PATH=/usr/include/eigen3
 
@@ -320,6 +327,9 @@ GLEW_INCLUDE_DIR:PATH=/usr/include
 //glew library
 GLEW_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libGLEW.so
 
+//GTSAM include directory
+GTSAM_INCLUDE_DIR:PATH=/usr/local/lib/cmake/GTSAM/../../../include
+
 //Path to a file.
 JPEG_INCLUDE_DIR:PATH=/usr/include
 
@@ -365,13 +375,13 @@ MPIEXEC_POSTFLAGS:STRING=
 MPIEXEC_PREFLAGS:STRING=
 
 //MPI C additional include directories
-MPI_C_ADDITIONAL_INCLUDE_DIRS:STRING=/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi
+MPI_C_ADDITIONAL_INCLUDE_DIRS:STRING=
 
 //MPI compiler for C
 MPI_C_COMPILER:FILEPATH=/usr/bin/mpicc
 
 //MPI C compiler wrapper include directories
-MPI_C_COMPILER_INCLUDE_DIRS:STRING=/usr/lib/x86_64-linux-gnu/openmpi/include;/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi
+MPI_C_COMPILER_INCLUDE_DIRS:STRING=/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi
 
 //MPI C compilation definitions
 MPI_C_COMPILE_DEFINITIONS:STRING=
@@ -380,13 +390,13 @@ MPI_C_COMPILE_DEFINITIONS:STRING=
 MPI_C_COMPILE_OPTIONS:STRING=
 
 //Path to a file.
-MPI_C_HEADER_DIR:PATH=/usr/lib/x86_64-linux-gnu/openmpi/include
+MPI_C_HEADER_DIR:PATH=MPI_C_HEADER_DIR-NOTFOUND
 
 //MPI C libraries to link against
 MPI_C_LIB_NAMES:STRING=mpi
 
 //MPI C linker flags
-MPI_C_LINK_FLAGS:STRING=-L/usr/lib/x86_64-linux-gnu/openmpi/lib
+MPI_C_LINK_FLAGS:STRING=
 
 //Location of the mpi library for MPI
 MPI_mpi_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libmpi.so
@@ -700,9 +710,6 @@ Qt5Widgets_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets
 //The directory containing a CMake configuration file for Qt5.
 Qt5_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5
 
-//No help, variable specified on the command line.
-ROS_EDITION:UNINITIALIZED=ROS2
-
 //Name of the computer/site where compile is being run
 SITE:STRING=NUC11
 
@@ -971,7 +978,7 @@ ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
 ZLIB_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libz.so
 
 //Path to a library.
-_lib:FILEPATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake
@@ -1069,6 +1076,12 @@ ament_uncrustify_BIN:FILEPATH=/opt/ros/humble/bin/ament_uncrustify
 //Path to a program.
 ament_xmllint_BIN:FILEPATH=/opt/ros/humble/bin/ament_xmllint
 
+//The directory containing a CMake configuration file for boost_atomic.
+boost_atomic_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.74.0
+
+//The directory containing a CMake configuration file for boost_chrono.
+boost_chrono_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_chrono-1.74.0
+
 //The directory containing a CMake configuration file for boost_date_time.
 boost_date_time_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_date_time-1.74.0
 
@@ -1081,11 +1094,23 @@ boost_headers_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.74.0
 //The directory containing a CMake configuration file for boost_iostreams.
 boost_iostreams_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_iostreams-1.74.0
 
+//The directory containing a CMake configuration file for boost_program_options.
+boost_program_options_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_program_options-1.74.0
+
+//The directory containing a CMake configuration file for boost_regex.
+boost_regex_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.74.0
+
 //The directory containing a CMake configuration file for boost_serialization.
 boost_serialization_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_serialization-1.74.0
 
 //The directory containing a CMake configuration file for boost_system.
 boost_system_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_system-1.74.0
+
+//The directory containing a CMake configuration file for boost_thread.
+boost_thread_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.74.0
+
+//The directory containing a CMake configuration file for boost_timer.
+boost_timer_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_timer-1.74.0
 
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/humble/share/builtin_interfaces/cmake
@@ -1115,7 +1140,7 @@ fastlio2_BINARY_DIR:STATIC=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perc
 fastlio2_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-fastlio2_SOURCE_DIR:STATIC=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2
+fastlio2_SOURCE_DIR:STATIC=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/fastlio2_ros2/fastlio2
 
 //The directory containing a CMake configuration file for fastrtps.
 fastrtps_DIR:PATH=/opt/ros/humble/share/fastrtps/cmake
@@ -1134,6 +1159,9 @@ foonathan_memory_DIR:PATH=/opt/ros/humble/lib/foonathan_memory/cmake
 
 //The directory containing a CMake configuration file for geometry_msgs.
 geometry_msgs_DIR:PATH=/opt/ros/humble/share/geometry_msgs/cmake
+
+//The directory containing a CMake configuration file for interface.
+interface_DIR:PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake
 
 //The directory containing a CMake configuration file for libstatistics_collector.
 libstatistics_collector_DIR:PATH=/opt/ros/humble/share/libstatistics_collector/cmake
@@ -1294,6 +1322,9 @@ rosidl_typesupport_introspection_c_DIR:PATH=/opt/ros/humble/share/rosidl_typesup
 //The directory containing a CMake configuration file for rosidl_typesupport_introspection_cpp.
 rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/cmake
 
+//Dependencies for the target
+scancontext_LIB_DEPENDS:STATIC=general;pcl_common;general;pcl_kdtree;general;pcl_octree;general;pcl_search;general;pcl_sample_consensus;general;pcl_filters;general;pcl_io;general;pcl_features;general;pcl_ml;general;pcl_segmentation;general;pcl_visualization;general;pcl_surface;general;pcl_registration;general;pcl_keypoints;general;pcl_tracking;general;pcl_recognition;general;pcl_stereo;general;pcl_apps;general;pcl_outofcore;general;pcl_people;general;Boost::system;general;Boost::filesystem;general;Boost::date_time;general;Boost::iostreams;general;Boost::serialization;general;/usr/lib/libOpenNI.so;general;libusb::libusb;general;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;general;libusb::libusb;general;VTK::ChartsCore;general;VTK::CommonColor;general;VTK::CommonComputationalGeometry;general;VTK::CommonCore;general;VTK::CommonDataModel;general;VTK::CommonExecutionModel;general;VTK::CommonMath;general;VTK::CommonMisc;general;VTK::CommonTransforms;general;VTK::FiltersCore;general;VTK::FiltersExtraction;general;VTK::FiltersGeneral;general;VTK::FiltersGeometry;general;VTK::FiltersModeling;general;VTK::FiltersSources;general;VTK::ImagingCore;general;VTK::ImagingSources;general;VTK::InteractionImage;general;VTK::InteractionStyle;general;VTK::InteractionWidgets;general;VTK::IOCore;general;VTK::IOGeometry;general;VTK::IOImage;general;VTK::IOLegacy;general;VTK::IOPLY;general;VTK::RenderingAnnotation;general;VTK::RenderingCore;general;VTK::RenderingContext2D;general;VTK::RenderingLOD;general;VTK::RenderingFreeType;general;VTK::ViewsCore;general;VTK::ViewsContext2D;general;VTK::RenderingOpenGL2;general;VTK::GUISupportQt;general;FLANN::FLANN;
+
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/humble/share/sensor_msgs/cmake
 
@@ -1435,7 +1466,7 @@ CMAKE_HAVE_REMOVE:INTERNAL=1
 CMAKE_HAVE_SHMAT:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/fastlio2_ros2/fastlio2
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //Have library ICE
@@ -1508,6 +1539,8 @@ EXPAT_INCLUDE_DIR-ADVANCED:INTERNAL=1
 EXPAT_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Eigen3_INCLUDE_DIR
 Eigen3_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//Details about finding Boost
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake][cfound components: serialization system filesystem thread program_options date_time timer chrono regex ][v1.74.0(1.65)]
 //Details about finding Eigen
 FIND_PACKAGE_MESSAGE_DETAILS_Eigen:INTERNAL=[/usr/include/eigen3][v(3.1)]
 //Details about finding FLANN
@@ -1629,7 +1662,7 @@ MPI_C_LIB_NAMES-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MPI_C_LINK_FLAGS
 MPI_C_LINK_FLAGS-ADVANCED:INTERNAL=1
 //Result of TRY_COMPILE
-MPI_RESULT_C_test_mpi_normal:INTERNAL=TRUE
+MPI_RESULT_C_test_mpi_normal:INTERNAL=FALSE
 //ADVANCED property for variable: MPI_mpi_LIBRARY
 MPI_mpi_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_EGL_INCLUDE_DIR
@@ -2274,8 +2307,6 @@ _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=0f3e53742e142b1d9e50e4ca5b901dd8
-//Index for unique symlink install targets
-__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=1
 __pkg_config_arguments_PC_EIGEN:INTERNAL=eigen3
 __pkg_config_arguments_PC_EXPAT:INTERNAL=QUIET;expat
 __pkg_config_arguments_PC_FLANN:INTERNAL=flann
@@ -2292,6 +2323,10 @@ __pkg_config_checked_PC_OPENNI2:INTERNAL=1
 __pkg_config_checked_PC_libusb:INTERNAL=1
 __pkg_config_checked_PKG_FONTCONFIG:INTERNAL=1
 __pkg_config_checked__OPENSSL:INTERNAL=1
+//ADVANCED property for variable: boost_atomic_DIR
+boost_atomic_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_chrono_DIR
+boost_chrono_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_date_time_DIR
 boost_date_time_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_filesystem_DIR
@@ -2300,10 +2335,18 @@ boost_filesystem_DIR-ADVANCED:INTERNAL=1
 boost_headers_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_iostreams_DIR
 boost_iostreams_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_program_options_DIR
+boost_program_options_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_regex_DIR
+boost_regex_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_serialization_DIR
 boost_serialization_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_system_DIR
 boost_system_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_thread_DIR
+boost_thread_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_timer_DIR
+boost_timer_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: double-conversion_INCLUDE_DIR
 double-conversion_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: double-conversion_LIBRARY

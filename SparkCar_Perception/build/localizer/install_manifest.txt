@@ -1,0 +1,5 @@
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/launch/localizer_launch.py
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/config/localizer.yaml
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/rviz/localizer.rviz
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/package.dsv
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/package.xml

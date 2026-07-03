@@ -1,0 +1,3 @@
+[0mCMake Error: The source directory "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/interface" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:1625: cmake_check_build_system] Error 1

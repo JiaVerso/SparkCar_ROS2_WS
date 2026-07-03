@@ -1,0 +1,492 @@
+[0.074s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.074s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7e07e4c80280>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e07e4d7d750>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e07e4d7d750>>)
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.191s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2) by extension 'ros'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2) by extensions ['cmake', 'python']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2) by extension 'python'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2) by extensions ['python_setup_py']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/fastlio2) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/fastlio2) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/fastlio2) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/fastlio2) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/fastlio2) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/fastlio2) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/fastlio2) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/fastlio2) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/fastlio2) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'src/FASTLIO2_ROS2/fastlio2' with type 'ros.ament_cmake' and name 'fastlio2'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/hba) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/hba) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/hba) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/hba) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/hba) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/hba) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/hba) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/hba) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/hba) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package 'src/FASTLIO2_ROS2/hba' with type 'ros.ament_cmake' and name 'hba'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/interface) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/interface) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/interface) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/interface) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/interface) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/interface) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/interface) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/interface) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/interface) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package 'src/FASTLIO2_ROS2/interface' with type 'ros.ament_cmake' and name 'interface'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/localizer) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/localizer) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/localizer) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/localizer) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/localizer) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/localizer) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/localizer) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/localizer) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/localizer) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'src/FASTLIO2_ROS2/localizer' with type 'ros.ament_cmake' and name 'localizer'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/pgo) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/pgo) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/pgo) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/pgo) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/pgo) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/pgo) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/pgo) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/pgo) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/FASTLIO2_ROS2/pgo) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/FASTLIO2_ROS2/pgo' with type 'ros.ament_cmake' and name 'pgo'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.234s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install
+[0.234s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install
+[0.235s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 329 installed packages in /opt/ros/humble
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_target' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.266s] DEBUG:colcon.colcon_core.verb:Building package 'interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface', 'merge_install': False, 'path': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/interface', 'symlink_install': False, 'test_result_base': None}
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.267s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/livox_ros_driver2', 'symlink_install': False, 'test_result_base': None}
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'fastlio2' build argument 'cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'fastlio2' build argument 'cmake_target' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'fastlio2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'fastlio2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'fastlio2' build argument 'cmake_clean_first' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'fastlio2' build argument 'cmake_force_configure' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'fastlio2' build argument 'ament_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'fastlio2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'fastlio2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.267s] DEBUG:colcon.colcon_core.verb:Building package 'fastlio2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2', 'merge_install': False, 'path': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2', 'symlink_install': False, 'test_result_base': None}
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'hba' build argument 'cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'hba' build argument 'cmake_target' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'hba' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'hba' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'hba' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'hba' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'hba' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'hba' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'hba' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'hba' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/hba', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba', 'merge_install': False, 'path': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/hba', 'symlink_install': False, 'test_result_base': None}
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'localizer' build argument 'cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'localizer' build argument 'cmake_target' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'localizer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'localizer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'localizer' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'localizer' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'localizer' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'localizer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'localizer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'localizer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer', 'merge_install': False, 'path': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/localizer', 'symlink_install': False, 'test_result_base': None}
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'pgo' build argument 'cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'pgo' build argument 'cmake_target' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'pgo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'pgo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'pgo' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'pgo' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'pgo' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'pgo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'pgo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'pgo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/pgo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo', 'merge_install': False, 'path': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/pgo', 'symlink_install': False, 'test_result_base': None}
+[0.268s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.269s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.269s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/interface' with build type 'ament_cmake'
+[0.270s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/interface'
+[0.271s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.271s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.271s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.274s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/livox_ros_driver2' with build type 'ament_cmake'
+[0.274s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/livox_ros_driver2'
+[0.274s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/interface -- -j8 -l8
+[0.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/livox_ros_driver2 -- -j8 -l8
+[0.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/interface -- -j8 -l8
+[0.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/interface
+[0.690s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface)
+[0.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/interface
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface' for CMake module files
+[0.692s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface' for CMake config files
+[0.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface', 'cmake_prefix_path')
+[0.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/hook/cmake_prefix_path.ps1'
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/hook/cmake_prefix_path.dsv'
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/hook/cmake_prefix_path.sh'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib'
+[0.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface', 'ld_library_path_lib')
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/hook/ld_library_path_lib.ps1'
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/hook/ld_library_path_lib.dsv'
+[0.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/hook/ld_library_path_lib.sh'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/bin'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib/pkgconfig/interface.pc'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib/python3.10/site-packages'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/bin'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/package.ps1'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/package.dsv'
+[0.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/package.sh'
+[0.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/package.bash'
+[0.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/package.zsh'
+[0.700s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/colcon-core/packages/interface)
+[0.700s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface)
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface' for CMake module files
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface' for CMake config files
+[0.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface', 'cmake_prefix_path')
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/hook/cmake_prefix_path.ps1'
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/hook/cmake_prefix_path.dsv'
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/hook/cmake_prefix_path.sh'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib'
+[0.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface', 'ld_library_path_lib')
+[0.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/hook/ld_library_path_lib.ps1'
+[0.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/hook/ld_library_path_lib.dsv'
+[0.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/hook/ld_library_path_lib.sh'
+[0.704s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/bin'
+[0.704s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib/pkgconfig/interface.pc'
+[0.704s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib/python3.10/site-packages'
+[0.704s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/bin'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/package.ps1'
+[0.705s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/package.dsv'
+[0.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/package.sh'
+[0.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/package.bash'
+[0.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/package.zsh'
+[0.706s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/colcon-core/packages/interface)
+[0.706s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/hba' with build type 'ament_cmake'
+[0.707s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/hba'
+[0.708s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.708s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.719s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/localizer' with build type 'ament_cmake'
+[0.720s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/localizer'
+[0.720s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.721s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.732s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/pgo' with build type 'ament_cmake'
+[0.732s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/pgo'
+[0.733s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.733s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/hba': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/hba -- -j8 -l8
+[0.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer -- -j8 -l8
+[0.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/pgo': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/pgo -- -j8 -l8
+[0.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/livox_ros_driver2 -- -j8 -l8
+[0.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/livox_ros_driver2
+[0.820s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer' returned '0': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer -- -j8 -l8
+[0.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer
+[0.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/pgo' returned '0': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/pgo -- -j8 -l8
+[0.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/pgo': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/pgo
+[0.840s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localizer)
+[0.840s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer' for CMake module files
+[0.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer' returned '0': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer' for CMake config files
+[0.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('localizer', 'cmake_prefix_path')
+[0.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/hook/cmake_prefix_path.ps1'
+[0.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/hook/cmake_prefix_path.dsv'
+[0.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/hook/cmake_prefix_path.sh'
+[0.847s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/lib'
+[0.847s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/bin'
+[0.847s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/lib/pkgconfig/localizer.pc'
+[0.847s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/lib/python3.10/site-packages'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/bin'
+[0.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/package.ps1'
+[0.851s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/package.dsv'
+[0.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/package.sh'
+[0.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/package.bash'
+[0.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/package.zsh'
+[0.852s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/colcon-core/packages/localizer)
+[0.853s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localizer)
+[0.853s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer' for CMake module files
+[0.853s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer' for CMake config files
+[0.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('localizer', 'cmake_prefix_path')
+[0.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/hook/cmake_prefix_path.ps1'
+[0.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/hook/cmake_prefix_path.dsv'
+[0.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/hook/cmake_prefix_path.sh'
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/lib'
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/bin'
+[0.855s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/lib/pkgconfig/localizer.pc'
+[0.855s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/lib/python3.10/site-packages'
+[0.855s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/bin'
+[0.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/package.ps1'
+[0.856s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/package.dsv'
+[0.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/package.sh'
+[0.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/package.bash'
+[0.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/localizer/package.zsh'
+[0.857s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer/share/colcon-core/packages/localizer)
+[0.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/hba' returned '0': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/hba -- -j8 -l8
+[0.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/hba': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/hba
+[0.866s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pgo)
+[0.866s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo' for CMake module files
+[0.867s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo' for CMake config files
+[0.868s] Level 1:colcon.colcon_core.shell:create_environment_hook('pgo', 'cmake_prefix_path')
+[0.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/hook/cmake_prefix_path.ps1'
+[0.869s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/hook/cmake_prefix_path.dsv'
+[0.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/pgo' returned '0': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/pgo
+[0.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/hook/cmake_prefix_path.sh'
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/lib'
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/bin'
+[0.873s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/lib/pkgconfig/pgo.pc'
+[0.873s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/lib/python3.10/site-packages'
+[0.873s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/bin'
+[0.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/package.ps1'
+[0.876s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/package.dsv'
+[0.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/package.sh'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/package.bash'
+[0.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/package.zsh'
+[0.881s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/colcon-core/packages/pgo)
+[0.882s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pgo)
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo' for CMake module files
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo' for CMake config files
+[0.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('pgo', 'cmake_prefix_path')
+[0.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/hook/cmake_prefix_path.ps1'
+[0.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/hook/cmake_prefix_path.dsv'
+[0.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/hook/cmake_prefix_path.sh'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/lib'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/bin'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/lib/pkgconfig/pgo.pc'
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/lib/python3.10/site-packages'
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/bin'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/package.ps1'
+[0.886s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/package.dsv'
+[0.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/package.sh'
+[0.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/package.bash'
+[0.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/pgo/package.zsh'
+[0.887s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo/share/colcon-core/packages/pgo)
+[0.888s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hba)
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba' for CMake module files
+[0.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/hba' returned '0': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/hba
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba' for CMake config files
+[0.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('hba', 'cmake_prefix_path')
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/share/hba/hook/cmake_prefix_path.ps1'
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/share/hba/hook/cmake_prefix_path.dsv'
+[0.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/share/hba/hook/cmake_prefix_path.sh'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/lib'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/bin'
+[0.892s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/lib/pkgconfig/hba.pc'
+[0.892s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/lib/python3.10/site-packages'
+[0.892s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/bin'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/share/hba/package.ps1'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/share/hba/package.dsv'
+[0.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/share/hba/package.sh'
+[0.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/share/hba/package.bash'
+[0.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/share/hba/package.zsh'
+[0.895s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/share/colcon-core/packages/hba)
+[0.895s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hba)
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba' for CMake module files
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba' for CMake config files
+[0.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('hba', 'cmake_prefix_path')
+[0.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/share/hba/hook/cmake_prefix_path.ps1'
+[0.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/share/hba/hook/cmake_prefix_path.dsv'
+[0.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/share/hba/hook/cmake_prefix_path.sh'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/lib'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/bin'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/lib/pkgconfig/hba.pc'
+[0.898s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/lib/python3.10/site-packages'
+[0.898s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/bin'
+[0.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/share/hba/package.ps1'
+[0.898s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/share/hba/package.dsv'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/share/hba/package.sh'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/share/hba/package.bash'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/share/hba/package.zsh'
+[0.900s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba/share/colcon-core/packages/hba)
+[0.900s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[0.900s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2' for CMake module files
+[0.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/livox_ros_driver2
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2' for CMake config files
+[0.902s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[0.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[0.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[0.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib'
+[0.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[0.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[0.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[0.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[0.904s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/bin'
+[0.904s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[0.904s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib/python3.10/site-packages'
+[0.905s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/bin'
+[0.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[0.905s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[0.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[0.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[0.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[0.906s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[0.907s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[0.907s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2' for CMake module files
+[0.907s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2' for CMake config files
+[0.907s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[0.908s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib'
+[0.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/bin'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib/python3.10/site-packages'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/bin'
+[0.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[0.910s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[0.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[0.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[0.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[0.912s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[0.912s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2' with build type 'ament_cmake'
+[0.912s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2'
+[0.912s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.912s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2 -- -j8 -l8
+[0.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2' returned '0': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2 -- -j8 -l8
+[0.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2
+[1.016s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fastlio2)
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2' for CMake module files
+[1.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2' returned '0': CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2' for CMake config files
+[1.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('fastlio2', 'cmake_prefix_path')
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/hook/cmake_prefix_path.ps1'
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/hook/cmake_prefix_path.dsv'
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/hook/cmake_prefix_path.sh'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/lib'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/bin'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/lib/pkgconfig/fastlio2.pc'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/lib/python3.10/site-packages'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/bin'
+[1.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/package.ps1'
+[1.020s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/package.dsv'
+[1.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/package.sh'
+[1.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/package.bash'
+[1.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/package.zsh'
+[1.021s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/colcon-core/packages/fastlio2)
+[1.021s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fastlio2)
+[1.021s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2' for CMake module files
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2' for CMake config files
+[1.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('fastlio2', 'cmake_prefix_path')
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/hook/cmake_prefix_path.ps1'
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/hook/cmake_prefix_path.dsv'
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/hook/cmake_prefix_path.sh'
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/lib'
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/bin'
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/lib/pkgconfig/fastlio2.pc'
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/lib/python3.10/site-packages'
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/bin'
+[1.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/package.ps1'
+[1.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/package.dsv'
+[1.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/package.sh'
+[1.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/package.bash'
+[1.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/fastlio2/package.zsh'
+[1.025s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2/share/colcon-core/packages/fastlio2)
+[1.025s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.025s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.025s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.025s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.034s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.034s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.034s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.042s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.043s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/local_setup.ps1'
+[1.044s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/_local_setup_util_ps1.py'
+[1.046s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.ps1'
+[1.047s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/local_setup.sh'
+[1.047s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/_local_setup_util_sh.py'
+[1.048s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.sh'
+[1.049s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/local_setup.bash'
+[1.049s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.bash'
+[1.051s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/local_setup.zsh'
+[1.051s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.zsh'

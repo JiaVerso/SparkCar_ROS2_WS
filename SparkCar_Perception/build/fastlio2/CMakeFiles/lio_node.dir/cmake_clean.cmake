@@ -1,6 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lio_node.dir/src/lio_node.cpp.o"
   "CMakeFiles/lio_node.dir/src/lio_node.cpp.o.d"
+  "CMakeFiles/lio_node.dir/src/loop_closure/keyframe_manager.cpp.o"
+  "CMakeFiles/lio_node.dir/src/loop_closure/keyframe_manager.cpp.o.d"
+  "CMakeFiles/lio_node.dir/src/loop_closure/loop_detector.cpp.o"
+  "CMakeFiles/lio_node.dir/src/loop_closure/loop_detector.cpp.o.d"
+  "CMakeFiles/lio_node.dir/src/loop_closure/pose_graph_optimizer.cpp.o"
+  "CMakeFiles/lio_node.dir/src/loop_closure/pose_graph_optimizer.cpp.o.d"
   "CMakeFiles/lio_node.dir/src/map_builder/commons.cpp.o"
   "CMakeFiles/lio_node.dir/src/map_builder/commons.cpp.o.d"
   "CMakeFiles/lio_node.dir/src/map_builder/ieskf.cpp.o"

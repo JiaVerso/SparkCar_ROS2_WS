@@ -258,9 +258,6 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//No help, variable specified on the command line.
-DISTRO_ROS:UNINITIALIZED=humble
-
 //Path to a file.
 EIGEN_INCLUDE_DIR:PATH=/usr/include/eigen3
 
@@ -381,13 +378,13 @@ MPIEXEC_POSTFLAGS:STRING=
 MPIEXEC_PREFLAGS:STRING=
 
 //MPI C additional include directories
-MPI_C_ADDITIONAL_INCLUDE_DIRS:STRING=/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi
+MPI_C_ADDITIONAL_INCLUDE_DIRS:STRING=
 
 //MPI compiler for C
 MPI_C_COMPILER:FILEPATH=/usr/bin/mpicc
 
 //MPI C compiler wrapper include directories
-MPI_C_COMPILER_INCLUDE_DIRS:STRING=/usr/lib/x86_64-linux-gnu/openmpi/include;/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi
+MPI_C_COMPILER_INCLUDE_DIRS:STRING=/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi
 
 //MPI C compilation definitions
 MPI_C_COMPILE_DEFINITIONS:STRING=
@@ -396,13 +393,13 @@ MPI_C_COMPILE_DEFINITIONS:STRING=
 MPI_C_COMPILE_OPTIONS:STRING=
 
 //Path to a file.
-MPI_C_HEADER_DIR:PATH=/usr/lib/x86_64-linux-gnu/openmpi/include
+MPI_C_HEADER_DIR:PATH=MPI_C_HEADER_DIR-NOTFOUND
 
 //MPI C libraries to link against
 MPI_C_LIB_NAMES:STRING=mpi
 
 //MPI C linker flags
-MPI_C_LINK_FLAGS:STRING=-L/usr/lib/x86_64-linux-gnu/openmpi/lib
+MPI_C_LINK_FLAGS:STRING=
 
 //Location of the mpi library for MPI
 MPI_mpi_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libmpi.so
@@ -715,9 +712,6 @@ Qt5Widgets_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets
 
 //The directory containing a CMake configuration file for Qt5.
 Qt5_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5
-
-//No help, variable specified on the command line.
-ROS_EDITION:UNINITIALIZED=ROS2
 
 //Name of the computer/site where compile is being run
 SITE:STRING=NUC11
@@ -1155,7 +1149,7 @@ hba_BINARY_DIR:STATIC=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perceptio
 hba_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-hba_SOURCE_DIR:STATIC=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/hba
+hba_SOURCE_DIR:STATIC=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/fastlio2_ros2/hba
 
 //The directory containing a CMake configuration file for interface.
 interface_DIR:PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/share/interface/cmake
@@ -1433,7 +1427,7 @@ CMAKE_HAVE_REMOVE:INTERNAL=1
 CMAKE_HAVE_SHMAT:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/hba
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/fastlio2_ros2/hba
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //Have library ICE
@@ -1629,7 +1623,7 @@ MPI_C_LIB_NAMES-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MPI_C_LINK_FLAGS
 MPI_C_LINK_FLAGS-ADVANCED:INTERNAL=1
 //Result of TRY_COMPILE
-MPI_RESULT_C_test_mpi_normal:INTERNAL=TRUE
+MPI_RESULT_C_test_mpi_normal:INTERNAL=FALSE
 //ADVANCED property for variable: MPI_mpi_LIBRARY
 MPI_mpi_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_EGL_INCLUDE_DIR

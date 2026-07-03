@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/localizer
+CMAKE_SOURCE_DIR = /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/fastlio2_ros2/localizer
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer

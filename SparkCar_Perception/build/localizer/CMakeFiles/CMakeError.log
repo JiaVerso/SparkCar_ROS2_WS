@@ -1,0 +1,85 @@
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3a1e1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3a1e1.dir/build.make CMakeFiles/cmTC_3a1e1.dir/build
+gmake[1]: Entering directory '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a1e1.dir/test_mpi.c.o
+/usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fexceptions  -o CMakeFiles/cmTC_3a1e1.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_3a1e1.dir/build.make:78: CMakeFiles/cmTC_3a1e1.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_3a1e1/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_924d4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_924d4.dir/build.make CMakeFiles/cmTC_924d4.dir/build
+gmake[1]: Entering directory '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_924d4.dir/test_mpi.c.o
+/usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fexceptions  -o CMakeFiles/cmTC_924d4.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_924d4.dir/build.make:78: CMakeFiles/cmTC_924d4.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_924d4/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_25a6d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_25a6d.dir/build.make CMakeFiles/cmTC_25a6d.dir/build
+gmake[1]: Entering directory '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25a6d.dir/test_mpi.c.o
+/usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fexceptions  -o CMakeFiles/cmTC_25a6d.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_25a6d.dir/build.make:78: CMakeFiles/cmTC_25a6d.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_25a6d/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_233ba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_233ba.dir/build.make CMakeFiles/cmTC_233ba.dir/build
+gmake[1]: Entering directory '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_233ba.dir/test_mpi.c.o
+/usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fexceptions  -o CMakeFiles/cmTC_233ba.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_233ba.dir/build.make:78: CMakeFiles/cmTC_233ba.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_233ba/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2231e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2231e.dir/build.make CMakeFiles/cmTC_2231e.dir/build
+gmake[1]: Entering directory '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2231e.dir/test_mpi.c.o
+/usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fexceptions  -o CMakeFiles/cmTC_2231e.dir/test_mpi.c.o -c /usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c
+/usr/share/cmake-3.22/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_2231e.dir/build.make:78: CMakeFiles/cmTC_2231e.dir/test_mpi.c.o] Error 1
+gmake[1]: Leaving directory '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2231e/fast] Error 2
+
+
+

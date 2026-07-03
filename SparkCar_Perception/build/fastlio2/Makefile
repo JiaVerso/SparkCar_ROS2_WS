@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/FASTLIO2_ROS2/fastlio2
+CMAKE_SOURCE_DIR = /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/fastlio2_ros2/fastlio2
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/fastlio2
@@ -198,6 +198,19 @@ fastlio2_uninstall/fast:
 .PHONY : fastlio2_uninstall/fast
 
 #=============================================================================
+# Target rules for targets named scancontext
+
+# Build rule for target.
+scancontext: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scancontext
+.PHONY : scancontext
+
+# fast build rule for target.
+scancontext/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scancontext.dir/build.make CMakeFiles/scancontext.dir/build
+.PHONY : scancontext/fast
+
+#=============================================================================
 # Target rules for targets named lio_node
 
 # Build rule for target.
@@ -209,6 +222,30 @@ lio_node: cmake_check_build_system
 lio_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lio_node.dir/build.make CMakeFiles/lio_node.dir/build
 .PHONY : lio_node/fast
+
+include/sc-relo/Scancontext.o: include/sc-relo/Scancontext.cpp.o
+.PHONY : include/sc-relo/Scancontext.o
+
+# target to build an object file
+include/sc-relo/Scancontext.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scancontext.dir/build.make CMakeFiles/scancontext.dir/include/sc-relo/Scancontext.cpp.o
+.PHONY : include/sc-relo/Scancontext.cpp.o
+
+include/sc-relo/Scancontext.i: include/sc-relo/Scancontext.cpp.i
+.PHONY : include/sc-relo/Scancontext.i
+
+# target to preprocess a source file
+include/sc-relo/Scancontext.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scancontext.dir/build.make CMakeFiles/scancontext.dir/include/sc-relo/Scancontext.cpp.i
+.PHONY : include/sc-relo/Scancontext.cpp.i
+
+include/sc-relo/Scancontext.s: include/sc-relo/Scancontext.cpp.s
+.PHONY : include/sc-relo/Scancontext.s
+
+# target to generate assembly for a file
+include/sc-relo/Scancontext.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scancontext.dir/build.make CMakeFiles/scancontext.dir/include/sc-relo/Scancontext.cpp.s
+.PHONY : include/sc-relo/Scancontext.cpp.s
 
 src/lio_node.o: src/lio_node.cpp.o
 .PHONY : src/lio_node.o
@@ -233,6 +270,78 @@ src/lio_node.s: src/lio_node.cpp.s
 src/lio_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lio_node.dir/build.make CMakeFiles/lio_node.dir/src/lio_node.cpp.s
 .PHONY : src/lio_node.cpp.s
+
+src/loop_closure/keyframe_manager.o: src/loop_closure/keyframe_manager.cpp.o
+.PHONY : src/loop_closure/keyframe_manager.o
+
+# target to build an object file
+src/loop_closure/keyframe_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lio_node.dir/build.make CMakeFiles/lio_node.dir/src/loop_closure/keyframe_manager.cpp.o
+.PHONY : src/loop_closure/keyframe_manager.cpp.o
+
+src/loop_closure/keyframe_manager.i: src/loop_closure/keyframe_manager.cpp.i
+.PHONY : src/loop_closure/keyframe_manager.i
+
+# target to preprocess a source file
+src/loop_closure/keyframe_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lio_node.dir/build.make CMakeFiles/lio_node.dir/src/loop_closure/keyframe_manager.cpp.i
+.PHONY : src/loop_closure/keyframe_manager.cpp.i
+
+src/loop_closure/keyframe_manager.s: src/loop_closure/keyframe_manager.cpp.s
+.PHONY : src/loop_closure/keyframe_manager.s
+
+# target to generate assembly for a file
+src/loop_closure/keyframe_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lio_node.dir/build.make CMakeFiles/lio_node.dir/src/loop_closure/keyframe_manager.cpp.s
+.PHONY : src/loop_closure/keyframe_manager.cpp.s
+
+src/loop_closure/loop_detector.o: src/loop_closure/loop_detector.cpp.o
+.PHONY : src/loop_closure/loop_detector.o
+
+# target to build an object file
+src/loop_closure/loop_detector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lio_node.dir/build.make CMakeFiles/lio_node.dir/src/loop_closure/loop_detector.cpp.o
+.PHONY : src/loop_closure/loop_detector.cpp.o
+
+src/loop_closure/loop_detector.i: src/loop_closure/loop_detector.cpp.i
+.PHONY : src/loop_closure/loop_detector.i
+
+# target to preprocess a source file
+src/loop_closure/loop_detector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lio_node.dir/build.make CMakeFiles/lio_node.dir/src/loop_closure/loop_detector.cpp.i
+.PHONY : src/loop_closure/loop_detector.cpp.i
+
+src/loop_closure/loop_detector.s: src/loop_closure/loop_detector.cpp.s
+.PHONY : src/loop_closure/loop_detector.s
+
+# target to generate assembly for a file
+src/loop_closure/loop_detector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lio_node.dir/build.make CMakeFiles/lio_node.dir/src/loop_closure/loop_detector.cpp.s
+.PHONY : src/loop_closure/loop_detector.cpp.s
+
+src/loop_closure/pose_graph_optimizer.o: src/loop_closure/pose_graph_optimizer.cpp.o
+.PHONY : src/loop_closure/pose_graph_optimizer.o
+
+# target to build an object file
+src/loop_closure/pose_graph_optimizer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lio_node.dir/build.make CMakeFiles/lio_node.dir/src/loop_closure/pose_graph_optimizer.cpp.o
+.PHONY : src/loop_closure/pose_graph_optimizer.cpp.o
+
+src/loop_closure/pose_graph_optimizer.i: src/loop_closure/pose_graph_optimizer.cpp.i
+.PHONY : src/loop_closure/pose_graph_optimizer.i
+
+# target to preprocess a source file
+src/loop_closure/pose_graph_optimizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lio_node.dir/build.make CMakeFiles/lio_node.dir/src/loop_closure/pose_graph_optimizer.cpp.i
+.PHONY : src/loop_closure/pose_graph_optimizer.cpp.i
+
+src/loop_closure/pose_graph_optimizer.s: src/loop_closure/pose_graph_optimizer.cpp.s
+.PHONY : src/loop_closure/pose_graph_optimizer.s
+
+# target to generate assembly for a file
+src/loop_closure/pose_graph_optimizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lio_node.dir/build.make CMakeFiles/lio_node.dir/src/loop_closure/pose_graph_optimizer.cpp.s
+.PHONY : src/loop_closure/pose_graph_optimizer.cpp.s
 
 src/map_builder/commons.o: src/map_builder/commons.cpp.o
 .PHONY : src/map_builder/commons.o
@@ -418,9 +527,22 @@ help:
 	@echo "... fastlio2_uninstall"
 	@echo "... uninstall"
 	@echo "... lio_node"
+	@echo "... scancontext"
+	@echo "... include/sc-relo/Scancontext.o"
+	@echo "... include/sc-relo/Scancontext.i"
+	@echo "... include/sc-relo/Scancontext.s"
 	@echo "... src/lio_node.o"
 	@echo "... src/lio_node.i"
 	@echo "... src/lio_node.s"
+	@echo "... src/loop_closure/keyframe_manager.o"
+	@echo "... src/loop_closure/keyframe_manager.i"
+	@echo "... src/loop_closure/keyframe_manager.s"
+	@echo "... src/loop_closure/loop_detector.o"
+	@echo "... src/loop_closure/loop_detector.i"
+	@echo "... src/loop_closure/loop_detector.s"
+	@echo "... src/loop_closure/pose_graph_optimizer.o"
+	@echo "... src/loop_closure/pose_graph_optimizer.i"
+	@echo "... src/loop_closure/pose_graph_optimizer.s"
 	@echo "... src/map_builder/commons.o"
 	@echo "... src/map_builder/commons.i"
 	@echo "... src/map_builder/commons.s"

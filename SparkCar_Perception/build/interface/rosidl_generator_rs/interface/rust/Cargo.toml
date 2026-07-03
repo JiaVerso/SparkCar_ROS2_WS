@@ -15,5 +15,5 @@ builtin_interfaces = "*"
 [features]
 serde = ['dep:serde', 'dep:serde-big-array', 'rosidl_runtime_rs/serde', 'std_msgs/serde', 'builtin_interfaces/serde']
 
-[package.metadata.rclrs]
-reexport = true
+[package.metadata.ros-env]
+include = true
