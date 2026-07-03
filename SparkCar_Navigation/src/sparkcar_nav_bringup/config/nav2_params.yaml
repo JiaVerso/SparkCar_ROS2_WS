@@ -14,36 +14,21 @@ planner_server:
     planner_plugins: ["GridBased"]            # 规划器别名
 
     GridBased:
-      plugin: "nav2_smac_planner/SmacPlannerHybrid"
-      tolerance: 0.3                          # 全局终点容忍度
-      downsample_costmap: false
-      allow_unknown: true                     #允许探索位置区域
-      max_iterations: 1000000
-      max_planning_time: 6.0                  # 最大规划延时
-      motion_model_for_search: "DUBIN"        # Hunter SE默认只前进，避免起步倒车/换向导致打角
-      angle_quantization_bins: 72
-      minimum_turning_radius: 1.3             # Hunter SE轴距0.52m，按最大转角估算约1.25m
-      analytic_expansion_ratio: 3.5
-      analytic_expansion_max_length: 5.2
-      reverse_penalty: 10.0
-      change_penalty: 0.0
-      non_straight_penalty: 1.2
-      cost_penalty: 2.0
-      retrospective_penalty: 0.015
-      lookup_table_size: 20.0
-      cache_obstacle_heuristic: false
-      smooth_path: true
+      plugin: "nav2_navfn_planner/NavfnPlanner"
+      tolerance: 0.5
+      use_astar: true
+      allow_unknown: true
 
 # 局部控制器
 controller_server:
   ros__parameters:
     use_sim_time: false
-    controller_frequency: 20.0            # 20hz
+    controller_frequency: 10.0            # 10hz
     min_x_velocity_threshold: 0.001
     min_y_velocity_threshold: 0.001
     min_theta_velocity_threshold: 0.001
     failure_tolerance: 0.5
-    odom_topic: /odom
+    odom_topic: /fastlio2/lio_odom
 
     progress_checker_plugin: "progress_checker"
     goal_checker_plugins: ["goal_checker"]
@@ -58,28 +43,28 @@ controller_server:
       plugin: "nav2_controller::SimpleGoalChecker"
       stateful: true
       xy_goal_tolerance: 0.05                   # 位置容忍度，避免离目标较远就判定到达
-      yaw_goal_tolerance: 0.60                  # Hunter SE不适合原地调头，主要保证位置到达
+      yaw_goal_tolerance: 0.20                  # Hunter SE不适合原地调头，主要保证位置到达
 
     FollowPath:
       plugin: "nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController"
       desired_linear_vel: 0.40                  # 实车默认巡航速度
-      lookahead_dist: 1.0
-      min_lookahead_dist: 0.5
-      max_lookahead_dist: 1.2
-      lookahead_time: 1.2
+      lookahead_dist: 1.5
+      min_lookahead_dist: 1.0
+      max_lookahead_dist: 2.0
+      lookahead_time: 1.5
       rotate_to_heading_angular_vel: 0.4
-      transform_tolerance: 0.3
+      transform_tolerance: 0.8
       use_velocity_scaled_lookahead_dist: true
       min_approach_linear_velocity: 0.06
       approach_velocity_scaling_dist: 1.0
-      use_collision_detection: true
+      use_collision_detection: false
       max_allowed_time_to_collision_up_to_carrot: 0.8
       use_regulated_linear_velocity_scaling: true       # 转弯自动减速
       regulated_linear_scaling_min_radius: 1.3
       regulated_linear_scaling_min_speed: 0.08
       use_cost_regulated_linear_velocity_scaling: false   # 关闭靠近障碍物检测
       use_rotate_to_heading: false
-      max_angular_accel: 0.8
+      max_angular_accel: 0.5
       allow_reversing: false
 
 # 全局代价地图
@@ -104,7 +89,7 @@ global_costmap:
 
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        inflation_radius: 0.35
+        inflation_radius: 0.30
         cost_scaling_factor: 4.0
 
       always_send_full_costmap: true
@@ -122,6 +107,7 @@ local_costmap:
       width: 6
       height: 6
       resolution: 0.05
+      transform_tolerance: 1.0
 
       # 碰撞轮廓配置
       footprint: "[[0.48, 0.34], [0.48, -0.34], [-0.48, -0.34], [-0.48, 0.34]]"
@@ -131,8 +117,9 @@ local_costmap:
       obstacle_layer:
         plugin: "nav2_costmap_2d::ObstacleLayer"
         enabled: true
+        tf_filter_tolerance: 0.5
         footprint_clearing_enabled: true
-        observation_sources: body_cloud_mark body_cloud_clear
+        observation_sources: body_cloud_mark
 
         body_cloud_mark:
           topic: /nav2/obstacle_cloud       # 过滤后的局部障碍点云
@@ -148,23 +135,9 @@ local_costmap:
           min_obstacle_height: 0.40
           max_obstacle_height: 1.00
 
-        body_cloud_clear:
-          topic: /nav2/obstacle_cloud
-          data_type: PointCloud2
-          marking: false
-          clearing: true
-          observation_persistence: 0.0
-          expected_update_rate: 0.5
-          obstacle_min_range: 0.55
-          obstacle_max_range: 3.0
-          raytrace_min_range: 0.55
-          raytrace_max_range: 3.5
-          min_obstacle_height: -0.05
-          max_obstacle_height: 1.20
-
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        inflation_radius: 0.15
+        inflation_radius: 0.3
         cost_scaling_factor: 6.0
 
       always_send_full_costmap: true
@@ -175,7 +148,7 @@ bt_navigator:
     use_sim_time: false
     global_frame: map
     robot_base_frame: body
-    odom_topic: /odom                       # 使用Hunter底盘里程计
+    odom_topic: /fastlio2/lio_odom          # 使用FAST-LIO2里程计
     bt_loop_duration: 10
     default_server_timeout: 20
     wait_for_service_timeout: 1000

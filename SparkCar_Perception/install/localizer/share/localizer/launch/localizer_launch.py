@@ -2,6 +2,9 @@ import launch
 import launch_ros.actions
 from launch.substitutions import PathJoinSubstitution
 from launch_ros.substitutions import FindPackageShare
+from launch.actions import DeclareLaunchArgument
+from launch.conditions import IfCondition
+from launch.substitutions import LaunchConfiguration
 
 
 def generate_launch_description():
@@ -15,8 +18,14 @@ def generate_launch_description():
     lio_config_path = PathJoinSubstitution(
         [FindPackageShare("fastlio2"), "config", "lio.yaml"]
     )
+    use_rviz = LaunchConfiguration("use_rviz")
     return launch.LaunchDescription(
         [
+            DeclareLaunchArgument(
+                "use_rviz",
+                default_value="true",
+                description="Whether to start RViz",
+            ),
             launch_ros.actions.Node(
                 package="fastlio2",
                 namespace="fastlio2",
@@ -46,6 +55,7 @@ def generate_launch_description():
                 namespace="localizer",
                 executable="rviz2",
                 name="rviz2",
+                condition=IfCondition(use_rviz),
                 output="screen",
                 arguments=["-d", rviz_cfg.perform(launch.LaunchContext())],
             )

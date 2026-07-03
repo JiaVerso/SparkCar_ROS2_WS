@@ -9,12 +9,13 @@ WS=${WS:-/home/jiaverso/Desktop/SparkCar_ROS2_WS}
 CAN_IFACE=${CAN_IFACE:-can0}
 CAN_BITRATE=${CAN_BITRATE:-500000}
 ROBOT_MODEL=${ROBOT_MODEL:-hunter_se}
-ODOM_FRAME=${ODOM_FRAME:-odom}
-BASE_FRAME=${BASE_FRAME:-body}
-ODOM_TOPIC=${ODOM_TOPIC:-odom}
+HUNTER_ODOM_FRAME=${HUNTER_ODOM_FRAME:-wheel_odom}
+HUNTER_BASE_FRAME=${HUNTER_BASE_FRAME:-wheel_body}
+HUNTER_ODOM_TOPIC=${HUNTER_ODOM_TOPIC:-wheel_odom}
+NAV_BASE_FRAME=${NAV_BASE_FRAME:-body}
 USE_RVIZ=${USE_RVIZ:-true}
 LIVOX_LAUNCH=${LIVOX_LAUNCH:-$WS/SparkCar_Perception/src/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py}
-LOCALIZER_LAUNCH=${LOCALIZER_LAUNCH:-$WS/SparkCar_Perception/src/FASTLIO2_ROS2/localizer/launch/localizer_launch.py}
+LOCALIZER_LAUNCH=${LOCALIZER_LAUNCH:-$WS/SparkCar_Perception/src/fastlio2_ros2/localizer/launch/localizer_launch.py}
 TF_WAIT_TIMEOUT=${TF_WAIT_TIMEOUT:-45}
 
 # Set SETUP_CAN=0 to skip CAN setup when can0 is already up.
@@ -107,9 +108,9 @@ start_bg "Hunter base driver" \
   ros2 launch hunter_base hunter_base.launch.py \
     port_name:="$CAN_IFACE" \
     robot_model:="$ROBOT_MODEL" \
-    odom_frame:="$ODOM_FRAME" \
-    base_frame:="$BASE_FRAME" \
-    odom_topic_name:="$ODOM_TOPIC"
+    odom_frame:="$HUNTER_ODOM_FRAME" \
+    base_frame:="$HUNTER_BASE_FRAME" \
+    odom_topic_name:="$HUNTER_ODOM_TOPIC"
 
 sleep 3
 
@@ -124,7 +125,7 @@ start_bg "Fast-LIO2 localizer" \
 
 sleep 3
 
-wait_for_tf map "$BASE_FRAME" "$TF_WAIT_TIMEOUT"
+wait_for_tf map "$NAV_BASE_FRAME" "$TF_WAIT_TIMEOUT"
 
 start_bg "Nav2 obstacle cloud filter" \
   ros2 run sparkcar_nav_bringup obstacle_cloud_filter
