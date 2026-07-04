@@ -14,10 +14,29 @@ planner_server:
     planner_plugins: ["GridBased"]            # 规划器别名
 
     GridBased:
-      plugin: "nav2_navfn_planner/NavfnPlanner"
+      plugin: "nav2_smac_planner/SmacPlannerHybrid"
       tolerance: 0.5
-      use_astar: true
       allow_unknown: true
+      downsample_costmap: false
+      downsampling_factor: 1
+      angle_quantization_bins: 72
+      minimum_turning_radius: 2.0
+      motion_model_for_search: "REEDS_SHEPP"
+      analytic_expansion_ratio: 3.5
+      analytic_expansion_max_length: 3.0
+      analytic_expansion_max_cost: 200
+      reverse_penalty: 2.0
+      change_penalty: 0.0
+      non_straight_penalty: 1.2
+      cost_penalty: 2.0
+      retrospective_penalty: 0.015
+      lookup_table_size: 20.0
+      cache_obstacle_heuristic: false
+      debug_visualizations: false
+      use_quadratic_cost_penalty: false
+      downsample_obstacle_heuristic: true
+      allow_primitive_interpolation: false
+      smooth_path: true
 
 # 局部控制器
 controller_server:
@@ -42,7 +61,7 @@ controller_server:
     goal_checker:
       plugin: "nav2_controller::SimpleGoalChecker"
       stateful: true
-      xy_goal_tolerance: 0.05                   # 位置容忍度，避免离目标较远就判定到达
+      xy_goal_tolerance: 0.20                   # Ackermann实车先放宽到20cm，避免过度贴点
       yaw_goal_tolerance: 0.20                  # Hunter SE不适合原地调头，主要保证位置到达
 
     FollowPath:
@@ -65,7 +84,7 @@ controller_server:
       use_cost_regulated_linear_velocity_scaling: false   # 关闭靠近障碍物检测
       use_rotate_to_heading: false
       max_angular_accel: 0.5
-      allow_reversing: false
+      allow_reversing: true
 
 # 全局代价地图
 global_costmap:
@@ -89,7 +108,7 @@ global_costmap:
 
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        inflation_radius: 0.30
+        inflation_radius: 0.45
         cost_scaling_factor: 4.0
 
       always_send_full_costmap: true
@@ -137,7 +156,7 @@ local_costmap:
 
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        inflation_radius: 0.3
+        inflation_radius: 0.45
         cost_scaling_factor: 6.0
 
       always_send_full_costmap: true
