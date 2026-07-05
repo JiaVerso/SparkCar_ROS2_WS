@@ -61,12 +61,12 @@ controller_server:
     goal_checker:
       plugin: "nav2_controller::SimpleGoalChecker"
       stateful: true
-      xy_goal_tolerance: 0.20                   # Ackermann实车先放宽到20cm，避免过度贴点
+      xy_goal_tolerance: 0.10                   # Ackermann实车先放宽到20cm，避免过度贴点
       yaw_goal_tolerance: 0.20                  # Hunter SE不适合原地调头，主要保证位置到达
 
     FollowPath:
       plugin: "nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController"
-      desired_linear_vel: 0.40                  # 实车默认巡航速度
+      desired_linear_vel: 0.45                  # 实车默认巡航速度
       lookahead_dist: 1.5
       min_lookahead_dist: 1.0
       max_lookahead_dist: 2.0
