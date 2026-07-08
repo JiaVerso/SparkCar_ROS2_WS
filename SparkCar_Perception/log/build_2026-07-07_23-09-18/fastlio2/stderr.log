@@ -1,0 +1,7 @@
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/fastlio2_ros2/fastlio2/src/loop_closure/pose_graph_optimizer.cpp: In member function ‘bool PoseGraphOptimizer::getLatestCorrection(size_t, const M3D&, const V3D&, M3D&, V3D&)’:
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/fastlio2_ros2/fastlio2/src/loop_closure/pose_graph_optimizer.cpp:238:58: warning: unused parameter ‘current_rotation’ [-Wunused-parameter]
+  238 |                                               const M3D& current_rotation,
+      |                                               ~~~~~~~~~~~^~~~~~~~~~~~~~~~
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/fastlio2_ros2/fastlio2/src/loop_closure/pose_graph_optimizer.cpp:239:58: warning: unused parameter ‘current_position’ [-Wunused-parameter]
+  239 |                                               const V3D& current_position,
+      |                                               ~~~~~~~~~~~^~~~~~~~~~~~~~~~

@@ -1,0 +1,20 @@
+{
+  "package_name": "realsense2_camera_msgs",
+  "non_idl_tuples": [
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs:msg/IMUInfo.msg",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs:msg/Extrinsics.msg",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs:msg/Metadata.msg",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs:msg/RGBD.msg",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs:srv/DeviceInfo.srv",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs:srv/SafetyPresetRead.srv",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs:srv/SafetyPresetWrite.srv",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs:srv/SafetyInterfaceConfigRead.srv",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs:srv/SafetyInterfaceConfigWrite.srv",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs:srv/CalibConfigRead.srv",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs:srv/CalibConfigWrite.srv",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs:srv/ApplicationConfigRead.srv",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs:srv/ApplicationConfigWrite.srv",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs:srv/HardwareMonitorCommandSend.srv",
+    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs:action/TriggeredCalibration.action"
+  ]
+}

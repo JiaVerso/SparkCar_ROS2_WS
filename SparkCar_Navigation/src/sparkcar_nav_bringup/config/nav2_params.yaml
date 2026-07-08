@@ -56,7 +56,7 @@ controller_server:
     progress_checker:
       plugin: "nav2_controller::SimpleProgressChecker"
       required_movement_radius: 0.2
-      movement_time_allowance: 15.0             # 实车避障/转向较慢，放宽卡死判定
+      movement_time_allowance: 10.0             # 实车避障/转向较慢，放宽卡死判定
 
     goal_checker:
       plugin: "nav2_controller::SimpleGoalChecker"
@@ -65,26 +65,49 @@ controller_server:
       yaw_goal_tolerance: 0.20                  # Hunter SE不适合原地调头，主要保证位置到达
 
     FollowPath:
-      plugin: "nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController"
-      desired_linear_vel: 0.45                  # 实车默认巡航速度
-      lookahead_dist: 1.5
-      min_lookahead_dist: 1.0
-      max_lookahead_dist: 2.0
-      lookahead_time: 1.5
-      rotate_to_heading_angular_vel: 0.4
+      plugin: "dwb_core::DWBLocalPlanner"
+      debug_trajectory_details: false
+
+      # Ackermann底盘限制：只采样前后速度和角速度，不允许横移/原地急转。
+      min_vel_x: 0.05
+      max_vel_x: 0.45
+      min_vel_y: 0.0
+      max_vel_y: 0.0
+      max_vel_theta: 0.18
+
+      min_speed_xy: 0.05
+      max_speed_xy: 0.45
+      min_speed_theta: 0.0
+
+      acc_lim_x: 0.4
+      acc_lim_y: 0.0
+      acc_lim_theta: 0.5
+      decel_lim_x: -0.5
+      decel_lim_y: 0.0
+      decel_lim_theta: -0.6
+
+      vx_samples: 12
+      vy_samples: 1
+      vtheta_samples: 15
+
+      sim_time: 1.8
+      linear_granularity: 0.05
+      angular_granularity: 0.025
       transform_tolerance: 0.8
-      use_velocity_scaled_lookahead_dist: true
-      min_approach_linear_velocity: 0.06
-      approach_velocity_scaling_dist: 1.0
-      use_collision_detection: false
-      max_allowed_time_to_collision_up_to_carrot: 0.8
-      use_regulated_linear_velocity_scaling: true       # 转弯自动减速
-      regulated_linear_scaling_min_radius: 1.3
-      regulated_linear_scaling_min_speed: 0.08
-      use_cost_regulated_linear_velocity_scaling: false   # 关闭靠近障碍物检测
-      use_rotate_to_heading: false
-      max_angular_accel: 0.5
-      allow_reversing: true
+      xy_goal_tolerance: 0.15
+      trans_stopped_velocity: 0.05
+      short_circuit_trajectory_evaluation: true
+      stateful: true
+
+      critics: ["Oscillation", "BaseObstacle", "PathAlign", "GoalAlign", "PathDist", "GoalDist", "PreferForward"]
+      BaseObstacle.scale: 0.05
+      PathAlign.scale: 24.0
+      PathAlign.forward_point_distance: 0.6
+      GoalAlign.scale: 16.0
+      GoalAlign.forward_point_distance: 0.6
+      PathDist.scale: 32.0
+      GoalDist.scale: 24.0
+      PreferForward.scale: 8.0
 
 # 全局代价地图
 global_costmap:
@@ -144,13 +167,13 @@ local_costmap:
           topic: /nav2/obstacle_cloud       # 过滤后的局部障碍点云
           data_type: PointCloud2
           marking: true
-          clearing: false
+          clearing: true
           observation_persistence: 0.0
           expected_update_rate: 0.5
           obstacle_min_range: 0.55
-          obstacle_max_range: 2.0
+          obstacle_max_range: 2.5
           raytrace_min_range: 0.55
-          raytrace_max_range: 3.5
+          raytrace_max_range: 4.0
           min_obstacle_height: 0.40
           max_obstacle_height: 1.00
 

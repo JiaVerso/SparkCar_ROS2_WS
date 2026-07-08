@@ -50,22 +50,14 @@ echo "When the route is finished, come back here and press Enter to save the map
 read
 
 echo "4. Save map..."
-ros2 service call /fastlio2/lio/save_map interface/srv/SaveMaps "{file_path: '$MAP_DIR', save_patches: false}"
+ros2 service call /fastlio2/lio/save_map interface/srv/SaveMaps "{file_path: '$MAP_DIR', save_patches: true}"
 
 if [ ! -f "$GLOBAL_MAP" ]; then
     echo "GlobalMap.pcd was not created: $GLOBAL_MAP"
     exit 1
 fi
 
-echo "Keep only GlobalMap.pcd..."
-rm -f "$MAP_DIR"/filterGlobalMap.pcd \
-      "$MAP_DIR"/SurfMap.pcd \
-      "$MAP_DIR"/trajectory.pcd \
-      "$MAP_DIR"/transformations.pcd \
-      "$MAP_DIR"/optimized_pose.txt \
-      "$MAP_DIR"/without_optimized_pose.txt \
-      "$MAP_DIR"/pose_graph.g2o
-rm -rf "$MAP_DIR"/pcd "$MAP_DIR"/scd "$MAP_DIR"/log
+echo "FAST-LIO2 map artifacts are kept in: $MAP_DIR"
 
 echo "5. Stop rosbag recording..."
 kill -INT $BAG_PID
