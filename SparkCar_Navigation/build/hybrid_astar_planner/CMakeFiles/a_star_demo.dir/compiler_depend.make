@@ -199,6 +199,8 @@ CMakeFiles/a_star_demo.dir/src/a_star.cpp.o: /home/jiaverso/Desktop/SparkCar_ROS
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/bits/stl_queue.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/char_traits.h \
   /usr/include/c++/11/bits/localefwd.h \
@@ -231,10 +233,6 @@ CMakeFiles/a_star_demo.dir/src/a_star.cpp.o: /home/jiaverso/Desktop/SparkCar_ROS
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
-  /usr/include/c++/11/unordered_set \
-  /usr/include/c++/11/bits/unordered_set.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
   /usr/include/c++/11/stdexcept \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
@@ -284,26 +282,26 @@ CMakeFiles/a_star_demo.dir/src/a_star.cpp.o: /home/jiaverso/Desktop/SparkCar_ROS
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
-  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__traits.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
-  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.hpp \
   /opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp \
   /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp \
   /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.hpp \
@@ -455,6 +453,8 @@ CMakeFiles/a_star_demo.dir/src/a_star.cpp.o: /home/jiaverso/Desktop/SparkCar_ROS
   /opt/ros/humble/include/rcpputils/rcpputils/scope_exit.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/context.hpp \
   /usr/include/c++/11/typeindex \
+  /usr/include/c++/11/unordered_set \
+  /usr/include/c++/11/bits/unordered_set.h \
   /opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/macros.hpp \
@@ -987,6 +987,12 @@ CMakeFiles/a_star_demo.dir/src/a_star.cpp.o: /home/jiaverso/Desktop/SparkCar_ROS
 
 /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/c++/11/bits/this_thread_sleep.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
+
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
 /usr/include/c++/11/bits/uniform_int_dist.h:
@@ -1008,12 +1014,6 @@ CMakeFiles/a_star_demo.dir/src/a_star.cpp.o: /home/jiaverso/Desktop/SparkCar_ROS
 /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp:
-
-/usr/include/c++/11/cwctype:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp:
-
-/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__builder.hpp:
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
@@ -1075,6 +1075,12 @@ CMakeFiles/a_star_demo.dir/src/a_star.cpp.o: /home/jiaverso/Desktop/SparkCar_ROS
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
+/usr/include/c++/11/cwctype:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp:
+
+/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__builder.hpp:
+
 /usr/include/c++/11/bits/stl_deque.h:
 
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
@@ -1123,8 +1129,6 @@ CMakeFiles/a_star_demo.dir/src/a_star.cpp.o: /home/jiaverso/Desktop/SparkCar_ROS
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
-/usr/include/c++/11/unordered_set:
-
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/include/time.h:
@@ -1146,6 +1150,8 @@ CMakeFiles/a_star_demo.dir/src/a_star.cpp.o: /home/jiaverso/Desktop/SparkCar_ROS
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/c++/11/unordered_set:
 
 /usr/include/c++/11/iosfwd:
 
@@ -1234,10 +1240,6 @@ CMakeFiles/a_star_demo.dir/src/a_star.cpp.o: /home/jiaverso/Desktop/SparkCar_ROS
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:
-
-/usr/include/c++/11/bits/unordered_set.h:
-
-/usr/include/c++/11/bits/stl_vector.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
@@ -1651,10 +1653,6 @@ CMakeFiles/a_star_demo.dir/src/a_star.cpp.o: /home/jiaverso/Desktop/SparkCar_ROS
 
 /usr/include/c++/11/unordered_map:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/c++/11/bits/this_thread_sleep.h:
-
 /usr/include/c++/11/bits/stringfwd.h:
 
 /usr/include/c++/11/bits/algorithmfwd.h:
@@ -1682,8 +1680,6 @@ CMakeFiles/a_star_demo.dir/src/a_star.cpp.o: /home/jiaverso/Desktop/SparkCar_ROS
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/c++/11/bits/stl_list.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
 /usr/include/c++/11/ostream:
 
@@ -1747,6 +1743,28 @@ CMakeFiles/a_star_demo.dir/src/a_star.cpp.o: /home/jiaverso/Desktop/SparkCar_ROS
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
+
+/opt/ros/humble/include/rcl/rcl/logging_rosout.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
+
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
+
+/opt/ros/humble/include/rcutils/rcutils/types/string_array.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp:
@@ -1759,41 +1777,19 @@ CMakeFiles/a_star_demo.dir/src/a_star.cpp.o: /home/jiaverso/Desktop/SparkCar_ROS
 
 /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
-
-/opt/ros/humble/include/rcl/rcl/logging_rosout.h:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/c++/11/bits/std_function.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
-
-/usr/include/x86_64-linux-gnu/sys/ucontext.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
-
-/opt/ros/humble/include/rcutils/rcutils/types/string_array.h:
-
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp:
 
 /opt/ros/humble/include/rmw/rmw/init_options.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:
-
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:
 
 /usr/include/c++/11/bits/locale_facets.h:
 
@@ -2104,6 +2100,10 @@ CMakeFiles/a_star_demo.dir/src/a_star.cpp.o: /home/jiaverso/Desktop/SparkCar_ROS
 /opt/ros/humble/include/rcpputils/rcpputils/scope_exit.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:
+
+/usr/include/c++/11/bits/stl_vector.h:
+
+/usr/include/c++/11/bits/unordered_set.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp:
 

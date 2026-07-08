@@ -9,6 +9,8 @@
 /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/config/nav2_params.yaml
 /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/config/waypoints.yaml
 /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/maps/.gitkeep
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/maps/2.pgm
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/maps/2.yaml
 /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/maps/main.pgm
 /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/maps/main.yaml
 /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/rviz/nav2.rviz
