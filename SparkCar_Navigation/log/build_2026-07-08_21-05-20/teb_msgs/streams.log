@@ -1,0 +1,298 @@
+[0.016s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_msgs': AMENT_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_msgs -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.135s] -- The CXX compiler identification is GNU 11.4.0
+[0.142s] -- Detecting C compiler ABI info
+[0.229s] -- Detecting C compiler ABI info - done
+[0.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.247s] -- Detecting C compile features
+[0.247s] -- Detecting C compile features - done
+[0.248s] -- Detecting CXX compiler ABI info
+[0.339s] -- Detecting CXX compiler ABI info - done
+[0.348s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.348s] -- Detecting CXX compile features
+[0.348s] -- Detecting CXX compile features - done
+[0.351s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.542s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.723s] -- Found builtin_interfaces: 1.2.3 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.772s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.774s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.785s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.801s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.821s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.838s] -- Found costmap_converter_msgs: 0.1.2 (/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake)
+[0.891s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.313s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.793s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.008s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.033s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.033s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.056s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.057s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.057s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.057s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.082s] -- Found PythonExtra: .so  
+[2.443s] -- Configuring done
+[2.560s] -- Generating done
+[2.599s] -- Build files have been written to: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_msgs
+[2.648s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_msgs' returned '0': AMENT_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_msgs -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs
+[2.648s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_msgs': AMENT_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_msgs -- -j8 -l8
+[2.765s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.786s] [  4%] Built target ament_cmake_python_copy_teb_msgs
+[2.787s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.800s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.905s] running egg_info
+[3.915s] creating teb_msgs.egg-info
+[3.916s] writing teb_msgs.egg-info/PKG-INFO
+[3.916s] writing dependency_links to teb_msgs.egg-info/dependency_links.txt
+[3.916s] writing top-level names to teb_msgs.egg-info/top_level.txt
+[3.916s] writing manifest file 'teb_msgs.egg-info/SOURCES.txt'
+[3.931s] reading manifest file 'teb_msgs.egg-info/SOURCES.txt'
+[3.931s] writing manifest file 'teb_msgs.egg-info/SOURCES.txt'
+[4.027s] [  6%] Built target teb_msgs__cpp
+[4.033s] [  6%] Built target ament_cmake_python_build_teb_msgs_egg
+[4.047s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.061s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.063s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.272s] [ 12%] Built target teb_msgs__rs
+[4.369s] [ 14%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_generator_c.dir/rosidl_generator_c/teb_msgs/msg/detail/trajectory_msg__functions.c.o[0m
+[4.369s] [ 16%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_generator_c.dir/rosidl_generator_c/teb_msgs/msg/detail/feedback_msg__functions.c.o[0m
+[4.387s] [ 18%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_generator_c.dir/rosidl_generator_c/teb_msgs/msg/detail/trajectory_point_msg__functions.c.o[0m
+[4.634s] [ 20%] [32m[1mLinking C shared library libteb_msgs__rosidl_generator_c.so[0m
+[4.720s] [ 20%] Built target teb_msgs__rosidl_generator_c
+[4.765s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.770s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.773s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.086s] [ 29%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teb_msgs/msg/detail/dds_fastrtps/feedback_msg__type_support.cpp.o[0m
+[5.086s] [ 31%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teb_msgs/msg/detail/dds_fastrtps/trajectory_msg__type_support.cpp.o[0m
+[5.112s] [ 33%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teb_msgs/msg/detail/dds_fastrtps/trajectory_point_msg__type_support.cpp.o[0m
+[5.863s] [ 35%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teb_msgs/msg/feedback_msg__type_support.cpp.o[0m
+[5.942s] [ 37%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teb_msgs/msg/trajectory_msg__type_support.cpp.o[0m
+[6.249s] [ 39%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teb_msgs/msg/trajectory_point_msg__type_support.cpp.o[0m
+[6.426s] [ 41%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teb_msgs/msg/detail/feedback_msg__type_support.cpp.o[0m
+[6.887s] [ 43%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teb_msgs/msg/detail/trajectory_msg__type_support.cpp.o[0m
+[6.905s] [ 45%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/teb_msgs/msg/feedback_msg__type_support.cpp.o[0m
+[6.937s] [ 47%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teb_msgs/msg/detail/feedback_msg__type_support.c.o[0m
+[7.038s] [ 50%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/teb_msgs/msg/trajectory_msg__type_support.cpp.o[0m
+[7.068s] [ 52%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teb_msgs/msg/detail/trajectory_msg__type_support.c.o[0m
+[7.117s] [ 54%] [32m[1mLinking CXX shared library libteb_msgs__rosidl_typesupport_cpp.so[0m
+[7.140s] [ 56%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teb_msgs/msg/detail/trajectory_point_msg__type_support.cpp.o[0m
+[7.195s] [ 58%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/teb_msgs/msg/trajectory_point_msg__type_support.cpp.o[0m
+[7.217s] [ 60%] [32m[1mLinking CXX shared library libteb_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.238s] [ 62%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teb_msgs/msg/detail/trajectory_point_msg__type_support.c.o[0m
+[7.320s] [ 64%] [32m[1mLinking C shared library libteb_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.336s] [ 66%] [32m[1mLinking CXX shared library libteb_msgs__rosidl_typesupport_c.so[0m
+[7.336s] [ 66%] Built target teb_msgs__rosidl_typesupport_cpp
+[7.402s] [ 68%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teb_msgs/msg/detail/trajectory_msg__type_support_c.cpp.o[0m
+[7.423s] [ 70%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teb_msgs/msg/detail/feedback_msg__type_support_c.cpp.o[0m
+[7.433s] [ 70%] Built target teb_msgs__rosidl_typesupport_introspection_c
+[7.463s] [ 72%] Built target teb_msgs__rosidl_typesupport_c
+[7.464s] [ 72%] [32mBuilding CXX object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teb_msgs/msg/detail/trajectory_point_msg__type_support_c.cpp.o[0m
+[7.585s] [ 72%] Built target teb_msgs__rosidl_typesupport_fastrtps_cpp
+[9.040s] [ 75%] [32m[1mLinking CXX shared library libteb_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.075s] [ 77%] [32m[1mLinking CXX shared library libteb_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[9.310s] [ 77%] Built target teb_msgs__rosidl_typesupport_introspection_cpp
+[9.317s] [ 77%] Built target teb_msgs__rosidl_typesupport_fastrtps_c
+[9.364s] [ 77%] Built target teb_msgs
+[9.422s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.321s] [ 79%] Built target teb_msgs__py
+[11.354s] [ 81%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_generator_py.dir/rosidl_generator_py/teb_msgs/msg/_trajectory_point_msg_s.c.o[0m
+[11.362s] [ 83%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_generator_py.dir/rosidl_generator_py/teb_msgs/msg/_feedback_msg_s.c.o[0m
+[11.368s] [ 85%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_generator_py.dir/rosidl_generator_py/teb_msgs/msg/_trajectory_msg_s.c.o[0m
+[11.707s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/teb_msgs/libteb_msgs__rosidl_generator_py.so[0m
+[11.825s] [ 87%] Built target teb_msgs__rosidl_generator_py
+[11.877s] [ 89%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/teb_msgs/_teb_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[11.878s] [ 91%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/teb_msgs/_teb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.924s] [ 93%] [32mBuilding C object CMakeFiles/teb_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/teb_msgs/_teb_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.164s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/teb_msgs/teb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.188s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/teb_msgs/teb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.210s] [100%] [32m[1mLinking C shared library rosidl_generator_py/teb_msgs/teb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.304s] [100%] Built target teb_msgs__rosidl_typesupport_c__pyext
+[12.309s] [100%] Built target teb_msgs__rosidl_typesupport_fastrtps_c__pyext
+[12.352s] [100%] Built target teb_msgs__rosidl_typesupport_introspection_c__pyext
+[12.398s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_msgs' returned '0': AMENT_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_msgs -- -j8 -l8
+[12.400s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_msgs': AMENT_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_msgs
+[12.413s] -- Install configuration: ""
+[12.413s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/ament_index/resource_index/rosidl_interfaces/teb_msgs
+[12.413s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs
+[12.413s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg
+[12.413s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail
+[12.413s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__type_support.h
+[12.413s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__struct.h
+[12.413s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__functions.c
+[12.414s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__struct.h
+[12.414s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__type_support.h
+[12.414s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__functions.c
+[12.414s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__functions.h
+[12.414s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__functions.h
+[12.414s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__type_support.h
+[12.414s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__functions.h
+[12.414s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__struct.h
+[12.415s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__functions.c
+[12.415s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/feedback_msg.h
+[12.415s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/trajectory_msg.h
+[12.415s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/trajectory_point_msg.h
+[12.416s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/rosidl_generator_c__visibility_control.h
+[12.416s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/environment/library_path.sh
+[12.416s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/environment/library_path.dsv
+[12.416s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/lib/libteb_msgs__rosidl_generator_c.so
+[12.416s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/lib/libteb_msgs__rosidl_generator_c.so" to ""
+[12.416s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs
+[12.416s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg
+[12.416s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail
+[12.416s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__rosidl_typesupport_fastrtps_c.h
+[12.420s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__rosidl_typesupport_fastrtps_c.h
+[12.420s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__rosidl_typesupport_fastrtps_c.h
+[12.421s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.421s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_fastrtps_c.so
+[12.421s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[12.421s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs
+[12.421s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg
+[12.422s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/trajectory_point_msg.hpp
+[12.422s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail
+[12.422s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__type_support.hpp
+[12.422s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__struct.hpp
+[12.422s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__type_support.hpp
+[12.422s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__traits.hpp
+[12.422s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__type_support.hpp
+[12.422s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__struct.hpp
+[12.422s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__builder.hpp
+[12.422s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__struct.hpp
+[12.422s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__builder.hpp
+[12.422s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__builder.hpp
+[12.422s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__traits.hpp
+[12.422s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__traits.hpp
+[12.422s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.434s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/feedback_msg.hpp
+[12.434s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/trajectory_msg.hpp
+[12.434s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs
+[12.434s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg
+[12.434s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail
+[12.434s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/dds_fastrtps
+[12.434s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[12.434s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[12.434s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[12.434s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.434s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_fastrtps_cpp.so
+[12.434s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.434s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs
+[12.435s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg
+[12.435s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail
+[12.435s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__rosidl_typesupport_introspection_c.h
+[12.435s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__rosidl_typesupport_introspection_c.h
+[12.435s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__rosidl_typesupport_introspection_c.h
+[12.435s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__type_support.c
+[12.435s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__type_support.c
+[12.435s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__type_support.c
+[12.435s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.435s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_introspection_c.so
+[12.435s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_introspection_c.so" to ""
+[12.435s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_c.so
+[12.435s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_c.so" to ""
+[12.435s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs
+[12.435s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg
+[12.435s] -- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail
+[12.437s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__type_support.cpp
+[12.437s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__rosidl_typesupport_introspection_cpp.hpp
+[12.437s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__rosidl_typesupport_introspection_cpp.hpp
+[12.437s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_msg__type_support.cpp
+[12.437s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/feedback_msg__type_support.cpp
+[12.437s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/include/teb_msgs/teb_msgs/msg/detail/trajectory_point_msg__rosidl_typesupport_introspection_cpp.hpp
+[12.437s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_introspection_cpp.so
+[12.437s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[12.438s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_cpp.so
+[12.438s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/lib/libteb_msgs__rosidl_typesupport_cpp.so" to ""
+[12.438s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/environment/pythonpath.sh
+[12.438s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/environment/pythonpath.dsv
+[12.438s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs-0.0.1-py3.10.egg-info
+[12.438s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs-0.0.1-py3.10.egg-info/top_level.txt
+[12.439s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs-0.0.1-py3.10.egg-info/dependency_links.txt
+[12.439s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs-0.0.1-py3.10.egg-info/SOURCES.txt
+[12.439s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs-0.0.1-py3.10.egg-info/PKG-INFO
+[12.440s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs
+[12.440s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.440s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/_teb_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[12.440s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/libteb_msgs__rosidl_generator_py.so
+[12.441s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/_teb_msgs_s.ep.rosidl_typesupport_c.c
+[12.441s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/__init__.py
+[12.441s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.441s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/_teb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.441s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg
+[12.441s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/_feedback_msg.py
+[12.441s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/__init__.py
+[12.441s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/_feedback_msg_s.c
+[12.441s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/_trajectory_point_msg_s.c
+[12.443s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/_trajectory_point_msg.py
+[12.443s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/_trajectory_msg_s.c
+[12.443s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/_trajectory_msg.py
+[12.443s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.607s] Listing '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs'...
+[12.608s] Compiling '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/__init__.py'...
+[12.608s] Listing '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg'...
+[12.608s] Compiling '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/__init__.py'...
+[12.608s] Compiling '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/_feedback_msg.py'...
+[12.608s] Compiling '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/_trajectory_msg.py'...
+[12.608s] Compiling '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/msg/_trajectory_point_msg.py'...
+[12.622s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.626s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.626s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.626s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.629s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.631s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages/teb_msgs/teb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.631s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/lib/libteb_msgs__rosidl_generator_py.so
+[12.631s] -- Set runtime path of "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/lib/libteb_msgs__rosidl_generator_py.so" to ""
+[12.637s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/ament_index/resource_index/rust_packages/teb_msgs
+[12.637s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/rust
+[12.637s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/rust/Cargo.toml
+[12.637s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/rust/src
+[12.638s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/rust/src/msg.rs
+[12.638s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/rust/src/msg
+[12.638s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/rust/src/msg/rmw.rs
+[12.638s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/rust/src/lib.rs
+[12.638s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/rust/build.rs
+[12.638s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/msg/FeedbackMsg.idl
+[12.640s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/msg/TrajectoryMsg.idl
+[12.640s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/msg/TrajectoryPointMsg.idl
+[12.640s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/msg/FeedbackMsg.msg
+[12.640s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/msg/TrajectoryMsg.msg
+[12.640s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/msg/TrajectoryPointMsg.msg
+[12.646s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/ament_index/resource_index/package_run_dependencies/teb_msgs
+[12.646s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/ament_index/resource_index/parent_prefix_path/teb_msgs
+[12.646s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/environment/ament_prefix_path.sh
+[12.646s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/environment/ament_prefix_path.dsv
+[12.646s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/environment/path.sh
+[12.647s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/environment/path.dsv
+[12.647s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/local_setup.bash
+[12.647s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/local_setup.sh
+[12.648s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/local_setup.zsh
+[12.648s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/local_setup.dsv
+[12.654s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/package.dsv
+[12.654s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/ament_index/resource_index/packages/teb_msgs
+[12.654s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_generator_cExport.cmake
+[12.655s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_generator_cExport-noconfig.cmake
+[12.655s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[12.655s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.655s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_generator_cppExport.cmake
+[12.655s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.655s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.656s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_introspection_cExport.cmake
+[12.657s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.657s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_cExport.cmake
+[12.658s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[12.659s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[12.660s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.660s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_cppExport.cmake
+[12.663s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/teb_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[12.664s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_generator_pyExport.cmake
+[12.664s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/export_teb_msgs__rosidl_generator_pyExport-noconfig.cmake
+[12.665s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/rosidl_cmake-extras.cmake
+[12.665s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.665s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.666s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[12.666s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[12.672s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.672s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.672s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[12.672s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/teb_msgsConfig.cmake
+[12.672s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake/teb_msgsConfig-version.cmake
+[12.673s] -- Installing: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/package.xml
+[12.691s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_msgs' returned '0': AMENT_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_msgs

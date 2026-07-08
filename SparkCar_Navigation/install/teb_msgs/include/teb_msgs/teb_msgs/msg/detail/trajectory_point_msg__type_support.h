@@ -1,0 +1,1 @@
+/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_msgs/rosidl_generator_c/teb_msgs/msg/detail/trajectory_point_msg__type_support.h

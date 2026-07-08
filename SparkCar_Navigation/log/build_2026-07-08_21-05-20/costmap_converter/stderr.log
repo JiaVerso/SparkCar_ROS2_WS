@@ -1,0 +1,201 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:42[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/src/costmap_to_polygons.cpp:39[m[K:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+  197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+      |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:43[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/src/costmap_to_polygons.cpp:39[m[K:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  313 |  underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+      |                                                            [01;36m[K~^[m[K
+      |                                                             [01;36m[K|[m[K
+      |                                                             [01;36m[Kchar*[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:46[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_lines_convex_hull.h:42[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/src/costmap_to_lines_convex_hull.cpp:39[m[K:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+  197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:46[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.h:47[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/src/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.cpp:1[m[K:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+  197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+      |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+      |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_lines_convex_hull.h:42[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/src/costmap_to_lines_convex_hull.cpp:39[m[K:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  313 |       RCLCPP_INFO(getLogger(), "CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+      |                                                                                                                      [01;36m[K~^[m[K
+      |                                                                                                                       [01;36m[K|[m[K
+      |                                                                                                                       [01;36m[Kchar*[m[K
+In file included from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.h:47[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/src/costmap_to_dynamic_obstacles/costmap_to_dynamic_obstacles.cpp:1[m[K:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  313 |       RCLCPP_INFO(getLogger(), "CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+      |                                                                                                                      [01;36m[K~^[m[K
+      |                                                                                                                       [01;36m[K|[m[K
+      |                                                                                                                       [01;36m[Kchar*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:42[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons_concave.h:42[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/src/costmap_to_polygons_concave.cpp:39[m[K:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+  197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+      |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:43[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons_concave.h:42[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/src/costmap_to_polygons_concave.cpp:39[m[K:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  313 |       RCLCPP_INFO(getLogger(), "CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+      |                                                                                                                      [01;36m[K~^[m[K
+      |                                                                                                                       [01;36m[K|[m[K
+      |                                                                                                                       [01;36m[Kchar*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:46[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_lines_ransac.h:42[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/src/costmap_to_lines_ransac.cpp:39[m[K:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+  197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+      |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_lines_ransac.h:42[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/src/costmap_to_lines_ransac.cpp:39[m[K:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  313 |       RCLCPP_INFO(getLogger(), "CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+      |                                                                                                                      [01;36m[K~^[m[K
+      |                                                                                                                       [01;36m[K|[m[K
+      |                                                                                                                       [01;36m[Kchar*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/src/costmap_converter_node.cpp:40[m[K:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+  197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+      |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/src/costmap_converter_node.cpp:47[m[K:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  313 |  underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+      |                                                            [01;36m[K~^[m[K
+      |                                                             [01;36m[K|[m[K
+      |                                                             [01;36m[Kchar*[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:42[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/test/costmap_polygons.cpp:5[m[K:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+  197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+      |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_to_polygons.h:43[m[K,
+                 from [01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/test/costmap_polygons.cpp:5[m[K:
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  313 |       RCLCPP_INFO(getLogger(), "CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+      |                                                                                                                      [01;36m[K~^[m[K
+      |                                                                                                                       [01;36m[K|[m[K
+      |                                                                                                                       [01;36m[Kchar*[m[K

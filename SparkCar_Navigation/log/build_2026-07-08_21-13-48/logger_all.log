@@ -1,0 +1,402 @@
+[0.078s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.078s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7d4392a6ca00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d4392a6c490>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d4392a6c490>>)
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.198s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_astar_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_astar_planner) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_astar_planner) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_astar_planner) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_astar_planner) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_astar_planner) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_astar_planner) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_astar_planner) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/hybrid_astar_planner) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hybrid_astar_planner' with type 'ros.ament_cmake' and name 'hybrid_astar_planner'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/sparkcar_nav_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/sparkcar_nav_bringup) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/sparkcar_nav_bringup) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/sparkcar_nav_bringup) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/sparkcar_nav_bringup) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/sparkcar_nav_bringup) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/sparkcar_nav_bringup) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/sparkcar_nav_bringup) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/sparkcar_nav_bringup) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sparkcar_nav_bringup' with type 'ros.ament_cmake' and name 'sparkcar_nav_bringup'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter/costmap_converter) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter/costmap_converter) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter/costmap_converter) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter/costmap_converter) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter/costmap_converter) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter/costmap_converter) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter/costmap_converter) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter/costmap_converter) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter/costmap_converter) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teb_local_planner/costmap_converter/costmap_converter' with type 'ros.ament_cmake' and name 'costmap_converter'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter/costmap_converter_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter/costmap_converter_msgs) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter/costmap_converter_msgs) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter/costmap_converter_msgs) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter/costmap_converter_msgs) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter/costmap_converter_msgs) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter/costmap_converter_msgs) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter/costmap_converter_msgs) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/costmap_converter/costmap_converter_msgs) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teb_local_planner/costmap_converter/costmap_converter_msgs' with type 'ros.ament_cmake' and name 'costmap_converter_msgs'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/teb_local_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/teb_local_planner) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/teb_local_planner) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/teb_local_planner) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/teb_local_planner) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/teb_local_planner) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/teb_local_planner) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/teb_local_planner) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/teb_local_planner) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teb_local_planner/teb_local_planner' with type 'ros.ament_cmake' and name 'teb_local_planner'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/teb_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/teb_msgs) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/teb_msgs) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/teb_msgs) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/teb_msgs) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/teb_msgs) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/teb_msgs) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/teb_msgs) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/teb_local_planner/teb_msgs) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teb_local_planner/teb_msgs' with type 'ros.ament_cmake' and name 'teb_msgs'
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.249s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install
+[0.250s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install
+[0.251s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 332 installed packages in /opt/ros/humble
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'cmake_args' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'cmake_target' from command line to 'None'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.283s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.284s] DEBUG:colcon.colcon_core.verb:Building package 'costmap_converter_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/costmap_converter_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs', 'merge_install': False, 'path': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'hybrid_astar_planner' build argument 'cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'hybrid_astar_planner' build argument 'cmake_target' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'hybrid_astar_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'hybrid_astar_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'hybrid_astar_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'hybrid_astar_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'hybrid_astar_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'hybrid_astar_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'hybrid_astar_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.284s] DEBUG:colcon.colcon_core.verb:Building package 'hybrid_astar_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner', 'merge_install': False, 'path': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/hybrid_astar_planner', 'symlink_install': True, 'test_result_base': None}
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'sparkcar_nav_bringup' build argument 'cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'sparkcar_nav_bringup' build argument 'cmake_target' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'sparkcar_nav_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'sparkcar_nav_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'sparkcar_nav_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'sparkcar_nav_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'sparkcar_nav_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'sparkcar_nav_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'sparkcar_nav_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.284s] DEBUG:colcon.colcon_core.verb:Building package 'sparkcar_nav_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup', 'merge_install': False, 'path': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'cmake_target' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'cmake_clean_first' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'cmake_force_configure' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'ament_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.285s] DEBUG:colcon.colcon_core.verb:Building package 'costmap_converter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/costmap_converter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter', 'merge_install': False, 'path': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter', 'symlink_install': True, 'test_result_base': None}
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'cmake_target' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.285s] DEBUG:colcon.colcon_core.verb:Building package 'teb_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs', 'merge_install': False, 'path': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'cmake_target' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'teb_local_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_local_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_local_planner', 'merge_install': False, 'path': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_local_planner', 'symlink_install': True, 'test_result_base': None}
+[0.286s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.286s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.287s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter_msgs' with build type 'ament_cmake'
+[0.287s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter_msgs'
+[0.288s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.288s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.288s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/hybrid_astar_planner' with build type 'ament_cmake'
+[0.292s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/hybrid_astar_planner'
+[0.293s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.293s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.296s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup' with build type 'ament_cmake'
+[0.296s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/sparkcar_nav_bringup'
+[0.296s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.296s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs
+[0.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner -- -j8 -l8
+[0.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup -- -j8 -l8
+[0.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup -- -j8 -l8
+[0.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup
+[0.392s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sparkcar_nav_bringup)
+[0.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/sparkcar_nav_bringup
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup' for CMake module files
+[0.395s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup' for CMake config files
+[0.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('sparkcar_nav_bringup', 'cmake_prefix_path')
+[0.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/hook/cmake_prefix_path.ps1'
+[0.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/hook/cmake_prefix_path.dsv'
+[0.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/hook/cmake_prefix_path.sh'
+[0.398s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/lib'
+[0.398s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/bin'
+[0.398s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/lib/pkgconfig/sparkcar_nav_bringup.pc'
+[0.398s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/lib/python3.10/site-packages'
+[0.398s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/bin'
+[0.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/package.ps1'
+[0.400s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/package.dsv'
+[0.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/package.sh'
+[0.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/package.bash'
+[0.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/package.zsh'
+[0.402s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/colcon-core/packages/sparkcar_nav_bringup)
+[0.402s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sparkcar_nav_bringup)
+[0.402s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup' for CMake module files
+[0.403s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup' for CMake config files
+[0.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('sparkcar_nav_bringup', 'cmake_prefix_path')
+[0.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/hook/cmake_prefix_path.ps1'
+[0.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/hook/cmake_prefix_path.dsv'
+[0.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/hook/cmake_prefix_path.sh'
+[0.404s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/lib'
+[0.404s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/bin'
+[0.404s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/lib/pkgconfig/sparkcar_nav_bringup.pc'
+[0.404s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/lib/python3.10/site-packages'
+[0.405s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/bin'
+[0.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/package.ps1'
+[0.405s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/package.dsv'
+[0.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/package.sh'
+[0.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/package.bash'
+[0.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/sparkcar_nav_bringup/package.zsh'
+[0.406s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup/share/colcon-core/packages/sparkcar_nav_bringup)
+[0.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner -- -j8 -l8
+[0.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner
+[0.427s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hybrid_astar_planner)
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner' for CMake module files
+[0.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/hybrid_astar_planner
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner' for CMake config files
+[0.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('hybrid_astar_planner', 'cmake_prefix_path')
+[0.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/hook/cmake_prefix_path.ps1'
+[0.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/hook/cmake_prefix_path.dsv'
+[0.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/hook/cmake_prefix_path.sh'
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/lib'
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/bin'
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/lib/pkgconfig/hybrid_astar_planner.pc'
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/lib/python3.10/site-packages'
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/bin'
+[0.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/package.ps1'
+[0.431s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/package.dsv'
+[0.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/package.sh'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/package.bash'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/package.zsh'
+[0.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/colcon-core/packages/hybrid_astar_planner)
+[0.433s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hybrid_astar_planner)
+[0.433s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner' for CMake module files
+[0.433s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner' for CMake config files
+[0.433s] Level 1:colcon.colcon_core.shell:create_environment_hook('hybrid_astar_planner', 'cmake_prefix_path')
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/hook/cmake_prefix_path.ps1'
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/hook/cmake_prefix_path.dsv'
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/hook/cmake_prefix_path.sh'
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/lib'
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/bin'
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/lib/pkgconfig/hybrid_astar_planner.pc'
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/lib/python3.10/site-packages'
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/bin'
+[0.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/package.ps1'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/package.dsv'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/package.sh'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/package.bash'
+[0.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/hybrid_astar_planner/package.zsh'
+[0.437s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner/share/colcon-core/packages/hybrid_astar_planner)
+[1.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs
+[1.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/costmap_converter_msgs -- -j8 -l8
+[30.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/costmap_converter_msgs -- -j8 -l8
+[30.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/costmap_converter_msgs
+[31.155s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(costmap_converter_msgs)
+[31.155s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs' for CMake module files
+[31.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/costmap_converter_msgs
+[31.156s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs' for CMake config files
+[31.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_converter_msgs', 'cmake_prefix_path')
+[31.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/cmake_prefix_path.ps1'
+[31.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/cmake_prefix_path.dsv'
+[31.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/cmake_prefix_path.sh'
+[31.158s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/lib'
+[31.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_converter_msgs', 'ld_library_path_lib')
+[31.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/ld_library_path_lib.ps1'
+[31.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/ld_library_path_lib.dsv'
+[31.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/ld_library_path_lib.sh'
+[31.159s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/bin'
+[31.159s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/lib/pkgconfig/costmap_converter_msgs.pc'
+[31.160s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/lib/python3.10/site-packages'
+[31.160s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/bin'
+[31.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/package.ps1'
+[31.161s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/package.dsv'
+[31.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/package.sh'
+[31.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/package.bash'
+[31.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/package.zsh'
+[31.162s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/colcon-core/packages/costmap_converter_msgs)
+[31.163s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(costmap_converter_msgs)
+[31.163s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs' for CMake module files
+[31.163s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs' for CMake config files
+[31.164s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_converter_msgs', 'cmake_prefix_path')
+[31.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/cmake_prefix_path.ps1'
+[31.164s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/cmake_prefix_path.dsv'
+[31.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/cmake_prefix_path.sh'
+[31.165s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/lib'
+[31.165s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_converter_msgs', 'ld_library_path_lib')
+[31.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/ld_library_path_lib.ps1'
+[31.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/ld_library_path_lib.dsv'
+[31.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/ld_library_path_lib.sh'
+[31.166s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/bin'
+[31.166s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/lib/pkgconfig/costmap_converter_msgs.pc'
+[31.166s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/lib/python3.10/site-packages'
+[31.167s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/bin'
+[31.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/package.ps1'
+[31.168s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/package.dsv'
+[31.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/package.sh'
+[31.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/package.bash'
+[31.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/costmap_converter_msgs/package.zsh'
+[31.170s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/share/colcon-core/packages/costmap_converter_msgs)
+[31.170s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter' with build type 'ament_cmake'
+[31.170s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter'
+[31.170s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.170s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.174s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_msgs' with build type 'ament_cmake'
+[31.174s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_msgs'
+[31.174s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.174s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/costmap_converter': AMENT_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter
+[31.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_msgs': AMENT_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs
+[32.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/costmap_converter' returned '0': AMENT_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/costmap_converter/costmap_converter -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter
+[32.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/costmap_converter': AMENT_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/costmap_converter -- -j8 -l8
+[32.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_msgs' returned '0': AMENT_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs
+[32.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_msgs': AMENT_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_msgs -- -j8 -l8
+[34.090s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teb_msgs)
+[34.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_msgs' returned '2': AMENT_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble LD_LIBRARY_PATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_msgs -- -j8 -l8
+[34.091s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs' for CMake module files
+[34.092s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs' for CMake config files
+[34.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('teb_msgs', 'cmake_prefix_path')
+[34.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/hook/cmake_prefix_path.ps1'
+[34.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/hook/cmake_prefix_path.dsv'
+[34.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/hook/cmake_prefix_path.sh'
+[34.095s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/lib'
+[34.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('teb_msgs', 'ld_library_path_lib')
+[34.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/hook/ld_library_path_lib.ps1'
+[34.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/hook/ld_library_path_lib.dsv'
+[34.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/hook/ld_library_path_lib.sh'
+[34.097s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/bin'
+[34.097s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/lib/pkgconfig/teb_msgs.pc'
+[34.097s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/lib/python3.10/site-packages'
+[34.097s] Level 1:colcon.colcon_core.environment:checking '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/bin'
+[34.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/package.ps1'
+[34.099s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/package.dsv'
+[34.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/package.sh'
+[34.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/package.bash'
+[34.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/package.zsh'
+[34.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/colcon-core/packages/teb_msgs)
+[69.043s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[69.043s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[69.043s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[69.043s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[69.043s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[69.044s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/local_setup.ps1'
+[69.044s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/_local_setup_util_ps1.py'
+[69.045s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/setup.ps1'
+[69.047s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/local_setup.sh'
+[69.047s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/_local_setup_util_sh.py'
+[69.047s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/setup.sh'
+[69.048s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/local_setup.bash'
+[69.049s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/setup.bash'
+[69.050s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/local_setup.zsh'
+[69.050s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/setup.zsh'

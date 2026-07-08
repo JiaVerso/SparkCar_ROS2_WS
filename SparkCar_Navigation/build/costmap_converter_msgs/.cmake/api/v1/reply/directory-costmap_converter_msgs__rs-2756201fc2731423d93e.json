@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "costmap_converter_msgs__rs",
+		"source" : "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/costmap_converter_msgs/costmap_converter_msgs__rs"
+	}
+}

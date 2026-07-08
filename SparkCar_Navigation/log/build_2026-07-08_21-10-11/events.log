@@ -1,0 +1,352 @@
+[0.000000] (-) TimerEvent: {}
+[0.000668] (-) JobUnselected: {'identifier': 'costmap_converter'}
+[0.000757] (-) JobUnselected: {'identifier': 'costmap_converter_msgs'}
+[0.000770] (-) JobUnselected: {'identifier': 'hybrid_astar_planner'}
+[0.000818] (-) JobUnselected: {'identifier': 'sparkcar_nav_bringup'}
+[0.000834] (-) JobUnselected: {'identifier': 'teb_msgs'}
+[0.000846] (teb_local_planner) JobQueued: {'identifier': 'teb_local_planner', 'dependencies': OrderedDict([('costmap_converter_msgs', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs'), ('costmap_converter', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter'), ('teb_msgs', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs')])}
+[0.000900] (teb_local_planner) JobStarted: {'identifier': 'teb_local_planner'}
+[0.017415] (teb_local_planner) JobProgress: {'identifier': 'teb_local_planner', 'progress': 'cmake'}
+[0.019587] (teb_local_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_local_planner', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_local_planner'], 'cwd': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_local_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/jiaverso'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'jiaverso'), ('SSH_CLIENT', '192.168.110.167 63946 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/home/jiaverso/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/jiaverso/.vscode-server/data/clp/1f2ac40d74d0c6c5f470a71c37acd3b6.zh-cn/tcf.json","messagesFile":"/home/jiaverso/.vscode-server/data/clp/1f2ac40d74d0c6c5f470a71c37acd3b6.zh-cn/7e7950df89d055b5a378379db9ee14290772148a/nls.messages.json","corruptMarkerFile":"/home/jiaverso/.vscode-server/data/clp/1f2ac40d74d0c6c5f470a71c37acd3b6.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"1f2ac40d74d0c6c5f470a71c37acd3b6.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/jiaverso/.vscode-server/data/clp/1f2ac40d74d0c6c5f470a71c37acd3b6.zh-cn/tcf.json","_cacheRoot":"/home/jiaverso/.vscode-server/data/clp/1f2ac40d74d0c6c5f470a71c37acd3b6.zh-cn","_resolvedLanguagePackCoreLocation":"/home/jiaverso/.vscode-server/data/clp/1f2ac40d74d0c6c5f470a71c37acd3b6.zh-cn/7e7950df89d055b5a378379db9ee14290772148a","_corruptedFile":"/home/jiaverso/.vscode-server/data/clp/1f2ac40d74d0c6c5f470a71c37acd3b6.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/jiaverso/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/helpers/browser.sh'), ('OPENAI_BASE_URL', 'https://api.ai-pixel.online'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jiaverso'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6df3f523-eb39-4595-b8c2-54179ab655cd.sock'), ('ROS_PYTHON_VERSION', '3'), ('OPENAI_API_KEY', 'sk-ad00539cf26ae5f0778a31c9e07066c4600e76f8d0864285c18cb39c205e1577'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('COLCON_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jiaverso'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '6'), ('VSCODE_CLI_REQUIRE_TOKEN', '99b4414e-862c-4294-9654-7891c9951e75'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter/bin:/home/jiaverso/.codex/tmp/arg0/codex-arg0F72hUB:/home/jiaverso/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jiaverso/.vscode-server/extensions/openai.chatgpt-26.623.141536-linux-x64/bin/linux-x86_64'), ('VSCODE_AGENT_FOLDER', '/home/jiaverso/.vscode-server'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019f25a3-333f-7121-882f-f65178344d61'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('PWD', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_local_planner'), ('LC_ALL', 'C.UTF-8'), ('SSH_CONNECTION', '192.168.110.167 63946 192.168.110.159 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble')]), 'shell': False}
+[0.030339] (teb_local_planner) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099697] (-) TimerEvent: {}
+[0.124796] (teb_local_planner) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.129790] (teb_local_planner) StdoutLine: {'line': b'-- Found costmap_converter: 0.1.2 (/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter/share/costmap_converter/cmake)\n'}
+[0.151695] (teb_local_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.153517] (teb_local_planner) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.158293] (teb_local_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.165675] (teb_local_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.173576] (teb_local_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199810] (-) TimerEvent: {}
+[0.259348] (teb_local_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.260521] (teb_local_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299908] (-) TimerEvent: {}
+[0.339946] (teb_local_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399988] (-) TimerEvent: {}
+[0.483249] (teb_local_planner) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.500099] (-) TimerEvent: {}
+[0.567789] (teb_local_planner) StdoutLine: {'line': b'-- Found dwb_critics: 1.1.20 (/opt/ros/humble/share/dwb_critics/cmake)\n'}
+[0.600205] (-) TimerEvent: {}
+[0.656548] (teb_local_planner) StdoutLine: {'line': b'-- Found teb_msgs: 0.0.1 (/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/share/teb_msgs/cmake)\n'}
+[0.671558] (teb_local_planner) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[0.673541] (teb_local_planner) StdoutLine: {'line': b'-- System: Linux-6.8.0-124-generic\n'}
+[0.673719] (teb_local_planner) StdoutLine: {'line': b'-- /opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/eigen3_cmake_module/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_local_planner/cmake_modules\n'}
+[0.674901] (teb_local_planner) StdoutLine: {'line': b'-- Found SuiteSparse\n'}
+[0.675094] (teb_local_planner) StdoutLine: {'line': b'-- Searching for g2o ...\n'}
+[0.675205] (teb_local_planner) StdoutLine: {'line': b'-- Found g2o headers in: /opt/ros/humble/include/g2o\n'}
+[0.675267] (teb_local_planner) StdoutLine: {'line': b'-- Found libg2o: /opt/ros/humble/lib/x86_64-linux-gnu/libg2o_csparse_extension.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_core.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_stuff.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_types_slam2d.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_types_slam3d.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_solver_cholmod.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_solver_pcg.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_solver_csparse.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_incremental.so\n'}
+[0.700310] (-) TimerEvent: {}
+[0.800515] (-) TimerEvent: {}
+[0.900720] (-) TimerEvent: {}
+[1.000939] (-) TimerEvent: {}
+[1.101155] (-) TimerEvent: {}
+[1.201321] (-) TimerEvent: {}
+[1.301525] (-) TimerEvent: {}
+[1.401732] (-) TimerEvent: {}
+[1.501906] (-) TimerEvent: {}
+[1.602097] (-) TimerEvent: {}
+[1.702284] (-) TimerEvent: {}
+[1.802474] (-) TimerEvent: {}
+[1.902666] (-) TimerEvent: {}
+[1.930547] (teb_local_planner) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.985814] (teb_local_planner) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.002846] (-) TimerEvent: {}
+[2.047713] (teb_local_planner) StdoutLine: {'line': b'-- Generating done\n'}
+[2.056399] (teb_local_planner) StdoutLine: {'line': b'-- Build files have been written to: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_local_planner\n'}
+[2.067605] (teb_local_planner) CommandEnded: {'returncode': 0}
+[2.068104] (teb_local_planner) JobProgress: {'identifier': 'teb_local_planner', 'progress': 'build'}
+[2.068809] (teb_local_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_local_planner', '--', '-j8', '-l8'], 'cwd': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_local_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/jiaverso'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'jiaverso'), ('SSH_CLIENT', '192.168.110.167 63946 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/home/jiaverso/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/jiaverso/.vscode-server/data/clp/1f2ac40d74d0c6c5f470a71c37acd3b6.zh-cn/tcf.json","messagesFile":"/home/jiaverso/.vscode-server/data/clp/1f2ac40d74d0c6c5f470a71c37acd3b6.zh-cn/7e7950df89d055b5a378379db9ee14290772148a/nls.messages.json","corruptMarkerFile":"/home/jiaverso/.vscode-server/data/clp/1f2ac40d74d0c6c5f470a71c37acd3b6.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"1f2ac40d74d0c6c5f470a71c37acd3b6.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/jiaverso/.vscode-server/data/clp/1f2ac40d74d0c6c5f470a71c37acd3b6.zh-cn/tcf.json","_cacheRoot":"/home/jiaverso/.vscode-server/data/clp/1f2ac40d74d0c6c5f470a71c37acd3b6.zh-cn","_resolvedLanguagePackCoreLocation":"/home/jiaverso/.vscode-server/data/clp/1f2ac40d74d0c6c5f470a71c37acd3b6.zh-cn/7e7950df89d055b5a378379db9ee14290772148a","_corruptedFile":"/home/jiaverso/.vscode-server/data/clp/1f2ac40d74d0c6c5f470a71c37acd3b6.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/jiaverso/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/helpers/browser.sh'), ('OPENAI_BASE_URL', 'https://api.ai-pixel.online'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jiaverso'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6df3f523-eb39-4595-b8c2-54179ab655cd.sock'), ('ROS_PYTHON_VERSION', '3'), ('OPENAI_API_KEY', 'sk-ad00539cf26ae5f0778a31c9e07066c4600e76f8d0864285c18cb39c205e1577'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('COLCON_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jiaverso'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '6'), ('VSCODE_CLI_REQUIRE_TOKEN', '99b4414e-862c-4294-9654-7891c9951e75'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter/bin:/home/jiaverso/.codex/tmp/arg0/codex-arg0F72hUB:/home/jiaverso/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jiaverso/.vscode-server/extensions/openai.chatgpt-26.623.141536-linux-x64/bin/linux-x86_64'), ('VSCODE_AGENT_FOLDER', '/home/jiaverso/.vscode-server'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019f25a3-333f-7121-882f-f65178344d61'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('PWD', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_local_planner'), ('LC_ALL', 'C.UTF-8'), ('SSH_CONNECTION', '192.168.110.167 63946 192.168.110.159 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs/local/lib/python3.10/dist-packages:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/teb_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/sparkcar_nav_bringup:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/hybrid_astar_planner:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble')]), 'shell': False}
+[2.102929] (-) TimerEvent: {}
+[2.140442] (teb_local_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target teb_local_planner\n'}
+[2.165793] (teb_local_planner) StdoutLine: {'line': b'[ 10%] Building CXX object CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.o\n'}
+[2.203037] (-) TimerEvent: {}
+[2.303227] (-) TimerEvent: {}
+[2.403413] (-) TimerEvent: {}
+[2.503608] (-) TimerEvent: {}
+[2.603811] (-) TimerEvent: {}
+[2.704005] (-) TimerEvent: {}
+[2.804232] (-) TimerEvent: {}
+[2.904449] (-) TimerEvent: {}
+[3.004626] (-) TimerEvent: {}
+[3.104792] (-) TimerEvent: {}
+[3.204989] (-) TimerEvent: {}
+[3.305284] (-) TimerEvent: {}
+[3.405461] (-) TimerEvent: {}
+[3.505656] (-) TimerEvent: {}
+[3.605836] (-) TimerEvent: {}
+[3.706022] (-) TimerEvent: {}
+[3.806261] (-) TimerEvent: {}
+[3.906609] (-) TimerEvent: {}
+[4.006777] (-) TimerEvent: {}
+[4.106939] (-) TimerEvent: {}
+[4.207116] (-) TimerEvent: {}
+[4.307315] (-) TimerEvent: {}
+[4.407475] (-) TimerEvent: {}
+[4.507665] (-) TimerEvent: {}
+[4.607832] (-) TimerEvent: {}
+[4.708017] (-) TimerEvent: {}
+[4.808216] (-) TimerEvent: {}
+[4.908421] (-) TimerEvent: {}
+[5.008630] (-) TimerEvent: {}
+[5.108838] (-) TimerEvent: {}
+[5.209046] (-) TimerEvent: {}
+[5.309243] (-) TimerEvent: {}
+[5.409431] (-) TimerEvent: {}
+[5.509608] (-) TimerEvent: {}
+[5.609793] (-) TimerEvent: {}
+[5.709977] (-) TimerEvent: {}
+[5.810168] (-) TimerEvent: {}
+[5.910373] (-) TimerEvent: {}
+[6.010553] (-) TimerEvent: {}
+[6.110693] (-) TimerEvent: {}
+[6.210856] (-) TimerEvent: {}
+[6.311054] (-) TimerEvent: {}
+[6.411232] (-) TimerEvent: {}
+[6.511420] (-) TimerEvent: {}
+[6.611614] (-) TimerEvent: {}
+[6.711788] (-) TimerEvent: {}
+[6.811955] (-) TimerEvent: {}
+[6.912124] (-) TimerEvent: {}
+[7.012309] (-) TimerEvent: {}
+[7.112511] (-) TimerEvent: {}
+[7.212706] (-) TimerEvent: {}
+[7.312872] (-) TimerEvent: {}
+[7.413037] (-) TimerEvent: {}
+[7.513201] (-) TimerEvent: {}
+[7.613379] (-) TimerEvent: {}
+[7.713563] (-) TimerEvent: {}
+[7.813751] (-) TimerEvent: {}
+[7.913920] (-) TimerEvent: {}
+[8.014108] (-) TimerEvent: {}
+[8.114317] (-) TimerEvent: {}
+[8.214513] (-) TimerEvent: {}
+[8.314934] (-) TimerEvent: {}
+[8.415325] (-) TimerEvent: {}
+[8.515612] (-) TimerEvent: {}
+[8.615797] (-) TimerEvent: {}
+[8.715991] (-) TimerEvent: {}
+[8.816175] (-) TimerEvent: {}
+[8.916516] (-) TimerEvent: {}
+[9.016929] (-) TimerEvent: {}
+[9.117099] (-) TimerEvent: {}
+[9.217288] (-) TimerEvent: {}
+[9.317478] (-) TimerEvent: {}
+[9.417667] (-) TimerEvent: {}
+[9.517855] (-) TimerEvent: {}
+[9.618050] (-) TimerEvent: {}
+[9.718236] (-) TimerEvent: {}
+[9.818443] (-) TimerEvent: {}
+[9.918646] (-) TimerEvent: {}
+[10.018845] (-) TimerEvent: {}
+[10.119042] (-) TimerEvent: {}
+[10.219245] (-) TimerEvent: {}
+[10.319426] (-) TimerEvent: {}
+[10.419597] (-) TimerEvent: {}
+[10.519768] (-) TimerEvent: {}
+[10.619944] (-) TimerEvent: {}
+[10.720164] (-) TimerEvent: {}
+[10.820344] (-) TimerEvent: {}
+[10.920535] (-) TimerEvent: {}
+[11.020721] (-) TimerEvent: {}
+[11.120904] (-) TimerEvent: {}
+[11.221202] (-) TimerEvent: {}
+[11.321660] (-) TimerEvent: {}
+[11.422076] (-) TimerEvent: {}
+[11.522567] (-) TimerEvent: {}
+[11.622963] (-) TimerEvent: {}
+[11.723334] (-) TimerEvent: {}
+[11.823736] (-) TimerEvent: {}
+[11.924070] (-) TimerEvent: {}
+[12.024261] (-) TimerEvent: {}
+[12.124471] (-) TimerEvent: {}
+[12.224662] (-) TimerEvent: {}
+[12.324849] (-) TimerEvent: {}
+[12.425061] (-) TimerEvent: {}
+[12.525228] (-) TimerEvent: {}
+[12.625406] (-) TimerEvent: {}
+[12.725589] (-) TimerEvent: {}
+[12.825772] (-) TimerEvent: {}
+[12.925934] (-) TimerEvent: {}
+[13.026234] (-) TimerEvent: {}
+[13.126530] (-) TimerEvent: {}
+[13.226728] (-) TimerEvent: {}
+[13.327082] (-) TimerEvent: {}
+[13.427529] (-) TimerEvent: {}
+[13.527693] (-) TimerEvent: {}
+[13.627864] (-) TimerEvent: {}
+[13.728044] (-) TimerEvent: {}
+[13.828230] (-) TimerEvent: {}
+[13.928401] (-) TimerEvent: {}
+[14.028590] (-) TimerEvent: {}
+[14.029758] (teb_local_planner) StderrLine: {'line': b'In file included from /opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57,\n'}
+[14.029899] (teb_local_planner) StderrLine: {'line': b'                 from /opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334,\n'}
+[14.029946] (teb_local_planner) StderrLine: {'line': b'                 from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_local_planner/include/teb_local_planner/teb_local_planner_ros.h:42,\n'}
+[14.029992] (teb_local_planner) StderrLine: {'line': b'                 from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_local_planner/src/teb_local_planner_ros.cpp:39:\n'}
+[14.030037] (teb_local_planner) StderrLine: {'line': b'/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h: In member function \xe2\x80\x98void costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)\xe2\x80\x99:\n'}
+[14.030084] (teb_local_planner) StderrLine: {'line': b'/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41: warning: too many arguments for format [-Wformat-extra-args]\n'}
+[14.030125] (teb_local_planner) StderrLine: {'line': b'  197 |         RCLCPP_DEBUG(nh_->get_logger(), "costmap_converter", "Spinning up a thread for the CostmapToPolygons plugin");\n'}
+[14.030167] (teb_local_planner) StderrLine: {'line': b'      |                                         ^~~~~~~~~~~~~~~~~~~\n'}
+[14.046602] (teb_local_planner) StderrLine: {'line': b'/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h: In member function \xe2\x80\x98void costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)\xe2\x80\x99:\n'}
+[14.047050] (teb_local_planner) StderrLine: {'line': b'/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32: warning: format \xe2\x80\x98%s\xe2\x80\x99 expects argument of type \xe2\x80\x98char*\xe2\x80\x99, but argument 5 has type \xe2\x80\x98const string\xe2\x80\x99 {aka \xe2\x80\x98const std::__cxx11::basic_string<char>\xe2\x80\x99} [-Wformat=]\n'}
+[14.047200] (teb_local_planner) StderrLine: {'line': b'  313 |       RCLCPP_INFO(getLogger(), "CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded.", plugin_name);\n'}
+[14.047350] (teb_local_planner) StderrLine: {'line': b'      |                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[14.047508] (teb_local_planner) StderrLine: {'line': b'In file included from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_local_planner/include/teb_local_planner/teb_local_planner_ros.h:68,\n'}
+[14.047650] (teb_local_planner) StderrLine: {'line': b'                 from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_local_planner/src/teb_local_planner_ros.cpp:39:\n'}
+[14.047858] (teb_local_planner) StderrLine: {'line': b'/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119: note: format string is defined here\n'}
+[14.047987] (teb_local_planner) StderrLine: {'line': b'  313 |       RCLCPP_INFO(getLogger(), "CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded.", plugin_name);\n'}
+[14.048124] (teb_local_planner) StderrLine: {'line': b'      |                                                                                                                      ~^\n'}
+[14.048239] (teb_local_planner) StderrLine: {'line': b'      |                                                                                                                       |\n'}
+[14.048358] (teb_local_planner) StderrLine: {'line': b'      |                                                                                                                       char*\n'}
+[14.128806] (-) TimerEvent: {}
+[14.228987] (-) TimerEvent: {}
+[14.320670] (teb_local_planner) StderrLine: {'line': b'/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_local_planner/src/teb_local_planner_ros.cpp: In member function \xe2\x80\x98void teb_local_planner::TebLocalPlannerROS::initialize(rclcpp_lifecycle::LifecycleNode::SharedPtr)\xe2\x80\x99:\n'}
+[14.320859] (teb_local_planner) StderrLine: {'line': b'/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_local_planner/src/teb_local_planner_ros.cpp:166:113: error: too few arguments to function \xe2\x80\x98void nav2_costmap_2d::calculateMinAndMaxDistances(const std::vector<geometry_msgs::msg::Point_<std::allocator<void> > >&, double&, double&)\xe2\x80\x99\n'}
+[14.321015] (teb_local_planner) StderrLine: {'line': b'  166 |     std::tie(robot_inscribed_radius_, robot_circumscribed_radius) = nav2_costmap_2d::calculateMinAndMaxDistances(footprint_spec_);\n'}
+[14.321128] (teb_local_planner) StderrLine: {'line': b'      |                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\n'}
+[14.321237] (teb_local_planner) StderrLine: {'line': b'In file included from /opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:49,\n'}
+[14.321307] (teb_local_planner) StderrLine: {'line': b'                 from /opt/ros/humble/include/nav2_core/controller.hpp:42,\n'}
+[14.321389] (teb_local_planner) StderrLine: {'line': b'                 from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_local_planner/include/teb_local_planner/teb_local_planner_ros.h:47,\n'}
+[14.321507] (teb_local_planner) StderrLine: {'line': b'                 from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_local_planner/src/teb_local_planner_ros.cpp:39:\n'}
+[14.321604] (teb_local_planner) StderrLine: {'line': b'/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/footprint.hpp:61:6: note: declared here\n'}
+[14.321739] (teb_local_planner) StderrLine: {'line': b'   61 | void calculateMinAndMaxDistances(\n'}
+[14.321826] (teb_local_planner) StderrLine: {'line': b'      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[14.329106] (-) TimerEvent: {}
+[14.417397] (teb_local_planner) StderrLine: {'line': b'/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_local_planner/src/teb_local_planner_ros.cpp: In member function \xe2\x80\x98virtual geometry_msgs::msg::TwistStamped teb_local_planner::TebLocalPlannerROS::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)\xe2\x80\x99:\n'}
+[14.417540] (teb_local_planner) StderrLine: {'line': b'/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_local_planner/src/teb_local_planner_ros.cpp:404:115: error: too few arguments to function \xe2\x80\x98void nav2_costmap_2d::calculateMinAndMaxDistances(const std::vector<geometry_msgs::msg::Point_<std::allocator<void> > >&, double&, double&)\xe2\x80\x99\n'}
+[14.417586] (teb_local_planner) StderrLine: {'line': b'  404 |       std::tie(robot_inscribed_radius_, robot_circumscribed_radius) = nav2_costmap_2d::calculateMinAndMaxDistances(updated_footprint_spec_);\n'}
+[14.417633] (teb_local_planner) StderrLine: {'line': b'      |                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[14.417678] (teb_local_planner) StderrLine: {'line': b'In file included from /opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:49,\n'}
+[14.417719] (teb_local_planner) StderrLine: {'line': b'                 from /opt/ros/humble/include/nav2_core/controller.hpp:42,\n'}
+[14.417756] (teb_local_planner) StderrLine: {'line': b'                 from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_local_planner/include/teb_local_planner/teb_local_planner_ros.h:47,\n'}
+[14.417794] (teb_local_planner) StderrLine: {'line': b'                 from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_local_planner/src/teb_local_planner_ros.cpp:39:\n'}
+[14.417830] (teb_local_planner) StderrLine: {'line': b'/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/footprint.hpp:61:6: note: declared here\n'}
+[14.417864] (teb_local_planner) StderrLine: {'line': b'   61 | void calculateMinAndMaxDistances(\n'}
+[14.417899] (teb_local_planner) StderrLine: {'line': b'      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[14.429230] (-) TimerEvent: {}
+[14.529448] (-) TimerEvent: {}
+[14.629635] (-) TimerEvent: {}
+[14.729847] (-) TimerEvent: {}
+[14.830063] (-) TimerEvent: {}
+[14.930280] (-) TimerEvent: {}
+[15.030492] (-) TimerEvent: {}
+[15.130738] (-) TimerEvent: {}
+[15.231060] (-) TimerEvent: {}
+[15.331330] (-) TimerEvent: {}
+[15.431516] (-) TimerEvent: {}
+[15.531741] (-) TimerEvent: {}
+[15.632067] (-) TimerEvent: {}
+[15.732258] (-) TimerEvent: {}
+[15.832441] (-) TimerEvent: {}
+[15.932634] (-) TimerEvent: {}
+[16.032857] (-) TimerEvent: {}
+[16.133079] (-) TimerEvent: {}
+[16.233286] (-) TimerEvent: {}
+[16.333509] (-) TimerEvent: {}
+[16.433714] (-) TimerEvent: {}
+[16.533943] (-) TimerEvent: {}
+[16.634199] (-) TimerEvent: {}
+[16.734465] (-) TimerEvent: {}
+[16.834794] (-) TimerEvent: {}
+[16.935042] (-) TimerEvent: {}
+[17.035306] (-) TimerEvent: {}
+[17.135596] (-) TimerEvent: {}
+[17.235780] (-) TimerEvent: {}
+[17.335962] (-) TimerEvent: {}
+[17.436133] (-) TimerEvent: {}
+[17.536327] (-) TimerEvent: {}
+[17.636524] (-) TimerEvent: {}
+[17.736725] (-) TimerEvent: {}
+[17.836897] (-) TimerEvent: {}
+[17.937097] (-) TimerEvent: {}
+[18.037295] (-) TimerEvent: {}
+[18.137566] (-) TimerEvent: {}
+[18.237781] (-) TimerEvent: {}
+[18.337942] (-) TimerEvent: {}
+[18.438129] (-) TimerEvent: {}
+[18.538321] (-) TimerEvent: {}
+[18.638508] (-) TimerEvent: {}
+[18.738766] (-) TimerEvent: {}
+[18.838956] (-) TimerEvent: {}
+[18.939159] (-) TimerEvent: {}
+[19.039356] (-) TimerEvent: {}
+[19.139561] (-) TimerEvent: {}
+[19.239794] (-) TimerEvent: {}
+[19.340020] (-) TimerEvent: {}
+[19.440248] (-) TimerEvent: {}
+[19.540495] (-) TimerEvent: {}
+[19.640751] (-) TimerEvent: {}
+[19.740967] (-) TimerEvent: {}
+[19.841256] (-) TimerEvent: {}
+[19.941497] (-) TimerEvent: {}
+[20.041778] (-) TimerEvent: {}
+[20.142064] (-) TimerEvent: {}
+[20.242260] (-) TimerEvent: {}
+[20.342452] (-) TimerEvent: {}
+[20.442648] (-) TimerEvent: {}
+[20.542921] (-) TimerEvent: {}
+[20.643196] (-) TimerEvent: {}
+[20.743387] (-) TimerEvent: {}
+[20.843649] (-) TimerEvent: {}
+[20.943917] (-) TimerEvent: {}
+[21.044181] (-) TimerEvent: {}
+[21.144465] (-) TimerEvent: {}
+[21.244722] (-) TimerEvent: {}
+[21.344958] (-) TimerEvent: {}
+[21.445194] (-) TimerEvent: {}
+[21.545460] (-) TimerEvent: {}
+[21.645782] (-) TimerEvent: {}
+[21.746056] (-) TimerEvent: {}
+[21.846336] (-) TimerEvent: {}
+[21.946610] (-) TimerEvent: {}
+[22.046871] (-) TimerEvent: {}
+[22.147113] (-) TimerEvent: {}
+[22.247373] (-) TimerEvent: {}
+[22.347557] (-) TimerEvent: {}
+[22.447770] (-) TimerEvent: {}
+[22.547972] (-) TimerEvent: {}
+[22.648179] (-) TimerEvent: {}
+[22.748399] (-) TimerEvent: {}
+[22.848596] (-) TimerEvent: {}
+[22.948807] (-) TimerEvent: {}
+[23.049025] (-) TimerEvent: {}
+[23.149249] (-) TimerEvent: {}
+[23.249500] (-) TimerEvent: {}
+[23.349720] (-) TimerEvent: {}
+[23.449900] (-) TimerEvent: {}
+[23.550097] (-) TimerEvent: {}
+[23.650303] (-) TimerEvent: {}
+[23.750501] (-) TimerEvent: {}
+[23.850721] (-) TimerEvent: {}
+[23.950904] (-) TimerEvent: {}
+[24.051097] (-) TimerEvent: {}
+[24.151284] (-) TimerEvent: {}
+[24.251481] (-) TimerEvent: {}
+[24.351701] (-) TimerEvent: {}
+[24.451867] (-) TimerEvent: {}
+[24.552041] (-) TimerEvent: {}
+[24.652223] (-) TimerEvent: {}
+[24.752411] (-) TimerEvent: {}
+[24.852594] (-) TimerEvent: {}
+[24.952782] (-) TimerEvent: {}
+[25.052949] (-) TimerEvent: {}
+[25.153144] (-) TimerEvent: {}
+[25.253352] (-) TimerEvent: {}
+[25.353547] (-) TimerEvent: {}
+[25.453725] (-) TimerEvent: {}
+[25.553899] (-) TimerEvent: {}
+[25.654066] (-) TimerEvent: {}
+[25.754250] (-) TimerEvent: {}
+[25.854454] (-) TimerEvent: {}
+[25.954663] (-) TimerEvent: {}
+[26.054836] (-) TimerEvent: {}
+[26.155029] (-) TimerEvent: {}
+[26.255211] (-) TimerEvent: {}
+[26.355399] (-) TimerEvent: {}
+[26.455595] (-) TimerEvent: {}
+[26.555773] (-) TimerEvent: {}
+[26.582891] (teb_local_planner) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/teb_local_planner.dir/build.make:174: CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.o] Error 1\n'}
+[26.583136] (teb_local_planner) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/teb_local_planner.dir/all] Error 2\n'}
+[26.583306] (teb_local_planner) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[26.586559] (teb_local_planner) CommandEnded: {'returncode': 2}
+[26.593216] (teb_local_planner) JobEnded: {'identifier': 'teb_local_planner', 'rc': 2}
+[26.603595] (-) EventReactorShutdown: {}

@@ -1,0 +1,8 @@
+[01m[K/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_local_planner/src/teb_local_planner_ros.cpp:57:10:[m[K [01;31m[Kfatal error: [m[Knav2_core/controller_exceptions.hpp: No such file or directory
+   57 | #include [01;31m[K<nav2_core/controller_exceptions.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/teb_local_planner.dir/build.make:174: CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/teb_local_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
