@@ -10,7 +10,7 @@ map_server:
 planner_server:
   ros__parameters:
     use_sim_time: false
-    expected_planner_frequency: 5.0           # 每秒规划5次路线
+    expected_planner_frequency: 2.0           # Smac Hybrid较重，实车先降到1Hz，避免抢占局部控制
     planner_plugins: ["GridBased"]            # 规划器别名
 
     GridBased:
@@ -20,15 +20,15 @@ planner_server:
       downsample_costmap: false
       downsampling_factor: 1
       angle_quantization_bins: 72
-      minimum_turning_radius: 2.0
+      minimum_turning_radius: 1.8
       motion_model_for_search: "REEDS_SHEPP"
       analytic_expansion_ratio: 3.5
-      analytic_expansion_max_length: 3.0
+      analytic_expansion_max_length: 2.0
       analytic_expansion_max_cost: 200
       reverse_penalty: 2.0
       change_penalty: 0.0
-      non_straight_penalty: 1.2
-      cost_penalty: 2.0
+      non_straight_penalty: 1.5
+      cost_penalty: 2.5
       retrospective_penalty: 0.015
       lookup_table_size: 20.0
       cache_obstacle_heuristic: false
@@ -48,6 +48,7 @@ controller_server:
     min_theta_velocity_threshold: 0.001
     failure_tolerance: 0.5
     odom_topic: /fastlio2/lio_odom
+    transform_tolerance: 0.3
 
     progress_checker_plugin: "progress_checker"
     goal_checker_plugins: ["goal_checker"]
@@ -69,16 +70,16 @@ controller_server:
       odom_topic: /fastlio2/lio_odom
 
       # 轨迹采样
-      teb_autosize: true
+      teb_autosize: 1.0
       dt_ref: 0.3
       dt_hysteresis: 0.1
       min_samples: 3
       max_samples: 500
       global_plan_overwrite_orientation: true
       allow_init_with_backwards_motion: false
-      global_plan_viapoint_sep: 0.3
+      global_plan_viapoint_sep: 0.6
       via_points_ordered: false
-      max_global_plan_lookahead_dist: 2.5
+      max_global_plan_lookahead_dist: 4.0
       global_plan_prune_distance: 1.0
       exact_arc_length: false
       feasibility_check_no_poses: 5
@@ -86,15 +87,15 @@ controller_server:
       control_look_ahead_poses: 1
 
       # Hunter 阿克曼约束
-      max_vel_x: 0.35
-      max_vel_x_backwards: 0.08
+      max_vel_x: 0.60
+      max_vel_x_backwards: 0.0
       max_vel_y: 0.0
-      max_vel_theta: 0.18
-      acc_lim_x: 0.35
+      max_vel_theta: 0.35
+      acc_lim_x: 0.50
       acc_lim_y: 0.0
-      acc_lim_theta: 0.4
-      min_turning_radius: 2.0
-      wheelbase: 1.0
+      acc_lim_theta: 0.5
+      min_turning_radius: 1.8
+      wheelbase: 0.52
       cmd_angle_instead_rotvel: false
       is_footprint_dynamic: false
       use_proportional_saturation: true
@@ -105,8 +106,8 @@ controller_server:
       free_goal_vel: false
 
       # 障碍物约束
-      min_obstacle_dist: 0.35
-      inflation_dist: 0.45
+      min_obstacle_dist: 0.30
+      inflation_dist: 0.42
       include_costmap_obstacles: true
       include_dynamic_obstacles: false
       costmap_obstacles_behind_robot_dist: 0.5
@@ -131,9 +132,9 @@ controller_server:
       weight_acc_lim_y: 1.0
       weight_acc_lim_theta: 1.0
       weight_kinematics_nh: 1000.0
-      weight_kinematics_forward_drive: 20.0
+      weight_kinematics_forward_drive: 1000.0
       weight_kinematics_turning_radius: 50.0
-      weight_optimaltime: 1.0
+      weight_optimaltime: 0.1
       weight_shortest_path: 0.0
       weight_obstacle: 50.0
       weight_inflation: 0.1
@@ -143,7 +144,7 @@ controller_server:
       # 先关闭多拓扑路径，避免实车调试时频繁换路
       enable_homotopy_class_planning: false
       enable_multithreading: true
-      max_number_classes: 2
+      max_number_classes: 3
 
       # 恢复策略
       shrink_horizon_backup: true
@@ -164,18 +165,55 @@ global_costmap:
       publish_frequency: 1.0
       resolution: 0.05
       track_unknown_space: true
+      transform_tolerance: 0.3
 
       footprint: "[[0.48, 0.34], [0.48, -0.34], [-0.48, -0.34], [-0.48, 0.34]]"           # Hunter SE安全轮廓
 
-      plugins: ["static_layer", "inflation_layer"]
+      plugins: ["static_layer", "obstacle_layer", "inflation_layer"]
 
       static_layer:
         plugin: "nav2_costmap_2d::StaticLayer"
         map_subscribe_transient_local: true
 
+      obstacle_layer:
+        plugin: "nav2_costmap_2d::ObstacleLayer"
+        enabled: true
+        tf_filter_tolerance: 0.5
+        footprint_clearing_enabled: true
+        combination_method: 1
+        observation_sources: global_cloud_clear global_cloud_mark
+
+        global_cloud_clear:
+          topic: /nav2/clearing_cloud
+          data_type: PointCloud2
+          marking: false
+          clearing: true
+          observation_persistence: 0.0
+          expected_update_rate: 0.5
+          obstacle_min_range: 0.30
+          obstacle_max_range: 4.0
+          raytrace_min_range: 0.30
+          raytrace_max_range: 4.0
+          min_obstacle_height: -0.50
+          max_obstacle_height: 1.50
+
+        global_cloud_mark:
+          topic: /nav2/obstacle_cloud
+          data_type: PointCloud2
+          marking: true
+          clearing: false
+          observation_persistence: 0.0
+          expected_update_rate: 0.5
+          obstacle_min_range: 0.55
+          obstacle_max_range: 2.5
+          raytrace_min_range: 0.55
+          raytrace_max_range: 4.0
+          min_obstacle_height: 0.40
+          max_obstacle_height: 1.00
+
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        inflation_radius: 0.35
+        inflation_radius: 0.45
         cost_scaling_factor: 3.0
 
       always_send_full_costmap: true
@@ -187,13 +225,13 @@ local_costmap:
       use_sim_time: false
       global_frame: odom
       robot_base_frame: body
-      update_frequency: 15.0
+      update_frequency: 20.0
       publish_frequency: 10.0
       rolling_window: true
-      width: 6
-      height: 6
+      width: 8
+      height: 8
       resolution: 0.05
-      transform_tolerance: 1.0
+      transform_tolerance: 0.3
 
       # 碰撞轮廓配置
       footprint: "[[0.48, 0.34], [0.48, -0.34], [-0.48, -0.34], [-0.48, 0.34]]"
@@ -237,7 +275,7 @@ local_costmap:
 
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        inflation_radius: 0.30
+        inflation_radius: 0.40
         cost_scaling_factor: 3.0
 
       always_send_full_costmap: true
