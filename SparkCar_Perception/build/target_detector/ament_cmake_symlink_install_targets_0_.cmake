@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/target_detector/yolo_usb_detector" "TARGETS" "yolo_usb_detector" "DESTINATION" "lib/target_detector")

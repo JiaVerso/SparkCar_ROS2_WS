@@ -1,0 +1,55 @@
+[0.026s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/realsense2_camera_msgs -- -j8 -l8
+[0.156s] [  0%] Built target realsense2_camera_msgs__cpp
+[0.161s] [  1%] Built target realsense2_camera_msgs__rs
+[0.203s] [ 13%] Built target realsense2_camera_msgs__rosidl_generator_c
+[0.248s] [ 13%] Built target ament_cmake_python_copy_realsense2_camera_msgs
+[0.267s] [ 25%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp
+[0.268s] [ 37%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp
+[0.280s] [ 49%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[0.325s] [ 61%] Built target realsense2_camera_msgs__rosidl_typesupport_c
+[0.326s] [ 73%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c
+[0.333s] [ 85%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c
+[0.434s] [ 85%] Built target realsense2_camera_msgs
+[0.535s] [ 86%] Built target realsense2_camera_msgs__py
+[0.589s] [ 97%] Built target realsense2_camera_msgs__rosidl_generator_py
+[0.627s] [ 98%] Built target realsense2_camera_msgs__rosidl_typesupport_c__pyext
+[0.654s] [100%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[0.655s] [100%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.805s] running egg_info
+[0.869s] writing realsense2_camera_msgs.egg-info/PKG-INFO
+[0.871s] writing dependency_links to realsense2_camera_msgs.egg-info/dependency_links.txt
+[0.871s] writing top-level names to realsense2_camera_msgs.egg-info/top_level.txt
+[1.062s] reading manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[1.128s] Traceback (most recent call last):
+[1.128s]   File "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/realsense2_camera_msgs/ament_cmake_python/realsense2_camera_msgs/setup.py", line 4, in <module>
+[1.129s]     setup(
+[1.129s]   File "/home/jiaverso/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[1.129s]     return distutils.core.setup(**attrs)
+[1.129s]   File "/home/jiaverso/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[1.130s]     return run_commands(dist)
+[1.130s]   File "/home/jiaverso/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[1.130s]     dist.run_commands()
+[1.130s]   File "/home/jiaverso/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+[1.130s]     self.run_command(cmd)
+[1.130s]   File "/home/jiaverso/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1104, in run_command
+[1.131s]     super().run_command(command)
+[1.131s]   File "/home/jiaverso/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+[1.132s]     cmd_obj.run()
+[1.132s]   File "/home/jiaverso/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+[1.132s]     self.find_sources()
+[1.132s]   File "/home/jiaverso/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+[1.132s]     mm.run()
+[1.132s]   File "/home/jiaverso/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 548, in run
+[1.132s]     self.prune_file_list()
+[1.132s]   File "/home/jiaverso/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[1.132s]     super().prune_file_list()
+[1.132s]   File "/home/jiaverso/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list
+[1.132s]     base_dir = self.distribution.get_fullname()
+[1.132s]   File "/home/jiaverso/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname
+[1.133s]     return _distribution_fullname(self.get_name(), self.get_version())
+[1.133s]   File "/home/jiaverso/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname
+[1.133s]     canonicalize_version(version, strip_trailing_zero=False),
+[1.133s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[1.273s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_realsense2_camera_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_realsense2_camera_msgs_egg] Error 1
+[1.274s] gmake[1]: *** [CMakeFiles/Makefile2:466: CMakeFiles/ament_cmake_python_build_realsense2_camera_msgs_egg.dir/all] Error 2
+[1.274s] gmake: *** [Makefile:146: all] Error 2

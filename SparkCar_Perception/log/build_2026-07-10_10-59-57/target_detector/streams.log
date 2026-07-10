@@ -1,0 +1,724 @@
+[0.015s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/target_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/target_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.121s] -- The CXX compiler identification is GNU 11.4.0
+[0.127s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.189s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.189s] -- Detecting C compile features
+[0.189s] -- Detecting C compile features - done
+[0.191s] -- Detecting CXX compiler ABI info
+[0.255s] -- Detecting CXX compiler ABI info - done
+[0.265s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.266s] -- Detecting CXX compile features
+[0.266s] -- Detecting CXX compile features - done
+[0.268s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.603s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.662s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.699s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.740s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.745s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.753s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.763s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.777s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.816s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.819s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.908s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.950s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.007s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.023s] -- Looking for pthread.h
+[1.089s] -- Looking for pthread.h - found
+[1.091s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.158s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.160s] -- Found Threads: TRUE  
+[1.207s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.222s] -- Found OpenCV: /usr (found version "4.5.4") found components: core highgui imgproc videoio 
+[2.944s] -- Configuring done
+[2.952s] -- Generating done
+[2.955s] -- Build files have been written to: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/target_detector
+[2.963s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/target_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/target_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector
+[2.966s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/target_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/target_detector -- -j8 -l8
+[3.012s] Consolidate compiler generated dependencies of target yolo_usb_detector
+[3.024s] [ 50%] Building CXX object CMakeFiles/yolo_usb_detector.dir/src/yolo_usb_detector.cpp.o
+[6.790s] In file included from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/c10/util/Exception.h:10,
+[6.790s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/BlasBackend.h:4,
+[6.790s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/Context.h:4,
+[6.790s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/ATen.h:8,
+[6.790s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/types.h:4,
+[6.790s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/script.h:4,
+[6.790s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/target_detector/src/yolo_usb_detector.cpp:17:
+[6.790s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/c10/util/StringUtil.h: In static member function ‘static constexpr c10::SourceLocation c10::SourceLocation::current(const char*, const char*, uint_least32_t)’:
+[6.790s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/c10/util/StringUtil.h:169:13: warning: C++ designated initializers only available with ‘-std=c++20’ or ‘-std=gnu++20’ [-Wpedantic]
+[6.790s]   169 |     return {.function = function, .file = file, .line = line};
+[6.790s]       |             ^
+[6.790s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/c10/util/StringUtil.h:169:35: warning: C++ designated initializers only available with ‘-std=c++20’ or ‘-std=gnu++20’ [-Wpedantic]
+[6.790s]   169 |     return {.function = function, .file = file, .line = line};
+[6.791s]       |                                   ^
+[6.791s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/c10/util/StringUtil.h:169:49: warning: C++ designated initializers only available with ‘-std=c++20’ or ‘-std=gnu++20’ [-Wpedantic]
+[6.791s]   169 |     return {.function = function, .file = file, .line = line};
+[6.791s]       |                                                 ^
+[6.915s] In file included from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/c10/core/InferenceMode.h:4,
+[6.915s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/c10/core/TensorImpl.h:9,
+[6.916s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/c10/core/GeneratorImpl.h:9,
+[6.916s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/core/Generator.h:19,
+[6.916s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/CPUGeneratorImpl.h:4,
+[6.916s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/Context.h:5,
+[6.916s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/ATen.h:8,
+[6.916s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/types.h:4,
+[6.916s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/script.h:4,
+[6.916s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/target_detector/src/yolo_usb_detector.cpp:17:
+[6.916s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/c10/core/AutogradState.h: At global scope:
+[6.916s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/c10/core/AutogradState.h:89:33: warning: default member initializers for bit-fields only available with ‘-std=c++20’ or ‘-std=gnu++20’
+[6.916s]    89 |   bool view_replay_enabled_ : 1 = false;
+[6.916s]       |                                 ^
+[6.916s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/c10/core/AutogradState.h:90:45: warning: default member initializers for bit-fields only available with ‘-std=c++20’ or ‘-std=gnu++20’
+[6.916s]    90 |   bool grad_layout_enforcement_enabled_ : 1 = true;
+[6.916s]       |                                             ^
+[7.329s] In file included from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/DeviceAccelerator.h:4,
+[7.329s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/Context.h:6,
+[7.329s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/ATen.h:8,
+[7.329s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/types.h:4,
+[7.329s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/script.h:4,
+[7.329s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/target_detector/src/yolo_usb_detector.cpp:17:
+[7.329s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/c10/core/CachingDeviceAllocator.h: In member function ‘virtual std::pair<long unsigned int, long unsigned int> c10::DeviceAllocator::getMemoryInfo(c10::DeviceIndex)’:
+[7.329s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/c10/core/CachingDeviceAllocator.h:248:68: warning: unused parameter ‘device’ [-Wunused-parameter]
+[7.330s]   248 |   virtual std::pair<size_t, size_t> getMemoryInfo(c10::DeviceIndex device) {
+[7.330s]       |                                                   ~~~~~~~~~~~~~~~~~^~~~~~
+[7.406s] In file included from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/Context.h:21,
+[7.407s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/ATen.h:8,
+[7.407s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/types.h:4,
+[7.407s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/script.h:4,
+[7.407s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/target_detector/src/yolo_usb_detector.cpp:17:
+[7.407s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h: In member function ‘virtual PyObject* at::MTIAHooksInterface::getDeviceProperties(c10::DeviceIndex) const’:
+[7.407s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h:118:53: warning: unused parameter ‘device’ [-Wunused-parameter]
+[7.407s]   118 |   virtual PyObject* getDeviceProperties(DeviceIndex device) const {
+[7.408s]       |                                         ~~~~~~~~~~~~^~~~~~
+[7.408s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h: In member function ‘virtual PyObject* at::MTIAHooksInterface::memorySnapshot(const std::optional<std::__cxx11::basic_string<char> >&) const’:
+[7.408s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h:133:70: warning: unused parameter ‘local_path’ [-Wunused-parameter]
+[7.408s]   133 |   virtual PyObject* memorySnapshot(const std::optional<std::string>& local_path) const {
+[7.408s]       |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[7.408s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h: In member function ‘virtual void at::MTIAHooksInterface::attachOutOfMemoryObserver(PyObject*) const’:
+[7.408s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h:147:52: warning: unused parameter ‘observer’ [-Wunused-parameter]
+[7.408s]   147 |   virtual void attachOutOfMemoryObserver(PyObject* observer) const {
+[7.409s]       |                                          ~~~~~~~~~~^~~~~~~~
+[7.409s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h: In member function ‘virtual int64_t at::MTIAHooksInterface::mtiagraphCreate(bool) const’:
+[7.409s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h:155:40: warning: unused parameter ‘keep_graph’ [-Wunused-parameter]
+[7.409s]   155 |   virtual int64_t mtiagraphCreate(bool keep_graph = false) const {
+[7.409s]       |                                   ~~~~~^~~~~~~~~~~~~~~~~~
+[7.409s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h: In member function ‘virtual void at::MTIAHooksInterface::mtiagraphDestroy(int64_t) const’:
+[7.409s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h:160:41: warning: unused parameter ‘handle’ [-Wunused-parameter]
+[7.409s]   160 |   virtual void mtiagraphDestroy(int64_t handle) const {
+[7.409s]       |                                 ~~~~~~~~^~~~~~
+[7.409s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h: In member function ‘virtual void at::MTIAHooksInterface::mtiagraphCaptureBegin(int64_t, c10::MempoolId_t) const’:
+[7.409s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h:164:46: warning: unused parameter ‘handle’ [-Wunused-parameter]
+[7.409s]   164 |   virtual void mtiagraphCaptureBegin(int64_t handle, MempoolId_t pool) const {
+[7.409s]       |                                      ~~~~~~~~^~~~~~
+[7.409s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h:164:66: warning: unused parameter ‘pool’ [-Wunused-parameter]
+[7.409s]   164 |   virtual void mtiagraphCaptureBegin(int64_t handle, MempoolId_t pool) const {
+[7.410s]       |                                                      ~~~~~~~~~~~~^~~~
+[7.410s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h: In member function ‘virtual void at::MTIAHooksInterface::mtiagraphCaptureEnd(int64_t) const’:
+[7.410s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h:168:44: warning: unused parameter ‘handle’ [-Wunused-parameter]
+[7.410s]   168 |   virtual void mtiagraphCaptureEnd(int64_t handle) const {
+[7.410s]       |                                    ~~~~~~~~^~~~~~
+[7.410s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h: In member function ‘virtual void at::MTIAHooksInterface::mtiagraphInstantiate(int64_t) const’:
+[7.410s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h:172:45: warning: unused parameter ‘handle’ [-Wunused-parameter]
+[7.410s]   172 |   virtual void mtiagraphInstantiate(int64_t handle) const {
+[7.410s]       |                                     ~~~~~~~~^~~~~~
+[7.410s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h: In member function ‘virtual void at::MTIAHooksInterface::mtiagraphReplay(int64_t) const’:
+[7.410s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h:176:40: warning: unused parameter ‘handle’ [-Wunused-parameter]
+[7.410s]   176 |   virtual void mtiagraphReplay(int64_t handle) const {
+[7.410s]       |                                ~~~~~~~~^~~~~~
+[7.410s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h: In member function ‘virtual void at::MTIAHooksInterface::mtiagraphReset(int64_t) const’:
+[7.410s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h:180:39: warning: unused parameter ‘handle’ [-Wunused-parameter]
+[7.410s]   180 |   virtual void mtiagraphReset(int64_t handle) const {
+[7.410s]       |                               ~~~~~~~~^~~~~~
+[7.410s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h: In member function ‘virtual c10::MempoolId_t at::MTIAHooksInterface::mtiagraphPool(int64_t) const’:
+[7.410s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/ATen/detail/MTIAHooksInterface.h:184:45: warning: unused parameter ‘handle’ [-Wunused-parameter]
+[7.410s]   184 |   virtual MempoolId_t mtiagraphPool(int64_t handle) const {
+[7.410s]       |                                     ~~~~~~~~^~~~~~
+[9.836s] In file included from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/autograd/cpp_hook.h:3,
+[9.837s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/autograd/variable.h:7,
+[9.837s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/autograd/generated/variable_factories.h:12,
+[9.837s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/types.h:8,
+[9.837s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/script.h:4,
+[9.837s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/target_detector/src/yolo_usb_detector.cpp:17:
+[9.837s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/autograd/function_hook.h: In member function ‘virtual void torch::autograd::FunctionPreHook::compiled_args(torch::dynamo::autograd::CompiledNodeArgs&) const’:
+[9.837s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/autograd/function_hook.h:27:50: warning: unused parameter ‘args’ [-Wunused-parameter]
+[9.837s]    27 |       torch::dynamo::autograd::CompiledNodeArgs& args) const {
+[9.837s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+[9.837s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/autograd/function_hook.h: In member function ‘virtual void torch::autograd::FunctionPostHook::compiled_args(torch::dynamo::autograd::CompiledNodeArgs&) const’:
+[9.838s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/autograd/function_hook.h:42:50: warning: unused parameter ‘args’ [-Wunused-parameter]
+[9.838s]    42 |       torch::dynamo::autograd::CompiledNodeArgs& args) const {
+[9.838s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+[9.838s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/autograd/function_hook.h: In member function ‘virtual void torch::autograd::PostAccumulateGradHook::compiled_args(torch::dynamo::autograd::CompiledNodeArgs&) const’:
+[9.838s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/autograd/function_hook.h:56:50: warning: unused parameter ‘args’ [-Wunused-parameter]
+[9.838s]    56 |       torch::dynamo::autograd::CompiledNodeArgs& args) const {
+[9.838s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+[10.522s] In file included from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/autograd/variable.h:11,
+[10.522s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/autograd/generated/variable_factories.h:12,
+[10.522s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/types.h:8,
+[10.522s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/script.h:4,
+[10.522s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/target_detector/src/yolo_usb_detector.cpp:17:
+[10.522s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/autograd/node.h: In member function ‘uint32_t torch::autograd::Node::add_input_metadata(torch::autograd::Node::undefined_input)’:
+[10.522s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/autograd/node.h:218:47: warning: unused parameter ‘u’ [-Wunused-parameter]
+[10.522s]   218 |   uint32_t add_input_metadata(undefined_input u) noexcept {
+[10.522s]       |                               ~~~~~~~~~~~~~~~~^
+[10.543s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/autograd/node.h: In member function ‘virtual void torch::autograd::Node::compiled_args(torch::dynamo::autograd::CompiledNodeArgs&) const’:
+[10.543s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/autograd/node.h:594:48: warning: unused parameter ‘args’ [-Wunused-parameter]
+[10.543s]   594 |   virtual void compiled_args(CompiledNodeArgs& args) const {
+[10.543s]       |                              ~~~~~~~~~~~~~~~~~~^~~~
+[10.544s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/autograd/node.h: In member function ‘virtual torch::autograd::variable_list torch::autograd::Node::apply_with_saved(const variable_list&, torch::dynamo::autograd::SwapSavedVariables&)’:
+[10.544s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/autograd/node.h:603:28: warning: unused parameter ‘inputs’ [-Wunused-parameter]
+[10.544s]   603 |       const variable_list& inputs,
+[10.544s]       |       ~~~~~~~~~~~~~~~~~~~~~^~~~~~
+[10.544s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/autograd/node.h:604:27: warning: unused parameter ‘saved’ [-Wunused-parameter]
+[10.544s]   604 |       SwapSavedVariables& saved) {
+[10.544s]       |       ~~~~~~~~~~~~~~~~~~~~^~~~~
+[11.067s] In file included from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/autograd/function.h:8,
+[11.067s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/autograd/custom_function.h:8,
+[11.067s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/script.h:6,
+[11.067s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/target_detector/src/yolo_usb_detector.cpp:17:
+[11.067s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/utils/variadic.h: In member function ‘void torch::CountTensors::operator()(const at::Tensor&)’:
+[11.067s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/utils/variadic.h:17:37: warning: unused parameter ‘x’ [-Wunused-parameter]
+[11.067s]    17 |   void operator()(const at::Tensor& x) {
+[11.067s]       |                   ~~~~~~~~~~~~~~~~~~^
+[11.068s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/utils/variadic.h: In member function ‘void torch::CountVariables::operator()(const Variable&)’:
+[11.068s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/utils/variadic.h:35:45: warning: unused parameter ‘x’ [-Wunused-parameter]
+[11.068s]    35 |   void operator()(const autograd::Variable& x) {
+[11.068s]       |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+[11.086s] In file included from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/autograd/custom_function.h:11,
+[11.087s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/script.h:6,
+[11.087s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/target_detector/src/yolo_usb_detector.cpp:17:
+[11.087s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function ‘virtual std::string torch::dynamo::autograd::PyCompilerInterface::bind_function(PyObject*, const string&, torch::autograd::functional_apply_t, std::vector<c10::Type::SingletonOrSharedTypePtr<c10::Type> >, bool, bool) const’:
+[11.087s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:36:17: warning: unused parameter ‘py_compiler’ [-Wunused-parameter]
+[11.087s]    36 |       PyObject* py_compiler,
+[11.087s]       |       ~~~~~~~~~~^~~~~~~~~~~
+[11.087s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:37:26: warning: unused parameter ‘fn_name’ [-Wunused-parameter]
+[11.087s]    37 |       const std::string& fn_name,
+[11.087s]       |       ~~~~~~~~~~~~~~~~~~~^~~~~~~
+[11.087s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:39:26: warning: unused parameter ‘fn’ [-Wunused-parameter]
+[11.088s]    39 |       functional_apply_t fn,
+[11.088s]       |       ~~~~~~~~~~~~~~~~~~~^~
+[11.088s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:41:32: warning: unused parameter ‘packed_args_schema’ [-Wunused-parameter]
+[11.088s]    41 |       std::vector<at::TypePtr> packed_args_schema,
+[11.088s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+[11.088s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:42:12: warning: unused parameter ‘is_custom_function’ [-Wunused-parameter]
+[11.088s]    42 |       bool is_custom_function = false,
+[11.088s]       |       ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+[11.088s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:43:12: warning: unused parameter ‘is_traceable’ [-Wunused-parameter]
+[11.088s]    43 |       bool is_traceable = true) const {
+[11.088s]       |       ~~~~~^~~~~~~~~~~~~~~~~~~
+[11.089s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function ‘virtual torch::autograd::variable_list torch::dynamo::autograd::PyCompilerInterface::call_function(PyObject*, const char*, const string&, const variable_list&, const ivalue_list&, const c10::IValue&) const’:
+[11.089s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:50:17: warning: unused parameter ‘py_compiler’ [-Wunused-parameter]
+[11.089s]    50 |       PyObject* py_compiler,
+[11.089s]       |       ~~~~~~~~~~^~~~~~~~~~~
+[11.089s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:51:19: warning: unused parameter ‘method_name’ [-Wunused-parameter]
+[11.089s]    51 |       const char* method_name,
+[11.089s]       |       ~~~~~~~~~~~~^~~~~~~~~~~
+[11.089s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:52:26: warning: unused parameter ‘fn_name’ [-Wunused-parameter]
+[11.089s]    52 |       const std::string& fn_name,
+[11.089s]       |       ~~~~~~~~~~~~~~~~~~~^~~~~~~
+[11.089s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:53:28: warning: unused parameter ‘inputs’ [-Wunused-parameter]
+[11.089s]    53 |       const variable_list& inputs,
+[11.089s]       |       ~~~~~~~~~~~~~~~~~~~~~^~~~~~
+[11.089s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:54:26: warning: unused parameter ‘packed_args’ [-Wunused-parameter]
+[11.089s]    54 |       const ivalue_list& packed_args,
+[11.090s]       |       ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+[11.090s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:55:26: warning: unused parameter ‘output_metadata’ [-Wunused-parameter]
+[11.090s]    55 |       const c10::IValue& output_metadata) const {
+[11.090s]       |       ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+[11.090s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function ‘virtual torch::autograd::variable_list torch::dynamo::autograd::PyCompilerInterface::call_copy_slices_prologue(PyObject*, const variable_list&, const at::TensorGeometry&, const at::TensorGeometry&) const’:
+[11.090s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:59:17: warning: unused parameter ‘py_compiler’ [-Wunused-parameter]
+[11.090s]    59 |       PyObject* py_compiler,
+[11.090s]       |       ~~~~~~~~~~^~~~~~~~~~~
+[11.090s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:60:28: warning: unused parameter ‘inputs’ [-Wunused-parameter]
+[11.090s]    60 |       const variable_list& inputs,
+[11.090s]       |       ~~~~~~~~~~~~~~~~~~~~~^~~~~~
+[11.090s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:61:33: warning: unused parameter ‘base’ [-Wunused-parameter]
+[11.091s]    61 |       const at::TensorGeometry& base,
+[11.091s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+[11.091s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:62:33: warning: unused parameter ‘view’ [-Wunused-parameter]
+[11.091s]    62 |       const at::TensorGeometry& view) const {
+[11.091s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+[11.091s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function ‘virtual torch::autograd::variable_list torch::dynamo::autograd::PyCompilerInterface::call_copy_slices_epilogue(PyObject*, const std::vector<bool>&, const at::Tensor&, const variable_list&, const at::Tensor&) const’:
+[11.091s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:66:17: warning: unused parameter ‘py_compiler’ [-Wunused-parameter]
+[11.091s]    66 |       PyObject* py_compiler,
+[11.091s]       |       ~~~~~~~~~~^~~~~~~~~~~
+[11.091s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:67:32: warning: unused parameter ‘needs_input_grad’ [-Wunused-parameter]
+[11.092s]    67 |       const std::vector<bool>& needs_input_grad,
+[11.092s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+[11.092s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:68:25: warning: unused parameter ‘result’ [-Wunused-parameter]
+[11.092s]    68 |       const at::Tensor& result,
+[11.092s]       |       ~~~~~~~~~~~~~~~~~~^~~~~~
+[11.092s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:69:28: warning: unused parameter ‘res’ [-Wunused-parameter]
+[11.092s]    69 |       const variable_list& res,
+[11.092s]       |       ~~~~~~~~~~~~~~~~~~~~~^~~
+[11.092s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:70:25: warning: unused parameter ‘grad_slice’ [-Wunused-parameter]
+[11.092s]    70 |       const at::Tensor& grad_slice) const {
+[11.092s]       |       ~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[11.092s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function ‘virtual at::Tensor torch::dynamo::autograd::PyCompilerInterface::call_unpack(PyObject*, std::optional<long unsigned int>, size_t) const’:
+[11.092s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:74:17: warning: unused parameter ‘py_compiler’ [-Wunused-parameter]
+[11.092s]    74 |       PyObject* py_compiler,
+[11.092s]       |       ~~~~~~~~~~^~~~~~~~~~~
+[11.092s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:75:29: warning: unused parameter ‘hook_id’ [-Wunused-parameter]
+[11.092s]    75 |       std::optional<size_t> hook_id,
+[11.092s]       |       ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+[11.092s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:76:14: warning: unused parameter ‘hook_input_id’ [-Wunused-parameter]
+[11.093s]    76 |       size_t hook_input_id) const {
+[11.093s]       |       ~~~~~~~^~~~~~~~~~~~~
+[11.093s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h: In member function ‘virtual at::Tensor torch::dynamo::autograd::PyCompilerInterface::call_accumulate_grad(PyObject*, const at::Tensor&, const at::Tensor&, const at::Tensor&, bool) const’:
+[11.093s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:80:17: warning: unused parameter ‘py_compiler’ [-Wunused-parameter]
+[11.093s]    80 |       PyObject* py_compiler,
+[11.093s]       |       ~~~~~~~~~~^~~~~~~~~~~
+[11.093s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:81:25: warning: unused parameter ‘variable’ [-Wunused-parameter]
+[11.093s]    81 |       const at::Tensor& variable,
+[11.093s]       |       ~~~~~~~~~~~~~~~~~~^~~~~~~~
+[11.093s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:82:25: warning: unused parameter ‘variable_grad’ [-Wunused-parameter]
+[11.093s]    82 |       const at::Tensor& variable_grad,
+[11.093s]       |       ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+[11.093s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:83:25: warning: unused parameter ‘grad’ [-Wunused-parameter]
+[11.093s]    83 |       const at::Tensor& grad,
+[11.093s]       |       ~~~~~~~~~~~~~~~~~~^~~~
+[11.093s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/dynamo/compiled_autograd.h:84:12: warning: unused parameter ‘has_post_hooks’ [-Wunused-parameter]
+[11.093s]    84 |       bool has_post_hooks) const {
+[11.093s]       |       ~~~~~^~~~~~~~~~~~~~
+[11.443s] In file included from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/runtime/custom_operator.h:6,
+[11.443s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/script.h:9,
+[11.443s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/target_detector/src/yolo_usb_detector.cpp:17:
+[11.443s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/runtime/operator.h: In lambda function:
+[11.443s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/runtime/operator.h:153:39: warning: unused parameter ‘op’ [-Wunused-parameter]
+[11.443s]   153 |             [](const JitOnlyOperator& op) {
+[11.443s]       |                ~~~~~~~~~~~~~~~~~~~~~~~^~
+[11.447s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/runtime/operator.h: In lambda function:
+[11.447s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/runtime/operator.h:192:39: warning: unused parameter ‘op’ [-Wunused-parameter]
+[11.447s]   192 |             [](const JitOnlyOperator& op) {
+[11.447s]       |                ~~~~~~~~~~~~~~~~~~~~~~~^~
+[11.877s] In file included from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/runtime/graph_executor.h:10,
+[11.877s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/function_impl.h:6,
+[11.878s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/method.h:8,
+[11.878s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/object.h:6,
+[11.878s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h:5,
+[11.878s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/serialization/import.h:6,
+[11.878s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/script.h:10,
+[11.879s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/target_detector/src/yolo_usb_detector.cpp:17:
+[11.879s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/runtime/interpreter.h: In constructor ‘torch::jit::InterpreterContinuation::InterpreterContinuation(torch::jit::InterpreterState, torch::jit::Stack, int64_t, std::optional<at::ThreadLocalState>)’:
+[11.879s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/runtime/interpreter.h:128:15: warning: unused parameter ‘dist_autograd_context_id’ [-Wunused-parameter]
+[11.879s]   128 |       int64_t dist_autograd_context_id = 0,
+[11.879s]       |       ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[11.976s] In file included from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h:14,
+[11.976s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/serialization/import.h:6,
+[11.976s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/script.h:10,
+[11.976s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/target_detector/src/yolo_usb_detector.cpp:17:
+[11.976s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/compilation_unit.h: In member function ‘void torch::jit::CompilationUnit::set_optimized(bool)’:
+[11.976s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/compilation_unit.h:74:27: warning: unused parameter ‘o’ [-Wunused-parameter]
+[11.976s]    74 |   void set_optimized(bool o) {
+[11.977s]       |                      ~~~~~^
+[12.014s] In file included from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/serialization/import.h:6,
+[12.014s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/script.h:10,
+[12.014s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/target_detector/src/yolo_usb_detector.cpp:17:
+[12.014s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h: In member function ‘void torch::jit::Module::set_optimized(bool)’:
+[12.014s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h:103:27: warning: unused parameter ‘o’ [-Wunused-parameter]
+[12.014s]   103 |   void set_optimized(bool o) {
+[12.014s]       |                      ~~~~~^
+[12.028s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h: In static member function ‘static torch::jit::detail::ModulePolicy::value_type torch::jit::detail::ModulePolicy::create(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)’:
+[12.029s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h:586:46: warning: unused parameter ‘cursors’ [-Wunused-parameter]
+[12.029s]   586 |       const std::vector<detail::SlotCursor>& cursors,
+[12.029s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+[12.029s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h: In static member function ‘static bool torch::jit::detail::ModulePolicy::valid(const ClassTypePtr&, size_t, const c10::IValue&)’:
+[12.029s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h:592:70: warning: unused parameter ‘v’ [-Wunused-parameter]
+[12.029s]   592 |   static bool valid(const ClassTypePtr& typ, size_t i, const IValue& v) {
+[12.029s]       |                                                        ~~~~~~~~~~~~~~^
+[12.032s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h: In static member function ‘static torch::jit::detail::ParameterPolicy::value_type torch::jit::detail::ParameterPolicy::create(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)’:
+[12.032s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h:603:46: warning: unused parameter ‘cursors’ [-Wunused-parameter]
+[12.032s]   603 |       const std::vector<detail::SlotCursor>& cursors,
+[12.032s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+[12.032s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h: In static member function ‘static torch::jit::detail::BufferPolicy::value_type torch::jit::detail::BufferPolicy::create(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)’:
+[12.032s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h:616:46: warning: unused parameter ‘cursors’ [-Wunused-parameter]
+[12.032s]   616 |       const std::vector<detail::SlotCursor>& cursors,
+[12.032s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+[12.032s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h: In static member function ‘static bool torch::jit::detail::BufferPolicy::valid(const ClassTypePtr&, size_t, const c10::IValue&)’:
+[12.032s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h:620:70: warning: unused parameter ‘v’ [-Wunused-parameter]
+[12.032s]   620 |   static bool valid(const ClassTypePtr& typ, size_t i, const IValue& v) {
+[12.032s]       |                                                        ~~~~~~~~~~~~~~^
+[12.032s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h: In static member function ‘static torch::jit::detail::AttributePolicy::value_type torch::jit::detail::AttributePolicy::create(const std::vector<torch::jit::detail::SlotCursor>&, c10::IValue)’:
+[12.032s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h:630:46: warning: unused parameter ‘cursors’ [-Wunused-parameter]
+[12.032s]   630 |       const std::vector<detail::SlotCursor>& cursors,
+[12.032s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+[12.032s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h: In static member function ‘static bool torch::jit::detail::AttributePolicy::valid(const ClassTypePtr&, size_t, const c10::IValue&)’:
+[12.033s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h:634:41: warning: unused parameter ‘typ’ [-Wunused-parameter]
+[12.033s]   634 |   static bool valid(const ClassTypePtr& typ, size_t i, const IValue& v) {
+[12.033s]       |                     ~~~~~~~~~~~~~~~~~~~~^~~
+[12.033s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h:634:53: warning: unused parameter ‘i’ [-Wunused-parameter]
+[12.033s]   634 |   static bool valid(const ClassTypePtr& typ, size_t i, const IValue& v) {
+[12.033s]       |                                              ~~~~~~~^
+[12.033s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/api/module.h:634:70: warning: unused parameter ‘v’ [-Wunused-parameter]
+[12.033s]   634 |   static bool valid(const ClassTypePtr& typ, size_t i, const IValue& v) {
+[12.033s]       |                                                        ~~~~~~~~~~~~~~^
+[12.178s] In file included from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:6,
+[12.178s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/script_type_parser.h:5,
+[12.178s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/serialization/unpickler.h:9,
+[12.178s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/serialization/pickle.h:9,
+[12.178s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/script.h:11,
+[12.178s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/target_detector/src/yolo_usb_detector.cpp:17:
+[12.178s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h: In member function ‘virtual torch::jit::Value* torch::jit::SugaredValue::asValue(const torch::jit::SourceRange&, torch::jit::GraphFunction&)’:
+[12.178s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:35:65: warning: unused parameter ‘m’ [-Wunused-parameter]
+[12.178s]    35 |   virtual Value* asValue(const SourceRange& loc, GraphFunction& m) {
+[12.178s]       |                                                  ~~~~~~~~~~~~~~~^
+[12.181s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h: In member function ‘virtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::SugaredValue::attr(const torch::jit::SourceRange&, torch::jit::GraphFunction&, const string&)’:
+[12.181s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:42:22: warning: unused parameter ‘m’ [-Wunused-parameter]
+[12.181s]    42 |       GraphFunction& m,
+[12.181s]       |       ~~~~~~~~~~~~~~~^
+[12.181s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:43:26: warning: unused parameter ‘field’ [-Wunused-parameter]
+[12.181s]    43 |       const std::string& field) {
+[12.181s]       |       ~~~~~~~~~~~~~~~~~~~^~~~~
+[12.182s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h: In member function ‘virtual bool torch::jit::SugaredValue::hasAttr(const torch::jit::SourceRange&, torch::jit::GraphFunction&, const string&)’:
+[12.182s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:49:22: warning: unused parameter ‘m’ [-Wunused-parameter]
+[12.182s]    49 |       GraphFunction& m,
+[12.182s]       |       ~~~~~~~~~~~~~~~^
+[12.182s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:50:26: warning: unused parameter ‘field’ [-Wunused-parameter]
+[12.182s]    50 |       const std::string& field) {
+[12.182s]       |       ~~~~~~~~~~~~~~~~~~~^~~~~
+[12.182s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h: In member function ‘virtual void torch::jit::SugaredValue::setAttr(const torch::jit::SourceRange&, torch::jit::GraphFunction&, const string&, torch::jit::Value*)’:
+[12.182s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:57:22: warning: unused parameter ‘m’ [-Wunused-parameter]
+[12.182s]    57 |       GraphFunction& m,
+[12.182s]       |       ~~~~~~~~~~~~~~~^
+[12.182s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:58:26: warning: unused parameter ‘field’ [-Wunused-parameter]
+[12.182s]    58 |       const std::string& field,
+[12.182s]       |       ~~~~~~~~~~~~~~~~~~~^~~~~
+[12.182s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:59:14: warning: unused parameter ‘newValue’ [-Wunused-parameter]
+[12.182s]    59 |       Value* newValue) {
+[12.183s]       |       ~~~~~~~^~~~~~~~
+[12.184s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h: In member function ‘virtual std::vector<std::shared_ptr<torch::jit::SugaredValue> > torch::jit::SugaredValue::asTuple(const torch::jit::SourceRange&, torch::jit::GraphFunction&, const std::optional<long unsigned int>&)’:
+[12.184s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:69:22: warning: unused parameter ‘m’ [-Wunused-parameter]
+[12.184s]    69 |       GraphFunction& m,
+[12.184s]       |       ~~~~~~~~~~~~~~~^
+[12.185s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:70:36: warning: unused parameter ‘size_hint’ [-Wunused-parameter]
+[12.185s]    70 |       const std::optional<size_t>& size_hint = {}) {
+[12.185s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+[12.185s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h: In member function ‘virtual torch::jit::SugaredValuePtr torch::jit::SugaredValue::asTupleValue(const torch::jit::SourceRange&, torch::jit::GraphFunction&)’:
+[12.185s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:77:22: warning: unused parameter ‘m’ [-Wunused-parameter]
+[12.185s]    77 |       GraphFunction& m) {
+[12.185s]       |       ~~~~~~~~~~~~~~~^
+[12.185s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h: In member function ‘virtual std::vector<std::shared_ptr<torch::jit::SugaredValue> > torch::jit::SugaredValue::asType(const torch::jit::SourceRange&, torch::jit::Method&)’:
+[12.185s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:83:15: warning: unused parameter ‘m’ [-Wunused-parameter]
+[12.185s]    83 |       Method& m) {
+[12.186s]       |       ~~~~~~~~^
+[12.186s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h: In member function ‘virtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::SugaredValue::call(const torch::jit::SourceRange&, torch::jit::GraphFunction&, c10::ArrayRef<torch::jit::NamedValue>, c10::ArrayRef<torch::jit::NamedValue>, size_t)’:
+[12.186s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:90:22: warning: unused parameter ‘m’ [-Wunused-parameter]
+[12.186s]    90 |       GraphFunction& m,
+[12.186s]       |       ~~~~~~~~~~~~~~~^
+[12.186s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:92:32: warning: unused parameter ‘args’ [-Wunused-parameter]
+[12.186s]    92 |       at::ArrayRef<NamedValue> args,
+[12.186s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+[12.186s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:93:32: warning: unused parameter ‘kwargs’ [-Wunused-parameter]
+[12.186s]    93 |       at::ArrayRef<NamedValue> kwargs,
+[12.186s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+[12.186s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:94:14: warning: unused parameter ‘n_binders’ [-Wunused-parameter]
+[12.186s]    94 |       size_t n_binders) {
+[12.186s]       |       ~~~~~~~^~~~~~~~~
+[12.188s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h: In member function ‘virtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::SugaredValue::iter(const torch::jit::SourceRange&, torch::jit::GraphFunction&)’:
+[12.188s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:116:22: warning: unused parameter ‘m’ [-Wunused-parameter]
+[12.188s]   116 |       GraphFunction& m) {
+[12.188s]       |       ~~~~~~~~~~~~~~~^
+[12.188s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h: In member function ‘virtual torch::jit::Value* torch::jit::SugaredValue::len(const torch::jit::SourceRange&, torch::jit::GraphFunction&)’:
+[12.188s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:138:61: warning: unused parameter ‘m’ [-Wunused-parameter]
+[12.188s]   138 |   virtual Value* len(const SourceRange& loc, GraphFunction& m) {
+[12.188s]       |                                              ~~~~~~~~~~~~~~~^
+[12.188s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h: In member function ‘virtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::SugaredValue::getitem(const torch::jit::SourceRange&, torch::jit::GraphFunction&, torch::jit::Value*, c10::TypePtr)’:
+[12.188s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:147:22: warning: unused parameter ‘m’ [-Wunused-parameter]
+[12.188s]   147 |       GraphFunction& m,
+[12.188s]       |       ~~~~~~~~~~~~~~~^
+[12.189s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:148:14: warning: unused parameter ‘idx’ [-Wunused-parameter]
+[12.189s]   148 |       Value* idx,
+[12.189s]       |       ~~~~~~~^~~
+[12.189s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:149:15: warning: unused parameter ‘type_hint’ [-Wunused-parameter]
+[12.189s]   149 |       TypePtr type_hint = nullptr) {
+[12.189s]       |       ~~~~~~~~^~~~~~~~~~~~~~~~~~~
+[12.192s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h: In member function ‘virtual torch::jit::Value* torch::jit::SimpleValue::asValue(const torch::jit::SourceRange&, torch::jit::GraphFunction&)’:
+[12.192s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:168:37: warning: unused parameter ‘range’ [-Wunused-parameter]
+[12.192s]   168 |   Value* asValue(const SourceRange& range, GraphFunction& m) override {
+[12.192s]       |                  ~~~~~~~~~~~~~~~~~~~^~~~~
+[12.192s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:168:59: warning: unused parameter ‘m’ [-Wunused-parameter]
+[12.192s]   168 |   Value* asValue(const SourceRange& range, GraphFunction& m) override {
+[12.192s]       |                                            ~~~~~~~~~~~~~~~^
+[12.192s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h: In member function ‘virtual std::vector<std::shared_ptr<torch::jit::SugaredValue> > torch::jit::SugaredTupleValue::asTuple(const torch::jit::SourceRange&, torch::jit::GraphFunction&, const std::optional<long unsigned int>&)’:
+[12.192s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:249:26: warning: unused parameter ‘loc’ [-Wunused-parameter]
+[12.192s]   249 |       const SourceRange& loc,
+[12.192s]       |       ~~~~~~~~~~~~~~~~~~~^~~
+[12.192s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:250:22: warning: unused parameter ‘m’ [-Wunused-parameter]
+[12.192s]   250 |       GraphFunction& m,
+[12.192s]       |       ~~~~~~~~~~~~~~~^
+[12.192s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:251:36: warning: unused parameter ‘size_hint’ [-Wunused-parameter]
+[12.193s]   251 |       const std::optional<size_t>& size_hint = {}) override {
+[12.193s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+[12.195s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h: In member function ‘virtual torch::jit::SugaredValuePtr torch::jit::SugaredTupleValue::getitem(const torch::jit::SourceRange&, torch::jit::GraphFunction&, torch::jit::Value*, c10::TypePtr)’:
+[12.195s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:271:22: warning: unused parameter ‘m’ [-Wunused-parameter]
+[12.195s]   271 |       GraphFunction& m,
+[12.195s]       |       ~~~~~~~~~~~~~~~^
+[12.195s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:273:15: warning: unused parameter ‘type_hint’ [-Wunused-parameter]
+[12.195s]   273 |       TypePtr type_hint = nullptr) override {
+[12.195s]       |       ~~~~~~~~^~~~~~~~~~~~~~~~~~~
+[12.195s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h: In member function ‘virtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::SugaredTupleValue::iter(const torch::jit::SourceRange&, torch::jit::GraphFunction&)’:
+[12.195s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:296:57: warning: unused parameter ‘loc’ [-Wunused-parameter]
+[12.195s]   296 |   std::shared_ptr<SugaredValue> iter(const SourceRange& loc, GraphFunction& m)
+[12.195s]       |                                      ~~~~~~~~~~~~~~~~~~~^~~
+[12.195s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:296:77: warning: unused parameter ‘m’ [-Wunused-parameter]
+[12.195s]   296 |   std::shared_ptr<SugaredValue> iter(const SourceRange& loc, GraphFunction& m)
+[12.195s]       |                                                              ~~~~~~~~~~~~~~~^
+[12.204s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h: In member function ‘virtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::BuiltinModule::attr(const torch::jit::SourceRange&, torch::jit::GraphFunction&, const string&)’:
+[12.204s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:319:26: warning: unused parameter ‘loc’ [-Wunused-parameter]
+[12.204s]   319 |       const SourceRange& loc,
+[12.204s]       |       ~~~~~~~~~~~~~~~~~~~^~~
+[12.204s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:320:22: warning: unused parameter ‘m’ [-Wunused-parameter]
+[12.204s]   320 |       GraphFunction& m,
+[12.204s]       |       ~~~~~~~~~~~~~~~^
+[12.219s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h: In member function ‘virtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::FunctionValue::call(const torch::jit::SourceRange&, torch::jit::GraphFunction&, c10::ArrayRef<torch::jit::NamedValue>, c10::ArrayRef<torch::jit::NamedValue>, size_t)’:
+[12.219s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:404:14: warning: unused parameter ‘n_binders’ [-Wunused-parameter]
+[12.219s]   404 |       size_t n_binders) override {
+[12.219s]       |       ~~~~~~~^~~~~~~~~
+[12.220s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h: In member function ‘virtual torch::jit::Value* torch::jit::ClosureValue::asValue(const torch::jit::SourceRange&, torch::jit::GraphFunction&)’:
+[12.220s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:441:37: warning: unused parameter ‘range’ [-Wunused-parameter]
+[12.220s]   441 |   Value* asValue(const SourceRange& range, GraphFunction& m) override {
+[12.220s]       |                  ~~~~~~~~~~~~~~~~~~~^~~~~
+[12.220s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:441:59: warning: unused parameter ‘m’ [-Wunused-parameter]
+[12.220s]   441 |   Value* asValue(const SourceRange& range, GraphFunction& m) override {
+[12.220s]       |                                            ~~~~~~~~~~~~~~~^
+[12.226s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h: In member function ‘virtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::MethodValue::call(const torch::jit::SourceRange&, torch::jit::GraphFunction&, c10::ArrayRef<torch::jit::NamedValue>, c10::ArrayRef<torch::jit::NamedValue>, size_t)’:
+[12.226s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:463:14: warning: unused parameter ‘n_binders’ [-Wunused-parameter]
+[12.226s]   463 |       size_t n_binders) override {
+[12.226s]       |       ~~~~~~~^~~~~~~~~
+[12.234s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h: In member function ‘virtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::TensorCastValue::call(const torch::jit::SourceRange&, torch::jit::GraphFunction&, c10::ArrayRef<torch::jit::NamedValue>, c10::ArrayRef<torch::jit::NamedValue>, size_t)’:
+[12.234s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:559:14: warning: unused parameter ‘n_binders’ [-Wunused-parameter]
+[12.234s]   559 |       size_t n_binders) override {
+[12.234s]       |       ~~~~~~~^~~~~~~~~
+[12.243s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h: In member function ‘virtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::IterableTree::iter(const torch::jit::SourceRange&, torch::jit::GraphFunction&)’:
+[12.244s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:705:57: warning: unused parameter ‘loc’ [-Wunused-parameter]
+[12.244s]   705 |   std::shared_ptr<SugaredValue> iter(const SourceRange& loc, GraphFunction& m)
+[12.244s]       |                                      ~~~~~~~~~~~~~~~~~~~^~~
+[12.244s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/sugared_value.h:705:77: warning: unused parameter ‘m’ [-Wunused-parameter]
+[12.244s]   705 |   std::shared_ptr<SugaredValue> iter(const SourceRange& loc, GraphFunction& m)
+[12.244s]       |                                                              ~~~~~~~~~~~~~~~^
+[12.250s] In file included from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/script_type_parser.h:5,
+[12.250s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/serialization/unpickler.h:9,
+[12.250s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/serialization/pickle.h:9,
+[12.250s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/script.h:11,
+[12.250s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/target_detector/src/yolo_usb_detector.cpp:17:
+[12.250s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h: In member function ‘virtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::Resolver::resolveValue(const string&, torch::jit::GraphFunction&, const torch::jit::SourceRange&)’:
+[12.251s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:34:26: warning: unused parameter ‘name’ [-Wunused-parameter]
+[12.251s]    34 |       const std::string& name,
+[12.251s]       |       ~~~~~~~~~~~~~~~~~~~^~~~
+[12.251s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:35:22: warning: unused parameter ‘m’ [-Wunused-parameter]
+[12.251s]    35 |       GraphFunction& m,
+[12.251s]       |       ~~~~~~~~~~~~~~~^
+[12.251s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:36:26: warning: unused parameter ‘loc’ [-Wunused-parameter]
+[12.251s]    36 |       const SourceRange& loc) {
+[12.251s]       |       ~~~~~~~~~~~~~~~~~~~^~~
+[12.251s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h: In member function ‘virtual c10::TypePtr torch::jit::Resolver::resolveType(const string&, const torch::jit::SourceRange&)’:
+[12.251s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:41:50: warning: unused parameter ‘name’ [-Wunused-parameter]
+[12.251s]    41 |   virtual TypePtr resolveType(const std::string& name, const SourceRange& loc) {
+[12.251s]       |                               ~~~~~~~~~~~~~~~~~~~^~~~
+[12.252s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:41:75: warning: unused parameter ‘loc’ [-Wunused-parameter]
+[12.252s]    41 |   virtual TypePtr resolveType(const std::string& name, const SourceRange& loc) {
+[12.252s]       |                                                        ~~~~~~~~~~~~~~~~~~~^~~
+[12.252s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h: In member function ‘virtual std::shared_ptr<torch::jit::SugaredValue> torch::jit::NativeResolver::resolveValue(const string&, torch::jit::GraphFunction&, const torch::jit::SourceRange&)’:
+[12.252s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:50:22: warning: unused parameter ‘m’ [-Wunused-parameter]
+[12.252s]    50 |       GraphFunction& m,
+[12.252s]       |       ~~~~~~~~~~~~~~~^
+[12.252s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:51:26: warning: unused parameter ‘loc’ [-Wunused-parameter]
+[12.252s]    51 |       const SourceRange& loc) override {
+[12.252s]       |       ~~~~~~~~~~~~~~~~~~~^~~
+[12.252s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h: In member function ‘virtual c10::TypePtr torch::jit::NativeResolver::resolveType(const string&, const torch::jit::SourceRange&)’:
+[12.252s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:58:42: warning: unused parameter ‘name’ [-Wunused-parameter]
+[12.252s]    58 |   TypePtr resolveType(const std::string& name, const SourceRange& loc)
+[12.252s]       |                       ~~~~~~~~~~~~~~~~~~~^~~~
+[12.252s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/jit/frontend/resolver.h:58:67: warning: unused parameter ‘loc’ [-Wunused-parameter]
+[12.252s]    58 |   TypePtr resolveType(const std::string& name, const SourceRange& loc)
+[12.252s]       |                                                ~~~~~~~~~~~~~~~~~~~^~~
+[12.412s] In file included from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/cloneable.h:4,
+[12.412s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn.h:4,
+[12.412s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/all.h:16,
+[12.412s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/torch.h:4,
+[12.412s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/target_detector/src/yolo_usb_detector.cpp:18:
+[12.412s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/module.h: In member function ‘virtual std::vector<torch::nn::AnyValue> torch::nn::Module::_forward_populate_default_args(std::vector<torch::nn::AnyValue>&&)’:
+[12.412s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/module.h:561:31: warning: unused parameter ‘arguments’ [-Wunused-parameter]
+[12.413s]   561 |       std::vector<AnyValue>&& arguments) {
+[12.413s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+[12.632s] In file included from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/all.h:11,
+[12.632s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/torch.h:4,
+[12.633s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/target_detector/src/yolo_usb_detector.cpp:18:
+[12.633s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::L1LossOptions::L1LossOptions(torch::enumtype::kNone)’:
+[12.633s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:21:50: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.633s]    21 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(L1LossOptions, reduction, kNone, kMean, kSum)
+[12.633s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG3’
+[12.633s]    91 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+[12.633s]       |                                       ^~~~~~~~
+[12.633s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::L1LossOptions::L1LossOptions(torch::enumtype::kMean)’:
+[12.633s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:21:50: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.634s]    21 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(L1LossOptions, reduction, kNone, kMean, kSum)
+[12.634s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG3’
+[12.634s]    92 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+[12.634s]       |                                       ^~~~~~~~
+[12.634s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::L1LossOptions::L1LossOptions(torch::enumtype::kSum)’:
+[12.634s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:21:50: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.634s]    21 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(L1LossOptions, reduction, kNone, kMean, kSum)
+[12.634s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:93:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG3’
+[12.634s]    93 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+[12.634s]       |                                       ^~~~~~~~
+[12.639s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::KLDivLossOptions::KLDivLossOptions(torch::enumtype::kNone)’:
+[12.639s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:60:7: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.639s]    60 |       reduction,
+[12.639s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:98:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG4’
+[12.639s]    98 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+[12.640s]       |                                       ^~~~~~~~
+[12.640s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::KLDivLossOptions::KLDivLossOptions(torch::enumtype::kBatchMean)’:
+[12.640s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:60:7: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.640s]    60 |       reduction,
+[12.640s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:99:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG4’
+[12.641s]    99 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+[12.641s]       |                                       ^~~~~~~~
+[12.641s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::KLDivLossOptions::KLDivLossOptions(torch::enumtype::kSum)’:
+[12.642s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:60:7: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.642s]    60 |       reduction,
+[12.643s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:100:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG4’
+[12.643s]   100 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {} \
+[12.643s]       |                                       ^~~~~~~~
+[12.643s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::KLDivLossOptions::KLDivLossOptions(torch::enumtype::kMean)’:
+[12.643s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:60:7: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.643s]    60 |       reduction,
+[12.643s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:101:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG4’
+[12.643s]   101 |   OPTIONS_NAME(torch::enumtype::TYPE4 ARG_NAME) : ARG_NAME##_(torch::TYPE4) {}
+[12.643s]       |                                       ^~~~~~~~
+[12.644s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::MSELossOptions::MSELossOptions(torch::enumtype::kNone)’:
+[12.644s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:101:51: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.644s]   101 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(MSELossOptions, reduction, kNone, kMean, kSum)
+[12.644s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG3’
+[12.644s]    91 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+[12.644s]       |                                       ^~~~~~~~
+[12.644s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::MSELossOptions::MSELossOptions(torch::enumtype::kMean)’:
+[12.644s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:101:51: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.645s]   101 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(MSELossOptions, reduction, kNone, kMean, kSum)
+[12.645s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG3’
+[12.645s]    92 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+[12.645s]       |                                       ^~~~~~~~
+[12.645s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::MSELossOptions::MSELossOptions(torch::enumtype::kSum)’:
+[12.645s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:101:51: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.645s]   101 |   TORCH_OPTIONS_CTOR_VARIANT_ARG3(MSELossOptions, reduction, kNone, kMean, kSum)
+[12.646s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:93:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG3’
+[12.646s]    93 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+[12.646s]       |                                       ^~~~~~~~
+[12.646s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::MultiLabelMarginLossOptions::MultiLabelMarginLossOptions(torch::enumtype::kNone)’:
+[12.646s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:285:7: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.646s]   285 |       reduction,
+[12.647s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG3’
+[12.647s]    91 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+[12.647s]       |                                       ^~~~~~~~
+[12.647s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::MultiLabelMarginLossOptions::MultiLabelMarginLossOptions(torch::enumtype::kMean)’:
+[12.647s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:285:7: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.647s]   285 |       reduction,
+[12.647s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG3’
+[12.647s]    92 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+[12.647s]       |                                       ^~~~~~~~
+[12.647s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::MultiLabelMarginLossOptions::MultiLabelMarginLossOptions(torch::enumtype::kSum)’:
+[12.647s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:285:7: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.647s]   285 |       reduction,
+[12.647s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:93:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG3’
+[12.647s]    93 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+[12.648s]       |                                       ^~~~~~~~
+[12.648s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::SoftMarginLossOptions::SoftMarginLossOptions(torch::enumtype::kNone)’:
+[12.648s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:326:7: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.648s]   326 |       reduction,
+[12.648s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG3’
+[12.648s]    91 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+[12.648s]       |                                       ^~~~~~~~
+[12.648s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::SoftMarginLossOptions::SoftMarginLossOptions(torch::enumtype::kMean)’:
+[12.648s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:326:7: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.648s]   326 |       reduction,
+[12.648s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG3’
+[12.648s]    92 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+[12.648s]       |                                       ^~~~~~~~
+[12.648s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::SoftMarginLossOptions::SoftMarginLossOptions(torch::enumtype::kSum)’:
+[12.648s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:326:7: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.648s]   326 |       reduction,
+[12.648s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:93:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG3’
+[12.649s]    93 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+[12.649s]       |                                       ^~~~~~~~
+[12.656s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::SmoothL1LossOptions::SmoothL1LossOptions(torch::enumtype::kNone)’:
+[12.656s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:538:7: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.656s]   538 |       reduction,
+[12.656s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG3’
+[12.656s]    91 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+[12.657s]       |                                       ^~~~~~~~
+[12.657s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::SmoothL1LossOptions::SmoothL1LossOptions(torch::enumtype::kMean)’:
+[12.657s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:538:7: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.657s]   538 |       reduction,
+[12.657s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG3’
+[12.657s]    92 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+[12.657s]       |                                       ^~~~~~~~
+[12.657s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::SmoothL1LossOptions::SmoothL1LossOptions(torch::enumtype::kSum)’:
+[12.657s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:538:7: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.657s]   538 |       reduction,
+[12.657s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:93:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG3’
+[12.657s]    93 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+[12.657s]       |                                       ^~~~~~~~
+[12.658s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::HuberLossOptions::HuberLossOptions(torch::enumtype::kNone)’:
+[12.658s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:582:7: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.658s]   582 |       reduction,
+[12.658s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:91:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG3’
+[12.658s]    91 |   OPTIONS_NAME(torch::enumtype::TYPE1 ARG_NAME) : ARG_NAME##_(torch::TYPE1) {} \
+[12.658s]       |                                       ^~~~~~~~
+[12.658s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::HuberLossOptions::HuberLossOptions(torch::enumtype::kMean)’:
+[12.658s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:582:7: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.658s]   582 |       reduction,
+[12.658s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:92:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG3’
+[12.658s]    92 |   OPTIONS_NAME(torch::enumtype::TYPE2 ARG_NAME) : ARG_NAME##_(torch::TYPE2) {} \
+[12.658s]       |                                       ^~~~~~~~
+[12.658s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h: In constructor ‘torch::nn::HuberLossOptions::HuberLossOptions(torch::enumtype::kSum)’:
+[12.658s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/options/loss.h:582:7: warning: unused parameter ‘reduction’ [-Wunused-parameter]
+[12.659s]   582 |       reduction,
+[12.659s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/enum.h:93:39: note: in definition of macro ‘TORCH_OPTIONS_CTOR_VARIANT_ARG3’
+[12.659s]    93 |   OPTIONS_NAME(torch::enumtype::TYPE3 ARG_NAME) : ARG_NAME##_(torch::TYPE3) {}
+[12.659s]       |                                       ^~~~~~~~
+[14.685s] In file included from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/functional.h:7,
+[14.685s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn.h:5,
+[14.685s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/all.h:16,
+[14.685s]                  from /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/torch.h:4,
+[14.685s]                  from /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/target_detector/src/yolo_usb_detector.cpp:18:
+[14.685s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h: In instantiation of ‘at::Tensor torch::nn::functional::detail::_dropoutNd_helper(at::Tensor, double, bool, bool, const char*) [with long int unbatched_dim = 3; long int batched_dim = 4]’:
+[14.685s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h:90:33:   required from here
+[14.685s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h:56:17: warning: unused parameter ‘fn_name’ [-Wunused-parameter]
+[14.685s]    56 |     const char* fn_name) {
+[14.685s]       |     ~~~~~~~~~~~~^~~~~~~
+[14.685s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h: In instantiation of ‘at::Tensor torch::nn::functional::detail::_dropoutNd_helper(at::Tensor, double, bool, bool, const char*) [with long int unbatched_dim = 4; long int batched_dim = 5]’:
+[14.685s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h:122:33:   required from here
+[14.685s] /home/jiaverso/.local/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/nn/functional/dropout.h:56:17: warning: unused parameter ‘fn_name’ [-Wunused-parameter]
+[21.228s] [100%] Linking CXX executable yolo_usb_detector
+[22.733s] [100%] Built target yolo_usb_detector
+[22.743s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/target_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/target_detector -- -j8 -l8
+[22.752s] Invoking command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/target_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/target_detector
+[22.758s] -- Install configuration: ""
+[22.758s] -- Execute custom install script
+[22.758s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/lib/target_detector/yolo_usb_detector
+[22.759s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/launch/__pycache__/yolo_target_detector.cpython-310.pyc
+[22.759s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/launch/yolo11n.pt
+[22.759s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/launch/yolo_target_detector.py
+[22.759s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/launch/yolo_usb_detector.launch.py
+[22.759s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/config/yolo_usb_detector.yaml
+[22.759s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/models/README.md
+[22.759s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/models/yolo11n.onnx
+[22.759s] -- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/models/yolo11n.torchscript
+[22.767s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/README.md
+[22.768s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/ament_index/resource_index/package_run_dependencies/target_detector
+[22.768s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/ament_index/resource_index/parent_prefix_path/target_detector
+[22.768s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/environment/ament_prefix_path.sh
+[22.768s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/environment/ament_prefix_path.dsv
+[22.769s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/environment/path.sh
+[22.769s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/environment/path.dsv
+[22.769s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/local_setup.bash
+[22.770s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/local_setup.sh
+[22.770s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/local_setup.zsh
+[22.770s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/local_setup.dsv
+[22.770s] -- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/package.dsv
+[22.778s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/ament_index/resource_index/packages/target_detector
+[22.778s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/cmake/target_detectorConfig.cmake
+[22.781s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/cmake/target_detectorConfig-version.cmake
+[22.781s] -- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/package.xml
+[30.007s] Invoked command in '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/target_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/target_detector
