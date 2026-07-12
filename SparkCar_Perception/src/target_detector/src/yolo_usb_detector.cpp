@@ -8,7 +8,7 @@
 # @version 0.1
 # @date 2026-07-10
 #
-# @copyright JiaVerso (c) 2022
+# @copyright JiaVerso (c) 2026
 */
 
 #include <algorithm>
@@ -54,7 +54,7 @@ public:
   YoloUsbDetector()
   : Node("yolo_usb_detector")
   {
-
+    // 声明外部可配置参数
     model_path_ = declare_parameter<std::string>("model_path", "");
 
     // D435 彩色图相关配置
@@ -259,7 +259,7 @@ private:
             continue;
           }
 
-          // 零拷贝包装
+          // 浅拷贝机制
           const cv::Mat color_view(
             cv::Size(color.get_width(), color.get_height()), CV_8UC3,
             const_cast<void *>(color.get_data()), cv::Mat::AUTO_STEP);
@@ -288,6 +288,7 @@ private:
         }
       }
 
+      // 自动加锁
       std::lock_guard<std::mutex> lock(frame_mutex_);
       latest_frame_ = frame;
       latest_depth_frame_ = depth_frame;
@@ -295,6 +296,7 @@ private:
     }
   }
 
+  // 等比例缩放，填充边界
   cv::Mat letterbox(const cv::Mat & image, float & scale, int & pad_x, int & pad_y) const
   {
     scale = std::min(
@@ -315,12 +317,17 @@ private:
 
   Detection detect(const cv::Mat & frame)
   {
+
     float scale = 1.0F;
     int pad_x = 0;
     int pad_y = 0;
+
+    // 图像预处理
     const cv::Mat input = letterbox(frame, scale, pad_x, pad_y);
     cv::Mat rgb;
     cv::cvtColor(input, rgb, cv::COLOR_BGR2RGB);
+
+    // 归一化
     cv::Mat normalized;
     rgb.convertTo(normalized, CV_32FC3, 1.0 / 255.0);
 
@@ -328,6 +335,7 @@ private:
       normalized.data, {1, input_size_, input_size_, 3}, torch::kFloat32);
     input_tensor = input_tensor.permute({0, 3, 1, 2}).contiguous();
 
+    // Forward Inference
     torch::NoGradGuard no_grad;
     torch::Tensor predictions = model_.forward({input_tensor}).toTensor().to(torch::kCPU).contiguous();
     if (predictions.dim() != 3 || predictions.size(0) != 1) {
@@ -365,6 +373,7 @@ private:
     boxes.reserve(candidate_count);
     confidences.reserve(candidate_count);
 
+    // 置信度阈值过滤
     for (int64_t candidate = 0; candidate < candidate_count; ++candidate) {
       const float confidence = value_at(candidate, 4 + target_class_id_);
       if (confidence < static_cast<float>(confidence_threshold_)) {
@@ -376,6 +385,7 @@ private:
       const float width = value_at(candidate, 2);
       const float height = value_at(candidate, 3);
 
+      // 提取坐标
       int left = static_cast<int>((center_x - width * 0.5F - pad_x) / scale);
       int top = static_cast<int>((center_y - height * 0.5F - pad_y) / scale);
       int right = static_cast<int>((center_x + width * 0.5F - pad_x) / scale);
@@ -397,6 +407,8 @@ private:
     for (size_t index = 0; index < sorted_indices.size(); ++index) {
       sorted_indices[index] = static_cast<int>(index);
     }
+
+    //按照置信度排序
     std::sort(
       sorted_indices.begin(), sorted_indices.end(),
       [&confidences](int left, int right) {return confidences[left] > confidences[right];});
@@ -419,6 +431,7 @@ private:
       }
     }
 
+    // 同一类别多目标，根据像素面积选择
     Detection best;
     int best_area = -1;
     for (const int index : kept_indices) {
@@ -474,11 +487,14 @@ private:
            std::isfinite(point_3d[2]);
   }
 
+  // 推理回调
   void inference_callback()
   {
     cv::Mat frame;
     cv::Mat depth_frame;
     uint64_t sequence = 0;
+
+    // 局部作用域
     {
       std::lock_guard<std::mutex> lock(frame_mutex_);
       if (latest_frame_.empty() || frame_sequence_ == processed_sequence_) {
@@ -500,6 +516,8 @@ private:
     }
 
     if (detection.found) {
+
+      // 矩形中心框坐标
       const int center_u = detection.box.x + detection.box.width / 2;
       const int center_v = detection.box.y + detection.box.height / 2;
 
@@ -514,6 +532,8 @@ private:
       std::array<float, 3> point_3d{};
       const bool has_3d_point = camera_backend_ == "realsense" &&
         deproject_target(depth_frame, center_u, center_v, point_3d);
+
+      // 获取矩形框深度值
       if (has_3d_point) {
         geometry_msgs::msg::PointStamped target_3d;
         target_3d.header.stamp = target_pixel.header.stamp;
@@ -529,6 +549,7 @@ private:
         cv::circle(frame, cv::Point(center_u, center_v), 5, cv::Scalar(0, 0, 255), -1);
         std::string label = target_class_name_ + " " +
           cv::format("%.2f", detection.confidence);
+
         if (has_3d_point) {
           label += cv::format(" Z=%.2fm", point_3d[2]);
         }
@@ -591,6 +612,8 @@ private:
 
   rclcpp::Publisher<geometry_msgs::msg::PointStamped>::SharedPtr target_publisher_;
   rclcpp::Publisher<geometry_msgs::msg::PointStamped>::SharedPtr target_3d_publisher_;
+  
+  // 定时器
   rclcpp::TimerBase::SharedPtr inference_timer_;
 };
 
@@ -598,10 +621,13 @@ private:
 
 int main(int argc, char ** argv)
 {
+  // 初始化DDS 
   rclcpp::init(argc, argv);
   try {
+    // 事件轮询
     rclcpp::spin(std::make_shared<target_detector::YoloUsbDetector>());
   } catch (const std::exception & error) {
+    // 获取异常
     RCLCPP_FATAL(rclcpp::get_logger("yolo_usb_detector"), "%s", error.what());
   }
   rclcpp::shutdown();

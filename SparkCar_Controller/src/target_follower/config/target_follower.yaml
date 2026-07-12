@@ -1,0 +1,31 @@
+target_follower_node:
+  ros__parameters:
+    target_topic: /yolo/target_point_3d
+    cmd_vel_topic: /cmd_vel
+
+    desired_distance: 1.2
+    target_timeout: 0.5
+    control_frequency: 20.0
+
+    distance_kp: 0.7
+    heading_kp: 1.2
+    distance_deadband: 0.10
+    heading_deadband: 0.025
+    filter_alpha: 0.35
+
+    max_forward_speed: 0.35
+    max_reverse_speed: 0.12
+    min_tracking_speed: 0.05
+    max_angular_speed: 0.25
+    max_linear_accel: 0.35
+    max_linear_decel: 0.8
+    max_angular_accel: 0.5
+    minimum_turning_radius: 1.8
+    heading_slowdown_angle: 0.6
+    min_heading_speed_scale: 0.25
+
+    min_valid_depth: 0.2
+    max_valid_depth: 8.0
+    emergency_stop_distance: 0.6
+    allow_reverse: false
+    start_enabled: false
