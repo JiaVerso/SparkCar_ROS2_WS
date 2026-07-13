@@ -6,8 +6,7 @@
 		[
 			"add_custom_target",
 			"include",
-			"find_package",
-			"add_dependencies"
+			"find_package"
 		],
 		"files" : 
 		[
@@ -25,7 +24,7 @@
 			{
 				"command" : 2,
 				"file" : 4,
-				"line" : 8,
+				"line" : 10,
 				"parent" : 0
 			},
 			{
@@ -65,31 +64,49 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 35,
-				"parent" : 8
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 42,
+				"line" : 40,
 				"parent" : 8
 			}
 		]
 	},
-	"dependencies" : 
-	[
-		{
-			"backtrace" : 10,
-			"id" : "target_detector_uninstall::@6890427a1f51a3e7e1df"
-		}
-	],
-	"id" : "uninstall::@6890427a1f51a3e7e1df",
-	"name" : "uninstall",
+	"id" : "target_detector_uninstall::@6890427a1f51a3e7e1df",
+	"name" : "target_detector_uninstall",
 	"paths" : 
 	{
 		"build" : ".",
 		"source" : "."
 	},
-	"sources" : [],
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 9,
+			"isGenerated" : true,
+			"path" : "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/target_detector/CMakeFiles/target_detector_uninstall",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/target_detector/CMakeFiles/target_detector_uninstall.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
 	"type" : "UTILITY"
 }

@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.8)
 project(target_detector)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()

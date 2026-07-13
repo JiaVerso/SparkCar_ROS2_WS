@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-0434017103dda75992be.json",
+					"jsonFile" : "directory-.-90c36e08fc3edebc20b7.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -44,21 +44,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "target_detector_uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-target_detector_uninstall-58786845ba31e8b6bc5c.json",
+					"jsonFile" : "target-target_detector_uninstall-606419d6bcf9737dd2b0.json",
 					"name" : "target_detector_uninstall",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-uninstall-ee9ddf645f8d7946dfc2.json",
+					"jsonFile" : "target-uninstall-3b18a30f73c4edd2e6c2.json",
 					"name" : "uninstall",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "yolo_usb_detector::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-yolo_usb_detector-2dea4022cd352533b67c.json",
+					"jsonFile" : "target-yolo_usb_detector-be0f8bdfa46a9193de94.json",
 					"name" : "yolo_usb_detector",
 					"projectIndex" : 0
 				}

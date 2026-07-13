@@ -1,3 +1,14 @@
+/*
+# @file pid_controller.cpp
+# @author JiaVerso
+# @brief  A C++ implementation of a PID controller
+# @version 0.1
+# @date 2026-07-13
+#
+# @copyright JiaVerso (c) 2026
+*/
+
+
 #include "target_follower/pid_controller.hpp"
 
 #include <algorithm>
@@ -35,6 +46,7 @@ void PidController::configure(
 
 double PidController::calculate(double input, double setpoint)
 {
+  // Check for NaN or infinite values
   if (!std::isfinite(input) || !std::isfinite(setpoint)) {
     reset();
     return 0.0;

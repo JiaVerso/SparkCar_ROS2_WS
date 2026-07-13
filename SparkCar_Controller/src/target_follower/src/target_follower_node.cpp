@@ -36,19 +36,24 @@ public:
   TargetFollowerNode()
   : Node("target_follower_node")
   {
+    // declare topics 
     target_topic_ = declare_parameter<std::string>(
       "target_topic", "/yolo/target_point_3d");
     cmd_vel_topic_ = declare_parameter<std::string>("cmd_vel_topic", "/cmd_vel");
+
+    // custom parameters
     desired_distance_ = declare_parameter<double>("desired_distance", 1.2);
     target_timeout_ = declare_parameter<double>("target_timeout", 0.5);
     control_frequency_ = declare_parameter<double>("control_frequency", 20.0);
 
+    // PID controller parameters
     distance_kp_ = declare_parameter<double>("distance_kp", 0.7);
     heading_kp_ = declare_parameter<double>("heading_kp", 1.2);
     distance_deadband_ = declare_parameter<double>("distance_deadband", 0.10);
     heading_deadband_ = declare_parameter<double>("heading_deadband", 0.025);
     filter_alpha_ = declare_parameter<double>("filter_alpha", 0.35);
 
+    // Motion constraints parameters
     max_forward_speed_ = declare_parameter<double>("max_forward_speed", 0.45);
     max_reverse_speed_ = declare_parameter<double>("max_reverse_speed", 0.12);
     min_tracking_speed_ = declare_parameter<double>("min_tracking_speed", 0.05);
@@ -61,12 +66,17 @@ public:
     min_heading_speed_scale_ = declare_parameter<double>("min_heading_speed_scale", 0.25);
 
     min_valid_depth_ = declare_parameter<double>("min_valid_depth", 0.2);
-    max_valid_depth_ = declare_parameter<double>("max_valid_depth", 8.0);
+    max_valid_depth_ = declare_parameter<double>("max_valid_depth", 6.0);
+
+    // 急停距离
     emergency_stop_distance_ = declare_parameter<double>("emergency_stop_distance", 0.6);
     allow_reverse_ = declare_parameter<bool>("allow_reverse", false);
     start_enabled_ = declare_parameter<bool>("start_enabled", false);
 
+    // 参数检查
     validate_parameters();
+
+    // initialize
     distance_pid_.configure(
       distance_kp_, 0.0, 0.0, 0.0, 0.0,
       std::max(max_forward_speed_, max_reverse_speed_));
@@ -76,15 +86,19 @@ public:
 
     cmd_vel_publisher_ =
       create_publisher<geometry_msgs::msg::Twist>(cmd_vel_topic_, rclcpp::QoS(10));
+
     target_subscription_ = create_subscription<geometry_msgs::msg::PointStamped>(
       target_topic_, rclcpp::QoS(10),
       std::bind(&TargetFollowerNode::target_callback, this, std::placeholders::_1));
+
+    // 创建服务
     enable_service_ = create_service<std_srvs::srv::SetBool>(
       "~/set_enabled",
       std::bind(
         &TargetFollowerNode::enable_callback, this,
         std::placeholders::_1, std::placeholders::_2));
 
+    // 定时器
     last_control_time_ = now();
     const auto period = std::chrono::duration<double>(1.0 / control_frequency_);
     control_timer_ = create_wall_timer(
@@ -92,6 +106,7 @@ public:
       std::bind(&TargetFollowerNode::control_callback, this));
 
     publish_stop();
+
     RCLCPP_INFO(
       get_logger(),
       "Target follower ready (PID interface, P-only): target=%s, output=%s, "
@@ -140,10 +155,13 @@ private:
     }
   }
 
+  // 低通滤波后 point.x / point.z
   void target_callback(const geometry_msgs::msg::PointStamped::SharedPtr message)
   {
     const double right = message->point.x;
     const double forward = message->point.z;
+
+    // 判断传入值
     if (!std::isfinite(right) || !std::isfinite(forward) ||
       forward < min_valid_depth_ || forward > max_valid_depth_)
     {
@@ -153,7 +171,10 @@ private:
       return;
     }
 
+    // add pid caulculate mutex lock
     std::lock_guard<std::mutex> lock(target_mutex_);
+
+    // 一阶低通滤波
     if (!has_target_) {
       filtered_right_ = right;
       filtered_forward_ = forward;
@@ -166,6 +187,7 @@ private:
     has_target_ = true;
   }
 
+  // service 开启/关闭目标跟随
   void enable_callback(
     const std_srvs::srv::SetBool::Request::SharedPtr request,
     std_srvs::srv::SetBool::Response::SharedPtr response)
@@ -185,6 +207,7 @@ private:
     RCLCPP_INFO(get_logger(), "%s", response->message.c_str());
   }
 
+  // 
   static double rate_limit(double desired, double previous, double maximum_step)
   {
     return previous + std::clamp(desired - previous, -maximum_step, maximum_step);
@@ -207,12 +230,14 @@ private:
       target_time = last_target_time_;
     }
 
+    // 检查是否启用了目标跟随
     if (!enabled) {
       publish_stop_if_needed();
       last_control_time_ = current_time;
       return;
     }
 
+    // 目标丢失/超时拦截
     const double target_age = has_target ? (current_time - target_time).seconds() : 1e9;
     if (!has_target || target_age > target_timeout_) {
       publish_stop_if_needed();
@@ -223,6 +248,7 @@ private:
       return;
     }
 
+    // 急停距离判断
     if (target_forward <= emergency_stop_distance_) {
       publish_stop_if_needed();
       RCLCPP_WARN_THROTTLE(
@@ -233,14 +259,16 @@ private:
       return;
     }
 
+    // 误差计算
     const double distance_error = target_forward - desired_distance_;
     const double heading_error = std::atan2(-target_right, target_forward);
-    // Positive vehicle speed reduces measured target distance, so the standard
-    // PID output (setpoint - input) is negated for this plant.
+    
+    // 根据纵向和横向距离算偏向角
     const double distance_control = -distance_pid_.calculate(
       target_forward, desired_distance_);
     const double heading_control = -heading_pid_.calculate(heading_error, 0.0);
 
+    // 输出限幅
     double desired_linear = 0.0;
     if (distance_error > distance_deadband_) {
       desired_linear = std::clamp(
@@ -250,6 +278,8 @@ private:
         distance_control, -max_reverse_speed_, -min_tracking_speed_);
     }
 
+    // 急弯减速
+    // 急弯过大，默认最小25%速度
     if (desired_linear != 0.0) {
       const double speed_scale = std::max(
         min_heading_speed_scale_,
@@ -259,6 +289,8 @@ private:
 
     double desired_angular = 0.0;
     if (desired_linear != 0.0 && std::abs(heading_error) > heading_deadband_) {
+      
+      // 阿克曼角度约束
       const double ackermann_limit =
         std::abs(desired_linear) / minimum_turning_radius_;
       const double angular_limit = std::min(max_angular_speed_, ackermann_limit);
@@ -268,19 +300,29 @@ private:
 
     double dt = (current_time - last_control_time_).seconds();
     dt = std::clamp(dt, 0.001, 0.2);
+
+    // 判断减速
     const bool decelerating =
       std::abs(desired_linear) < std::abs(previous_linear_) ||
       desired_linear * previous_linear_ < 0.0;
+
+    // 加速度或减速度
     const double linear_rate = decelerating ? max_linear_decel_ : max_linear_accel_;
+
+    // 创建 ROS 速度消息
     geometry_msgs::msg::Twist command;
+
     command.linear.x = rate_limit(
       desired_linear, previous_linear_, linear_rate * dt);
     command.angular.z = rate_limit(
       desired_angular, previous_angular_, max_angular_accel_ * dt);
+
+    // 角速度 ω = 线速度 v / 转弯半径 R
     const double final_angular_limit = std::min(
       max_angular_speed_, std::abs(command.linear.x) / minimum_turning_radius_);
     command.angular.z = std::clamp(
       command.angular.z, -final_angular_limit, final_angular_limit);
+
     cmd_vel_publisher_->publish(command);
     previous_linear_ = command.linear.x;
     previous_angular_ = command.angular.z;
@@ -303,6 +345,8 @@ private:
   void publish_stop()
   {
     if (cmd_vel_publisher_) {
+
+      // 右值引用
       cmd_vel_publisher_->publish(geometry_msgs::msg::Twist());
     }
     previous_linear_ = 0.0;
@@ -332,7 +376,7 @@ private:
   double heading_slowdown_angle_{0.6};
   double min_heading_speed_scale_{0.25};
   double min_valid_depth_{0.2};
-  double max_valid_depth_{8.0};
+  double max_valid_depth_{6.0};
   double emergency_stop_distance_{0.6};
   bool allow_reverse_{false};
   bool start_enabled_{false};

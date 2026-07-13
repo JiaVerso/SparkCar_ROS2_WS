@@ -1,0 +1,264 @@
+[0.000000] (-) TimerEvent: {}
+[0.000093] (-) JobUnselected: {'identifier': 'fastlio2'}
+[0.000218] (-) JobUnselected: {'identifier': 'hba'}
+[0.000234] (-) JobUnselected: {'identifier': 'interface'}
+[0.000247] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000259] (-) JobUnselected: {'identifier': 'localizer'}
+[0.000271] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.000283] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.000295] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.000313] (target_detector) JobQueued: {'identifier': 'target_detector', 'dependencies': OrderedDict()}
+[0.000508] (target_detector) JobStarted: {'identifier': 'target_detector'}
+[0.007434] (target_detector) JobProgress: {'identifier': 'target_detector', 'progress': 'cmake'}
+[0.007870] (target_detector) JobProgress: {'identifier': 'target_detector', 'progress': 'build'}
+[0.008387] (target_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/target_detector', '--', '-j8', '-l8'], 'cwd': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/target_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/jiaverso'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('CODEX_HOME', '/home/jiaverso/.codex'), ('USER', 'jiaverso'), ('SSH_CLIENT', '192.168.110.167 63846 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/home/jiaverso/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/jiaverso/.vscode-server/data/clp/7d3970334613eea704823c76d6198ba3.zh-cn/tcf.json","messagesFile":"/home/jiaverso/.vscode-server/data/clp/7d3970334613eea704823c76d6198ba3.zh-cn/7e7950df89d055b5a378379db9ee14290772148a/nls.messages.json","corruptMarkerFile":"/home/jiaverso/.vscode-server/data/clp/7d3970334613eea704823c76d6198ba3.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"7d3970334613eea704823c76d6198ba3.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/jiaverso/.vscode-server/data/clp/7d3970334613eea704823c76d6198ba3.zh-cn/tcf.json","_cacheRoot":"/home/jiaverso/.vscode-server/data/clp/7d3970334613eea704823c76d6198ba3.zh-cn","_resolvedLanguagePackCoreLocation":"/home/jiaverso/.vscode-server/data/clp/7d3970334613eea704823c76d6198ba3.zh-cn/7e7950df89d055b5a378379db9ee14290772148a","_corruptedFile":"/home/jiaverso/.vscode-server/data/clp/7d3970334613eea704823c76d6198ba3.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/jiaverso/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/helpers/browser.sh'), ('OPENAI_BASE_URL', 'https://api.ai-pixel.online'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jiaverso'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-802d1136-28ba-43b1-93c6-a745657697e6.sock'), ('ROS_PYTHON_VERSION', '3'), ('OPENAI_API_KEY', 'sk-ad00539cf26ae5f0778a31c9e07066c4600e76f8d0864285c18cb39c205e1577'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('COLCON_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jiaverso'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '4'), ('VSCODE_CLI_REQUIRE_TOKEN', '9fa7331e-a6cc-42ee-8a6b-7a365760f296'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jiaverso/.local/bin:/home/jiaverso/.codex/tmp/arg0/codex-arg00eGd2G:/home/jiaverso/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/home/jiaverso/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jiaverso/.vscode-server/extensions/openai.chatgpt-26.707.41301-linux-x64/bin/linux-x86_64'), ('VSCODE_AGENT_FOLDER', '/home/jiaverso/.vscode-server'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019f25a3-333f-7121-882f-f65178344d61'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('PWD', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/target_detector'), ('LC_ALL', 'C.UTF-8'), ('SSH_CONNECTION', '192.168.110.167 63846 192.168.110.161 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble')]), 'shell': False}
+[0.028006] (target_detector) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099773] (-) TimerEvent: {}
+[0.124045] (target_detector) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.128818] (target_detector) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.149751] (target_detector) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.151387] (target_detector) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.156753] (target_detector) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.163677] (target_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.174639] (target_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.198099] (target_detector) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.199276] (target_detector) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199825] (-) TimerEvent: {}
+[0.278043] (target_detector) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299929] (-) TimerEvent: {}
+[0.316803] (target_detector) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.400030] (-) TimerEvent: {}
+[0.500247] (-) TimerEvent: {}
+[0.600438] (-) TimerEvent: {}
+[0.700633] (-) TimerEvent: {}
+[0.800812] (-) TimerEvent: {}
+[0.901008] (-) TimerEvent: {}
+[1.001214] (-) TimerEvent: {}
+[1.101392] (-) TimerEvent: {}
+[1.201586] (-) TimerEvent: {}
+[1.301774] (-) TimerEvent: {}
+[1.401939] (-) TimerEvent: {}
+[1.502113] (-) TimerEvent: {}
+[1.602366] (-) TimerEvent: {}
+[1.702555] (-) TimerEvent: {}
+[1.802707] (-) TimerEvent: {}
+[1.902861] (-) TimerEvent: {}
+[2.003044] (-) TimerEvent: {}
+[2.103211] (-) TimerEvent: {}
+[2.203390] (-) TimerEvent: {}
+[2.303562] (-) TimerEvent: {}
+[2.403770] (-) TimerEvent: {}
+[2.503935] (-) TimerEvent: {}
+[2.604106] (-) TimerEvent: {}
+[2.704288] (-) TimerEvent: {}
+[2.804496] (-) TimerEvent: {}
+[2.864155] (target_detector) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.872794] (target_detector) StdoutLine: {'line': b'-- Generating done\n'}
+[2.875723] (target_detector) StdoutLine: {'line': b'-- Build files have been written to: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/target_detector\n'}
+[2.904612] (-) TimerEvent: {}
+[2.919417] (target_detector) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target yolo_usb_detector\n'}
+[2.984039] (target_detector) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/yolo_usb_detector.dir/src/yolo_usb_detector.cpp.o\n'}
+[3.004767] (-) TimerEvent: {}
+[3.104929] (-) TimerEvent: {}
+[3.205096] (-) TimerEvent: {}
+[3.305303] (-) TimerEvent: {}
+[3.405509] (-) TimerEvent: {}
+[3.505688] (-) TimerEvent: {}
+[3.605883] (-) TimerEvent: {}
+[3.706063] (-) TimerEvent: {}
+[3.806274] (-) TimerEvent: {}
+[3.906462] (-) TimerEvent: {}
+[4.006674] (-) TimerEvent: {}
+[4.106845] (-) TimerEvent: {}
+[4.207021] (-) TimerEvent: {}
+[4.307187] (-) TimerEvent: {}
+[4.407373] (-) TimerEvent: {}
+[4.507572] (-) TimerEvent: {}
+[4.607743] (-) TimerEvent: {}
+[4.707907] (-) TimerEvent: {}
+[4.808171] (-) TimerEvent: {}
+[4.908382] (-) TimerEvent: {}
+[5.008574] (-) TimerEvent: {}
+[5.108769] (-) TimerEvent: {}
+[5.208959] (-) TimerEvent: {}
+[5.309183] (-) TimerEvent: {}
+[5.409369] (-) TimerEvent: {}
+[5.509574] (-) TimerEvent: {}
+[5.609805] (-) TimerEvent: {}
+[5.709999] (-) TimerEvent: {}
+[5.810213] (-) TimerEvent: {}
+[5.910420] (-) TimerEvent: {}
+[6.010634] (-) TimerEvent: {}
+[6.110847] (-) TimerEvent: {}
+[6.211059] (-) TimerEvent: {}
+[6.311268] (-) TimerEvent: {}
+[6.411483] (-) TimerEvent: {}
+[6.511683] (-) TimerEvent: {}
+[6.611904] (-) TimerEvent: {}
+[6.712108] (-) TimerEvent: {}
+[6.812315] (-) TimerEvent: {}
+[6.912526] (-) TimerEvent: {}
+[7.012742] (-) TimerEvent: {}
+[7.112954] (-) TimerEvent: {}
+[7.213164] (-) TimerEvent: {}
+[7.313374] (-) TimerEvent: {}
+[7.413562] (-) TimerEvent: {}
+[7.513749] (-) TimerEvent: {}
+[7.613922] (-) TimerEvent: {}
+[7.714099] (-) TimerEvent: {}
+[7.814311] (-) TimerEvent: {}
+[7.914506] (-) TimerEvent: {}
+[8.014741] (-) TimerEvent: {}
+[8.114935] (-) TimerEvent: {}
+[8.215102] (-) TimerEvent: {}
+[8.315292] (-) TimerEvent: {}
+[8.415557] (-) TimerEvent: {}
+[8.515754] (-) TimerEvent: {}
+[8.615930] (-) TimerEvent: {}
+[8.716120] (-) TimerEvent: {}
+[8.816307] (-) TimerEvent: {}
+[8.916512] (-) TimerEvent: {}
+[9.016689] (-) TimerEvent: {}
+[9.116855] (-) TimerEvent: {}
+[9.217041] (-) TimerEvent: {}
+[9.317283] (-) TimerEvent: {}
+[9.417541] (-) TimerEvent: {}
+[9.517828] (-) TimerEvent: {}
+[9.618098] (-) TimerEvent: {}
+[9.718372] (-) TimerEvent: {}
+[9.818621] (-) TimerEvent: {}
+[9.918901] (-) TimerEvent: {}
+[10.019150] (-) TimerEvent: {}
+[10.119422] (-) TimerEvent: {}
+[10.219699] (-) TimerEvent: {}
+[10.319999] (-) TimerEvent: {}
+[10.420215] (-) TimerEvent: {}
+[10.520426] (-) TimerEvent: {}
+[10.620659] (-) TimerEvent: {}
+[10.720885] (-) TimerEvent: {}
+[10.821107] (-) TimerEvent: {}
+[10.921332] (-) TimerEvent: {}
+[11.021551] (-) TimerEvent: {}
+[11.121776] (-) TimerEvent: {}
+[11.221988] (-) TimerEvent: {}
+[11.322207] (-) TimerEvent: {}
+[11.422415] (-) TimerEvent: {}
+[11.522622] (-) TimerEvent: {}
+[11.622828] (-) TimerEvent: {}
+[11.723051] (-) TimerEvent: {}
+[11.823269] (-) TimerEvent: {}
+[11.923497] (-) TimerEvent: {}
+[12.023756] (-) TimerEvent: {}
+[12.123942] (-) TimerEvent: {}
+[12.224489] (-) TimerEvent: {}
+[12.324706] (-) TimerEvent: {}
+[12.424943] (-) TimerEvent: {}
+[12.525180] (-) TimerEvent: {}
+[12.625391] (-) TimerEvent: {}
+[12.725596] (-) TimerEvent: {}
+[12.825800] (-) TimerEvent: {}
+[12.926003] (-) TimerEvent: {}
+[13.026233] (-) TimerEvent: {}
+[13.126509] (-) TimerEvent: {}
+[13.226689] (-) TimerEvent: {}
+[13.326872] (-) TimerEvent: {}
+[13.427049] (-) TimerEvent: {}
+[13.527248] (-) TimerEvent: {}
+[13.627449] (-) TimerEvent: {}
+[13.727663] (-) TimerEvent: {}
+[13.827865] (-) TimerEvent: {}
+[13.928066] (-) TimerEvent: {}
+[14.028259] (-) TimerEvent: {}
+[14.128487] (-) TimerEvent: {}
+[14.228690] (-) TimerEvent: {}
+[14.328871] (-) TimerEvent: {}
+[14.429066] (-) TimerEvent: {}
+[14.529272] (-) TimerEvent: {}
+[14.629566] (-) TimerEvent: {}
+[14.729758] (-) TimerEvent: {}
+[14.830053] (-) TimerEvent: {}
+[14.930448] (-) TimerEvent: {}
+[15.030625] (-) TimerEvent: {}
+[15.130803] (-) TimerEvent: {}
+[15.230983] (-) TimerEvent: {}
+[15.331249] (-) TimerEvent: {}
+[15.431426] (-) TimerEvent: {}
+[15.531632] (-) TimerEvent: {}
+[15.631825] (-) TimerEvent: {}
+[15.732021] (-) TimerEvent: {}
+[15.832213] (-) TimerEvent: {}
+[15.932429] (-) TimerEvent: {}
+[16.032629] (-) TimerEvent: {}
+[16.132798] (-) TimerEvent: {}
+[16.232974] (-) TimerEvent: {}
+[16.333143] (-) TimerEvent: {}
+[16.433337] (-) TimerEvent: {}
+[16.533539] (-) TimerEvent: {}
+[16.633795] (-) TimerEvent: {}
+[16.733995] (-) TimerEvent: {}
+[16.834187] (-) TimerEvent: {}
+[16.934361] (-) TimerEvent: {}
+[17.034538] (-) TimerEvent: {}
+[17.134670] (-) TimerEvent: {}
+[17.234833] (-) TimerEvent: {}
+[17.335016] (-) TimerEvent: {}
+[17.435210] (-) TimerEvent: {}
+[17.535399] (-) TimerEvent: {}
+[17.635726] (-) TimerEvent: {}
+[17.735990] (-) TimerEvent: {}
+[17.836292] (-) TimerEvent: {}
+[17.936629] (-) TimerEvent: {}
+[18.036809] (-) TimerEvent: {}
+[18.136997] (-) TimerEvent: {}
+[18.237174] (-) TimerEvent: {}
+[18.337471] (-) TimerEvent: {}
+[18.437879] (-) TimerEvent: {}
+[18.493413] (target_detector) StdoutLine: {'line': b'[100%] Linking CXX executable yolo_usb_detector\n'}
+[18.538016] (-) TimerEvent: {}
+[18.638216] (-) TimerEvent: {}
+[18.738521] (-) TimerEvent: {}
+[18.839100] (-) TimerEvent: {}
+[18.939535] (-) TimerEvent: {}
+[19.039685] (-) TimerEvent: {}
+[19.139910] (-) TimerEvent: {}
+[19.240131] (-) TimerEvent: {}
+[19.340357] (-) TimerEvent: {}
+[19.440628] (-) TimerEvent: {}
+[19.540838] (-) TimerEvent: {}
+[19.641047] (-) TimerEvent: {}
+[19.741231] (-) TimerEvent: {}
+[19.841417] (-) TimerEvent: {}
+[19.941627] (-) TimerEvent: {}
+[20.041813] (-) TimerEvent: {}
+[20.142008] (-) TimerEvent: {}
+[20.180660] (target_detector) StdoutLine: {'line': b'[100%] Built target yolo_usb_detector\n'}
+[20.189656] (target_detector) CommandEnded: {'returncode': 0}
+[20.190902] (target_detector) JobProgress: {'identifier': 'target_detector', 'progress': 'install'}
+[20.198199] (target_detector) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/target_detector'], 'cwd': '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/target_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/jiaverso'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('CODEX_HOME', '/home/jiaverso/.codex'), ('USER', 'jiaverso'), ('SSH_CLIENT', '192.168.110.167 63846 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/home/jiaverso/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/jiaverso/.vscode-server/data/clp/7d3970334613eea704823c76d6198ba3.zh-cn/tcf.json","messagesFile":"/home/jiaverso/.vscode-server/data/clp/7d3970334613eea704823c76d6198ba3.zh-cn/7e7950df89d055b5a378379db9ee14290772148a/nls.messages.json","corruptMarkerFile":"/home/jiaverso/.vscode-server/data/clp/7d3970334613eea704823c76d6198ba3.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"7d3970334613eea704823c76d6198ba3.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/jiaverso/.vscode-server/data/clp/7d3970334613eea704823c76d6198ba3.zh-cn/tcf.json","_cacheRoot":"/home/jiaverso/.vscode-server/data/clp/7d3970334613eea704823c76d6198ba3.zh-cn","_resolvedLanguagePackCoreLocation":"/home/jiaverso/.vscode-server/data/clp/7d3970334613eea704823c76d6198ba3.zh-cn/7e7950df89d055b5a378379db9ee14290772148a","_corruptedFile":"/home/jiaverso/.vscode-server/data/clp/7d3970334613eea704823c76d6198ba3.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/lib:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/jiaverso/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/helpers/browser.sh'), ('OPENAI_BASE_URL', 'https://api.ai-pixel.online'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jiaverso'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-802d1136-28ba-43b1-93c6-a745657697e6.sock'), ('ROS_PYTHON_VERSION', '3'), ('OPENAI_API_KEY', 'sk-ad00539cf26ae5f0778a31c9e07066c4600e76f8d0864285c18cb39c205e1577'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('COLCON_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jiaverso'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '4'), ('VSCODE_CLI_REQUIRE_TOKEN', '9fa7331e-a6cc-42ee-8a6b-7a365760f296'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jiaverso/.local/bin:/home/jiaverso/.codex/tmp/arg0/codex-arg00eGd2G:/home/jiaverso/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/home/jiaverso/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jiaverso/.vscode-server/extensions/openai.chatgpt-26.707.41301-linux-x64/bin/linux-x86_64'), ('VSCODE_AGENT_FOLDER', '/home/jiaverso/.vscode-server'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', ''), ('AMENT_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019f25a3-333f-7121-882f-f65178344d61'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('PWD', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/target_detector'), ('LC_ALL', 'C.UTF-8'), ('SSH_CONNECTION', '192.168.110.167 63846 192.168.110.161 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pgo:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/localizer:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/fastlio2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/livox_ros_driver2:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/hba:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/interface:/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/pcd2pgm:/opt/ros/humble')]), 'shell': False}
+[20.204757] (target_detector) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.205010] (target_detector) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[20.205167] (target_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/lib/target_detector/yolo_usb_detector\n'}
+[20.205311] (target_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/README.md\n'}
+[20.205399] (target_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/ament_index/resource_index/package_run_dependencies/target_detector\n'}
+[20.205547] (target_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/ament_index/resource_index/parent_prefix_path/target_detector\n'}
+[20.205688] (target_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/environment/ament_prefix_path.sh\n'}
+[20.205795] (target_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/environment/ament_prefix_path.dsv\n'}
+[20.205897] (target_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/environment/path.sh\n'}
+[20.206082] (target_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/environment/path.dsv\n'}
+[20.206145] (target_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/local_setup.bash\n'}
+[20.206271] (target_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/local_setup.sh\n'}
+[20.206380] (target_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/local_setup.zsh\n'}
+[20.206445] (target_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/local_setup.dsv\n'}
+[20.206552] (target_detector) StdoutLine: {'line': b'-- Symlinking: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/package.dsv\n'}
+[20.213758] (target_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/ament_index/resource_index/packages/target_detector\n'}
+[20.214085] (target_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/cmake/target_detectorConfig.cmake\n'}
+[20.214130] (target_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/cmake/target_detectorConfig-version.cmake\n'}
+[20.214167] (target_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/package.xml\n'}
+[20.214214] (target_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/launch\n'}
+[20.214251] (target_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/launch/__pycache__\n'}
+[20.214289] (target_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/config\n'}
+[20.214324] (target_detector) StdoutLine: {'line': b'-- Up-to-date: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/target_detector/share/target_detector/models\n'}
+[20.215341] (target_detector) CommandEnded: {'returncode': 0}
+[20.241567] (target_detector) JobEnded: {'identifier': 'target_detector', 'rc': 0}
+[20.242238] (-) TimerEvent: {}
+[20.242270] (-) EventReactorShutdown: {}

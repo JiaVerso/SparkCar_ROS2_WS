@@ -1,3 +1,4 @@
+// 宏保护
 #ifndef TARGET_FOLLOWER__PID_CONTROLLER_HPP_
 #define TARGET_FOLLOWER__PID_CONTROLLER_HPP_
 
@@ -7,8 +8,10 @@ namespace target_follower
 class PidController
 {
 public:
+  // 无参数构造函数
   PidController() = default;
 
+  // 构造函数重载
   PidController(
     double kp, double ki, double kd, double kf,
     double max_integral, double max_output);

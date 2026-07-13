@@ -27,7 +27,7 @@
 			{
 				"command" : 3,
 				"file" : 5,
-				"line" : 8,
+				"line" : 10,
 				"parent" : 0
 			},
 			{
@@ -79,7 +79,7 @@
 			{
 				"command" : 1,
 				"file" : 5,
-				"line" : 70,
+				"line" : 72,
 				"parent" : 0
 			},
 			{
@@ -97,7 +97,7 @@
 			{
 				"command" : 1,
 				"file" : 5,
-				"line" : 75,
+				"line" : 77,
 				"parent" : 0
 			},
 			{
@@ -115,7 +115,7 @@
 			{
 				"command" : 1,
 				"file" : 5,
-				"line" : 80,
+				"line" : 82,
 				"parent" : 0
 			},
 			{
