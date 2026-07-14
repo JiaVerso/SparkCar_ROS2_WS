@@ -1,0 +1,50 @@
+[0.043s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/benchmark_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/benchmark_publisher -- -j8 -l8
+[0.207s] [ 50%] [32mBuilding CXX object CMakeFiles/benchmark_publisher.dir/src/benchmark_publisher_node.cpp.o[0m
+[47.730s] [100%] [32m[1mLinking CXX executable benchmark_publisher[0m
+[48.789s] [100%] Built target benchmark_publisher
+[48.828s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/benchmark_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/benchmark_publisher -- -j8 -l8
+[48.834s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/benchmark_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/benchmark_publisher
+[48.859s] -- Install configuration: "Release"
+[48.860s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/lib/benchmark_publisher/benchmark_publisher
+[48.865s] -- Set runtime path of "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/lib/benchmark_publisher/benchmark_publisher" to ""
+[48.866s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/launch
+[48.866s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/launch/benchmark_publisher.launch.py
+[48.867s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config
+[48.867s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/MH_05_difficult
+[48.868s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/MH_05_difficult/data.csv
+[48.883s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/V2_02_medium
+[48.884s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/V2_02_medium/data.csv
+[48.900s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/MH_04_difficult
+[48.900s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/MH_04_difficult/data.csv
+[48.915s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/V1_01_easy
+[48.915s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/V1_01_easy/data.csv
+[48.936s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/V1_03_difficult
+[48.936s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/V1_03_difficult/data.csv
+[48.951s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/V2_03_difficult
+[48.952s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/V2_03_difficult/data.csv
+[48.969s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/MH_02_easy
+[48.969s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/MH_02_easy/data.csv
+[48.990s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/MH_01_easy
+[48.991s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/MH_01_easy/data.csv
+[49.017s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/V2_01_easy
+[49.018s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/V2_01_easy/data.csv
+[49.033s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/V1_02_medium
+[49.034s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/V1_02_medium/data.csv
+[49.046s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/MH_03_medium
+[49.047s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/config/MH_03_medium/data.csv
+[49.066s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/ament_index/resource_index/package_run_dependencies/benchmark_publisher
+[49.067s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/ament_index/resource_index/parent_prefix_path/benchmark_publisher
+[49.067s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/environment/ament_prefix_path.sh
+[49.068s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/environment/ament_prefix_path.dsv
+[49.069s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/environment/path.sh
+[49.069s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/environment/path.dsv
+[49.070s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/local_setup.bash
+[49.070s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/local_setup.sh
+[49.071s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/local_setup.zsh
+[49.071s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/local_setup.dsv
+[49.072s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/package.dsv
+[49.072s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/ament_index/resource_index/packages/benchmark_publisher
+[49.072s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/cmake/benchmark_publisherConfig.cmake
+[49.073s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/cmake/benchmark_publisherConfig-version.cmake
+[49.073s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/package.xml
+[49.082s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/benchmark_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/benchmark_publisher

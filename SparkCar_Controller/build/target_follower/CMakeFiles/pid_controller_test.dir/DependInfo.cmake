@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower/test/pid_controller_test.cpp" "CMakeFiles/pid_controller_test.dir/test/pid_controller_test.cpp.o" "gcc" "CMakeFiles/pid_controller_test.dir/test/pid_controller_test.cpp.o.d"
+  "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower/test/pid_controller_test.cpp" "CMakeFiles/pid_controller_test.dir/test/pid_controller_test.cpp.o" "gcc" "CMakeFiles/pid_controller_test.dir/test/pid_controller_test.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower/CMakeFiles/target_follower_pid.dir/DependInfo.cmake"
+  "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower/CMakeFiles/target_follower_pid.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,1 +1,0 @@
-/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/target_detector/models/README.md

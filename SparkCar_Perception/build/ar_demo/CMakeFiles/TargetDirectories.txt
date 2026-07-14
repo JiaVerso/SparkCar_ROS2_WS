@@ -1,0 +1,10 @@
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo/CMakeFiles/uninstall.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo/CMakeFiles/ar_demo_uninstall.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo/CMakeFiles/ar_demo_node.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo/CMakeFiles/test.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo/CMakeFiles/edit_cache.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo/CMakeFiles/rebuild_cache.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo/CMakeFiles/list_install_components.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo/CMakeFiles/install.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo/CMakeFiles/install/local.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo/CMakeFiles/install/strip.dir

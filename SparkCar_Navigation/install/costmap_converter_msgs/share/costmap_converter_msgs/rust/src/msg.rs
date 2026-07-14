@@ -1,1 +1,0 @@
-/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/costmap_converter_msgs/rosidl_generator_rs/costmap_converter_msgs/rust/src/msg.rs

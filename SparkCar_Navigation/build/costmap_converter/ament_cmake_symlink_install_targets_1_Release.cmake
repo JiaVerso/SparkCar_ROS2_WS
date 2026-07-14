@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/costmap_converter/standalone_converter" "TARGETS" "standalone_converter" "DESTINATION" "bin")

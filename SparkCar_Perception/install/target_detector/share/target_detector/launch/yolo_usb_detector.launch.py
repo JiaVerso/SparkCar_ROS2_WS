@@ -1,1 +1,0 @@
-/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/target_detector/launch/yolo_usb_detector.launch.py

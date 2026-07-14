@@ -1,0 +1,94 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model
+[  3%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/camera_models/CameraFactory.cc.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/camera_models/PinholeCamera.cc.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/calib/CameraCalibration.cc.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/camera_models/CostFunctionFactory.cc.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/chessboard/Chessboard.cc.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/camera_models/Camera.cc.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/camera_models/CataCamera.cc.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/intrinsic_calib.cc.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/chessboard/Chessboard.cc.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/camera_models/EquidistantCamera.cc.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/calib/CameraCalibration.cc.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/camera_models/ScaramuzzaCamera.cc.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/sparse_graph/Transform.cc.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/gpl/gpl.cc.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/gpl/EigenQuaternionParameterization.cc.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/camera_models/Camera.cc.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/camera_models/CameraFactory.cc.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/camera_models/CostFunctionFactory.cc.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/camera_models/PinholeCamera.cc.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/camera_models/CataCamera.cc.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/camera_models/EquidistantCamera.cc.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/camera_models/ScaramuzzaCamera.cc.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/sparse_graph/Transform.cc.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/gpl/gpl.cc.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/gpl/EigenQuaternionParameterization.cc.o[0m
+[ 96%] [32m[1mLinking CXX static library libcamera_model.a[0m
+[ 96%] Built target camera_model
+[100%] [32m[1mLinking CXX executable Calibration[0m
+[100%] Built target Calibration
+-- Install configuration: ""
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/environment/library_path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/environment/library_path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib/camera_model/Calibration
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin/Calibration
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib/libcamera_model.a
+-- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib/camera_model/Calibration
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include/
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/gpl
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/gpl/gpl.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/gpl/EigenUtils.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/gpl/EigenQuaternionParameterization.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/calib
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/calib/CameraCalibration.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/sparse_graph
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/sparse_graph/Transform.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/camera_models
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/camera_models/CataCamera.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/camera_models/Camera.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/camera_models/PinholeCamera.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/camera_models/CameraFactory.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/camera_models/CostFunctionFactory.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/camera_models/ScaramuzzaCamera.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/camera_models/EquidistantCamera.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/chessboard
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/chessboard/Chessboard.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/chessboard/ChessboardCorner.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/chessboard/ChessboardQuad.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/chessboard/Spline.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/ament_index/resource_index/package_run_dependencies/camera_model
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/ament_index/resource_index/parent_prefix_path/camera_model
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/environment/ament_prefix_path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/environment/ament_prefix_path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/environment/path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/environment/path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/local_setup.bash
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/local_setup.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/local_setup.zsh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/local_setup.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/package.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/ament_index/resource_index/packages/camera_model
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/cmake/camera_modelConfig.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/cmake/camera_modelConfig-version.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/package.xml

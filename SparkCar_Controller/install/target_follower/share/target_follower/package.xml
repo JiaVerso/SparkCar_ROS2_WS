@@ -1,1 +1,22 @@
-/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower/package.xml
+<?xml version="1.0"?>
+<package format="3">
+  <name>target_follower</name>
+  <version>0.1.0</version>
+  <description>Safe target following controller for the Hunter SE Ackermann platform.</description>
+
+  <maintainer email="jiaverso@todo.todo">JiaVerso</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_srvs</depend>
+
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>ros2launch</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

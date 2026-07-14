@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower
+CMAKE_SOURCE_DIR = /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower
+CMAKE_BINARY_DIR = /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower
 
 # Include any dependencies generated for this target.
 include CMakeFiles/target_follower_node.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/target_follower_node.dir/progress.make
 include CMakeFiles/target_follower_node.dir/flags.make
 
 CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.o: CMakeFiles/target_follower_node.dir/flags.make
-CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.o: /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower/src/target_follower_node.cpp
+CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.o: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower/src/target_follower_node.cpp
 CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.o: CMakeFiles/target_follower_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.o -MF CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.o.d -o CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.o -c /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower/src/target_follower_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.o -MF CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.o.d -o CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.o -c /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower/src/target_follower_node.cpp
 
 CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower/src/target_follower_node.cpp > CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower/src/target_follower_node.cpp > CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.i
 
 CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower/src/target_follower_node.cpp -o CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower/src/target_follower_node.cpp -o CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.s
 
 # Object files for target target_follower_node
 target_follower_node_OBJECTS = \
@@ -170,9 +170,9 @@ target_follower_node: /opt/ros/humble/lib/librosidl_typesupport_c.so
 target_follower_node: /opt/ros/humble/lib/librcpputils.so
 target_follower_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 target_follower_node: /opt/ros/humble/lib/librcutils.so
-target_follower_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+target_follower_node: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 target_follower_node: CMakeFiles/target_follower_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable target_follower_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable target_follower_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/target_follower_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -184,6 +184,6 @@ CMakeFiles/target_follower_node.dir/clean:
 .PHONY : CMakeFiles/target_follower_node.dir/clean
 
 CMakeFiles/target_follower_node.dir/depend:
-	cd /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower/CMakeFiles/target_follower_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower/CMakeFiles/target_follower_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/target_follower_node.dir/depend
 

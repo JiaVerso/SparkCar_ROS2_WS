@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower/include
+CXX_INCLUDES = -I/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower/include
 
 CXX_FLAGS = -Wall -Wextra -Wpedantic
 

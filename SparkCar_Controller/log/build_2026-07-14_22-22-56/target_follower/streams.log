@@ -1,0 +1,78 @@
+[0.059s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower
+[0.319s] -- The C compiler identification is GNU 11.4.0
+[0.647s] -- The CXX compiler identification is GNU 11.4.0
+[0.678s] -- Detecting C compiler ABI info
+[0.896s] -- Detecting C compiler ABI info - done
+[0.934s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.936s] -- Detecting C compile features
+[0.938s] -- Detecting C compile features - done
+[0.952s] -- Detecting CXX compiler ABI info
+[1.201s] -- Detecting CXX compiler ABI info - done
+[1.215s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.216s] -- Detecting CXX compile features
+[1.216s] -- Detecting CXX compile features - done
+[1.226s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.580s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.824s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.953s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.962s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.982s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.011s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.060s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.176s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.182s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.391s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.440s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.509s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.526s] -- Looking for pthread.h
+[2.753s] -- Looking for pthread.h - found
+[2.753s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.959s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.960s] -- Found Threads: TRUE  
+[3.151s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.185s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[3.355s] -- Configuring done
+[3.377s] -- Generating done
+[3.383s] -- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower
+[3.409s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower
+[3.413s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower -- -j8 -l8
+[3.572s] [ 16%] [32mBuilding CXX object CMakeFiles/target_follower_pid.dir/src/pid_controller.cpp.o[0m
+[4.372s] [ 33%] [32m[1mLinking CXX static library libtarget_follower_pid.a[0m
+[4.480s] [ 33%] Built target target_follower_pid
+[4.531s] [ 50%] [32mBuilding CXX object CMakeFiles/pid_controller_test.dir/test/pid_controller_test.cpp.o[0m
+[4.549s] [ 66%] [32mBuilding CXX object CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.o[0m
+[4.790s] [ 83%] [32m[1mLinking CXX executable pid_controller_test[0m
+[5.033s] [ 83%] Built target pid_controller_test
+[20.918s] [100%] [32m[1mLinking CXX executable target_follower_node[0m
+[22.036s] [100%] Built target target_follower_node
+[22.080s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower -- -j8 -l8
+[22.107s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower
+[22.121s] -- Install configuration: ""
+[22.122s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/lib/libtarget_follower_pid.a
+[22.122s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/lib/target_follower/target_follower_node
+[22.129s] -- Set runtime path of "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/lib/target_follower/target_follower_node" to ""
+[22.129s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/include
+[22.129s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/include/target_follower
+[22.130s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/include/target_follower/pid_controller.hpp
+[22.130s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/launch
+[22.131s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/launch/__pycache__
+[22.131s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/launch/target_follower.launch.py
+[22.132s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/config
+[22.133s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/config/target_follower.yaml
+[22.133s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/README.md
+[22.133s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/ament_index/resource_index/package_run_dependencies/target_follower
+[22.134s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/ament_index/resource_index/parent_prefix_path/target_follower
+[22.134s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/environment/ament_prefix_path.sh
+[22.134s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/environment/ament_prefix_path.dsv
+[22.135s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/environment/path.sh
+[22.135s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/environment/path.dsv
+[22.136s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/local_setup.bash
+[22.136s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/local_setup.sh
+[22.138s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/local_setup.zsh
+[22.140s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/local_setup.dsv
+[22.141s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/package.dsv
+[22.142s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/ament_index/resource_index/packages/target_follower
+[22.142s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/cmake/target_followerConfig.cmake
+[22.143s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/cmake/target_followerConfig-version.cmake
+[22.143s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/package.xml
+[22.144s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower

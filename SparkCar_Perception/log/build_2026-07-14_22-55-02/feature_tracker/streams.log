@@ -1,0 +1,54 @@
+[0.034s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker
+[0.183s] -- The C compiler identification is GNU 11.4.0
+[0.280s] -- The CXX compiler identification is GNU 11.4.0
+[0.295s] -- Detecting C compiler ABI info
+[0.489s] -- Detecting C compiler ABI info - done
+[0.528s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.529s] -- Detecting C compile features
+[0.531s] -- Detecting C compile features - done
+[0.537s] -- Detecting CXX compiler ABI info
+[0.748s] -- Detecting CXX compiler ABI info - done
+[0.764s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.764s] -- Detecting CXX compile features
+[0.765s] -- Detecting CXX compile features - done
+[0.768s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.091s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.273s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.327s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.332s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.345s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.362s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.445s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.448s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.627s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.682s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.755s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.766s] -- Looking for pthread.h
+[1.995s] -- Looking for pthread.h - found
+[2.001s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.196s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.197s] -- Found Threads: TRUE  
+[2.279s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.329s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.346s] -- Found camera_model: 0.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/cmake)
+[2.352s] -- Found image_transport: 3.1.13 (/opt/ros/humble/share/image_transport/cmake)
+[2.402s] -- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4") 
+[2.598s] -- Configuring done
+[2.621s] -- Generating done
+[2.628s] -- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker
+[2.655s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker' returned '0': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker
+[2.660s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker -- -j8 -l8
+[2.794s] [ 25%] [32mBuilding CXX object CMakeFiles/feature_tracker.dir/src/parameters.cpp.o[0m
+[2.807s] [ 75%] [32mBuilding CXX object CMakeFiles/feature_tracker.dir/src/feature_tracker_node.cpp.o[0m
+[2.807s] [ 75%] [32mBuilding CXX object CMakeFiles/feature_tracker.dir/src/feature_tracker.cpp.o[0m
+[28.678s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker/src/feature_tracker_node.cpp:16:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[28.678s]    16 | queue<sensor_msgs::msg::Image::[01;35m[KConstPtr[m[K> img_buf;
+[28.678s]       |                                [01;35m[K^~~~~~~~[m[K
+[28.679s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[28.679s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker/src/feature_tracker_node.cpp:3[m[K:
+[28.679s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[28.679s]   174 |     [01;36m[KConstPtr[m[K;
+[28.680s]       |     [01;36m[K^~~~~~~~[m[K
+[68.721s] [100%] [32m[1mLinking CXX executable feature_tracker[0m
+[72.127s] [100%] Built target feature_tracker

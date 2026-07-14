@@ -1,1 +1,0 @@
-/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/localizer/ament_cmake_core/localizerConfig-version.cmake

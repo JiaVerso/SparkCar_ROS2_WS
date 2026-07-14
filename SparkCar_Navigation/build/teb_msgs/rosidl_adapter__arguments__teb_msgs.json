@@ -1,8 +1,0 @@
-{
-  "package_name": "teb_msgs",
-  "non_idl_tuples": [
-    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_msgs:msg/FeedbackMsg.msg",
-    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_msgs:msg/TrajectoryMsg.msg",
-    "/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/src/teb_local_planner/teb_msgs:msg/TrajectoryPointMsg.msg"
-  ]
-}

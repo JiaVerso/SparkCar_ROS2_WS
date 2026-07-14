@@ -1,0 +1,305 @@
+[0.000000] (-) TimerEvent: {}
+[0.000701] (target_follower) JobQueued: {'identifier': 'target_follower', 'dependencies': OrderedDict()}
+[0.000956] (target_follower) JobStarted: {'identifier': 'target_follower'}
+[0.058413] (target_follower) JobProgress: {'identifier': 'target_follower', 'progress': 'cmake'}
+[0.059063] (target_follower) Command: {'cmd': ['/usr/bin/cmake', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower', '-DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower'], 'cwd': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '192.168.110.167 52201 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi/Desktop/SparkCar_ROS2_WS'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-474221a1-ee3f-4cb4-99fa-dfe9d2ee1673.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', '9'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.local/bin:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/home/orangepi/.local/bin:/opt/ros/humble/bin:/home/orangepi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3d806f3df3.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower'), ('LC_ALL', 'en_US.UTF-8'), ('COPILOT_DEBUG_NONCE', 'eea91dafbd2eb1b0ec653fb18529b126'), ('SSH_CONNECTION', '192.168.110.167 52201 192.168.110.164 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('UMS_MOUNT', '0'), ('COLCON', '1'), ('UMS_FILE', '/userdata/ums_shared.img'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098431] (-) TimerEvent: {}
+[0.199474] (-) TimerEvent: {}
+[0.300420] (-) TimerEvent: {}
+[0.319435] (target_follower) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.400811] (-) TimerEvent: {}
+[0.501854] (-) TimerEvent: {}
+[0.602729] (-) TimerEvent: {}
+[0.647303] (target_follower) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.678506] (target_follower) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.702984] (-) TimerEvent: {}
+[0.803876] (-) TimerEvent: {}
+[0.896539] (target_follower) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.904022] (-) TimerEvent: {}
+[0.934824] (target_follower) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.936293] (target_follower) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.938644] (target_follower) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.952365] (target_follower) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.004430] (-) TimerEvent: {}
+[1.105300] (-) TimerEvent: {}
+[1.201516] (target_follower) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.205409] (-) TimerEvent: {}
+[1.215488] (target_follower) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.216381] (target_follower) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.217017] (target_follower) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.226974] (target_follower) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.305618] (-) TimerEvent: {}
+[1.406356] (-) TimerEvent: {}
+[1.507094] (-) TimerEvent: {}
+[1.580169] (target_follower) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.607438] (-) TimerEvent: {}
+[1.708529] (-) TimerEvent: {}
+[1.809515] (-) TimerEvent: {}
+[1.824059] (target_follower) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.909767] (-) TimerEvent: {}
+[1.954184] (target_follower) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.963293] (target_follower) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.982783] (target_follower) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.009987] (-) TimerEvent: {}
+[2.011344] (target_follower) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.061019] (target_follower) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.110195] (-) TimerEvent: {}
+[2.176914] (target_follower) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.182617] (target_follower) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.210478] (-) TimerEvent: {}
+[2.311525] (-) TimerEvent: {}
+[2.391591] (target_follower) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.411783] (-) TimerEvent: {}
+[2.440010] (target_follower) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.509201] (target_follower) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.512104] (-) TimerEvent: {}
+[2.526974] (target_follower) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.612496] (-) TimerEvent: {}
+[2.713882] (-) TimerEvent: {}
+[2.752814] (target_follower) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.753900] (target_follower) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.814223] (-) TimerEvent: {}
+[2.915428] (-) TimerEvent: {}
+[2.959033] (target_follower) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.960594] (target_follower) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.015693] (-) TimerEvent: {}
+[3.116808] (-) TimerEvent: {}
+[3.150969] (target_follower) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[3.185108] (target_follower) StdoutLine: {'line': b'-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[3.217105] (-) TimerEvent: {}
+[3.318308] (-) TimerEvent: {}
+[3.354587] (target_follower) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.377218] (target_follower) StdoutLine: {'line': b'-- Generating done\n'}
+[3.383747] (target_follower) StdoutLine: {'line': b'-- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower\n'}
+[3.408472] (target_follower) CommandEnded: {'returncode': 0}
+[3.412244] (target_follower) JobProgress: {'identifier': 'target_follower', 'progress': 'build'}
+[3.413182] (target_follower) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower', '--', '-j8', '-l8'], 'cwd': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '192.168.110.167 52201 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi/Desktop/SparkCar_ROS2_WS'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-474221a1-ee3f-4cb4-99fa-dfe9d2ee1673.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', '9'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.local/bin:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/home/orangepi/.local/bin:/opt/ros/humble/bin:/home/orangepi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3d806f3df3.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower'), ('LC_ALL', 'en_US.UTF-8'), ('COPILOT_DEBUG_NONCE', 'eea91dafbd2eb1b0ec653fb18529b126'), ('SSH_CONNECTION', '192.168.110.167 52201 192.168.110.164 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('UMS_MOUNT', '0'), ('COLCON', '1'), ('UMS_FILE', '/userdata/ums_shared.img'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.418332] (-) TimerEvent: {}
+[3.519046] (-) TimerEvent: {}
+[3.572032] (target_follower) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/target_follower_pid.dir/src/pid_controller.cpp.o\x1b[0m\n'}
+[3.619366] (-) TimerEvent: {}
+[3.720698] (-) TimerEvent: {}
+[3.821849] (-) TimerEvent: {}
+[3.922981] (-) TimerEvent: {}
+[4.024092] (-) TimerEvent: {}
+[4.125211] (-) TimerEvent: {}
+[4.226328] (-) TimerEvent: {}
+[4.327309] (-) TimerEvent: {}
+[4.372423] (target_follower) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX static library libtarget_follower_pid.a\x1b[0m\n'}
+[4.427608] (-) TimerEvent: {}
+[4.480435] (target_follower) StdoutLine: {'line': b'[ 33%] Built target target_follower_pid\n'}
+[4.527962] (-) TimerEvent: {}
+[4.531494] (target_follower) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pid_controller_test.dir/test/pid_controller_test.cpp.o\x1b[0m\n'}
+[4.549517] (target_follower) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/target_follower_node.dir/src/target_follower_node.cpp.o\x1b[0m\n'}
+[4.628162] (-) TimerEvent: {}
+[4.728830] (-) TimerEvent: {}
+[4.790683] (target_follower) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable pid_controller_test\x1b[0m\n'}
+[4.829062] (-) TimerEvent: {}
+[4.930167] (-) TimerEvent: {}
+[5.031638] (-) TimerEvent: {}
+[5.033811] (target_follower) StdoutLine: {'line': b'[ 83%] Built target pid_controller_test\n'}
+[5.131806] (-) TimerEvent: {}
+[5.233193] (-) TimerEvent: {}
+[5.334401] (-) TimerEvent: {}
+[5.435645] (-) TimerEvent: {}
+[5.537012] (-) TimerEvent: {}
+[5.638293] (-) TimerEvent: {}
+[5.739588] (-) TimerEvent: {}
+[5.840867] (-) TimerEvent: {}
+[5.942062] (-) TimerEvent: {}
+[6.043386] (-) TimerEvent: {}
+[6.144677] (-) TimerEvent: {}
+[6.245976] (-) TimerEvent: {}
+[6.347350] (-) TimerEvent: {}
+[6.448661] (-) TimerEvent: {}
+[6.549712] (-) TimerEvent: {}
+[6.650661] (-) TimerEvent: {}
+[6.751515] (-) TimerEvent: {}
+[6.852417] (-) TimerEvent: {}
+[6.953441] (-) TimerEvent: {}
+[7.054553] (-) TimerEvent: {}
+[7.155590] (-) TimerEvent: {}
+[7.256585] (-) TimerEvent: {}
+[7.357596] (-) TimerEvent: {}
+[7.458773] (-) TimerEvent: {}
+[7.560288] (-) TimerEvent: {}
+[7.661818] (-) TimerEvent: {}
+[7.763325] (-) TimerEvent: {}
+[7.864869] (-) TimerEvent: {}
+[7.965830] (-) TimerEvent: {}
+[8.067244] (-) TimerEvent: {}
+[8.168716] (-) TimerEvent: {}
+[8.270222] (-) TimerEvent: {}
+[8.371878] (-) TimerEvent: {}
+[8.473615] (-) TimerEvent: {}
+[8.575122] (-) TimerEvent: {}
+[8.676648] (-) TimerEvent: {}
+[8.777947] (-) TimerEvent: {}
+[8.879269] (-) TimerEvent: {}
+[8.980700] (-) TimerEvent: {}
+[9.082173] (-) TimerEvent: {}
+[9.183210] (-) TimerEvent: {}
+[9.284539] (-) TimerEvent: {}
+[9.385894] (-) TimerEvent: {}
+[9.487187] (-) TimerEvent: {}
+[9.588496] (-) TimerEvent: {}
+[9.689841] (-) TimerEvent: {}
+[9.791167] (-) TimerEvent: {}
+[9.892532] (-) TimerEvent: {}
+[9.993833] (-) TimerEvent: {}
+[10.095177] (-) TimerEvent: {}
+[10.196424] (-) TimerEvent: {}
+[10.297732] (-) TimerEvent: {}
+[10.399146] (-) TimerEvent: {}
+[10.500411] (-) TimerEvent: {}
+[10.601755] (-) TimerEvent: {}
+[10.703280] (-) TimerEvent: {}
+[10.805132] (-) TimerEvent: {}
+[10.906457] (-) TimerEvent: {}
+[11.007700] (-) TimerEvent: {}
+[11.109043] (-) TimerEvent: {}
+[11.210387] (-) TimerEvent: {}
+[11.311690] (-) TimerEvent: {}
+[11.413026] (-) TimerEvent: {}
+[11.514336] (-) TimerEvent: {}
+[11.615602] (-) TimerEvent: {}
+[11.716880] (-) TimerEvent: {}
+[11.818229] (-) TimerEvent: {}
+[11.919616] (-) TimerEvent: {}
+[12.020916] (-) TimerEvent: {}
+[12.122236] (-) TimerEvent: {}
+[12.223517] (-) TimerEvent: {}
+[12.324841] (-) TimerEvent: {}
+[12.426091] (-) TimerEvent: {}
+[12.527375] (-) TimerEvent: {}
+[12.628682] (-) TimerEvent: {}
+[12.729921] (-) TimerEvent: {}
+[12.831167] (-) TimerEvent: {}
+[12.932418] (-) TimerEvent: {}
+[13.033603] (-) TimerEvent: {}
+[13.134859] (-) TimerEvent: {}
+[13.236127] (-) TimerEvent: {}
+[13.337435] (-) TimerEvent: {}
+[13.438688] (-) TimerEvent: {}
+[13.539919] (-) TimerEvent: {}
+[13.641109] (-) TimerEvent: {}
+[13.742341] (-) TimerEvent: {}
+[13.843636] (-) TimerEvent: {}
+[13.944954] (-) TimerEvent: {}
+[14.046094] (-) TimerEvent: {}
+[14.147312] (-) TimerEvent: {}
+[14.248491] (-) TimerEvent: {}
+[14.349796] (-) TimerEvent: {}
+[14.451010] (-) TimerEvent: {}
+[14.552285] (-) TimerEvent: {}
+[14.653552] (-) TimerEvent: {}
+[14.754815] (-) TimerEvent: {}
+[14.856049] (-) TimerEvent: {}
+[14.957316] (-) TimerEvent: {}
+[15.058605] (-) TimerEvent: {}
+[15.159888] (-) TimerEvent: {}
+[15.261372] (-) TimerEvent: {}
+[15.362972] (-) TimerEvent: {}
+[15.463728] (-) TimerEvent: {}
+[15.564497] (-) TimerEvent: {}
+[15.665556] (-) TimerEvent: {}
+[15.766751] (-) TimerEvent: {}
+[15.867963] (-) TimerEvent: {}
+[15.969189] (-) TimerEvent: {}
+[16.070412] (-) TimerEvent: {}
+[16.171648] (-) TimerEvent: {}
+[16.272872] (-) TimerEvent: {}
+[16.374112] (-) TimerEvent: {}
+[16.475387] (-) TimerEvent: {}
+[16.576592] (-) TimerEvent: {}
+[16.677817] (-) TimerEvent: {}
+[16.779095] (-) TimerEvent: {}
+[16.880317] (-) TimerEvent: {}
+[16.981636] (-) TimerEvent: {}
+[17.083008] (-) TimerEvent: {}
+[17.184255] (-) TimerEvent: {}
+[17.285520] (-) TimerEvent: {}
+[17.386771] (-) TimerEvent: {}
+[17.488010] (-) TimerEvent: {}
+[17.589268] (-) TimerEvent: {}
+[17.690518] (-) TimerEvent: {}
+[17.791748] (-) TimerEvent: {}
+[17.892979] (-) TimerEvent: {}
+[17.994243] (-) TimerEvent: {}
+[18.095458] (-) TimerEvent: {}
+[18.196685] (-) TimerEvent: {}
+[18.297916] (-) TimerEvent: {}
+[18.399181] (-) TimerEvent: {}
+[18.500383] (-) TimerEvent: {}
+[18.601633] (-) TimerEvent: {}
+[18.702943] (-) TimerEvent: {}
+[18.804143] (-) TimerEvent: {}
+[18.905420] (-) TimerEvent: {}
+[19.006658] (-) TimerEvent: {}
+[19.107819] (-) TimerEvent: {}
+[19.209033] (-) TimerEvent: {}
+[19.310260] (-) TimerEvent: {}
+[19.411522] (-) TimerEvent: {}
+[19.512824] (-) TimerEvent: {}
+[19.614161] (-) TimerEvent: {}
+[19.715318] (-) TimerEvent: {}
+[19.816513] (-) TimerEvent: {}
+[19.917689] (-) TimerEvent: {}
+[20.018932] (-) TimerEvent: {}
+[20.120135] (-) TimerEvent: {}
+[20.221346] (-) TimerEvent: {}
+[20.322757] (-) TimerEvent: {}
+[20.424010] (-) TimerEvent: {}
+[20.525618] (-) TimerEvent: {}
+[20.626964] (-) TimerEvent: {}
+[20.727988] (-) TimerEvent: {}
+[20.829273] (-) TimerEvent: {}
+[20.918604] (target_follower) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable target_follower_node\x1b[0m\n'}
+[20.929456] (-) TimerEvent: {}
+[21.030536] (-) TimerEvent: {}
+[21.132119] (-) TimerEvent: {}
+[21.233012] (-) TimerEvent: {}
+[21.333961] (-) TimerEvent: {}
+[21.435002] (-) TimerEvent: {}
+[21.535882] (-) TimerEvent: {}
+[21.636767] (-) TimerEvent: {}
+[21.737804] (-) TimerEvent: {}
+[21.838698] (-) TimerEvent: {}
+[21.939639] (-) TimerEvent: {}
+[22.035863] (target_follower) StdoutLine: {'line': b'[100%] Built target target_follower_node\n'}
+[22.039780] (-) TimerEvent: {}
+[22.080127] (target_follower) CommandEnded: {'returncode': 0}
+[22.082509] (target_follower) JobProgress: {'identifier': 'target_follower', 'progress': 'install'}
+[22.104130] (target_follower) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower'], 'cwd': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '192.168.110.167 52201 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi/Desktop/SparkCar_ROS2_WS'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-474221a1-ee3f-4cb4-99fa-dfe9d2ee1673.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', '9'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.local/bin:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/home/orangepi/.local/bin:/opt/ros/humble/bin:/home/orangepi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3d806f3df3.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower'), ('LC_ALL', 'en_US.UTF-8'), ('COPILOT_DEBUG_NONCE', 'eea91dafbd2eb1b0ec653fb18529b126'), ('SSH_CONNECTION', '192.168.110.167 52201 192.168.110.164 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('UMS_MOUNT', '0'), ('COLCON', '1'), ('UMS_FILE', '/userdata/ums_shared.img'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[22.121167] (target_follower) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.122267] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/lib/libtarget_follower_pid.a\n'}
+[22.122719] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/lib/target_follower/target_follower_node\n'}
+[22.128990] (target_follower) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/lib/target_follower/target_follower_node" to ""\n'}
+[22.129821] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/include\n'}
+[22.130177] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/include/target_follower\n'}
+[22.130570] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/include/target_follower/pid_controller.hpp\n'}
+[22.131024] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/launch\n'}
+[22.131464] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/launch/__pycache__\n'}
+[22.131981] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/launch/target_follower.launch.py\n'}
+[22.132549] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/config\n'}
+[22.133070] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/config/target_follower.yaml\n'}
+[22.133741] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/README.md\n'}
+[22.134066] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/ament_index/resource_index/package_run_dependencies/target_follower\n'}
+[22.134391] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/ament_index/resource_index/parent_prefix_path/target_follower\n'}
+[22.134715] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/environment/ament_prefix_path.sh\n'}
+[22.135066] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/environment/ament_prefix_path.dsv\n'}
+[22.135392] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/environment/path.sh\n'}
+[22.135723] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/environment/path.dsv\n'}
+[22.136315] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/local_setup.bash\n'}
+[22.136702] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/local_setup.sh\n'}
+[22.137471] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/local_setup.zsh\n'}
+[22.140235] (-) TimerEvent: {}
+[22.140900] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/local_setup.dsv\n'}
+[22.141584] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/package.dsv\n'}
+[22.142358] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/ament_index/resource_index/packages/target_follower\n'}
+[22.143024] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/cmake/target_followerConfig.cmake\n'}
+[22.143464] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/cmake/target_followerConfig-version.cmake\n'}
+[22.143945] (target_follower) StdoutLine: {'line': b'-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower/share/target_follower/package.xml\n'}
+[22.144505] (target_follower) CommandEnded: {'returncode': 0}
+[22.203430] (target_follower) JobEnded: {'identifier': 'target_follower', 'rc': 0}
+[22.205547] (-) EventReactorShutdown: {}

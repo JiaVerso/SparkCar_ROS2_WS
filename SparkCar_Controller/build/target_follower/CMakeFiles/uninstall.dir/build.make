@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower
+CMAKE_SOURCE_DIR = /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower
+CMAKE_BINARY_DIR = /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower /home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/target_follower /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/target_follower/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

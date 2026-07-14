@@ -1,0 +1,4 @@
+source;share/feature_tracker/local_setup.bash
+source;share/feature_tracker/local_setup.dsv
+source;share/feature_tracker/local_setup.sh
+source;share/feature_tracker/local_setup.zsh

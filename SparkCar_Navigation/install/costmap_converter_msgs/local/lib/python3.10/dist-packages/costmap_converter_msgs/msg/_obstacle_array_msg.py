@@ -1,1 +1,0 @@
-/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/costmap_converter_msgs/rosidl_generator_py/costmap_converter_msgs/msg/_obstacle_array_msg.py

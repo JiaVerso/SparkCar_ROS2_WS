@@ -1,1 +1,0 @@
-/home/jiaverso/Desktop/SparkCar_ROS2_WS/SparkCar_Navigation/build/teb_local_planner/ament_cmake_environment_hooks/local_setup.bash

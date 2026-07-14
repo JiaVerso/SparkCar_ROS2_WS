@@ -1,0 +1,14 @@
+source;share/camera_model/hook/cmake_prefix_path.ps1
+source;share/camera_model/hook/cmake_prefix_path.dsv
+source;share/camera_model/hook/cmake_prefix_path.sh
+source;share/camera_model/hook/path.ps1
+source;share/camera_model/hook/path.dsv
+source;share/camera_model/hook/path.sh
+source;share/camera_model/hook/pythonscriptspath.ps1
+source;share/camera_model/hook/pythonscriptspath.dsv
+source;share/camera_model/hook/pythonscriptspath.sh
+source;share/camera_model/local_setup.bash
+source;share/camera_model/local_setup.dsv
+source;share/camera_model/local_setup.ps1
+source;share/camera_model/local_setup.sh
+source;share/camera_model/local_setup.zsh

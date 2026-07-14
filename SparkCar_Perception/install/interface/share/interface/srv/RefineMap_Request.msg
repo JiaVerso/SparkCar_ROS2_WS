@@ -1,1 +1,0 @@
-string maps_path
