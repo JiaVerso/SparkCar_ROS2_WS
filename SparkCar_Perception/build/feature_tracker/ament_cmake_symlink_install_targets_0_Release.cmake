@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker/feature_tracker" "TARGETS" "feature_tracker" "DESTINATION" "lib/feature_tracker")

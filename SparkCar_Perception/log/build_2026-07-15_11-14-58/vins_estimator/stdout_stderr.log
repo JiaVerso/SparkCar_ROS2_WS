@@ -1,0 +1,254 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found camera_model: 0.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/cmake)
+-- Found image_transport: 3.1.13 (/opt/ros/humble/share/image_transport/cmake)
+-- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4") 
+-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins_estimator
+[  6%] [32mBuilding CXX object CMakeFiles/vins_estimator.dir/src/estimator_node.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/vins_estimator.dir/src/parameters.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/vins_estimator.dir/src/estimator.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/vins_estimator.dir/src/feature_manager.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/vins_estimator.dir/src/factor/pose_local_parameterization.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/vins_estimator.dir/src/factor/projection_td_factor.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/vins_estimator.dir/src/factor/projection_factor.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/vins_estimator.dir/src/factor/marginalization_factor.cpp.o[0m
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/factor/marginalization_factor.h:9[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/factor/marginalization_factor.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/factor/../utility/utility.h:143:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  143 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+      |      [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/factor/pose_local_parameterization.h:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/factor/pose_local_parameterization.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/factor/../utility/utility.h:143:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  143 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+      |      [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/factor/projection_factor.h:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/factor/projection_factor.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/factor/../utility/utility.h:143:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  143 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+      |      [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/factor/projection_td_factor.h:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/factor/projection_td_factor.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/factor/../utility/utility.h:143:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  143 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+      |      [31m[K-[m[K
+[ 56%] [32mBuilding CXX object CMakeFiles/vins_estimator.dir/src/utility/utility.cpp.o[0m
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/utility/utility.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/utility/utility.h:143:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  143 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+      |      [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/parameters.h:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/parameters.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/utility/utility.h:143:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  143 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+      |      [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/parameters.h:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/estimator.h:3[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/estimator.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/utility/utility.h:143:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  143 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+      |      [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/parameters.h:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.h:14[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/utility/utility.h:143:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  143 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+      |      [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/parameters.h:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/estimator.h:3[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/estimator_node.cpp:11[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/utility/utility.h:143:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  143 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+      |      [31m[K-[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/estimator.cpp:[m[K In member function ‘[01m[Kbool Estimator::initialStructure()[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/estimator.cpp:252:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KQ[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  252 |     Quaterniond [01;35m[KQ[m[K[frame_count + 1];
+      |                 [01;35m[K^[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/estimator.cpp:253:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KT[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  253 |     Vector3d [01;35m[KT[m[K[frame_count + 1];
+      |              [01;35m[K^[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.cpp:1[m[K:
+In constructor ‘[01m[KFeaturePerId::FeaturePerId(FeaturePerId&&)[m[K’,
+    inlined from ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = FeaturePerId; _Args = {FeaturePerId}; _Tp = std::_List_node<FeaturePerId>][m[K’ at [01m[K/usr/include/c++/11/ext/new_allocator.h:162:4[m[K,
+    inlined from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = FeaturePerId; _Args = {FeaturePerId}; _Tp = std::_List_node<FeaturePerId>][m[K’ at [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17[m[K,
+    inlined from ‘[01m[Kstd::__cxx11::list<_Tp, _Alloc>::_Node* std::__cxx11::list<_Tp, _Alloc>::_M_create_node(_Args&& ...) [with _Args = {FeaturePerId}; _Tp = FeaturePerId; _Alloc = std::allocator<FeaturePerId>][m[K’ at [01m[K/usr/include/c++/11/bits/stl_list.h:638:33[m[K,
+    inlined from ‘[01m[Kvoid std::__cxx11::list<_Tp, _Alloc>::_M_insert(std::__cxx11::list<_Tp, _Alloc>::iterator, _Args&& ...) [with _Args = {FeaturePerId}; _Tp = FeaturePerId; _Alloc = std::allocator<FeaturePerId>][m[K’ at [01m[K/usr/include/c++/11/bits/stl_list.h:1912:32[m[K,
+    inlined from ‘[01m[Kvoid std::__cxx11::list<_Tp, _Alloc>::push_back(std::__cxx11::list<_Tp, _Alloc>::value_type&&) [with _Tp = FeaturePerId; _Alloc = std::allocator<FeaturePerId>][m[K’ at [01m[K/usr/include/c++/11/bits/stl_list.h:1218:24[m[K,
+    inlined from ‘[01m[Kbool FeatureManager::addFeatureCheckParallax(int, const std::map<int, std::vector<std::pair<int, Eigen::Matrix<double, 7, 1> > > >&, double)[m[K’ at [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.cpp:64:30[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.h:42:7:[m[K [01;35m[Kwarning: [m[K‘[01m[K*(__vector(2) unsigned char*)(&<unnamed> + offsetof(FeaturePerId, FeaturePerId::is_outlier))[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+   42 | class [01;35m[KFeaturePerId[m[K
+      |       [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.cpp:[m[K In member function ‘[01m[Kbool FeatureManager::addFeatureCheckParallax(int, const std::map<int, std::vector<std::pair<int, Eigen::Matrix<double, 7, 1> > > >&, double)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.cpp:64:67:[m[K [01;36m[Knote: [m[K‘[01m[K<anonymous>[m[K’ declared here
+   64 |             feature.push_back(FeaturePerId(feature_id, frame_count[01;36m[K)[m[K);
+      |                                                                   [01;36m[K^[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.cpp:1[m[K:
+In copy constructor ‘[01m[KFeaturePerFrame::FeaturePerFrame(const FeaturePerFrame&)[m[K’,
+    inlined from ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = FeaturePerFrame; _Args = {const FeaturePerFrame&}; _Tp = FeaturePerFrame][m[K’ at [01m[K/usr/include/c++/11/ext/new_allocator.h:162:4[m[K,
+    inlined from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = FeaturePerFrame; _Args = {const FeaturePerFrame&}; _Tp = FeaturePerFrame][m[K’ at [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17[m[K,
+    inlined from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = FeaturePerFrame; _Alloc = std::allocator<FeaturePerFrame>][m[K’ at [01m[K/usr/include/c++/11/bits/stl_vector.h:1192:30[m[K,
+    inlined from ‘[01m[Kbool FeatureManager::addFeatureCheckParallax(int, const std::map<int, std::vector<std::pair<int, Eigen::Matrix<double, 7, 1> > > >&, double)[m[K’ at [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.cpp:69:44[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.h:16:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kf_per_fra.FeaturePerFrame::z[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+   16 | class [01;35m[KFeaturePerFrame[m[K
+      |       [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.cpp:[m[K In member function ‘[01m[Kbool FeatureManager::addFeatureCheckParallax(int, const std::map<int, std::vector<std::pair<int, Eigen::Matrix<double, 7, 1> > > >&, double)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.cpp:54:25:[m[K [01;36m[Knote: [m[K‘[01m[Kf_per_fra[m[K’ declared here
+   54 |         FeaturePerFrame [01;36m[Kf_per_fra[m[K(id_pts.second[0].second, td);
+      |                         [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.cpp:1[m[K:
+In copy constructor ‘[01m[KFeaturePerFrame::FeaturePerFrame(const FeaturePerFrame&)[m[K’,
+    inlined from ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = FeaturePerFrame; _Args = {const FeaturePerFrame&}; _Tp = FeaturePerFrame][m[K’ at [01m[K/usr/include/c++/11/ext/new_allocator.h:162:4[m[K,
+    inlined from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = FeaturePerFrame; _Args = {const FeaturePerFrame&}; _Tp = FeaturePerFrame][m[K’ at [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17[m[K,
+    inlined from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = FeaturePerFrame; _Alloc = std::allocator<FeaturePerFrame>][m[K’ at [01m[K/usr/include/c++/11/bits/stl_vector.h:1192:30[m[K,
+    inlined from ‘[01m[Kbool FeatureManager::addFeatureCheckParallax(int, const std::map<int, std::vector<std::pair<int, Eigen::Matrix<double, 7, 1> > > >&, double)[m[K’ at [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.cpp:69:44[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.h:16:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kf_per_fra.FeaturePerFrame::is_used[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+   16 | class [01;35m[KFeaturePerFrame[m[K
+      |       [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.cpp:[m[K In member function ‘[01m[Kbool FeatureManager::addFeatureCheckParallax(int, const std::map<int, std::vector<std::pair<int, Eigen::Matrix<double, 7, 1> > > >&, double)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.cpp:54:25:[m[K [01;36m[Knote: [m[K‘[01m[Kf_per_fra[m[K’ declared here
+   54 |         FeaturePerFrame [01;36m[Kf_per_fra[m[K(id_pts.second[0].second, td);
+      |                         [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.cpp:1[m[K:
+In copy constructor ‘[01m[KFeaturePerFrame::FeaturePerFrame(const FeaturePerFrame&)[m[K’,
+    inlined from ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = FeaturePerFrame; _Args = {const FeaturePerFrame&}; _Tp = FeaturePerFrame][m[K’ at [01m[K/usr/include/c++/11/ext/new_allocator.h:162:4[m[K,
+    inlined from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = FeaturePerFrame; _Args = {const FeaturePerFrame&}; _Tp = FeaturePerFrame][m[K’ at [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17[m[K,
+    inlined from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = FeaturePerFrame; _Alloc = std::allocator<FeaturePerFrame>][m[K’ at [01m[K/usr/include/c++/11/bits/stl_vector.h:1192:30[m[K,
+    inlined from ‘[01m[Kbool FeatureManager::addFeatureCheckParallax(int, const std::map<int, std::vector<std::pair<int, Eigen::Matrix<double, 7, 1> > > >&, double)[m[K’ at [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.cpp:69:44[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.h:16:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kf_per_fra.FeaturePerFrame::parallax[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+   16 | class [01;35m[KFeaturePerFrame[m[K
+      |       [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.cpp:[m[K In member function ‘[01m[Kbool FeatureManager::addFeatureCheckParallax(int, const std::map<int, std::vector<std::pair<int, Eigen::Matrix<double, 7, 1> > > >&, double)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.cpp:54:25:[m[K [01;36m[Knote: [m[K‘[01m[Kf_per_fra[m[K’ declared here
+   54 |         FeaturePerFrame [01;36m[Kf_per_fra[m[K(id_pts.second[0].second, td);
+      |                         [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.cpp:1[m[K:
+In copy constructor ‘[01m[KFeaturePerFrame::FeaturePerFrame(const FeaturePerFrame&)[m[K’,
+    inlined from ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = FeaturePerFrame; _Args = {const FeaturePerFrame&}; _Tp = FeaturePerFrame][m[K’ at [01m[K/usr/include/c++/11/ext/new_allocator.h:162:4[m[K,
+    inlined from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = FeaturePerFrame; _Args = {const FeaturePerFrame&}; _Tp = FeaturePerFrame][m[K’ at [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17[m[K,
+    inlined from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = FeaturePerFrame; _Alloc = std::allocator<FeaturePerFrame>][m[K’ at [01m[K/usr/include/c++/11/bits/stl_vector.h:1192:30[m[K,
+    inlined from ‘[01m[Kbool FeatureManager::addFeatureCheckParallax(int, const std::map<int, std::vector<std::pair<int, Eigen::Matrix<double, 7, 1> > > >&, double)[m[K’ at [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.cpp:69:44[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.h:16:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kf_per_fra.FeaturePerFrame::dep_gradient[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+   16 | class [01;35m[KFeaturePerFrame[m[K
+      |       [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.cpp:[m[K In member function ‘[01m[Kbool FeatureManager::addFeatureCheckParallax(int, const std::map<int, std::vector<std::pair<int, Eigen::Matrix<double, 7, 1> > > >&, double)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/feature_manager.cpp:54:25:[m[K [01;36m[Knote: [m[K‘[01m[Kf_per_fra[m[K’ declared here
+   54 |         FeaturePerFrame [01;36m[Kf_per_fra[m[K(id_pts.second[0].second, td);
+      |                         [01;36m[K^~~~~~~~~[m[K
+[ 62%] [32mBuilding CXX object CMakeFiles/vins_estimator.dir/src/initial/initial_ex_rotation.cpp.o[0m
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/initial/../parameters.h:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/initial/initial_ex_rotation.h:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/initial/initial_ex_rotation.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/initial/../utility/utility.h:143:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  143 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+      |      [31m[K-[m[K
+[ 68%] [32mBuilding CXX object CMakeFiles/vins_estimator.dir/src/initial/solve_5pts.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/vins_estimator.dir/src/utility/visualization.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/vins_estimator.dir/src/initial/initial_sfm.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/vins_estimator.dir/src/initial/initial_aligment.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/vins_estimator.dir/src/utility/CameraPoseVisualization.cpp.o[0m
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/initial/../factor/imu_factor.h:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/initial/initial_alignment.h:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/initial/initial_aligment.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/initial/../factor/../utility/utility.h:143:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  143 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+      |      [31m[K-[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/initial/initial_sfm.cpp:[m[K In member function ‘[01m[Kbool GlobalSFM::construct(int, Eigen::Quaterniond*, Eigen::Vector3d*, int, Eigen::Matrix3d, Eigen::Vector3d, std::vector<SFMFeature>&, std::map<int, Eigen::Matrix<double, 3, 1> >&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/initial/initial_sfm.cpp:136:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kc_Rotation[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  136 |         Matrix3d [01;35m[Kc_Rotation[m[K[frame_num];
+      |                  [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/initial/initial_sfm.cpp:137:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kc_Translation[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  137 |         Vector3d [01;35m[Kc_Translation[m[K[frame_num];
+      |                  [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/initial/initial_sfm.cpp:138:21:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kc_Quat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  138 |         Quaterniond [01;35m[Kc_Quat[m[K[frame_num];
+      |                     [01;35m[K^~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/initial/initial_sfm.cpp:139:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kc_rotation[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  139 |         double [01;35m[Kc_rotation[m[K[frame_num][4];
+      |                [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/initial/initial_sfm.cpp:140:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kc_translation[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  140 |         double [01;35m[Kc_translation[m[K[frame_num][3];
+      |                [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/initial/initial_sfm.cpp:141:37:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KPose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  141 |         Eigen::Matrix<double, 3, 4> [01;35m[KPose[m[K[frame_num];
+      |                                     [01;35m[K^~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/utility/../parameters.h:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/utility/../estimator.h:3[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/utility/visualization.h:20[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/utility/visualization.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/utility/../utility/utility.h:143:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  143 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+      |      [31m[K-[m[K
+[100%] [32m[1mLinking CXX executable vins_estimator[0m
+[100%] Built target vins_estimator
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/lib/vins_estimator/vins_estimator
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/launch/euroc.launch.py
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/ament_index/resource_index/package_run_dependencies/vins_estimator
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/ament_index/resource_index/parent_prefix_path/vins_estimator
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/environment/ament_prefix_path.sh
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/environment/ament_prefix_path.dsv
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/environment/path.sh
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/environment/path.dsv
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/local_setup.bash
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/local_setup.sh
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/local_setup.zsh
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/local_setup.dsv
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/package.dsv
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/ament_index/resource_index/packages/vins_estimator
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/cmake/vins_estimatorConfig.cmake
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/cmake/vins_estimatorConfig-version.cmake
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/package.xml

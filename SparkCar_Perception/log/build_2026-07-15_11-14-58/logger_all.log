@@ -1,0 +1,587 @@
+[0.148s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.148s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f9fea5630>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9fea5180>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9fea5180>>, mixin_verb=('build',))
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.352s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.352s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extension 'ros'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extensions ['cmake', 'python']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extension 'cmake'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extension 'python'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extensions ['python_setup_py']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extension 'python_setup_py'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/ar_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/ar_demo) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/ar_demo) by extension 'ignore_ament_install'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/ar_demo) by extensions ['colcon_pkg']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/ar_demo) by extension 'colcon_pkg'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/ar_demo) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/ar_demo) by extension 'colcon_meta'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/ar_demo) by extensions ['ros']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/ar_demo) by extension 'ros'
+[0.378s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-MONO-ROS2/ar_demo' with type 'ros.ament_cmake' and name 'ar_demo'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/benchmark_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/benchmark_publisher) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/benchmark_publisher) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/benchmark_publisher) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/benchmark_publisher) by extension 'colcon_pkg'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/benchmark_publisher) by extensions ['colcon_meta']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/benchmark_publisher) by extension 'colcon_meta'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/benchmark_publisher) by extensions ['ros']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/benchmark_publisher) by extension 'ros'
+[0.380s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-MONO-ROS2/benchmark_publisher' with type 'ros.ament_cmake' and name 'benchmark_publisher'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/camera_model) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/camera_model) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/camera_model) by extension 'ignore_ament_install'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/camera_model) by extensions ['colcon_pkg']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/camera_model) by extension 'colcon_pkg'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/camera_model) by extensions ['colcon_meta']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/camera_model) by extension 'colcon_meta'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/camera_model) by extensions ['ros']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/camera_model) by extension 'ros'
+[0.381s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-MONO-ROS2/camera_model' with type 'ros.ament_cmake' and name 'camera_model'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/config_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/config_pkg) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/config_pkg) by extension 'ignore_ament_install'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/config_pkg) by extensions ['colcon_pkg']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/config_pkg) by extension 'colcon_pkg'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/config_pkg) by extensions ['colcon_meta']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/config_pkg) by extension 'colcon_meta'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/config_pkg) by extensions ['ros']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/config_pkg) by extension 'ros'
+[0.382s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-MONO-ROS2/config_pkg' with type 'ros.ament_cmake' and name 'config_pkg'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/feature_tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/feature_tracker) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/feature_tracker) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/feature_tracker) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/feature_tracker) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/feature_tracker) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/feature_tracker) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/feature_tracker) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/feature_tracker) by extension 'ros'
+[0.384s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-MONO-ROS2/feature_tracker' with type 'ros.ament_cmake' and name 'feature_tracker'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/pose_graph) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/pose_graph) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/pose_graph) by extension 'ignore_ament_install'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/pose_graph) by extensions ['colcon_pkg']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/pose_graph) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/pose_graph) by extensions ['colcon_meta']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/pose_graph) by extension 'colcon_meta'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/pose_graph) by extensions ['ros']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/pose_graph) by extension 'ros'
+[0.386s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-MONO-ROS2/pose_graph' with type 'ros.ament_cmake' and name 'pose_graph'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/vins_estimator) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/vins_estimator) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/vins_estimator) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/vins_estimator) by extensions ['colcon_pkg']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/vins_estimator) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/vins_estimator) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/vins_estimator) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/vins_estimator) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/vins_estimator) by extension 'ros'
+[0.388s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-MONO-ROS2/vins_estimator' with type 'ros.ament_cmake' and name 'vins_estimator'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'colcon_pkg'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extensions ['colcon_meta']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'colcon_meta'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extensions ['ros']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'ros'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extensions ['cmake', 'python']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'cmake'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'python'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extensions ['python_setup_py']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'python_setup_py'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ros'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['cmake', 'python']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'cmake'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'python'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['python_setup_py']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'python_setup_py'
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'benchmark_publisher' build argument 'cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'benchmark_publisher' build argument 'cmake_target' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'benchmark_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'benchmark_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'benchmark_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'benchmark_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'benchmark_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'benchmark_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'benchmark_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.465s] DEBUG:colcon.colcon_core.verb:Building package 'benchmark_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/benchmark_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher', 'merge_install': False, 'path': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/benchmark_publisher', 'symlink_install': True, 'test_result_base': None}
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'camera_model' build argument 'cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'camera_model' build argument 'cmake_target' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'camera_model' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'camera_model' build argument 'cmake_clean_cache' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'camera_model' build argument 'cmake_clean_first' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'camera_model' build argument 'cmake_force_configure' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'camera_model' build argument 'ament_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'camera_model' build argument 'catkin_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'camera_model' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.466s] DEBUG:colcon.colcon_core.verb:Building package 'camera_model' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model', 'merge_install': False, 'path': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model', 'symlink_install': True, 'test_result_base': None}
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'cmake_target' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.467s] DEBUG:colcon.colcon_core.verb:Building package 'config_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/config_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg', 'merge_install': False, 'path': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/config_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'ar_demo' build argument 'cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'ar_demo' build argument 'cmake_target' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'ar_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'ar_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'ar_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'ar_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'ar_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'ar_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'ar_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.467s] DEBUG:colcon.colcon_core.verb:Building package 'ar_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo', 'merge_install': False, 'path': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/ar_demo', 'symlink_install': True, 'test_result_base': None}
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'feature_tracker' build argument 'cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'feature_tracker' build argument 'cmake_target' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'feature_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'feature_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'feature_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'feature_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'feature_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'feature_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'feature_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.468s] DEBUG:colcon.colcon_core.verb:Building package 'feature_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker', 'merge_install': False, 'path': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker', 'symlink_install': True, 'test_result_base': None}
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'pose_graph' build argument 'cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'pose_graph' build argument 'cmake_target' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'pose_graph' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'pose_graph' build argument 'cmake_clean_cache' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'pose_graph' build argument 'cmake_clean_first' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'pose_graph' build argument 'cmake_force_configure' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'pose_graph' build argument 'ament_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'pose_graph' build argument 'catkin_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'pose_graph' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.469s] DEBUG:colcon.colcon_core.verb:Building package 'pose_graph' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/pose_graph', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph', 'merge_install': False, 'path': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/pose_graph', 'symlink_install': True, 'test_result_base': None}
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'vins_estimator' build argument 'cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'vins_estimator' build argument 'cmake_target' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'vins_estimator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'vins_estimator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'vins_estimator' build argument 'cmake_clean_first' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'vins_estimator' build argument 'cmake_force_configure' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'vins_estimator' build argument 'ament_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'vins_estimator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'vins_estimator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.469s] DEBUG:colcon.colcon_core.verb:Building package 'vins_estimator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins_estimator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator', 'merge_install': False, 'path': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator', 'symlink_install': True, 'test_result_base': None}
+[0.470s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.472s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.472s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model' with build type 'ament_cmake'
+[0.472s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model'
+[0.475s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.475s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.475s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.481s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/benchmark_publisher' with build type 'ament_cmake'
+[0.482s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/benchmark_publisher'
+[0.482s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.482s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.486s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/config_pkg' with build type 'ament_cmake'
+[0.486s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/config_pkg'
+[0.487s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.487s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model
+[0.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/benchmark_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/benchmark_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher
+[0.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/config_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/config_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg
+[2.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/config_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/config_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg
+[2.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/config_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/config_pkg -- -j8 -l8
+[3.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model
+[3.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model -- -j8 -l8
+[3.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/config_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/config_pkg -- -j8 -l8
+[3.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/config_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/config_pkg
+[3.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/benchmark_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/benchmark_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher
+[3.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/benchmark_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/benchmark_publisher -- -j8 -l8
+[4.369s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(config_pkg)
+[4.373s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg' for CMake module files
+[4.373s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg' for CMake config files
+[4.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('config_pkg', 'cmake_prefix_path')
+[4.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/hook/cmake_prefix_path.ps1'
+[4.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/config_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/config_pkg
+[4.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/hook/cmake_prefix_path.dsv'
+[4.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/hook/cmake_prefix_path.sh'
+[4.380s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/bin'
+[4.380s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/lib/pkgconfig/config_pkg.pc'
+[4.382s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/lib/python3.10/site-packages'
+[4.383s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/bin'
+[4.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/package.ps1'
+[4.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/package.dsv'
+[4.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/package.sh'
+[4.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/package.bash'
+[4.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/package.zsh'
+[4.391s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/colcon-core/packages/config_pkg)
+[4.392s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(config_pkg)
+[4.392s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg' for CMake module files
+[4.393s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg' for CMake config files
+[4.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('config_pkg', 'cmake_prefix_path')
+[4.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/hook/cmake_prefix_path.ps1'
+[4.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/hook/cmake_prefix_path.dsv'
+[4.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/hook/cmake_prefix_path.sh'
+[4.398s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/bin'
+[4.398s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/lib/pkgconfig/config_pkg.pc'
+[4.398s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/lib/python3.10/site-packages'
+[4.399s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/bin'
+[4.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/package.ps1'
+[4.400s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/package.dsv'
+[4.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/package.sh'
+[4.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/package.bash'
+[4.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/package.zsh'
+[4.403s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/colcon-core/packages/config_pkg)
+[55.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/benchmark_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/benchmark_publisher -- -j8 -l8
+[55.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/benchmark_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/benchmark_publisher
+[55.863s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(benchmark_publisher)
+[55.864s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher' for CMake module files
+[55.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/benchmark_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/benchmark_publisher
+[55.867s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher' for CMake config files
+[55.868s] Level 1:colcon.colcon_core.shell:create_environment_hook('benchmark_publisher', 'cmake_prefix_path')
+[55.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/hook/cmake_prefix_path.ps1'
+[55.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/hook/cmake_prefix_path.dsv'
+[55.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/hook/cmake_prefix_path.sh'
+[55.878s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/lib'
+[55.879s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/bin'
+[55.880s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/lib/pkgconfig/benchmark_publisher.pc'
+[55.881s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/lib/python3.10/site-packages'
+[55.883s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/bin'
+[55.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/package.ps1'
+[55.890s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/package.dsv'
+[55.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/package.sh'
+[55.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/package.bash'
+[55.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/package.zsh'
+[55.899s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/colcon-core/packages/benchmark_publisher)
+[55.903s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(benchmark_publisher)
+[55.904s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher' for CMake module files
+[55.907s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher' for CMake config files
+[55.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('benchmark_publisher', 'cmake_prefix_path')
+[55.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/hook/cmake_prefix_path.ps1'
+[55.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/hook/cmake_prefix_path.dsv'
+[55.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/hook/cmake_prefix_path.sh'
+[55.917s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/lib'
+[55.918s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/bin'
+[55.918s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/lib/pkgconfig/benchmark_publisher.pc'
+[55.918s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/lib/python3.10/site-packages'
+[55.919s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/bin'
+[55.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/package.ps1'
+[55.921s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/package.dsv'
+[55.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/package.sh'
+[55.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/package.bash'
+[55.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/benchmark_publisher/package.zsh'
+[55.924s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/benchmark_publisher/share/colcon-core/packages/benchmark_publisher)
+[88.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model -- -j8 -l8
+[88.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model
+[89.647s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_model)
+[89.649s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model' for CMake module files
+[89.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model
+[89.654s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model' for CMake config files
+[89.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_model', 'cmake_prefix_path')
+[89.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/hook/cmake_prefix_path.ps1'
+[89.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/hook/cmake_prefix_path.dsv'
+[89.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/hook/cmake_prefix_path.sh'
+[89.663s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib'
+[89.663s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin'
+[89.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_model', 'path')
+[89.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/hook/path.ps1'
+[89.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/hook/path.dsv'
+[89.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/hook/path.sh'
+[89.668s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib/pkgconfig/camera_model.pc'
+[89.669s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib/python3.10/site-packages'
+[89.671s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin'
+[89.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_model', 'pythonscriptspath')
+[89.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/hook/pythonscriptspath.ps1'
+[89.674s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/hook/pythonscriptspath.dsv'
+[89.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/hook/pythonscriptspath.sh'
+[89.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/package.ps1'
+[89.680s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/package.dsv'
+[89.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/package.sh'
+[89.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/package.bash'
+[89.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/package.zsh'
+[89.686s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/colcon-core/packages/camera_model)
+[89.689s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_model)
+[89.690s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model' for CMake module files
+[89.692s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model' for CMake config files
+[89.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_model', 'cmake_prefix_path')
+[89.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/hook/cmake_prefix_path.ps1'
+[89.697s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/hook/cmake_prefix_path.dsv'
+[89.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/hook/cmake_prefix_path.sh'
+[89.700s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib'
+[89.700s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin'
+[89.700s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_model', 'path')
+[89.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/hook/path.ps1'
+[89.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/hook/path.dsv'
+[89.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/hook/path.sh'
+[89.705s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib/pkgconfig/camera_model.pc'
+[89.706s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib/python3.10/site-packages'
+[89.708s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin'
+[89.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_model', 'pythonscriptspath')
+[89.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/hook/pythonscriptspath.ps1'
+[89.710s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/hook/pythonscriptspath.dsv'
+[89.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/hook/pythonscriptspath.sh'
+[89.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/package.ps1'
+[89.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/package.dsv'
+[89.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/package.sh'
+[89.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/package.bash'
+[89.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/package.zsh'
+[89.721s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/colcon-core/packages/camera_model)
+[89.722s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/ar_demo' with build type 'ament_cmake'
+[89.722s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/ar_demo'
+[89.723s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[89.723s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[89.729s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker' with build type 'ament_cmake'
+[89.729s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker'
+[89.730s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[89.730s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[89.734s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/pose_graph' with build type 'ament_cmake'
+[89.735s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/pose_graph'
+[89.735s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[89.735s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[89.741s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator' with build type 'ament_cmake'
+[89.741s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator'
+[89.742s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[89.742s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[89.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/ar_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo
+[89.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker
+[89.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/pose_graph': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/pose_graph -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph
+[89.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins_estimator': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator
+[92.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker' returned '0': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker
+[92.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker -- -j8 -l8
+[92.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo' returned '0': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/ar_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo
+[92.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo -- -j8 -l8
+[92.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins_estimator' returned '0': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator
+[92.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins_estimator': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins_estimator -- -j8 -l8
+[92.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/pose_graph' returned '0': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/pose_graph -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph
+[92.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/pose_graph': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/pose_graph -- -j8 -l8
+[168.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker' returned '0': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker -- -j8 -l8
+[168.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker
+[169.150s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(feature_tracker)
+[169.152s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker' for CMake module files
+[169.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker' returned '0': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker
+[169.156s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker' for CMake config files
+[169.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('feature_tracker', 'cmake_prefix_path')
+[169.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/hook/cmake_prefix_path.ps1'
+[169.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/hook/cmake_prefix_path.dsv'
+[169.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/hook/cmake_prefix_path.sh'
+[169.166s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/lib'
+[169.167s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/bin'
+[169.167s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/lib/pkgconfig/feature_tracker.pc'
+[169.168s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/lib/python3.10/site-packages'
+[169.170s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/bin'
+[169.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/package.ps1'
+[169.176s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/package.dsv'
+[169.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/package.sh'
+[169.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/package.bash'
+[169.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/package.zsh'
+[169.184s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/colcon-core/packages/feature_tracker)
+[169.187s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(feature_tracker)
+[169.188s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker' for CMake module files
+[169.191s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker' for CMake config files
+[169.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('feature_tracker', 'cmake_prefix_path')
+[169.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/hook/cmake_prefix_path.ps1'
+[169.196s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/hook/cmake_prefix_path.dsv'
+[169.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/hook/cmake_prefix_path.sh'
+[169.201s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/lib'
+[169.201s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/bin'
+[169.202s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/lib/pkgconfig/feature_tracker.pc'
+[169.203s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/lib/python3.10/site-packages'
+[169.205s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/bin'
+[169.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/package.ps1'
+[169.211s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/package.dsv'
+[169.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/package.sh'
+[169.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/package.bash'
+[169.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/package.zsh'
+[169.221s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/colcon-core/packages/feature_tracker)
+[178.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/pose_graph' returned '0': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/pose_graph -- -j8 -l8
+[178.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/pose_graph': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/pose_graph
+[178.634s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pose_graph)
+[178.635s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph' for CMake module files
+[178.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/pose_graph' returned '0': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/pose_graph
+[178.637s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph' for CMake config files
+[178.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('pose_graph', 'cmake_prefix_path')
+[178.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/share/pose_graph/hook/cmake_prefix_path.ps1'
+[178.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/share/pose_graph/hook/cmake_prefix_path.dsv'
+[178.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/share/pose_graph/hook/cmake_prefix_path.sh'
+[178.640s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/lib'
+[178.640s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/bin'
+[178.641s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/lib/pkgconfig/pose_graph.pc'
+[178.641s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/lib/python3.10/site-packages'
+[178.641s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/bin'
+[178.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/share/pose_graph/package.ps1'
+[178.643s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/share/pose_graph/package.dsv'
+[178.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/share/pose_graph/package.sh'
+[178.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/share/pose_graph/package.bash'
+[178.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/share/pose_graph/package.zsh'
+[178.645s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/share/colcon-core/packages/pose_graph)
+[178.646s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pose_graph)
+[178.646s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph' for CMake module files
+[178.647s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph' for CMake config files
+[178.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('pose_graph', 'cmake_prefix_path')
+[178.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/share/pose_graph/hook/cmake_prefix_path.ps1'
+[178.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/share/pose_graph/hook/cmake_prefix_path.dsv'
+[178.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/share/pose_graph/hook/cmake_prefix_path.sh'
+[178.649s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/lib'
+[178.649s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/bin'
+[178.649s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/lib/pkgconfig/pose_graph.pc'
+[178.650s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/lib/python3.10/site-packages'
+[178.650s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/bin'
+[178.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/share/pose_graph/package.ps1'
+[178.652s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/share/pose_graph/package.dsv'
+[178.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/share/pose_graph/package.sh'
+[178.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/share/pose_graph/package.bash'
+[178.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/share/pose_graph/package.zsh'
+[178.654s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/pose_graph/share/colcon-core/packages/pose_graph)
+[179.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo' returned '0': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo -- -j8 -l8
+[179.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo
+[179.928s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ar_demo)
+[179.929s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo' for CMake module files
+[179.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo' returned '0': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo
+[179.932s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo' for CMake config files
+[179.932s] Level 1:colcon.colcon_core.shell:create_environment_hook('ar_demo', 'cmake_prefix_path')
+[179.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/share/ar_demo/hook/cmake_prefix_path.ps1'
+[179.933s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/share/ar_demo/hook/cmake_prefix_path.dsv'
+[179.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/share/ar_demo/hook/cmake_prefix_path.sh'
+[179.935s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/lib'
+[179.935s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/bin'
+[179.935s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/lib/pkgconfig/ar_demo.pc'
+[179.935s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/lib/python3.10/site-packages'
+[179.936s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/bin'
+[179.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/share/ar_demo/package.ps1'
+[179.937s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/share/ar_demo/package.dsv'
+[179.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/share/ar_demo/package.sh'
+[179.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/share/ar_demo/package.bash'
+[179.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/share/ar_demo/package.zsh'
+[179.939s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/share/colcon-core/packages/ar_demo)
+[179.940s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ar_demo)
+[179.941s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo' for CMake module files
+[179.941s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo' for CMake config files
+[179.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('ar_demo', 'cmake_prefix_path')
+[179.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/share/ar_demo/hook/cmake_prefix_path.ps1'
+[179.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/share/ar_demo/hook/cmake_prefix_path.dsv'
+[179.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/share/ar_demo/hook/cmake_prefix_path.sh'
+[179.944s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/lib'
+[179.944s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/bin'
+[179.944s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/lib/pkgconfig/ar_demo.pc'
+[179.945s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/lib/python3.10/site-packages'
+[179.945s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/bin'
+[179.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/share/ar_demo/package.ps1'
+[179.947s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/share/ar_demo/package.dsv'
+[179.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/share/ar_demo/package.sh'
+[179.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/share/ar_demo/package.bash'
+[179.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/share/ar_demo/package.zsh'
+[179.949s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/ar_demo/share/colcon-core/packages/ar_demo)
+[271.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins_estimator' returned '0': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins_estimator -- -j8 -l8
+[271.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins_estimator': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins_estimator
+[272.005s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vins_estimator)
+[272.007s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator' for CMake module files
+[272.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins_estimator' returned '0': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins_estimator
+[272.011s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator' for CMake config files
+[272.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('vins_estimator', 'cmake_prefix_path')
+[272.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/hook/cmake_prefix_path.ps1'
+[272.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/hook/cmake_prefix_path.dsv'
+[272.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/hook/cmake_prefix_path.sh'
+[272.018s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/lib'
+[272.019s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/bin'
+[272.019s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/lib/pkgconfig/vins_estimator.pc'
+[272.020s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/lib/python3.10/site-packages'
+[272.022s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/bin'
+[272.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/package.ps1'
+[272.026s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/package.dsv'
+[272.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/package.sh'
+[272.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/package.bash'
+[272.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/package.zsh'
+[272.031s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/colcon-core/packages/vins_estimator)
+[272.033s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vins_estimator)
+[272.034s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator' for CMake module files
+[272.036s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator' for CMake config files
+[272.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('vins_estimator', 'cmake_prefix_path')
+[272.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/hook/cmake_prefix_path.ps1'
+[272.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/hook/cmake_prefix_path.dsv'
+[272.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/hook/cmake_prefix_path.sh'
+[272.043s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/lib'
+[272.043s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/bin'
+[272.043s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/lib/pkgconfig/vins_estimator.pc'
+[272.044s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/lib/python3.10/site-packages'
+[272.046s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/bin'
+[272.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/package.ps1'
+[272.050s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/package.dsv'
+[272.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/package.sh'
+[272.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/package.bash'
+[272.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/vins_estimator/package.zsh'
+[272.060s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins_estimator/share/colcon-core/packages/vins_estimator)
+[272.062s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[272.063s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[272.064s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[272.064s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[272.068s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[272.069s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/local_setup.ps1'
+[272.070s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/_local_setup_util_ps1.py'
+[272.072s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.ps1'
+[272.074s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/local_setup.sh'
+[272.075s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/_local_setup_util_sh.py'
+[272.076s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.sh'
+[272.077s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/local_setup.bash'
+[272.078s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.bash'
+[272.079s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/local_setup.zsh'
+[272.080s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.zsh'

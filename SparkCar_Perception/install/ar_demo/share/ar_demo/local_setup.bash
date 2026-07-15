@@ -1,0 +1,1 @@
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/ar_demo/ament_cmake_environment_hooks/local_setup.bash

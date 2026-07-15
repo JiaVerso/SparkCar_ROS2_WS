@@ -1,0 +1,453 @@
+[0.025s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model
+[0.210s] -- The C compiler identification is GNU 11.4.0
+[0.342s] -- The CXX compiler identification is GNU 11.4.0
+[0.351s] -- Detecting C compiler ABI info
+[0.523s] -- Detecting C compiler ABI info - done
+[0.533s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.534s] -- Detecting C compile features
+[0.534s] -- Detecting C compile features - done
+[0.538s] -- Detecting CXX compiler ABI info
+[0.775s] -- Detecting CXX compiler ABI info - done
+[0.815s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.816s] -- Detecting CXX compile features
+[0.818s] -- Detecting CXX compile features - done
+[0.828s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.141s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.268s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.335s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.382s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.388s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.397s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.412s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.489s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.492s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.661s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.710s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.778s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.788s] -- Looking for pthread.h
+[2.007s] -- Looking for pthread.h - found
+[2.008s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.180s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.182s] -- Found Threads: TRUE  
+[2.293s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem program_options system 
+[2.309s] -- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4") 
+[2.321s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[2.328s] -- Found required Ceres dependency: glog
+[2.329s] -- Found required Ceres dependency: gflags
+[2.329s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[2.481s] -- Configuring done
+[2.501s] -- Generating done
+[2.507s] -- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model
+[2.525s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model
+[2.529s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model -- -j8 -l8
+[2.648s] [  7%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/camera_models/Camera.cc.o[0m
+[2.649s] [  7%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/chessboard/Chessboard.cc.o[0m
+[2.661s] [ 11%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/calib/CameraCalibration.cc.o[0m
+[2.664s] [ 18%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/camera_models/CameraFactory.cc.o[0m
+[2.667s] [ 18%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/camera_models/PinholeCamera.cc.o[0m
+[2.668s] [ 22%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/chessboard/Chessboard.cc.o[0m
+[2.673s] [ 25%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/intrinsic_calib.cc.o[0m
+[2.674s] [ 29%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/camera_models/CostFunctionFactory.cc.o[0m
+[6.543s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/PinholeCamera.cc:[m[K In constructor ‘[01m[Kcamodocal::PinholeCamera::PinholeCamera(const camodocal::PinholeCamera::Parameters&)[m[K’:
+[6.543s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/PinholeCamera.cc:299:4:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::PinholeCamera::Parameters::Parameters(const camodocal::PinholeCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[6.543s]   299 |  : [01;35m[KmParameters(params)[m[K
+[6.543s]       |    [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[6.543s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/PinholeCamera.cc:214:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::PinholeCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::PinholeCamera::Parameters& camodocal::PinholeCamera::Parameters::operator=(const camodocal::PinholeCamera::Parameters&)[m[K’
+[6.543s]   214 | [01;36m[KPinholeCamera[m[K::Parameters::operator=(const PinholeCamera::Parameters& other)
+[6.543s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[6.544s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/PinholeCamera.cc:[m[K In member function ‘[01m[Kvirtual void camodocal::PinholeCamera::estimateIntrinsics(const Size&, const std::vector<std::vector<cv::Point3_<float> > >&, const std::vector<std::vector<cv::Point_<float> > >&)[m[K’:
+[6.544s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/PinholeCamera.cc:351:39:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::PinholeCamera::Parameters::Parameters(const camodocal::PinholeCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[6.544s]   351 |     Parameters params = getParameters([01;35m[K)[m[K;
+[6.544s]       |                                       [01;35m[K^[m[K
+[6.544s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/PinholeCamera.cc:214:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::PinholeCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::PinholeCamera::Parameters& camodocal::PinholeCamera::Parameters::operator=(const camodocal::PinholeCamera::Parameters&)[m[K’
+[6.544s]   214 | [01;36m[KPinholeCamera[m[K::Parameters::operator=(const PinholeCamera::Parameters& other)
+[6.544s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[6.775s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/PinholeCamera.cc:[m[K In member function ‘[01m[Kvirtual void camodocal::PinholeCamera::readParameters(const std::vector<double, std::allocator<double> >&)[m[K’:
+[6.775s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/PinholeCamera.cc:838:39:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::PinholeCamera::Parameters::Parameters(const camodocal::PinholeCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[6.776s]   838 |     Parameters params = getParameters([01;35m[K)[m[K;
+[6.776s]       |                                       [01;35m[K^[m[K
+[6.776s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/PinholeCamera.cc:214:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::PinholeCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::PinholeCamera::Parameters& camodocal::PinholeCamera::Parameters::operator=(const camodocal::PinholeCamera::Parameters&)[m[K’
+[6.776s]   214 | [01;36m[KPinholeCamera[m[K::Parameters::operator=(const PinholeCamera::Parameters& other)
+[6.776s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[8.542s] [ 33%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/calib/CameraCalibration.cc.o[0m
+[8.566s] [ 37%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/camera_models/CataCamera.cc.o[0m
+[8.931s] [ 40%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/camera_models/EquidistantCamera.cc.o[0m
+[10.569s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/calib/CameraCalibration.cc:15[m[K:
+[10.569s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/sparse_graph/Transform.h:22:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[10.569s]    22 |     [01;35m[Kconst[m[K double* const rotationData(void) const;
+[10.569s]       |     [01;35m[K^~~~~[m[K
+[10.569s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/sparse_graph/Transform.h:27:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[10.570s]    27 |     [01;35m[Kconst[m[K double* const translationData(void) const;
+[10.570s]       |     [01;35m[K^~~~~[m[K
+[11.770s] [ 44%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/camera_models/ScaramuzzaCamera.cc.o[0m
+[12.623s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/calib/CameraCalibration.cc:15[m[K:
+[12.623s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/sparse_graph/Transform.h:22:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[12.623s]    22 |     [01;35m[Kconst[m[K double* const rotationData(void) const;
+[12.623s]       |     [01;35m[K^~~~~[m[K
+[12.623s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/sparse_graph/Transform.h:27:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[12.623s]    27 |     [01;35m[Kconst[m[K double* const translationData(void) const;
+[12.623s]       |     [01;35m[K^~~~~[m[K
+[12.733s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:[m[K In constructor ‘[01m[Kcamodocal::EquidistantCamera::EquidistantCamera(const camodocal::EquidistantCamera::Parameters&)[m[K’:
+[12.733s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:278:4:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::EquidistantCamera::Parameters::Parameters(const camodocal::EquidistantCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[12.733s]   278 |  : [01;35m[KmParameters(params)[m[K
+[12.733s]       |    [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[12.733s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:209:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::EquidistantCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::EquidistantCamera::Parameters& camodocal::EquidistantCamera::Parameters::operator=(const camodocal::EquidistantCamera::Parameters&)[m[K’
+[12.733s]   209 | [01;36m[KEquidistantCamera[m[K::Parameters::operator=(const EquidistantCamera::Parameters& other)
+[12.733s]       | [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[12.733s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:[m[K In member function ‘[01m[Kvirtual void camodocal::EquidistantCamera::estimateIntrinsics(const Size&, const std::vector<std::vector<cv::Point3_<float> > >&, const std::vector<std::vector<cv::Point_<float> > >&)[m[K’:
+[12.734s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:316:39:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::EquidistantCamera::Parameters::Parameters(const camodocal::EquidistantCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[12.734s]   316 |     Parameters params = getParameters([01;35m[K)[m[K;
+[12.734s]       |                                       [01;35m[K^[m[K
+[12.734s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:209:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::EquidistantCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::EquidistantCamera::Parameters& camodocal::EquidistantCamera::Parameters::operator=(const camodocal::EquidistantCamera::Parameters&)[m[K’
+[12.734s]   209 | [01;36m[KEquidistantCamera[m[K::Parameters::operator=(const EquidistantCamera::Parameters& other)
+[12.734s]       | [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[12.756s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:345:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kradius[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[12.756s]   345 |         double [01;35m[Kradius[m[K[boardSize.height];
+[12.756s]       |                [01;35m[K^~~~~~[m[K
+[12.950s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:[m[K In member function ‘[01m[Kvirtual void camodocal::EquidistantCamera::readParameters(const std::vector<double, std::allocator<double> >&)[m[K’:
+[12.951s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:637:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[12.951s]   637 |     if ([01;35m[KparameterVec.size() != parameterCount()[m[K)
+[12.951s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[12.951s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:642:39:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::EquidistantCamera::Parameters::Parameters(const camodocal::EquidistantCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[12.952s]   642 |     Parameters params = getParameters([01;35m[K)[m[K;
+[12.952s]       |                                       [01;35m[K^[m[K
+[12.952s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:209:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::EquidistantCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::EquidistantCamera::Parameters& camodocal::EquidistantCamera::Parameters::operator=(const camodocal::EquidistantCamera::Parameters&)[m[K’
+[12.952s]   209 | [01;36m[KEquidistantCamera[m[K::Parameters::operator=(const EquidistantCamera::Parameters& other)
+[12.952s]       | [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[13.326s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CataCamera.cc:[m[K In constructor ‘[01m[Kcamodocal::CataCamera::CataCamera(const camodocal::CataCamera::Parameters&)[m[K’:
+[13.327s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CataCamera.cc:327:4:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::CataCamera::Parameters::Parameters(const camodocal::CataCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[13.327s]   327 |  : [01;35m[KmParameters(params)[m[K
+[13.327s]       |    [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[13.327s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CataCamera.cc:237:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::CataCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::CataCamera::Parameters& camodocal::CataCamera::Parameters::operator=(const camodocal::CataCamera::Parameters&)[m[K’
+[13.327s]   237 | [01;36m[KCataCamera[m[K::Parameters::operator=(const CataCamera::Parameters& other)
+[13.327s]       | [01;36m[K^~~~~~~~~~[m[K
+[13.327s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CataCamera.cc:[m[K In member function ‘[01m[Kvirtual void camodocal::CataCamera::estimateIntrinsics(const Size&, const std::vector<std::vector<cv::Point3_<float> > >&, const std::vector<std::vector<cv::Point_<float> > >&)[m[K’:
+[13.328s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CataCamera.cc:377:39:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::CataCamera::Parameters::Parameters(const camodocal::CataCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[13.328s]   377 |     Parameters params = getParameters([01;35m[K)[m[K;
+[13.328s]       |                                       [01;35m[K^[m[K
+[13.328s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CataCamera.cc:237:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::CataCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::CataCamera::Parameters& camodocal::CataCamera::Parameters::operator=(const camodocal::CataCamera::Parameters&)[m[K’
+[13.328s]   237 | [01;36m[KCataCamera[m[K::Parameters::operator=(const CataCamera::Parameters& other)
+[13.328s]       | [01;36m[K^~~~~~~~~~[m[K
+[13.550s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CataCamera.cc:[m[K In member function ‘[01m[Kvirtual void camodocal::CataCamera::readParameters(const std::vector<double, std::allocator<double> >&)[m[K’:
+[13.550s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CataCamera.cc:960:39:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::CataCamera::Parameters::Parameters(const camodocal::CataCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[13.551s]   960 |     Parameters params = getParameters([01;35m[K)[m[K;
+[13.551s]       |                                       [01;35m[K^[m[K
+[13.551s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CataCamera.cc:237:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::CataCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::CataCamera::Parameters& camodocal::CataCamera::Parameters::operator=(const camodocal::CataCamera::Parameters&)[m[K’
+[13.551s]   237 | [01;36m[KCataCamera[m[K::Parameters::operator=(const CataCamera::Parameters& other)
+[13.551s]       | [01;36m[K^~~~~~~~~~[m[K
+[14.130s] [ 48%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/sparse_graph/Transform.cc.o[0m
+[14.208s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:[m[K In member function ‘[01m[Kcamodocal::CameraPtr camodocal::CameraFactory::generateCamera(camodocal::Camera::ModelType, const string&, cv::Size) const[m[K’:
+[14.209s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:45:70:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::EquidistantCamera::Parameters::Parameters(const camodocal::EquidistantCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[14.209s]    45 |         EquidistantCamera::Parameters params = camera->getParameters([01;35m[K)[m[K;
+[14.209s]       |                                                                      [01;35m[K^[m[K
+[14.209s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:7[m[K:
+[14.209s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/camera_models/EquidistantCamera.h:52:21:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::EquidistantCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::EquidistantCamera::Parameters& camodocal::EquidistantCamera::Parameters::operator=(const camodocal::EquidistantCamera::Parameters&)[m[K’
+[14.209s]    52 |         Parameters& [01;36m[Koperator[m[K=(const Parameters& other);
+[14.209s]       |                     [01;36m[K^~~~~~~~[m[K
+[14.215s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:56:66:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::PinholeCamera::Parameters::Parameters(const camodocal::PinholeCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[14.215s]    56 |         PinholeCamera::Parameters params = camera->getParameters([01;35m[K)[m[K;
+[14.215s]       |                                                                  [01;35m[K^[m[K
+[14.216s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:8[m[K:
+[14.216s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/camera_models/PinholeCamera.h:47:21:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::PinholeCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::PinholeCamera::Parameters& camodocal::PinholeCamera::Parameters::operator=(const camodocal::PinholeCamera::Parameters&)[m[K’
+[14.216s]    47 |         Parameters& [01;36m[Koperator[m[K=(const Parameters& other);
+[14.216s]       |                     [01;36m[K^~~~~~~~[m[K
+[14.221s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:67:63:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::OCAMCamera::Parameters::Parameters(const camodocal::OCAMCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[14.221s]    67 |         OCAMCamera::Parameters params = camera->getParameters([01;35m[K)[m[K;
+[14.221s]       |                                                               [01;35m[K^[m[K
+[14.222s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:9[m[K:
+[14.222s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/camera_models/ScaramuzzaCamera.h:54:21:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::OCAMCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::OCAMCamera::Parameters& camodocal::OCAMCamera::Parameters::operator=(const camodocal::OCAMCamera::Parameters&)[m[K’
+[14.222s]    54 |         Parameters& [01;36m[Koperator[m[K=(const Parameters& other);
+[14.222s]       |                     [01;36m[K^~~~~~~~[m[K
+[14.227s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:79:63:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::CataCamera::Parameters::Parameters(const camodocal::CataCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[14.227s]    79 |         CataCamera::Parameters params = camera->getParameters([01;35m[K)[m[K;
+[14.227s]       |                                                               [01;35m[K^[m[K
+[14.227s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:6[m[K:
+[14.228s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/camera_models/CataCamera.h:54:21:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::CataCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::CataCamera::Parameters& camodocal::CataCamera::Parameters::operator=(const camodocal::CataCamera::Parameters&)[m[K’
+[14.228s]    54 |         Parameters& [01;36m[Koperator[m[K=(const Parameters& other);
+[14.228s]       |                     [01;36m[K^~~~~~~~[m[K
+[14.237s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:[m[K In member function ‘[01m[Kcamodocal::CameraPtr camodocal::CameraFactory::generateCameraFromYamlFile(const string&)[m[K’:
+[14.237s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:134:70:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::EquidistantCamera::Parameters::Parameters(const camodocal::EquidistantCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[14.237s]   134 |         EquidistantCamera::Parameters params = camera->getParameters([01;35m[K)[m[K;
+[14.238s]       |                                                                      [01;35m[K^[m[K
+[14.238s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:7[m[K:
+[14.238s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/camera_models/EquidistantCamera.h:52:21:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::EquidistantCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::EquidistantCamera::Parameters& camodocal::EquidistantCamera::Parameters::operator=(const camodocal::EquidistantCamera::Parameters&)[m[K’
+[14.238s]    52 |         Parameters& [01;36m[Koperator[m[K=(const Parameters& other);
+[14.238s]       |                     [01;36m[K^~~~~~~~[m[K
+[14.238s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:143:66:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::PinholeCamera::Parameters::Parameters(const camodocal::PinholeCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[14.239s]   143 |         PinholeCamera::Parameters params = camera->getParameters([01;35m[K)[m[K;
+[14.239s]       |                                                                  [01;35m[K^[m[K
+[14.239s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:8[m[K:
+[14.239s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/camera_models/PinholeCamera.h:47:21:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::PinholeCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::PinholeCamera::Parameters& camodocal::PinholeCamera::Parameters::operator=(const camodocal::PinholeCamera::Parameters&)[m[K’
+[14.239s]    47 |         Parameters& [01;36m[Koperator[m[K=(const Parameters& other);
+[14.239s]       |                     [01;36m[K^~~~~~~~[m[K
+[14.239s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:152:63:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::OCAMCamera::Parameters::Parameters(const camodocal::OCAMCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[14.240s]   152 |         OCAMCamera::Parameters params = camera->getParameters([01;35m[K)[m[K;
+[14.240s]       |                                                               [01;35m[K^[m[K
+[14.240s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:9[m[K:
+[14.240s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/camera_models/ScaramuzzaCamera.h:54:21:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::OCAMCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::OCAMCamera::Parameters& camodocal::OCAMCamera::Parameters::operator=(const camodocal::OCAMCamera::Parameters&)[m[K’
+[14.240s]    54 |         Parameters& [01;36m[Koperator[m[K=(const Parameters& other);
+[14.240s]       |                     [01;36m[K^~~~~~~~[m[K
+[14.241s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:162:63:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::CataCamera::Parameters::Parameters(const camodocal::CataCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[14.241s]   162 |         CataCamera::Parameters params = camera->getParameters([01;35m[K)[m[K;
+[14.241s]       |                                                               [01;35m[K^[m[K
+[14.241s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:6[m[K:
+[14.241s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/camera_models/CataCamera.h:54:21:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::CataCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::CataCamera::Parameters& camodocal::CataCamera::Parameters::operator=(const camodocal::CataCamera::Parameters&)[m[K’
+[14.241s]    54 |         Parameters& [01;36m[Koperator[m[K=(const Parameters& other);
+[14.241s]       |                     [01;36m[K^~~~~~~~[m[K
+[15.513s] [ 51%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/gpl/gpl.cc.o[0m
+[15.594s] [ 55%] [32mBuilding CXX object CMakeFiles/Calibration.dir/src/gpl/EigenQuaternionParameterization.cc.o[0m
+[16.734s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/sparse_graph/Transform.cc:1[m[K:
+[16.735s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/sparse_graph/Transform.h:22:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[16.735s]    22 |     [01;35m[Kconst[m[K double* const rotationData(void) const;
+[16.735s]       |     [01;35m[K^~~~~[m[K
+[16.735s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/sparse_graph/Transform.h:27:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[16.735s]    27 |     [01;35m[Kconst[m[K double* const translationData(void) const;
+[16.735s]       |     [01;35m[K^~~~~[m[K
+[16.801s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/sparse_graph/Transform.cc:36:1:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[16.802s]    36 | [01;35m[Kconst[m[K double* const
+[16.802s]       | [01;35m[K^~~~~[m[K
+[16.802s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/sparse_graph/Transform.cc:60:1:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[16.802s]    60 | [01;35m[Kconst[m[K double* const
+[16.802s]       | [01;35m[K^~~~~[m[K
+[17.041s] [ 59%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/camera_models/Camera.cc.o[0m
+[17.480s] [ 62%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/camera_models/CameraFactory.cc.o[0m
+[17.818s] [ 66%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/camera_models/CostFunctionFactory.cc.o[0m
+[17.944s] [ 70%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/camera_models/PinholeCamera.cc.o[0m
+[20.990s] [ 74%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/camera_models/CataCamera.cc.o[0m
+[21.839s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/PinholeCamera.cc:[m[K In constructor ‘[01m[Kcamodocal::PinholeCamera::PinholeCamera(const camodocal::PinholeCamera::Parameters&)[m[K’:
+[21.839s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/PinholeCamera.cc:299:4:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::PinholeCamera::Parameters::Parameters(const camodocal::PinholeCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[21.839s]   299 |  : [01;35m[KmParameters(params)[m[K
+[21.839s]       |    [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[21.840s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/PinholeCamera.cc:214:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::PinholeCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::PinholeCamera::Parameters& camodocal::PinholeCamera::Parameters::operator=(const camodocal::PinholeCamera::Parameters&)[m[K’
+[21.840s]   214 | [01;36m[KPinholeCamera[m[K::Parameters::operator=(const PinholeCamera::Parameters& other)
+[21.840s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[21.840s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/PinholeCamera.cc:[m[K In member function ‘[01m[Kvirtual void camodocal::PinholeCamera::estimateIntrinsics(const Size&, const std::vector<std::vector<cv::Point3_<float> > >&, const std::vector<std::vector<cv::Point_<float> > >&)[m[K’:
+[21.841s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/PinholeCamera.cc:351:39:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::PinholeCamera::Parameters::Parameters(const camodocal::PinholeCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[21.841s]   351 |     Parameters params = getParameters([01;35m[K)[m[K;
+[21.841s]       |                                       [01;35m[K^[m[K
+[21.841s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/PinholeCamera.cc:214:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::PinholeCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::PinholeCamera::Parameters& camodocal::PinholeCamera::Parameters::operator=(const camodocal::PinholeCamera::Parameters&)[m[K’
+[21.841s]   214 | [01;36m[KPinholeCamera[m[K::Parameters::operator=(const PinholeCamera::Parameters& other)
+[21.841s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[22.049s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:[m[K In member function ‘[01m[Kcamodocal::CameraPtr camodocal::CameraFactory::generateCamera(camodocal::Camera::ModelType, const string&, cv::Size) const[m[K’:
+[22.049s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:45:70:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::EquidistantCamera::Parameters::Parameters(const camodocal::EquidistantCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[22.049s]    45 |         EquidistantCamera::Parameters params = camera->getParameters([01;35m[K)[m[K;
+[22.049s]       |                                                                      [01;35m[K^[m[K
+[22.050s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:7[m[K:
+[22.050s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/camera_models/EquidistantCamera.h:52:21:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::EquidistantCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::EquidistantCamera::Parameters& camodocal::EquidistantCamera::Parameters::operator=(const camodocal::EquidistantCamera::Parameters&)[m[K’
+[22.050s]    52 |         Parameters& [01;36m[Koperator[m[K=(const Parameters& other);
+[22.050s]       |                     [01;36m[K^~~~~~~~[m[K
+[22.053s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:56:66:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::PinholeCamera::Parameters::Parameters(const camodocal::PinholeCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[22.053s]    56 |         PinholeCamera::Parameters params = camera->getParameters([01;35m[K)[m[K;
+[22.053s]       |                                                                  [01;35m[K^[m[K
+[22.053s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:8[m[K:
+[22.053s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/camera_models/PinholeCamera.h:47:21:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::PinholeCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::PinholeCamera::Parameters& camodocal::PinholeCamera::Parameters::operator=(const camodocal::PinholeCamera::Parameters&)[m[K’
+[22.054s]    47 |         Parameters& [01;36m[Koperator[m[K=(const Parameters& other);
+[22.054s]       |                     [01;36m[K^~~~~~~~[m[K
+[22.056s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:67:63:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::OCAMCamera::Parameters::Parameters(const camodocal::OCAMCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[22.056s]    67 |         OCAMCamera::Parameters params = camera->getParameters([01;35m[K)[m[K;
+[22.056s]       |                                                               [01;35m[K^[m[K
+[22.057s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:9[m[K:
+[22.057s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/camera_models/ScaramuzzaCamera.h:54:21:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::OCAMCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::OCAMCamera::Parameters& camodocal::OCAMCamera::Parameters::operator=(const camodocal::OCAMCamera::Parameters&)[m[K’
+[22.057s]    54 |         Parameters& [01;36m[Koperator[m[K=(const Parameters& other);
+[22.057s]       |                     [01;36m[K^~~~~~~~[m[K
+[22.060s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:79:63:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::CataCamera::Parameters::Parameters(const camodocal::CataCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[22.060s]    79 |         CataCamera::Parameters params = camera->getParameters([01;35m[K)[m[K;
+[22.060s]       |                                                               [01;35m[K^[m[K
+[22.060s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:6[m[K:
+[22.060s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/camera_models/CataCamera.h:54:21:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::CataCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::CataCamera::Parameters& camodocal::CataCamera::Parameters::operator=(const camodocal::CataCamera::Parameters&)[m[K’
+[22.061s]    54 |         Parameters& [01;36m[Koperator[m[K=(const Parameters& other);
+[22.061s]       |                     [01;36m[K^~~~~~~~[m[K
+[22.064s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:[m[K In member function ‘[01m[Kcamodocal::CameraPtr camodocal::CameraFactory::generateCameraFromYamlFile(const string&)[m[K’:
+[22.064s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:134:70:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::EquidistantCamera::Parameters::Parameters(const camodocal::EquidistantCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[22.065s]   134 |         EquidistantCamera::Parameters params = camera->getParameters([01;35m[K)[m[K;
+[22.065s]       |                                                                      [01;35m[K^[m[K
+[22.065s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:7[m[K:
+[22.065s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/camera_models/EquidistantCamera.h:52:21:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::EquidistantCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::EquidistantCamera::Parameters& camodocal::EquidistantCamera::Parameters::operator=(const camodocal::EquidistantCamera::Parameters&)[m[K’
+[22.065s]    52 |         Parameters& [01;36m[Koperator[m[K=(const Parameters& other);
+[22.065s]       |                     [01;36m[K^~~~~~~~[m[K
+[22.066s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:143:66:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::PinholeCamera::Parameters::Parameters(const camodocal::PinholeCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[22.066s]   143 |         PinholeCamera::Parameters params = camera->getParameters([01;35m[K)[m[K;
+[22.066s]       |                                                                  [01;35m[K^[m[K
+[22.066s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:8[m[K:
+[22.067s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/camera_models/PinholeCamera.h:47:21:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::PinholeCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::PinholeCamera::Parameters& camodocal::PinholeCamera::Parameters::operator=(const camodocal::PinholeCamera::Parameters&)[m[K’
+[22.067s]    47 |         Parameters& [01;36m[Koperator[m[K=(const Parameters& other);
+[22.067s]       |                     [01;36m[K^~~~~~~~[m[K
+[22.067s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:152:63:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::OCAMCamera::Parameters::Parameters(const camodocal::OCAMCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[22.068s]   152 |         OCAMCamera::Parameters params = camera->getParameters([01;35m[K)[m[K;
+[22.068s]       |                                                               [01;35m[K^[m[K
+[22.068s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:9[m[K:
+[22.068s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/camera_models/ScaramuzzaCamera.h:54:21:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::OCAMCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::OCAMCamera::Parameters& camodocal::OCAMCamera::Parameters::operator=(const camodocal::OCAMCamera::Parameters&)[m[K’
+[22.068s]    54 |         Parameters& [01;36m[Koperator[m[K=(const Parameters& other);
+[22.068s]       |                     [01;36m[K^~~~~~~~[m[K
+[22.069s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:162:63:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::CataCamera::Parameters::Parameters(const camodocal::CataCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[22.069s]   162 |         CataCamera::Parameters params = camera->getParameters([01;35m[K)[m[K;
+[22.069s]       |                                                               [01;35m[K^[m[K
+[22.069s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CameraFactory.cc:6[m[K:
+[22.070s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/camera_models/CataCamera.h:54:21:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::CataCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::CataCamera::Parameters& camodocal::CataCamera::Parameters::operator=(const camodocal::CataCamera::Parameters&)[m[K’
+[22.070s]    54 |         Parameters& [01;36m[Koperator[m[K=(const Parameters& other);
+[22.070s]       |                     [01;36m[K^~~~~~~~[m[K
+[22.217s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/PinholeCamera.cc:[m[K In member function ‘[01m[Kvirtual void camodocal::PinholeCamera::readParameters(const std::vector<double, std::allocator<double> >&)[m[K’:
+[22.217s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/PinholeCamera.cc:838:39:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::PinholeCamera::Parameters::Parameters(const camodocal::PinholeCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[22.217s]   838 |     Parameters params = getParameters([01;35m[K)[m[K;
+[22.217s]       |                                       [01;35m[K^[m[K
+[22.217s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/PinholeCamera.cc:214:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::PinholeCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::PinholeCamera::Parameters& camodocal::PinholeCamera::Parameters::operator=(const camodocal::PinholeCamera::Parameters&)[m[K’
+[22.217s]   214 | [01;36m[KPinholeCamera[m[K::Parameters::operator=(const PinholeCamera::Parameters& other)
+[22.217s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[22.226s] [ 77%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/camera_models/EquidistantCamera.cc.o[0m
+[22.552s] [ 81%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/camera_models/ScaramuzzaCamera.cc.o[0m
+[25.531s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CataCamera.cc:[m[K In constructor ‘[01m[Kcamodocal::CataCamera::CataCamera(const camodocal::CataCamera::Parameters&)[m[K’:
+[25.531s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CataCamera.cc:327:4:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::CataCamera::Parameters::Parameters(const camodocal::CataCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[25.531s]   327 |  : [01;35m[KmParameters(params)[m[K
+[25.531s]       |    [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[25.531s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CataCamera.cc:237:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::CataCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::CataCamera::Parameters& camodocal::CataCamera::Parameters::operator=(const camodocal::CataCamera::Parameters&)[m[K’
+[25.531s]   237 | [01;36m[KCataCamera[m[K::Parameters::operator=(const CataCamera::Parameters& other)
+[25.531s]       | [01;36m[K^~~~~~~~~~[m[K
+[25.532s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CataCamera.cc:[m[K In member function ‘[01m[Kvirtual void camodocal::CataCamera::estimateIntrinsics(const Size&, const std::vector<std::vector<cv::Point3_<float> > >&, const std::vector<std::vector<cv::Point_<float> > >&)[m[K’:
+[25.532s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CataCamera.cc:377:39:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::CataCamera::Parameters::Parameters(const camodocal::CataCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[25.532s]   377 |     Parameters params = getParameters([01;35m[K)[m[K;
+[25.532s]       |                                       [01;35m[K^[m[K
+[25.532s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CataCamera.cc:237:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::CataCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::CataCamera::Parameters& camodocal::CataCamera::Parameters::operator=(const camodocal::CataCamera::Parameters&)[m[K’
+[25.532s]   237 | [01;36m[KCataCamera[m[K::Parameters::operator=(const CataCamera::Parameters& other)
+[25.532s]       | [01;36m[K^~~~~~~~~~[m[K
+[25.775s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/ScaramuzzaCamera.cc:[m[K In constructor ‘[01m[Kcamodocal::OCAMCamera::OCAMCamera(const camodocal::OCAMCamera::Parameters&)[m[K’:
+[25.775s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/ScaramuzzaCamera.cc:198:4:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::OCAMCamera::Parameters::Parameters(const camodocal::OCAMCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[25.775s]   198 |  : [01;35m[KmParameters(params)[m[K
+[25.775s]       |    [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[25.775s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/ScaramuzzaCamera.cc:141:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::OCAMCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::OCAMCamera::Parameters& camodocal::OCAMCamera::Parameters::operator=(const camodocal::OCAMCamera::Parameters&)[m[K’
+[25.775s]   141 | [01;36m[KOCAMCamera[m[K::Parameters::operator=(const OCAMCamera::Parameters& other)
+[25.775s]       | [01;36m[K^~~~~~~~~~[m[K
+[25.859s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CataCamera.cc:[m[K In member function ‘[01m[Kvirtual void camodocal::CataCamera::readParameters(const std::vector<double, std::allocator<double> >&)[m[K’:
+[25.859s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CataCamera.cc:960:39:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::CataCamera::Parameters::Parameters(const camodocal::CataCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[25.859s]   960 |     Parameters params = getParameters([01;35m[K)[m[K;
+[25.859s]       |                                       [01;35m[K^[m[K
+[25.859s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/CataCamera.cc:237:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::CataCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::CataCamera::Parameters& camodocal::CataCamera::Parameters::operator=(const camodocal::CataCamera::Parameters&)[m[K’
+[25.859s]   237 | [01;36m[KCataCamera[m[K::Parameters::operator=(const CataCamera::Parameters& other)
+[25.859s]       | [01;36m[K^~~~~~~~~~[m[K
+[25.967s] [ 85%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/sparse_graph/Transform.cc.o[0m
+[26.154s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:[m[K In constructor ‘[01m[Kcamodocal::EquidistantCamera::EquidistantCamera(const camodocal::EquidistantCamera::Parameters&)[m[K’:
+[26.154s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:278:4:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::EquidistantCamera::Parameters::Parameters(const camodocal::EquidistantCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[26.154s]   278 |  : [01;35m[KmParameters(params)[m[K
+[26.155s]       |    [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[26.155s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:209:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::EquidistantCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::EquidistantCamera::Parameters& camodocal::EquidistantCamera::Parameters::operator=(const camodocal::EquidistantCamera::Parameters&)[m[K’
+[26.155s]   209 | [01;36m[KEquidistantCamera[m[K::Parameters::operator=(const EquidistantCamera::Parameters& other)
+[26.155s]       | [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[26.157s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:[m[K In member function ‘[01m[Kvirtual void camodocal::EquidistantCamera::estimateIntrinsics(const Size&, const std::vector<std::vector<cv::Point3_<float> > >&, const std::vector<std::vector<cv::Point_<float> > >&)[m[K’:
+[26.157s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:316:39:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::EquidistantCamera::Parameters::Parameters(const camodocal::EquidistantCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[26.157s]   316 |     Parameters params = getParameters([01;35m[K)[m[K;
+[26.157s]       |                                       [01;35m[K^[m[K
+[26.157s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:209:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::EquidistantCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::EquidistantCamera::Parameters& camodocal::EquidistantCamera::Parameters::operator=(const camodocal::EquidistantCamera::Parameters&)[m[K’
+[26.158s]   209 | [01;36m[KEquidistantCamera[m[K::Parameters::operator=(const EquidistantCamera::Parameters& other)
+[26.158s]       | [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[26.180s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:345:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kradius[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[26.180s]   345 |         double [01;35m[Kradius[m[K[boardSize.height];
+[26.180s]       |                [01;35m[K^~~~~~[m[K
+[26.323s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/ScaramuzzaCamera.cc:[m[K In member function ‘[01m[Kvirtual void camodocal::OCAMCamera::estimateIntrinsics(const Size&, const std::vector<std::vector<cv::Point3_<float> > >&, const std::vector<std::vector<cv::Point_<float> > >&)[m[K’:
+[26.323s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/ScaramuzzaCamera.cc:517:39:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::OCAMCamera::Parameters::Parameters(const camodocal::OCAMCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[26.323s]   517 |     Parameters params = getParameters([01;35m[K)[m[K;
+[26.323s]       |                                       [01;35m[K^[m[K
+[26.323s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/ScaramuzzaCamera.cc:141:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::OCAMCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::OCAMCamera::Parameters& camodocal::OCAMCamera::Parameters::operator=(const camodocal::OCAMCamera::Parameters&)[m[K’
+[26.323s]   141 | [01;36m[KOCAMCamera[m[K::Parameters::operator=(const OCAMCamera::Parameters& other)
+[26.323s]       | [01;36m[K^~~~~~~~~~[m[K
+[26.377s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:[m[K In member function ‘[01m[Kvirtual void camodocal::EquidistantCamera::readParameters(const std::vector<double, std::allocator<double> >&)[m[K’:
+[26.377s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:637:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[26.377s]   637 |     if ([01;35m[KparameterVec.size() != parameterCount()[m[K)
+[26.377s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[26.378s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:642:39:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::EquidistantCamera::Parameters::Parameters(const camodocal::EquidistantCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[26.378s]   642 |     Parameters params = getParameters([01;35m[K)[m[K;
+[26.378s]       |                                       [01;35m[K^[m[K
+[26.378s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/EquidistantCamera.cc:209:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::EquidistantCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::EquidistantCamera::Parameters& camodocal::EquidistantCamera::Parameters::operator=(const camodocal::EquidistantCamera::Parameters&)[m[K’
+[26.378s]   209 | [01;36m[KEquidistantCamera[m[K::Parameters::operator=(const EquidistantCamera::Parameters& other)
+[26.379s]       | [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[26.714s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/ScaramuzzaCamera.cc:[m[K In member function ‘[01m[Kvirtual void camodocal::OCAMCamera::readParameters(const std::vector<double, std::allocator<double> >&)[m[K’:
+[26.715s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/ScaramuzzaCamera.cc:788:39:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::OCAMCamera::Parameters::Parameters(const camodocal::OCAMCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[26.715s]   788 |     Parameters params = getParameters([01;35m[K)[m[K;
+[26.715s]       |                                       [01;35m[K^[m[K
+[26.715s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/ScaramuzzaCamera.cc:141:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::OCAMCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::OCAMCamera::Parameters& camodocal::OCAMCamera::Parameters::operator=(const camodocal::OCAMCamera::Parameters&)[m[K’
+[26.715s]   141 | [01;36m[KOCAMCamera[m[K::Parameters::operator=(const OCAMCamera::Parameters& other)
+[26.715s]       | [01;36m[K^~~~~~~~~~[m[K
+[28.051s] [ 88%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/gpl/gpl.cc.o[0m
+[28.073s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/sparse_graph/Transform.cc:1[m[K:
+[28.073s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/sparse_graph/Transform.h:22:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[28.073s]    22 |     [01;35m[Kconst[m[K double* const rotationData(void) const;
+[28.073s]       |     [01;35m[K^~~~~[m[K
+[28.073s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/include/camodocal/sparse_graph/Transform.h:27:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[28.073s]    27 |     [01;35m[Kconst[m[K double* const translationData(void) const;
+[28.074s]       |     [01;35m[K^~~~~[m[K
+[28.142s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/sparse_graph/Transform.cc:36:1:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[28.142s]    36 | [01;35m[Kconst[m[K double* const
+[28.142s]       | [01;35m[K^~~~~[m[K
+[28.143s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/sparse_graph/Transform.cc:60:1:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[28.143s]    60 | [01;35m[Kconst[m[K double* const
+[28.143s]       | [01;35m[K^~~~~[m[K
+[28.831s] [ 92%] [32mBuilding CXX object CMakeFiles/camera_model.dir/src/gpl/EigenQuaternionParameterization.cc.o[0m
+[30.733s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/ScaramuzzaCamera.cc:[m[K In constructor ‘[01m[Kcamodocal::OCAMCamera::OCAMCamera(const camodocal::OCAMCamera::Parameters&)[m[K’:
+[30.733s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/ScaramuzzaCamera.cc:198:4:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::OCAMCamera::Parameters::Parameters(const camodocal::OCAMCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[30.733s]   198 |  : [01;35m[KmParameters(params)[m[K
+[30.733s]       |    [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[30.733s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/ScaramuzzaCamera.cc:141:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::OCAMCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::OCAMCamera::Parameters& camodocal::OCAMCamera::Parameters::operator=(const camodocal::OCAMCamera::Parameters&)[m[K’
+[30.733s]   141 | [01;36m[KOCAMCamera[m[K::Parameters::operator=(const OCAMCamera::Parameters& other)
+[30.733s]       | [01;36m[K^~~~~~~~~~[m[K
+[31.277s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/ScaramuzzaCamera.cc:[m[K In member function ‘[01m[Kvirtual void camodocal::OCAMCamera::estimateIntrinsics(const Size&, const std::vector<std::vector<cv::Point3_<float> > >&, const std::vector<std::vector<cv::Point_<float> > >&)[m[K’:
+[31.277s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/ScaramuzzaCamera.cc:517:39:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::OCAMCamera::Parameters::Parameters(const camodocal::OCAMCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[31.278s]   517 |     Parameters params = getParameters([01;35m[K)[m[K;
+[31.278s]       |                                       [01;35m[K^[m[K
+[31.280s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/ScaramuzzaCamera.cc:141:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::OCAMCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::OCAMCamera::Parameters& camodocal::OCAMCamera::Parameters::operator=(const camodocal::OCAMCamera::Parameters&)[m[K’
+[31.280s]   141 | [01;36m[KOCAMCamera[m[K::Parameters::operator=(const OCAMCamera::Parameters& other)
+[31.281s]       | [01;36m[K^~~~~~~~~~[m[K
+[31.669s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/ScaramuzzaCamera.cc:[m[K In member function ‘[01m[Kvirtual void camodocal::OCAMCamera::readParameters(const std::vector<double, std::allocator<double> >&)[m[K’:
+[31.670s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/ScaramuzzaCamera.cc:788:39:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kcamodocal::OCAMCamera::Parameters::Parameters(const camodocal::OCAMCamera::Parameters&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[31.670s]   788 |     Parameters params = getParameters([01;35m[K)[m[K;
+[31.671s]       |                                       [01;35m[K^[m[K
+[31.671s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/camera_model/src/camera_models/ScaramuzzaCamera.cc:141:1:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kcamodocal::OCAMCamera::Parameters[m[K’ has user-provided ‘[01m[Kcamodocal::OCAMCamera::Parameters& camodocal::OCAMCamera::Parameters::operator=(const camodocal::OCAMCamera::Parameters&)[m[K’
+[31.671s]   141 | [01;36m[KOCAMCamera[m[K::Parameters::operator=(const OCAMCamera::Parameters& other)
+[31.672s]       | [01;36m[K^~~~~~~~~~[m[K
+[72.242s] [ 96%] [32m[1mLinking CXX executable Calibration[0m
+[76.837s] [ 96%] Built target Calibration
+[86.283s] [100%] [32m[1mLinking CXX static library libcamera_model.a[0m
+[87.940s] [100%] Built target camera_model
+[87.986s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model -- -j8 -l8
+[87.993s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model
+[88.019s] -- Install configuration: ""
+[88.019s] -- Execute custom install script
+[88.019s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/environment/library_path.sh
+[88.046s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/environment/library_path.dsv
+[88.073s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib/camera_model/Calibration
+[88.100s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin/Calibration
+[88.125s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib/libcamera_model.a
+[88.159s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib/camera_model/Calibration
+[88.160s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/calib/CameraCalibration.h
+[88.184s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/camera_models/Camera.h
+[88.217s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/camera_models/CameraFactory.h
+[88.252s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/camera_models/CataCamera.h
+[88.286s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/camera_models/CostFunctionFactory.h
+[88.319s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/camera_models/EquidistantCamera.h
+[88.352s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/camera_models/PinholeCamera.h
+[88.385s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/camera_models/ScaramuzzaCamera.h
+[88.405s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/chessboard/Chessboard.h
+[88.429s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/chessboard/ChessboardCorner.h
+[88.451s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/chessboard/ChessboardQuad.h
+[88.466s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/chessboard/Spline.h
+[88.501s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/gpl/EigenQuaternionParameterization.h
+[88.522s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/gpl/EigenUtils.h
+[88.550s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/gpl/gpl.h
+[88.568s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/include//camodocal/sparse_graph/Transform.h
+[88.601s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/ament_index/resource_index/package_run_dependencies/camera_model
+[88.639s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/ament_index/resource_index/parent_prefix_path/camera_model
+[88.676s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/environment/ament_prefix_path.sh
+[88.712s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/environment/ament_prefix_path.dsv
+[88.745s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/environment/path.sh
+[88.781s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/environment/path.dsv
+[88.812s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/local_setup.bash
+[88.844s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/local_setup.sh
+[88.875s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/local_setup.zsh
+[88.903s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/local_setup.dsv
+[88.937s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/package.dsv
+[88.971s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/ament_index/resource_index/packages/camera_model
+[89.000s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/cmake/ament_cmake_export_include_directories-extras.cmake
+[89.028s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/cmake/ament_cmake_export_libraries-extras.cmake
+[89.056s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/cmake/ament_cmake_export_dependencies-extras.cmake
+[89.090s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/cmake/camera_modelConfig.cmake
+[89.120s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/cmake/camera_modelConfig-version.cmake
+[89.139s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/package.xml
+[89.179s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_model
