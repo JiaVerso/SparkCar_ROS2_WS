@@ -1,0 +1,1 @@
+['-DCMAKE_BUILD_TYPE=Release', '-Drealsense2_DIR=/usr/local/lib/cmake/realsense2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1']

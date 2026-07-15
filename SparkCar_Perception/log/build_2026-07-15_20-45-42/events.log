@@ -1,0 +1,903 @@
+[0.000000] (-) TimerEvent: {}
+[0.000837] (-) JobUnselected: {'identifier': 'ar_demo'}
+[0.001041] (-) JobUnselected: {'identifier': 'benchmark_publisher'}
+[0.001217] (-) JobUnselected: {'identifier': 'camera_model'}
+[0.001434] (-) JobUnselected: {'identifier': 'config_pkg'}
+[0.001569] (-) JobUnselected: {'identifier': 'feature_tracker'}
+[0.001797] (-) JobUnselected: {'identifier': 'pose_graph'}
+[0.001951] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.002054] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.002188] (-) JobUnselected: {'identifier': 'vins_estimator'}
+[0.002371] (realsense2_camera) JobQueued: {'identifier': 'realsense2_camera', 'dependencies': OrderedDict([('realsense2_camera_msgs', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs')])}
+[0.002501] (realsense2_camera) JobStarted: {'identifier': 'realsense2_camera'}
+[0.026378] (realsense2_camera) JobProgress: {'identifier': 'realsense2_camera', 'progress': 'cmake'}
+[0.027326] (realsense2_camera) Command: {'cmd': ['/usr/bin/cmake', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/realsense-ros/realsense2_camera', '-DCMAKE_BUILD_TYPE=Release', '-Drealsense2_DIR=/usr/local/lib/cmake/realsense2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera'], 'cwd': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/realsense2_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '192.168.110.167 59591 22'), ('all_proxy', 'socks5://127.0.0.1:7890'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('NO_PROXY', '127.0.0.1,localhost,::1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e826881e-f5ce-4662-b2c2-fa19e5b3c48e.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('ALL_PROXY', 'socks5://127.0.0.1:7890'), ('http_proxy', 'http://127.0.0.1:7890'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', '12'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/opt/ros/humble/bin:/home/orangepi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5ac879506a.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/realsense2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('COPILOT_DEBUG_NONCE', 'cb78b79af0a973a653ba9a5cd3100d22'), ('realsense2_DIR', '/usr/local/lib/cmake/realsense2'), ('SSH_CONNECTION', '192.168.110.167 59591 192.168.110.155 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('UMS_MOUNT', '0'), ('CLASH_FOR_LINUX_BASH_COMPLETION_LOADED', '1'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/usr/local:/opt/ros/humble'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[0.098954] (-) TimerEvent: {}
+[0.179693] (realsense2_camera) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199209] (-) TimerEvent: {}
+[0.300401] (-) TimerEvent: {}
+[0.314664] (realsense2_camera) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.329356] (realsense2_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400682] (-) TimerEvent: {}
+[0.501904] (-) TimerEvent: {}
+[0.514474] (realsense2_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.529325] (realsense2_camera) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.530273] (realsense2_camera) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.530707] (realsense2_camera) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.534704] (realsense2_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.602174] (-) TimerEvent: {}
+[0.703348] (-) TimerEvent: {}
+[0.747560] (realsense2_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.760185] (realsense2_camera) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.760920] (realsense2_camera) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.761579] (realsense2_camera) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.763025] (realsense2_camera) StdoutLine: {'line': b'-- Create Release Build.\n'}
+[0.766581] (realsense2_camera) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.803530] (-) TimerEvent: {}
+[0.904614] (-) TimerEvent: {}
+[1.005832] (-) TimerEvent: {}
+[1.096298] (realsense2_camera) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.105952] (-) TimerEvent: {}
+[1.206958] (-) TimerEvent: {}
+[1.219574] (realsense2_camera) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.297601] (realsense2_camera) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.3 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[1.307122] (-) TimerEvent: {}
+[1.337690] (realsense2_camera) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.343558] (realsense2_camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.354420] (realsense2_camera) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.370230] (realsense2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.390246] (realsense2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.407464] (-) TimerEvent: {}
+[1.409840] (realsense2_camera) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.457968] (realsense2_camera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.460670] (realsense2_camera) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.507810] (-) TimerEvent: {}
+[1.609050] (-) TimerEvent: {}
+[1.632593] (realsense2_camera) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.675983] (realsense2_camera) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.709337] (-) TimerEvent: {}
+[1.743966] (realsense2_camera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.755597] (realsense2_camera) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.809642] (-) TimerEvent: {}
+[1.911011] (-) TimerEvent: {}
+[1.953879] (realsense2_camera) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.955060] (realsense2_camera) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.011340] (-) TimerEvent: {}
+[2.112724] (-) TimerEvent: {}
+[2.170218] (realsense2_camera) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.177018] (realsense2_camera) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.213063] (-) TimerEvent: {}
+[2.262633] (realsense2_camera) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[2.309115] (realsense2_camera) StdoutLine: {'line': b'-- Found realsense2_camera_msgs: 4.58.2 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)\n'}
+[2.313213] (-) TimerEvent: {}
+[2.389940] (realsense2_camera) StdoutLine: {'line': b'-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[2.403575] (realsense2_camera) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.413399] (-) TimerEvent: {}
+[2.429699] (realsense2_camera) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.513804] (-) TimerEvent: {}
+[2.521119] (realsense2_camera) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.0.7 (/opt/ros/humble/share/diagnostic_updater/cmake)\n'}
+[2.556630] (realsense2_camera) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") found components: core \n'}
+[2.558387] (realsense2_camera) StdoutLine: {'line': b'-- Found image_transport: 3.1.13 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[2.584342] (realsense2_camera) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[2.588052] (realsense2_camera) StdoutLine: {'line': b'-- Build for ROS2 Humble\n'}
+[2.594722] (realsense2_camera) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[2.599544] (realsense2_camera) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.610543] (realsense2_camera) StdoutLine: {'line': b'-- Found ament_cmake_pytest: 1.3.14 (/opt/ros/humble/share/ament_cmake_pytest/cmake)\n'}
+[2.613904] (-) TimerEvent: {}
+[2.714956] (-) TimerEvent: {}
+[2.815938] (-) TimerEvent: {}
+[2.917018] (-) TimerEvent: {}
+[3.018090] (-) TimerEvent: {}
+[3.119206] (-) TimerEvent: {}
+[3.220351] (-) TimerEvent: {}
+[3.321720] (-) TimerEvent: {}
+[3.422959] (-) TimerEvent: {}
+[3.524052] (-) TimerEvent: {}
+[3.625125] (-) TimerEvent: {}
+[3.726344] (-) TimerEvent: {}
+[3.827673] (-) TimerEvent: {}
+[3.928522] (-) TimerEvent: {}
+[4.029393] (-) TimerEvent: {}
+[4.130450] (-) TimerEvent: {}
+[4.231669] (-) TimerEvent: {}
+[4.332980] (-) TimerEvent: {}
+[4.434263] (-) TimerEvent: {}
+[4.535323] (-) TimerEvent: {}
+[4.636312] (-) TimerEvent: {}
+[4.737522] (-) TimerEvent: {}
+[4.839036] (-) TimerEvent: {}
+[4.940549] (-) TimerEvent: {}
+[5.041925] (-) TimerEvent: {}
+[5.142941] (-) TimerEvent: {}
+[5.244037] (-) TimerEvent: {}
+[5.345229] (-) TimerEvent: {}
+[5.446718] (-) TimerEvent: {}
+[5.547851] (-) TimerEvent: {}
+[5.649011] (-) TimerEvent: {}
+[5.750066] (-) TimerEvent: {}
+[5.851257] (-) TimerEvent: {}
+[5.952800] (-) TimerEvent: {}
+[6.054088] (-) TimerEvent: {}
+[6.155203] (-) TimerEvent: {}
+[6.256296] (-) TimerEvent: {}
+[6.357362] (-) TimerEvent: {}
+[6.458622] (-) TimerEvent: {}
+[6.560005] (-) TimerEvent: {}
+[6.661122] (-) TimerEvent: {}
+[6.762278] (-) TimerEvent: {}
+[6.863380] (-) TimerEvent: {}
+[6.964562] (-) TimerEvent: {}
+[7.065835] (-) TimerEvent: {}
+[7.166995] (-) TimerEvent: {}
+[7.268040] (-) TimerEvent: {}
+[7.369151] (-) TimerEvent: {}
+[7.470314] (-) TimerEvent: {}
+[7.571755] (-) TimerEvent: {}
+[7.672981] (-) TimerEvent: {}
+[7.774067] (-) TimerEvent: {}
+[7.875105] (-) TimerEvent: {}
+[7.976346] (-) TimerEvent: {}
+[8.077857] (-) TimerEvent: {}
+[8.179250] (-) TimerEvent: {}
+[8.280586] (-) TimerEvent: {}
+[8.295642] (realsense2_camera) StdoutLine: {'line': b'-- rs_device_info:\n'}
+[8.297427] (realsense2_camera) StdoutLine: {'line': b'--  15/07 20:45:50,624 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.298765] (realsense2_camera) StdoutLine: {'line': b' 15/07 20:45:50,624 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.299960] (realsense2_camera) StdoutLine: {'line': b' 15/07 20:45:50,624 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.301064] (realsense2_camera) StdoutLine: {'line': b' 15/07 20:45:50,624 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.301654] (realsense2_camera) StdoutLine: {'line': b' 15/07 20:45:50,624 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.302023] (realsense2_camera) StdoutLine: {'line': b' 15/07 20:45:50,624 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.302375] (realsense2_camera) StdoutLine: {'line': b' 15/07 20:45:50,624 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.302735] (realsense2_camera) StdoutLine: {'line': b' 15/07 20:45:50,624 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.303131] (realsense2_camera) StdoutLine: {'line': b' 15/07 20:45:50,624 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.303485] (realsense2_camera) StdoutLine: {'line': b' 15/07 20:45:50,624 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.303834] (realsense2_camera) StdoutLine: {'line': b' 15/07 20:45:50,624 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.304180] (realsense2_camera) StdoutLine: {'line': b' 15/07 20:45:50,634 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.304524] (realsense2_camera) StdoutLine: {'line': b' 15/07 20:45:50,634 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.304864] (realsense2_camera) StdoutLine: {'line': b' 15/07 20:45:50,634 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.305238] (realsense2_camera) StdoutLine: {'line': b' 15/07 20:45:50,634 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.305590] (realsense2_camera) StdoutLine: {'line': b' 15/07 20:45:50,634 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.305953] (realsense2_camera) StdoutLine: {'line': b' 15/07 20:45:50,634 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.306301] (realsense2_camera) StdoutLine: {'line': b' 15/07 20:45:50,634 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.306647] (realsense2_camera) StdoutLine: {'line': b' 15/07 20:45:50,634 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.306990] (realsense2_camera) StdoutLine: {'line': b' 15/07 20:45:50,634 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.307331] (realsense2_camera) StdoutLine: {'line': b' 15/07 20:45:50,634 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.307674] (realsense2_camera) StdoutLine: {'line': b' 15/07 20:45:50,634 ERROR [548280022112] (librealsense-exception.h:53) Mipi device capability could not be grabbed Last Error: No such device\n'}
+[8.308016] (realsense2_camera) StdoutLine: {'line': b'No device detected. Is it plugged in?\n'}
+[8.308377] (realsense2_camera) StdoutLine: {'line': b'\n'}
+[8.380754] (-) TimerEvent: {}
+[8.458620] (realsense2_camera) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.481119] (-) TimerEvent: {}
+[8.497893] (realsense2_camera) StdoutLine: {'line': b'-- Generating done\n'}
+[8.510814] (realsense2_camera) StdoutLine: {'line': b'-- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/realsense2_camera\n'}
+[8.547433] (realsense2_camera) CommandEnded: {'returncode': 0}
+[8.552385] (realsense2_camera) JobProgress: {'identifier': 'realsense2_camera', 'progress': 'build'}
+[8.552560] (realsense2_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/realsense2_camera', '--', '-j8', '-l8'], 'cwd': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/realsense2_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '192.168.110.167 59591 22'), ('all_proxy', 'socks5://127.0.0.1:7890'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('NO_PROXY', '127.0.0.1,localhost,::1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e826881e-f5ce-4662-b2c2-fa19e5b3c48e.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('ALL_PROXY', 'socks5://127.0.0.1:7890'), ('http_proxy', 'http://127.0.0.1:7890'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', '12'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/opt/ros/humble/bin:/home/orangepi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5ac879506a.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/realsense2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('COPILOT_DEBUG_NONCE', 'cb78b79af0a973a653ba9a5cd3100d22'), ('realsense2_DIR', '/usr/local/lib/cmake/realsense2'), ('SSH_CONNECTION', '192.168.110.167 59591 192.168.110.155 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('UMS_MOUNT', '0'), ('CLASH_FOR_LINUX_BASH_COMPLETION_LOADED', '1'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/usr/local:/opt/ros/humble'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[8.581390] (-) TimerEvent: {}
+[8.682630] (-) TimerEvent: {}
+[8.726180] (realsense2_camera) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o\x1b[0m\n'}
+[8.727035] (realsense2_camera) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.o\x1b[0m\n'}
+[8.727203] (realsense2_camera) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o\x1b[0m\n'}
+[8.727291] (realsense2_camera) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_node.dir/rclcpp_components/node_main_realsense2_camera_node.cpp.o\x1b[0m\n'}
+[8.727375] (realsense2_camera) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[8.728098] (realsense2_camera) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[8.731638] (realsense2_camera) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/parameters.cpp.o\x1b[0m\n'}
+[8.765144] (realsense2_camera) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_sensor.cpp.o\x1b[0m\n'}
+[8.782695] (-) TimerEvent: {}
+[8.883225] (-) TimerEvent: {}
+[8.983988] (-) TimerEvent: {}
+[9.084469] (-) TimerEvent: {}
+[9.185431] (-) TimerEvent: {}
+[9.286061] (-) TimerEvent: {}
+[9.387339] (-) TimerEvent: {}
+[9.488548] (-) TimerEvent: {}
+[9.589797] (-) TimerEvent: {}
+[9.690921] (-) TimerEvent: {}
+[9.792000] (-) TimerEvent: {}
+[9.893000] (-) TimerEvent: {}
+[9.915676] (realsense2_camera) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[9.976634] (realsense2_camera) StdoutLine: {'line': b'[ 34%] Built target gtest_main\n'}
+[9.993212] (-) TimerEvent: {}
+[10.006337] (realsense2_camera) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.o\x1b[0m\n'}
+[10.093407] (-) TimerEvent: {}
+[10.195244] (-) TimerEvent: {}
+[10.296505] (-) TimerEvent: {}
+[10.397437] (-) TimerEvent: {}
+[10.498438] (-) TimerEvent: {}
+[10.599541] (-) TimerEvent: {}
+[10.700789] (-) TimerEvent: {}
+[10.801699] (-) TimerEvent: {}
+[10.902634] (-) TimerEvent: {}
+[11.003589] (-) TimerEvent: {}
+[11.104546] (-) TimerEvent: {}
+[11.205477] (-) TimerEvent: {}
+[11.306374] (-) TimerEvent: {}
+[11.407326] (-) TimerEvent: {}
+[11.508244] (-) TimerEvent: {}
+[11.609138] (-) TimerEvent: {}
+[11.710059] (-) TimerEvent: {}
+[11.810954] (-) TimerEvent: {}
+[11.911879] (-) TimerEvent: {}
+[12.012788] (-) TimerEvent: {}
+[12.113719] (-) TimerEvent: {}
+[12.214681] (-) TimerEvent: {}
+[12.315639] (-) TimerEvent: {}
+[12.416516] (-) TimerEvent: {}
+[12.517450] (-) TimerEvent: {}
+[12.618402] (-) TimerEvent: {}
+[12.719331] (-) TimerEvent: {}
+[12.820302] (-) TimerEvent: {}
+[12.921245] (-) TimerEvent: {}
+[13.022266] (-) TimerEvent: {}
+[13.123205] (-) TimerEvent: {}
+[13.224227] (-) TimerEvent: {}
+[13.325140] (-) TimerEvent: {}
+[13.426028] (-) TimerEvent: {}
+[13.526926] (-) TimerEvent: {}
+[13.627867] (-) TimerEvent: {}
+[13.728820] (-) TimerEvent: {}
+[13.829757] (-) TimerEvent: {}
+[13.930664] (-) TimerEvent: {}
+[14.031639] (-) TimerEvent: {}
+[14.132536] (-) TimerEvent: {}
+[14.233413] (-) TimerEvent: {}
+[14.334296] (-) TimerEvent: {}
+[14.435208] (-) TimerEvent: {}
+[14.536091] (-) TimerEvent: {}
+[14.637084] (-) TimerEvent: {}
+[14.738059] (-) TimerEvent: {}
+[14.839029] (-) TimerEvent: {}
+[14.939975] (-) TimerEvent: {}
+[15.040906] (-) TimerEvent: {}
+[15.079441] (realsense2_camera) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX executable realsense2_camera_node\x1b[0m\n'}
+[15.141174] (-) TimerEvent: {}
+[15.242157] (-) TimerEvent: {}
+[15.343138] (-) TimerEvent: {}
+[15.444210] (-) TimerEvent: {}
+[15.545145] (-) TimerEvent: {}
+[15.646163] (-) TimerEvent: {}
+[15.747183] (-) TimerEvent: {}
+[15.779194] (realsense2_camera) StdoutLine: {'line': b'[ 42%] Built target realsense2_camera_node\n'}
+[15.819961] (realsense2_camera) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o\x1b[0m\n'}
+[15.847290] (-) TimerEvent: {}
+[15.947734] (-) TimerEvent: {}
+[16.048291] (-) TimerEvent: {}
+[16.109304] (realsense2_camera) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/sensor_params.cpp.o\x1b[0m\n'}
+[16.148426] (-) TimerEvent: {}
+[16.248965] (-) TimerEvent: {}
+[16.349520] (-) TimerEvent: {}
+[16.450083] (-) TimerEvent: {}
+[16.550526] (-) TimerEvent: {}
+[16.650962] (-) TimerEvent: {}
+[16.751803] (-) TimerEvent: {}
+[16.852248] (-) TimerEvent: {}
+[16.952700] (-) TimerEvent: {}
+[17.053161] (-) TimerEvent: {}
+[17.153637] (-) TimerEvent: {}
+[17.254269] (-) TimerEvent: {}
+[17.354839] (-) TimerEvent: {}
+[17.455419] (-) TimerEvent: {}
+[17.555984] (-) TimerEvent: {}
+[17.656532] (-) TimerEvent: {}
+[17.757137] (-) TimerEvent: {}
+[17.858110] (-) TimerEvent: {}
+[17.958935] (-) TimerEvent: {}
+[18.059711] (-) TimerEvent: {}
+[18.160490] (-) TimerEvent: {}
+[18.261275] (-) TimerEvent: {}
+[18.362121] (-) TimerEvent: {}
+[18.462915] (-) TimerEvent: {}
+[18.563702] (-) TimerEvent: {}
+[18.664509] (-) TimerEvent: {}
+[18.765314] (-) TimerEvent: {}
+[18.868446] (-) TimerEvent: {}
+[18.969521] (-) TimerEvent: {}
+[19.070513] (-) TimerEvent: {}
+[19.171570] (-) TimerEvent: {}
+[19.272530] (-) TimerEvent: {}
+[19.373460] (-) TimerEvent: {}
+[19.474388] (-) TimerEvent: {}
+[19.575320] (-) TimerEvent: {}
+[19.676305] (-) TimerEvent: {}
+[19.777354] (-) TimerEvent: {}
+[19.878470] (-) TimerEvent: {}
+[19.979688] (-) TimerEvent: {}
+[20.080604] (-) TimerEvent: {}
+[20.181776] (-) TimerEvent: {}
+[20.282924] (-) TimerEvent: {}
+[20.383836] (-) TimerEvent: {}
+[20.484710] (-) TimerEvent: {}
+[20.585619] (-) TimerEvent: {}
+[20.686512] (-) TimerEvent: {}
+[20.787798] (-) TimerEvent: {}
+[20.888711] (-) TimerEvent: {}
+[20.989695] (-) TimerEvent: {}
+[21.090574] (-) TimerEvent: {}
+[21.191462] (-) TimerEvent: {}
+[21.292390] (-) TimerEvent: {}
+[21.393282] (-) TimerEvent: {}
+[21.494173] (-) TimerEvent: {}
+[21.595092] (-) TimerEvent: {}
+[21.665980] (realsense2_camera) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o\x1b[0m\n'}
+[21.695182] (-) TimerEvent: {}
+[21.795845] (-) TimerEvent: {}
+[21.896519] (-) TimerEvent: {}
+[21.997205] (-) TimerEvent: {}
+[22.097872] (-) TimerEvent: {}
+[22.198554] (-) TimerEvent: {}
+[22.299246] (-) TimerEvent: {}
+[22.399899] (-) TimerEvent: {}
+[22.500613] (-) TimerEvent: {}
+[22.535462] (realsense2_camera) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[22.600796] (-) TimerEvent: {}
+[22.603613] (realsense2_camera) StdoutLine: {'line': b'[ 57%] Built target gtest\n'}
+[22.637604] (realsense2_camera) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/gtest_template.dir/test/gtest_template.cpp.o\x1b[0m\n'}
+[22.700985] (-) TimerEvent: {}
+[22.802051] (-) TimerEvent: {}
+[22.902947] (-) TimerEvent: {}
+[23.003882] (-) TimerEvent: {}
+[23.104895] (-) TimerEvent: {}
+[23.205875] (-) TimerEvent: {}
+[23.306909] (-) TimerEvent: {}
+[23.407886] (-) TimerEvent: {}
+[23.508861] (-) TimerEvent: {}
+[23.609865] (-) TimerEvent: {}
+[23.710854] (-) TimerEvent: {}
+[23.827447] (-) TimerEvent: {}
+[23.928387] (-) TimerEvent: {}
+[24.029281] (-) TimerEvent: {}
+[24.042965] (realsense2_camera) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX executable gtest_template\x1b[0m\n'}
+[24.129438] (-) TimerEvent: {}
+[24.230517] (-) TimerEvent: {}
+[24.331438] (-) TimerEvent: {}
+[24.432361] (-) TimerEvent: {}
+[24.533310] (-) TimerEvent: {}
+[24.584577] (realsense2_camera) StdoutLine: {'line': b'[ 65%] Built target gtest_template\n'}
+[24.598459] (realsense2_camera) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/pointcloud_filter.cpp.o\x1b[0m\n'}
+[24.633461] (-) TimerEvent: {}
+[24.733975] (-) TimerEvent: {}
+[24.834689] (-) TimerEvent: {}
+[24.945176] (-) TimerEvent: {}
+[25.046206] (-) TimerEvent: {}
+[25.147366] (-) TimerEvent: {}
+[25.248815] (-) TimerEvent: {}
+[25.350310] (-) TimerEvent: {}
+[25.451804] (-) TimerEvent: {}
+[25.552849] (-) TimerEvent: {}
+[25.653916] (-) TimerEvent: {}
+[25.754833] (-) TimerEvent: {}
+[25.855726] (-) TimerEvent: {}
+[25.956591] (-) TimerEvent: {}
+[26.057740] (-) TimerEvent: {}
+[26.158892] (-) TimerEvent: {}
+[26.259869] (-) TimerEvent: {}
+[26.329423] (realsense2_camera) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/align_depth_filter.cpp.o\x1b[0m\n'}
+[26.359980] (-) TimerEvent: {}
+[26.460752] (-) TimerEvent: {}
+[26.561561] (-) TimerEvent: {}
+[26.662316] (-) TimerEvent: {}
+[26.763096] (-) TimerEvent: {}
+[26.863896] (-) TimerEvent: {}
+[26.964713] (-) TimerEvent: {}
+[27.065561] (-) TimerEvent: {}
+[27.166470] (-) TimerEvent: {}
+[27.267257] (-) TimerEvent: {}
+[27.368068] (-) TimerEvent: {}
+[27.468895] (-) TimerEvent: {}
+[27.569640] (-) TimerEvent: {}
+[27.670428] (-) TimerEvent: {}
+[27.771324] (-) TimerEvent: {}
+[27.872137] (-) TimerEvent: {}
+[27.976026] (-) TimerEvent: {}
+[28.076849] (-) TimerEvent: {}
+[28.177659] (-) TimerEvent: {}
+[28.278486] (-) TimerEvent: {}
+[28.379391] (-) TimerEvent: {}
+[28.480209] (-) TimerEvent: {}
+[28.581072] (-) TimerEvent: {}
+[28.681952] (-) TimerEvent: {}
+[28.782730] (-) TimerEvent: {}
+[28.883504] (-) TimerEvent: {}
+[28.984281] (-) TimerEvent: {}
+[29.084838] (-) TimerEvent: {}
+[29.185748] (-) TimerEvent: {}
+[29.286538] (-) TimerEvent: {}
+[29.387330] (-) TimerEvent: {}
+[29.488185] (-) TimerEvent: {}
+[29.589026] (-) TimerEvent: {}
+[29.689823] (-) TimerEvent: {}
+[29.790652] (-) TimerEvent: {}
+[29.891480] (-) TimerEvent: {}
+[29.992158] (-) TimerEvent: {}
+[30.095285] (-) TimerEvent: {}
+[30.195904] (-) TimerEvent: {}
+[30.296575] (-) TimerEvent: {}
+[30.397272] (-) TimerEvent: {}
+[30.498053] (-) TimerEvent: {}
+[30.598608] (-) TimerEvent: {}
+[30.699165] (-) TimerEvent: {}
+[30.799732] (-) TimerEvent: {}
+[30.900289] (-) TimerEvent: {}
+[31.000864] (-) TimerEvent: {}
+[31.101418] (-) TimerEvent: {}
+[31.201996] (-) TimerEvent: {}
+[31.302611] (-) TimerEvent: {}
+[31.403204] (-) TimerEvent: {}
+[31.503789] (-) TimerEvent: {}
+[31.604400] (-) TimerEvent: {}
+[31.704981] (-) TimerEvent: {}
+[31.805543] (-) TimerEvent: {}
+[31.906151] (-) TimerEvent: {}
+[32.006734] (-) TimerEvent: {}
+[32.107300] (-) TimerEvent: {}
+[32.208067] (-) TimerEvent: {}
+[32.308880] (-) TimerEvent: {}
+[32.409663] (-) TimerEvent: {}
+[32.510526] (-) TimerEvent: {}
+[32.611337] (-) TimerEvent: {}
+[32.712222] (-) TimerEvent: {}
+[32.813112] (-) TimerEvent: {}
+[32.913978] (-) TimerEvent: {}
+[33.014894] (-) TimerEvent: {}
+[33.115734] (-) TimerEvent: {}
+[33.221799] (-) TimerEvent: {}
+[33.323561] (-) TimerEvent: {}
+[33.424498] (-) TimerEvent: {}
+[33.525430] (-) TimerEvent: {}
+[33.626327] (-) TimerEvent: {}
+[33.635820] (realsense2_camera) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/profile_manager.cpp.o\x1b[0m\n'}
+[33.726432] (-) TimerEvent: {}
+[33.827304] (-) TimerEvent: {}
+[33.928138] (-) TimerEvent: {}
+[34.029064] (-) TimerEvent: {}
+[34.129860] (-) TimerEvent: {}
+[34.230745] (-) TimerEvent: {}
+[34.331559] (-) TimerEvent: {}
+[34.432427] (-) TimerEvent: {}
+[34.533262] (-) TimerEvent: {}
+[34.634041] (-) TimerEvent: {}
+[34.734849] (-) TimerEvent: {}
+[34.835630] (-) TimerEvent: {}
+[34.936415] (-) TimerEvent: {}
+[35.037220] (-) TimerEvent: {}
+[35.138041] (-) TimerEvent: {}
+[35.238884] (-) TimerEvent: {}
+[35.339690] (-) TimerEvent: {}
+[35.445011] (-) TimerEvent: {}
+[35.545585] (-) TimerEvent: {}
+[35.646379] (-) TimerEvent: {}
+[35.747151] (-) TimerEvent: {}
+[35.847972] (-) TimerEvent: {}
+[35.948779] (-) TimerEvent: {}
+[36.049585] (-) TimerEvent: {}
+[36.150519] (-) TimerEvent: {}
+[36.251284] (-) TimerEvent: {}
+[36.352138] (-) TimerEvent: {}
+[36.452971] (-) TimerEvent: {}
+[36.553774] (-) TimerEvent: {}
+[36.654585] (-) TimerEvent: {}
+[36.755425] (-) TimerEvent: {}
+[36.856198] (-) TimerEvent: {}
+[36.957023] (-) TimerEvent: {}
+[37.057789] (-) TimerEvent: {}
+[37.158516] (-) TimerEvent: {}
+[37.166752] (realsense2_camera) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/image_publisher.cpp.o\x1b[0m\n'}
+[37.258647] (-) TimerEvent: {}
+[37.359432] (-) TimerEvent: {}
+[37.460187] (-) TimerEvent: {}
+[37.560986] (-) TimerEvent: {}
+[37.661729] (-) TimerEvent: {}
+[37.762467] (-) TimerEvent: {}
+[37.863281] (-) TimerEvent: {}
+[37.963971] (-) TimerEvent: {}
+[37.991284] (realsense2_camera) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/tfs.cpp.o\x1b[0m\n'}
+[38.064118] (-) TimerEvent: {}
+[38.164929] (-) TimerEvent: {}
+[38.265574] (-) TimerEvent: {}
+[38.366298] (-) TimerEvent: {}
+[38.466993] (-) TimerEvent: {}
+[38.567706] (-) TimerEvent: {}
+[38.668425] (-) TimerEvent: {}
+[38.769124] (-) TimerEvent: {}
+[38.869858] (-) TimerEvent: {}
+[38.970540] (-) TimerEvent: {}
+[39.071238] (-) TimerEvent: {}
+[39.172046] (-) TimerEvent: {}
+[39.272713] (-) TimerEvent: {}
+[39.373371] (-) TimerEvent: {}
+[39.474085] (-) TimerEvent: {}
+[39.574761] (-) TimerEvent: {}
+[39.675531] (-) TimerEvent: {}
+[39.776315] (-) TimerEvent: {}
+[39.877108] (-) TimerEvent: {}
+[39.977952] (-) TimerEvent: {}
+[40.078738] (-) TimerEvent: {}
+[40.179530] (-) TimerEvent: {}
+[40.280331] (-) TimerEvent: {}
+[40.381125] (-) TimerEvent: {}
+[40.481932] (-) TimerEvent: {}
+[40.582781] (-) TimerEvent: {}
+[40.683580] (-) TimerEvent: {}
+[40.784368] (-) TimerEvent: {}
+[40.885173] (-) TimerEvent: {}
+[40.986089] (-) TimerEvent: {}
+[41.086909] (-) TimerEvent: {}
+[41.187738] (-) TimerEvent: {}
+[41.288190] (-) TimerEvent: {}
+[41.388672] (-) TimerEvent: {}
+[41.489105] (-) TimerEvent: {}
+[41.589707] (-) TimerEvent: {}
+[41.690157] (-) TimerEvent: {}
+[41.790601] (-) TimerEvent: {}
+[41.891071] (-) TimerEvent: {}
+[42.002955] (-) TimerEvent: {}
+[42.103412] (-) TimerEvent: {}
+[42.203858] (-) TimerEvent: {}
+[42.304317] (-) TimerEvent: {}
+[42.404777] (-) TimerEvent: {}
+[42.505257] (-) TimerEvent: {}
+[42.605741] (-) TimerEvent: {}
+[42.706224] (-) TimerEvent: {}
+[42.806684] (-) TimerEvent: {}
+[42.907141] (-) TimerEvent: {}
+[43.007630] (-) TimerEvent: {}
+[43.108096] (-) TimerEvent: {}
+[43.208573] (-) TimerEvent: {}
+[43.309036] (-) TimerEvent: {}
+[43.409480] (-) TimerEvent: {}
+[43.509942] (-) TimerEvent: {}
+[43.610409] (-) TimerEvent: {}
+[43.710877] (-) TimerEvent: {}
+[43.811342] (-) TimerEvent: {}
+[43.911806] (-) TimerEvent: {}
+[44.012281] (-) TimerEvent: {}
+[44.112720] (-) TimerEvent: {}
+[44.213794] (-) TimerEvent: {}
+[44.314237] (-) TimerEvent: {}
+[44.414680] (-) TimerEvent: {}
+[44.515144] (-) TimerEvent: {}
+[44.615597] (-) TimerEvent: {}
+[44.716056] (-) TimerEvent: {}
+[44.816533] (-) TimerEvent: {}
+[44.916989] (-) TimerEvent: {}
+[45.017421] (-) TimerEvent: {}
+[45.117877] (-) TimerEvent: {}
+[45.218357] (-) TimerEvent: {}
+[45.318800] (-) TimerEvent: {}
+[45.419255] (-) TimerEvent: {}
+[45.519693] (-) TimerEvent: {}
+[45.615957] (realsense2_camera) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/actions.cpp.o\x1b[0m\n'}
+[45.619827] (-) TimerEvent: {}
+[45.720272] (-) TimerEvent: {}
+[45.820713] (-) TimerEvent: {}
+[45.921173] (-) TimerEvent: {}
+[46.021640] (-) TimerEvent: {}
+[46.122083] (-) TimerEvent: {}
+[46.222536] (-) TimerEvent: {}
+[46.309538] (realsense2_camera) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/safety.cpp.o\x1b[0m\n'}
+[46.322671] (-) TimerEvent: {}
+[46.423099] (-) TimerEvent: {}
+[46.479082] (realsense2_camera) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_param_backend.cpp.o\x1b[0m\n'}
+[46.523228] (-) TimerEvent: {}
+[46.623820] (-) TimerEvent: {}
+[46.725424] (-) TimerEvent: {}
+[46.827263] (-) TimerEvent: {}
+[46.928882] (-) TimerEvent: {}
+[47.031373] (-) TimerEvent: {}
+[47.133911] (-) TimerEvent: {}
+[47.236203] (-) TimerEvent: {}
+[47.337718] (-) TimerEvent: {}
+[47.439354] (-) TimerEvent: {}
+[47.548514] (-) TimerEvent: {}
+[47.650044] (-) TimerEvent: {}
+[47.751186] (-) TimerEvent: {}
+[47.852273] (-) TimerEvent: {}
+[47.953468] (-) TimerEvent: {}
+[48.054686] (-) TimerEvent: {}
+[48.155848] (-) TimerEvent: {}
+[48.257579] (-) TimerEvent: {}
+[48.358804] (-) TimerEvent: {}
+[48.460099] (-) TimerEvent: {}
+[48.561312] (-) TimerEvent: {}
+[48.662456] (-) TimerEvent: {}
+[48.763571] (-) TimerEvent: {}
+[48.865074] (-) TimerEvent: {}
+[48.966273] (-) TimerEvent: {}
+[49.067320] (-) TimerEvent: {}
+[49.170498] (-) TimerEvent: {}
+[49.271805] (-) TimerEvent: {}
+[49.373562] (-) TimerEvent: {}
+[49.475078] (-) TimerEvent: {}
+[49.576104] (-) TimerEvent: {}
+[49.677218] (-) TimerEvent: {}
+[49.778439] (-) TimerEvent: {}
+[49.879508] (-) TimerEvent: {}
+[49.980570] (-) TimerEvent: {}
+[50.082214] (-) TimerEvent: {}
+[50.183557] (-) TimerEvent: {}
+[50.285739] (-) TimerEvent: {}
+[50.386867] (-) TimerEvent: {}
+[50.488155] (-) TimerEvent: {}
+[50.589360] (-) TimerEvent: {}
+[50.691097] (-) TimerEvent: {}
+[50.792572] (-) TimerEvent: {}
+[50.893676] (-) TimerEvent: {}
+[50.994933] (-) TimerEvent: {}
+[51.096003] (-) TimerEvent: {}
+[51.197232] (-) TimerEvent: {}
+[51.298613] (-) TimerEvent: {}
+[51.399682] (-) TimerEvent: {}
+[51.500948] (-) TimerEvent: {}
+[51.602165] (-) TimerEvent: {}
+[51.703266] (-) TimerEvent: {}
+[51.804352] (-) TimerEvent: {}
+[51.905495] (-) TimerEvent: {}
+[52.006666] (-) TimerEvent: {}
+[52.107709] (-) TimerEvent: {}
+[52.208698] (-) TimerEvent: {}
+[52.309684] (-) TimerEvent: {}
+[52.410732] (-) TimerEvent: {}
+[52.511801] (-) TimerEvent: {}
+[52.612595] (-) TimerEvent: {}
+[52.713416] (-) TimerEvent: {}
+[52.814441] (-) TimerEvent: {}
+[52.915491] (-) TimerEvent: {}
+[53.016585] (-) TimerEvent: {}
+[53.117682] (-) TimerEvent: {}
+[53.218784] (-) TimerEvent: {}
+[53.319821] (-) TimerEvent: {}
+[53.420944] (-) TimerEvent: {}
+[53.522038] (-) TimerEvent: {}
+[53.623043] (-) TimerEvent: {}
+[53.724157] (-) TimerEvent: {}
+[53.825290] (-) TimerEvent: {}
+[53.926425] (-) TimerEvent: {}
+[54.027545] (-) TimerEvent: {}
+[54.128587] (-) TimerEvent: {}
+[54.229600] (-) TimerEvent: {}
+[54.330733] (-) TimerEvent: {}
+[54.431947] (-) TimerEvent: {}
+[54.533012] (-) TimerEvent: {}
+[54.634090] (-) TimerEvent: {}
+[54.735283] (-) TimerEvent: {}
+[54.836465] (-) TimerEvent: {}
+[54.937607] (-) TimerEvent: {}
+[55.038697] (-) TimerEvent: {}
+[55.139754] (-) TimerEvent: {}
+[55.240885] (-) TimerEvent: {}
+[55.342028] (-) TimerEvent: {}
+[55.443148] (-) TimerEvent: {}
+[55.544279] (-) TimerEvent: {}
+[55.645064] (-) TimerEvent: {}
+[55.745894] (-) TimerEvent: {}
+[55.846875] (-) TimerEvent: {}
+[55.947992] (-) TimerEvent: {}
+[56.049111] (-) TimerEvent: {}
+[56.150275] (-) TimerEvent: {}
+[56.251344] (-) TimerEvent: {}
+[56.352363] (-) TimerEvent: {}
+[56.453437] (-) TimerEvent: {}
+[56.554547] (-) TimerEvent: {}
+[56.655573] (-) TimerEvent: {}
+[56.756658] (-) TimerEvent: {}
+[56.857638] (-) TimerEvent: {}
+[56.958697] (-) TimerEvent: {}
+[57.059740] (-) TimerEvent: {}
+[57.160824] (-) TimerEvent: {}
+[57.261894] (-) TimerEvent: {}
+[57.362862] (-) TimerEvent: {}
+[57.463831] (-) TimerEvent: {}
+[57.564842] (-) TimerEvent: {}
+[57.665831] (-) TimerEvent: {}
+[57.767034] (-) TimerEvent: {}
+[57.868320] (-) TimerEvent: {}
+[57.969400] (-) TimerEvent: {}
+[58.070512] (-) TimerEvent: {}
+[58.171478] (-) TimerEvent: {}
+[58.272472] (-) TimerEvent: {}
+[58.373438] (-) TimerEvent: {}
+[58.474222] (-) TimerEvent: {}
+[58.575049] (-) TimerEvent: {}
+[58.675865] (-) TimerEvent: {}
+[58.776800] (-) TimerEvent: {}
+[58.877844] (-) TimerEvent: {}
+[58.979163] (-) TimerEvent: {}
+[59.080617] (-) TimerEvent: {}
+[59.181780] (-) TimerEvent: {}
+[59.282514] (-) TimerEvent: {}
+[59.383547] (-) TimerEvent: {}
+[59.484891] (-) TimerEvent: {}
+[59.586171] (-) TimerEvent: {}
+[59.687502] (-) TimerEvent: {}
+[59.788756] (-) TimerEvent: {}
+[59.889665] (-) TimerEvent: {}
+[59.990963] (-) TimerEvent: {}
+[60.092273] (-) TimerEvent: {}
+[60.193542] (-) TimerEvent: {}
+[60.294712] (-) TimerEvent: {}
+[60.395556] (-) TimerEvent: {}
+[60.496497] (-) TimerEvent: {}
+[60.597431] (-) TimerEvent: {}
+[60.698396] (-) TimerEvent: {}
+[60.799588] (-) TimerEvent: {}
+[60.901438] (-) TimerEvent: {}
+[61.002793] (-) TimerEvent: {}
+[61.104164] (-) TimerEvent: {}
+[61.205575] (-) TimerEvent: {}
+[61.306931] (-) TimerEvent: {}
+[61.408231] (-) TimerEvent: {}
+[61.509547] (-) TimerEvent: {}
+[61.610974] (-) TimerEvent: {}
+[61.712442] (-) TimerEvent: {}
+[61.813850] (-) TimerEvent: {}
+[61.915236] (-) TimerEvent: {}
+[62.016759] (-) TimerEvent: {}
+[62.118094] (-) TimerEvent: {}
+[62.219487] (-) TimerEvent: {}
+[62.320913] (-) TimerEvent: {}
+[62.422575] (-) TimerEvent: {}
+[62.523805] (-) TimerEvent: {}
+[62.624655] (-) TimerEvent: {}
+[62.725708] (-) TimerEvent: {}
+[62.826703] (-) TimerEvent: {}
+[62.927773] (-) TimerEvent: {}
+[63.028853] (-) TimerEvent: {}
+[63.129850] (-) TimerEvent: {}
+[63.230993] (-) TimerEvent: {}
+[63.332505] (-) TimerEvent: {}
+[63.433905] (-) TimerEvent: {}
+[63.535314] (-) TimerEvent: {}
+[63.636812] (-) TimerEvent: {}
+[63.738302] (-) TimerEvent: {}
+[63.839674] (-) TimerEvent: {}
+[63.941097] (-) TimerEvent: {}
+[64.042577] (-) TimerEvent: {}
+[64.143894] (-) TimerEvent: {}
+[64.245273] (-) TimerEvent: {}
+[64.346657] (-) TimerEvent: {}
+[64.448341] (-) TimerEvent: {}
+[64.549646] (-) TimerEvent: {}
+[64.650997] (-) TimerEvent: {}
+[64.752528] (-) TimerEvent: {}
+[64.853956] (-) TimerEvent: {}
+[64.955297] (-) TimerEvent: {}
+[65.056680] (-) TimerEvent: {}
+[65.158118] (-) TimerEvent: {}
+[65.259531] (-) TimerEvent: {}
+[65.360865] (-) TimerEvent: {}
+[65.462198] (-) TimerEvent: {}
+[65.563546] (-) TimerEvent: {}
+[65.664881] (-) TimerEvent: {}
+[65.766170] (-) TimerEvent: {}
+[65.867405] (-) TimerEvent: {}
+[65.968647] (-) TimerEvent: {}
+[66.069929] (-) TimerEvent: {}
+[66.171225] (-) TimerEvent: {}
+[66.272467] (-) TimerEvent: {}
+[66.373746] (-) TimerEvent: {}
+[66.475144] (-) TimerEvent: {}
+[66.576603] (-) TimerEvent: {}
+[66.677867] (-) TimerEvent: {}
+[66.779303] (-) TimerEvent: {}
+[66.880599] (-) TimerEvent: {}
+[66.981884] (-) TimerEvent: {}
+[67.083211] (-) TimerEvent: {}
+[67.184580] (-) TimerEvent: {}
+[67.285811] (-) TimerEvent: {}
+[67.387047] (-) TimerEvent: {}
+[67.488292] (-) TimerEvent: {}
+[67.589564] (-) TimerEvent: {}
+[67.690794] (-) TimerEvent: {}
+[67.792080] (-) TimerEvent: {}
+[67.892877] (-) TimerEvent: {}
+[67.981309] (realsense2_camera) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera.so\x1b[0m\n'}
+[67.993023] (-) TimerEvent: {}
+[68.094138] (-) TimerEvent: {}
+[68.195743] (-) TimerEvent: {}
+[68.296990] (-) TimerEvent: {}
+[68.397836] (-) TimerEvent: {}
+[68.498662] (-) TimerEvent: {}
+[68.599550] (-) TimerEvent: {}
+[68.700511] (-) TimerEvent: {}
+[68.801292] (-) TimerEvent: {}
+[68.902074] (-) TimerEvent: {}
+[69.002887] (-) TimerEvent: {}
+[69.103798] (-) TimerEvent: {}
+[69.205218] (-) TimerEvent: {}
+[69.306840] (-) TimerEvent: {}
+[69.408265] (-) TimerEvent: {}
+[69.474856] (realsense2_camera) StdoutLine: {'line': b'[100%] Built target realsense2_camera\n'}
+[69.508542] (-) TimerEvent: {}
+[69.521660] (realsense2_camera) CommandEnded: {'returncode': 0}
+[69.525239] (realsense2_camera) JobProgress: {'identifier': 'realsense2_camera', 'progress': 'install'}
+[69.560356] (realsense2_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/realsense2_camera'], 'cwd': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/realsense2_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '192.168.110.167 59591 22'), ('all_proxy', 'socks5://127.0.0.1:7890'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('NO_PROXY', '127.0.0.1,localhost,::1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e826881e-f5ce-4662-b2c2-fa19e5b3c48e.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7890'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('ALL_PROXY', 'socks5://127.0.0.1:7890'), ('http_proxy', 'http://127.0.0.1:7890'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', '12'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/opt/ros/humble/bin:/home/orangepi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5ac879506a.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/realsense2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('COPILOT_DEBUG_NONCE', 'cb78b79af0a973a653ba9a5cd3100d22'), ('realsense2_DIR', '/usr/local/lib/cmake/realsense2'), ('SSH_CONNECTION', '192.168.110.167 59591 192.168.110.155 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('UMS_MOUNT', '0'), ('CLASH_FOR_LINUX_BASH_COMPLETION_LOADED', '1'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/usr/local:/opt/ros/humble'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[69.592073] (realsense2_camera) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[69.594339] (realsense2_camera) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[69.595876] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/config/global_settings.yaml\n'}
+[69.608735] (-) TimerEvent: {}
+[69.620332] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node\n'}
+[69.637845] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/lib/librealsense2_camera.so\n'}
+[69.656459] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/include/align_depth_filter.h\n'}
+[69.677308] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/include/base_realsense_node.h\n'}
+[69.709084] (-) TimerEvent: {}
+[69.712146] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/include/constants.h\n'}
+[69.748976] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/include/context_singleton_wrapper.h\n'}
+[69.781908] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/include/dynamic_params.h\n'}
+[69.809375] (-) TimerEvent: {}
+[69.817055] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/include/gl_window.h\n'}
+[69.837370] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/include/image_publisher.h\n'}
+[69.858247] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/include/named_filter.h\n'}
+[69.894514] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/include/pointcloud_filter.h\n'}
+[69.909494] (-) TimerEvent: {}
+[69.930546] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/include/profile_manager.h\n'}
+[69.958307] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/include/realsense_node_factory.h\n'}
+[69.991368] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/include/ros_node_base.h\n'}
+[70.009918] (-) TimerEvent: {}
+[70.023811] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/include/ros_param_backend.h\n'}
+[70.050005] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/include/ros_sensor.h\n'}
+[70.077229] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/include/ros_utils.h\n'}
+[70.109284] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/include/sensor_params.h\n'}
+[70.110195] (-) TimerEvent: {}
+[70.133046] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/launch/default.rviz\n'}
+[70.149227] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/launch/rs_intra_process_demo_launch.py\n'}
+[70.185190] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py\n'}
+[70.210593] (-) TimerEvent: {}
+[70.220923] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py\n'}
+[70.240746] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch_sync.py\n'}
+[70.272068] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/examples/align_depth/README.md\n'}
+[70.302529] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/examples/align_depth/rs_align_depth_launch.py\n'}
+[70.310736] (-) TimerEvent: {}
+[70.336074] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/examples/d500_tables/application_config_example.json\n'}
+[70.372114] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/examples/d500_tables/calib_config_example.json\n'}
+[70.405797] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/examples/d500_tables/safety_interface_config_example.json\n'}
+[70.410920] (-) TimerEvent: {}
+[70.435020] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/examples/d500_tables/safety_preset_example.json\n'}
+[70.467022] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/README.md\n'}
+[70.485309] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/rs_dual_camera_launch.py\n'}
+[70.511347] (-) TimerEvent: {}
+[70.513533] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/rviz/dual_camera_pointcloud.rviz\n'}
+[70.531526] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/examples/launch_from_rosbag/README.md\n'}
+[70.548311] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/examples/launch_from_rosbag/rs_launch_from_rosbag.py\n'}
+[70.567763] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/README.md\n'}
+[70.585014] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/config/config.yaml\n'}
+[70.605311] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/rs_launch_get_params_from_yaml.py\n'}
+[70.611557] (-) TimerEvent: {}
+[70.639161] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/README.md\n'}
+[70.674380] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_d405_pointcloud_launch.py\n'}
+[70.693996] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_d455_pointcloud_launch.py\n'}
+[70.711667] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_pointcloud_infra_launch.py\n'}
+[70.712630] (-) TimerEvent: {}
+[70.745820] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_pointcloud_launch.py\n'}
+[70.778790] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rviz/pointcloud.rviz\n'}
+[70.812968] (-) TimerEvent: {}
+[70.818674] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rviz/urdf_pointcloud.rviz\n'}
+[70.842616] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh\n'}
+[70.865847] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv\n'}
+[70.883664] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera\n'}
+[70.913297] (-) TimerEvent: {}
+[70.916361] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera\n'}
+[70.942970] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh\n'}
+[70.960688] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv\n'}
+[70.993582] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/environment/path.sh\n'}
+[71.013598] (-) TimerEvent: {}
+[71.026428] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/environment/path.dsv\n'}
+[71.049670] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/local_setup.bash\n'}
+[71.075981] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/local_setup.sh\n'}
+[71.092753] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/local_setup.zsh\n'}
+[71.113950] (-) TimerEvent: {}
+[71.123500] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/local_setup.dsv\n'}
+[71.141100] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/package.dsv\n'}
+[71.173937] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera\n'}
+[71.210907] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera\n'}
+[71.214198] (-) TimerEvent: {}
+[71.254208] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[71.288504] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[71.314559] (-) TimerEvent: {}
+[71.324623] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[71.342862] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake\n'}
+[71.359669] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake\n'}
+[71.395834] (realsense2_camera) StdoutLine: {'line': b'-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/share/realsense2_camera/package.xml\n'}
+[71.414944] (-) TimerEvent: {}
+[71.442490] (realsense2_camera) CommandEnded: {'returncode': 0}
+[71.479891] (realsense2_camera) JobEnded: {'identifier': 'realsense2_camera', 'rc': 0}
+[71.481805] (-) EventReactorShutdown: {}

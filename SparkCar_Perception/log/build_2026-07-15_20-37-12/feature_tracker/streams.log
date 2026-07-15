@@ -1,0 +1,45 @@
+[0.035s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker
+[0.113s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.326s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.354s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.407s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.410s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.418s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.444s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.449s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.494s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.496s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.647s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.726s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.769s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.784s] -- Found camera_model: 0.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/share/camera_model/cmake)
+[0.787s] -- Found image_transport: 3.1.13 (/opt/ros/humble/share/image_transport/cmake)
+[1.010s] -- Configuring done
+[1.094s] -- Generating done
+[1.112s] -- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker
+[1.141s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker' returned '0': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker
+[1.148s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker -- -j8 -l8
+[1.278s] [35m[1mConsolidate compiler generated dependencies of target feature_tracker[0m
+[1.358s] [100%] Built target feature_tracker
+[1.399s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker' returned '0': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker -- -j8 -l8
+[1.403s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker
+[1.426s] -- Install configuration: "Release"
+[1.427s] -- Execute custom install script
+[1.428s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/lib/feature_tracker/feature_tracker
+[1.431s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/launch/vins_feature_tracker.launch.py
+[1.431s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/ament_index/resource_index/package_run_dependencies/feature_tracker
+[1.431s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/ament_index/resource_index/parent_prefix_path/feature_tracker
+[1.431s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/environment/ament_prefix_path.sh
+[1.432s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/environment/ament_prefix_path.dsv
+[1.433s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/environment/path.sh
+[1.433s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/environment/path.dsv
+[1.434s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/local_setup.bash
+[1.434s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/local_setup.sh
+[1.435s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/local_setup.zsh
+[1.436s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/local_setup.dsv
+[1.437s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/package.dsv
+[1.451s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/ament_index/resource_index/packages/feature_tracker
+[1.453s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/cmake/feature_trackerConfig.cmake
+[1.453s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/cmake/feature_trackerConfig-version.cmake
+[1.454s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/package.xml
+[1.462s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker' returned '0': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_model/bin:${PATH} /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker

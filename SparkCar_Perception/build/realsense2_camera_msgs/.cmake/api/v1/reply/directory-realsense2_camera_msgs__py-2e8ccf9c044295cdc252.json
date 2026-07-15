@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "realsense2_camera_msgs__py",
+		"source" : "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/realsense2_camera_msgs/realsense2_camera_msgs__py"
+	}
+}
