@@ -10,7 +10,7 @@ map_server:
 planner_server:
   ros__parameters:
     use_sim_time: false
-    expected_planner_frequency: 2.0           # Smac Hybrid较重，实车先降到1Hz，避免抢占局部控制
+    expected_planner_frequency: 1.0           # BT以1Hz持续重规划，及时绕开新出现的动态障碍
     planner_plugins: ["GridBased"]            # 规划器别名
 
     GridBased:
@@ -28,12 +28,12 @@ planner_server:
       reverse_penalty: 2.0
       change_penalty: 0.0
       non_straight_penalty: 1.5
-      cost_penalty: 2.5
+      cost_penalty: 3.5
       retrospective_penalty: 0.015
       lookup_table_size: 20.0
       cache_obstacle_heuristic: false
       debug_visualizations: false
-      use_quadratic_cost_penalty: false
+      use_quadratic_cost_penalty: true
       downsample_obstacle_heuristic: true
       allow_primitive_interpolation: false
       smooth_path: true
@@ -42,11 +42,11 @@ planner_server:
 controller_server:
   ros__parameters:
     use_sim_time: false
-    controller_frequency: 10.0            # 10hz
+    controller_frequency: 15.0            # 提高转向指令刷新率，减小阿克曼跟踪迟滞
     min_x_velocity_threshold: 0.001
     min_y_velocity_threshold: 0.001
     min_theta_velocity_threshold: 0.001
-    failure_tolerance: 0.5
+    failure_tolerance: 2.0                 # TEB短暂无解时先停车等待重规划，不立即终止FollowPath
     odom_topic: /fastlio2/lio_odom
     transform_tolerance: 0.3
 
@@ -57,13 +57,13 @@ controller_server:
     progress_checker:
       plugin: "nav2_controller::SimpleProgressChecker"
       required_movement_radius: 0.2
-      movement_time_allowance: 10.0             # 实车避障/转向较慢，放宽卡死判定
+      movement_time_allowance: 15.0             # 给行人避障、重规划和阿克曼转向留出时间
 
     goal_checker:
       plugin: "nav2_controller::SimpleGoalChecker"
       stateful: true
       xy_goal_tolerance: 0.15                   # Ackermann实车先放宽到15cm，避免过度贴点
-      yaw_goal_tolerance: 0.20                  # Hunter SE不适合原地调头，主要保证位置到达
+      yaw_goal_tolerance: 0.30                  # Hunter SE不适合原地调头，主要保证位置到达
 
     FollowPath:
       plugin: "teb_local_planner::TebLocalPlannerROS"
@@ -71,34 +71,39 @@ controller_server:
 
       # 轨迹采样
       teb_autosize: 1.0
-      dt_ref: 0.3
+      dt_ref: 0.25
       dt_hysteresis: 0.1
-      min_samples: 3
+      min_samples: 5
       max_samples: 500
       global_plan_overwrite_orientation: true
-      allow_init_with_backwards_motion: false
-      global_plan_viapoint_sep: 0.6
-      via_points_ordered: false
-      max_global_plan_lookahead_dist: 4.0
+      allow_init_with_backwards_motion: true
+      global_plan_viapoint_sep: 0.9
+      via_points_ordered: true
+      max_global_plan_lookahead_dist: 5.0
       global_plan_prune_distance: 1.0
       exact_arc_length: false
       feasibility_check_no_poses: 5
       feasibility_check_lookahead_distance: 1.5
-      control_look_ahead_poses: 1
+      control_look_ahead_poses: 3
 
       # Hunter 阿克曼约束
       max_vel_x: 0.60
-      max_vel_x_backwards: 0.0
+      max_vel_x_backwards: 0.20
       max_vel_y: 0.0
       max_vel_theta: 0.35
-      acc_lim_x: 0.50
+      acc_lim_x: 0.60
       acc_lim_y: 0.0
-      acc_lim_theta: 0.5
+      acc_lim_theta: 0.6
       min_turning_radius: 1.8
       wheelbase: 0.52
       cmd_angle_instead_rotvel: false
       is_footprint_dynamic: false
       use_proportional_saturation: true
+
+      # 必须与costmap轮廓一致，否则TEB按点机器人优化后会在可行性检查阶段失败
+      footprint_model:
+        type: "polygon"
+        vertices: "[[0.48, 0.34], [0.48, -0.34], [-0.48, -0.34], [-0.48, 0.34]]"
 
       # 到点判定
       xy_goal_tolerance: 0.15
@@ -130,29 +135,34 @@ controller_server:
       weight_max_vel_theta: 1.0
       weight_acc_lim_x: 1.0
       weight_acc_lim_y: 1.0
-      weight_acc_lim_theta: 1.0
+      weight_acc_lim_theta: 10.0
       weight_kinematics_nh: 1000.0
-      weight_kinematics_forward_drive: 1000.0
-      weight_kinematics_turning_radius: 50.0
+      weight_kinematics_forward_drive: 100.0
+      weight_kinematics_turning_radius: 100.0
       weight_optimaltime: 0.1
       weight_shortest_path: 0.0
       weight_obstacle: 50.0
       weight_inflation: 0.1
-      weight_viapoint: 10.0
+      weight_viapoint: 6.0
       weight_adapt_factor: 2.0
 
-      # 先关闭多拓扑路径，避免实车调试时频繁换路
-      enable_homotopy_class_planning: false
+      # 正前方被占用时同时搜索障碍物左右两侧的可行轨迹
+      enable_homotopy_class_planning: true
       enable_multithreading: true
       max_number_classes: 3
+      selection_cost_hysteresis: 0.8
+      selection_prefer_initial_plan: 0.90
+      roadmap_graph_area_width: 4.0
+      viapoints_all_candidates: false
+      delete_detours_backwards: false
 
       # 恢复策略
       shrink_horizon_backup: true
-      shrink_horizon_min_duration: 10.0
+      shrink_horizon_min_duration: 3.0
       oscillation_recovery: true
       oscillation_v_eps: 0.1
       oscillation_omega_eps: 0.1
-      oscillation_recovery_min_duration: 10.0
+      oscillation_recovery_min_duration: 5.0
 
 # 全局代价地图
 global_costmap:
@@ -161,8 +171,8 @@ global_costmap:
       use_sim_time: false
       global_frame: map         # 世界坐标系
       robot_base_frame: body    # 机器人坐标系
-      update_frequency: 1.0
-      publish_frequency: 1.0
+      update_frequency: 3.0
+      publish_frequency: 2.0
       resolution: 0.05
       track_unknown_space: true
       transform_tolerance: 0.3
@@ -213,8 +223,8 @@ global_costmap:
 
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        inflation_radius: 0.45
-        cost_scaling_factor: 3.0
+        inflation_radius: 0.60
+        cost_scaling_factor: 2.0
 
       always_send_full_costmap: true
 
@@ -226,7 +236,7 @@ local_costmap:
       global_frame: odom
       robot_base_frame: body
       update_frequency: 20.0
-      publish_frequency: 10.0
+      publish_frequency: 7.0
       rolling_window: true
       width: 8
       height: 8
@@ -275,8 +285,8 @@ local_costmap:
 
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        inflation_radius: 0.40
-        cost_scaling_factor: 3.0
+        inflation_radius: 0.50
+        cost_scaling_factor: 2.5
 
       always_send_full_costmap: true
 
@@ -355,10 +365,14 @@ behavior_server:
     global_frame: odom
     robot_base_frame: body
     cycle_frequency: 10.0
-    behavior_plugins: ["backup"]
+    behavior_plugins: ["backup", "wait"]
 
     backup:
       plugin: "nav2_behaviors/BackUp"
+      simulate_ahead_time: 2.0
+
+    wait:
+      plugin: "nav2_behaviors/Wait"
 
 # 轨迹平滑
 smoother_server:
