@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-ae68147b0e0f5cda097f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sm_property_tree",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "sm_property_tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sm_property_tree-Release-29f0c392a9b5a486812c.json",
+					"name" : "sm_property_tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sm_property_tree_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sm_property_tree_uninstall-Release-cea571791cb600b063dd.json",
+					"name" : "sm_property_tree_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-a9e8af7e70dd90127873.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_property_tree",
+		"source" : "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_property_tree"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

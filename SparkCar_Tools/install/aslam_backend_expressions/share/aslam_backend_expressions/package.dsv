@@ -1,0 +1,8 @@
+source;share/aslam_backend_expressions/hook/cmake_prefix_path.ps1
+source;share/aslam_backend_expressions/hook/cmake_prefix_path.dsv
+source;share/aslam_backend_expressions/hook/cmake_prefix_path.sh
+source;share/aslam_backend_expressions/local_setup.bash
+source;share/aslam_backend_expressions/local_setup.dsv
+source;share/aslam_backend_expressions/local_setup.ps1
+source;share/aslam_backend_expressions/local_setup.sh
+source;share/aslam_backend_expressions/local_setup.zsh

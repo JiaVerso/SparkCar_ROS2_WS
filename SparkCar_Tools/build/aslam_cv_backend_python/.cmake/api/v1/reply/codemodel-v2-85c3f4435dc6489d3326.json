@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-a2283bba02677ebb3b13.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "aslam_cv_backend_python",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_aslam_cv_backend_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_aslam_cv_backend_egg-Release-4cfc1b34489a2fe9d904.json",
+					"name" : "ament_cmake_python_build_aslam_cv_backend_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_aslam_cv_backend::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_aslam_cv_backend-Release-9f72d048e4d0551e3b66.json",
+					"name" : "ament_cmake_python_copy_aslam_cv_backend",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aslam_cv_backend_python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aslam_cv_backend_python-Release-379f8620b47815074d24.json",
+					"name" : "aslam_cv_backend_python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aslam_cv_backend_python_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aslam_cv_backend_python_uninstall-Release-4551da2884671904c0b9.json",
+					"name" : "aslam_cv_backend_python_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-d20f3097e107dc99df63.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/aslam_cv_backend_python",
+		"source" : "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend_python"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

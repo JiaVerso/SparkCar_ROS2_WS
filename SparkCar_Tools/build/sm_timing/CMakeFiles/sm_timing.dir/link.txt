@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsm_timing.a CMakeFiles/sm_timing.dir/src/Timer.cpp.o CMakeFiles/sm_timing.dir/src/NsecTimeUtilities.cpp.o
+/usr/bin/ranlib libsm_timing.a

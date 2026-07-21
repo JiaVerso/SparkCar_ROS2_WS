@@ -1,0 +1,490 @@
+[0.003s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_python': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cv_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/incremental_calibration_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cv_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cameras_april:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/bsplines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_splines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_imgproc:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cv_serialization:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/incremental_calibration:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/bsplines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cameras:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_backend_expressions:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sparse_block_matrix:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_opencv:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/ethz_apriltag2:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_time:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python
+[0.012s] -- The C compiler identification is GNU 11.4.0
+[0.013s] -- The CXX compiler identification is GNU 11.4.0
+[0.013s] -- Detecting C compiler ABI info
+[0.014s] -- Detecting C compiler ABI info - done
+[0.014s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.014s] -- Detecting C compile features
+[0.014s] -- Detecting C compile features - done
+[0.014s] -- Detecting CXX compiler ABI info
+[0.016s] -- Detecting CXX compiler ABI info - done
+[0.016s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.016s] -- Detecting CXX compile features
+[0.016s] -- Detecting CXX compile features - done
+[0.016s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.153s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.376s] -- Found sm_common: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/cmake)
+[0.395s] -- Found numpy_eigen: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/share/numpy_eigen/cmake)
+[0.405s] -- Found sm_kinematics: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/sm_kinematics/cmake)
+[0.420s] -- Found sm_timing: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing/share/sm_timing/cmake)
+[0.426s] -- Found sm_logging: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging/share/sm_logging/cmake)
+[0.429s] -- Found sm_matrix_archive: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive/share/sm_matrix_archive/cmake)
+[0.818s] -- Found sm_property_tree: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree/share/sm_property_tree/cmake)
+[0.824s] -- Found python_module: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module/share/python_module/cmake)
+[0.865s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization python thread filesystem regex 
+[1.924s] -- Found Python3: /usr/include/python3.10 (found version "3.10.12") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[2.269s] -- Configuring done
+[2.303s] -- Generating done
+[2.309s] -- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_python
+[2.325s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_python' returned '0': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cv_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/incremental_calibration_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cv_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cameras_april:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/bsplines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_splines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_imgproc:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cv_serialization:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/incremental_calibration:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/bsplines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cameras:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_backend_expressions:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sparse_block_matrix:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_opencv:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/ethz_apriltag2:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_time:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python
+[2.332s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_python': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cv_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/incremental_calibration_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cv_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cameras_april:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/bsplines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_splines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_imgproc:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cv_serialization:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/incremental_calibration:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/bsplines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cameras:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_backend_expressions:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sparse_block_matrix:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_opencv:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/ethz_apriltag2:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_time:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_python -- -j8 -l8
+[2.517s] [  5%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/module.cpp.o[0m
+[8.429s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[8.430s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[8.430s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[8.431s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[8.431s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[8.432s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[8.432s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[8.432s]                  from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+[8.433s]                  from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+[8.433s]                  from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+[8.434s]                  from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+[8.434s]                  from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+[8.435s]                  from [01m[K/usr/include/boost/python.hpp:11[m[K,
+[8.435s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+[8.435s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python/src/module.cpp:1[m[K:
+[8.436s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[8.436s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[8.437s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.441s] [01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+[8.442s]    13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+[8.443s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.596s] [ 10%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/exportTransformation.cpp.o[0m
+[19.254s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[19.254s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[19.255s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[19.255s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[19.256s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[19.256s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[19.257s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[19.257s]                  from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+[19.258s]                  from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+[19.258s]                  from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+[19.259s]                  from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+[19.259s]                  from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+[19.259s]                  from [01m[K/usr/include/boost/python.hpp:11[m[K,
+[19.260s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+[19.260s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python/src/exportTransformation.cpp:1[m[K:
+[19.261s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[19.261s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[19.262s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[19.266s] [01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+[19.267s]    13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+[19.267s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.789s] [ 15%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/exportHomogeneousPoint.cpp.o[0m
+[36.077s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[36.077s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[36.078s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[36.078s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[36.078s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[36.078s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[36.078s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[36.078s]                  from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+[36.078s]                  from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+[36.078s]                  from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+[36.079s]                  from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+[36.079s]                  from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+[36.079s]                  from [01m[K/usr/include/boost/python.hpp:11[m[K,
+[36.079s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+[36.079s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python/src/exportHomogeneousPoint.cpp:1[m[K:
+[36.079s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[36.079s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[36.079s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[36.091s] [01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+[36.092s]    13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+[36.092s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[39.405s] [ 21%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/exportTimestampCorrector.cpp.o[0m
+[43.870s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[43.871s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[43.872s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[43.872s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[43.873s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[43.873s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[43.874s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[43.875s]                  from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+[43.875s]                  from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+[43.876s]                  from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+[43.876s]                  from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+[43.877s]                  from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+[43.877s]                  from [01m[K/usr/include/boost/python.hpp:11[m[K,
+[43.878s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+[43.878s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python/src/exportTimestampCorrector.cpp:1[m[K:
+[43.879s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[43.879s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[43.880s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[43.881s] [01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+[43.881s]    13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+[43.881s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[46.262s] [ 26%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/exportPropertyTree.cpp.o[0m
+[52.230s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[52.231s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[52.232s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[52.232s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[52.233s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[52.235s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[52.236s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[52.237s]                  from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+[52.237s]                  from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+[52.238s]                  from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+[52.238s]                  from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+[52.239s]                  from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+[52.240s]                  from [01m[K/usr/include/boost/python.hpp:11[m[K,
+[52.240s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+[52.241s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python/src/exportPropertyTree.cpp:1[m[K:
+[52.242s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[52.242s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[52.243s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[52.243s] [01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+[52.244s]    13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+[52.245s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[55.754s] [ 31%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/exportEigen.cpp.o[0m
+[60.728s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[60.728s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[60.729s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[60.729s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[60.730s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[60.730s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[60.730s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[60.731s]                  from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+[60.731s]                  from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+[60.731s]                  from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+[60.732s]                  from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+[60.732s]                  from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+[60.732s]                  from [01m[K/usr/include/boost/python.hpp:11[m[K,
+[60.733s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+[60.733s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python/src/exportEigen.cpp:1[m[K:
+[60.733s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[60.734s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[60.734s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[60.738s] [01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+[60.738s]    13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+[60.739s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[63.430s] [ 36%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/exportUncertainVector.cpp.o[0m
+[67.929s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[67.929s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[67.929s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[67.929s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[67.929s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[67.929s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[67.929s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[67.930s]                  from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+[67.930s]                  from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+[67.930s]                  from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+[67.930s]                  from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+[67.930s]                  from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+[67.930s]                  from [01m[K/usr/include/boost/python.hpp:11[m[K,
+[67.930s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+[67.930s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python/src/exportUncertainVector.cpp:1[m[K:
+[67.930s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[67.930s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[67.930s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[67.939s] [01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+[67.940s]    13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+[67.940s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[70.473s] [ 42%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/exportMatrixArchive.cpp.o[0m
+[71.535s] [ 47%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/export_homogeneous.cpp.o[0m
+[72.600s] [ 52%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/export_quaternion_algebra.cpp.o[0m
+[73.674s] [ 57%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/export_transformations.cpp.o[0m
+[74.745s] [ 63%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/export_rotations.cpp.o[0m
+[81.564s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[81.564s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[81.565s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[81.565s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[81.566s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[81.567s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[81.568s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[81.569s]                  from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+[81.569s]                  from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+[81.570s]                  from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+[81.571s]                  from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+[81.572s]                  from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+[81.573s]                  from [01m[K/usr/include/boost/python.hpp:11[m[K,
+[81.573s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+[81.574s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python/src/exportMatrixArchive.cpp:1[m[K:
+[81.575s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[81.575s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[81.577s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[81.639s] [01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+[81.639s]    13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+[81.639s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[82.477s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[82.477s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[82.477s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[82.477s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[82.477s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[82.477s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[82.477s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[82.477s]                  from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+[82.477s]                  from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+[82.477s]                  from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+[82.477s]                  from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+[82.478s]                  from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+[82.478s]                  from [01m[K/usr/include/boost/python.hpp:11[m[K,
+[82.478s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+[82.478s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python/src/export_homogeneous.cpp:1[m[K:
+[82.478s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[82.478s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[82.478s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[82.488s] [01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+[82.488s]    13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+[82.488s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[85.856s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[85.856s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[85.856s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[85.856s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[85.856s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[85.856s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[85.856s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[85.857s]                  from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+[85.857s]                  from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+[85.857s]                  from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+[85.857s]                  from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+[85.857s]                  from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+[85.857s]                  from [01m[K/usr/include/boost/python.hpp:11[m[K,
+[85.857s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+[85.857s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python/src/export_quaternion_algebra.cpp:1[m[K:
+[85.857s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[85.857s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[85.857s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[85.870s] [01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+[85.870s]    13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+[85.871s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[89.376s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[89.377s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[89.377s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[89.377s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[89.377s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[89.377s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[89.377s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[89.377s]                  from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+[89.377s]                  from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+[89.377s]                  from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+[89.377s]                  from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+[89.377s]                  from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+[89.377s]                  from [01m[K/usr/include/boost/python.hpp:11[m[K,
+[89.378s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+[89.378s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python/src/export_transformations.cpp:1[m[K:
+[89.378s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[89.378s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[89.378s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[89.411s] [01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+[89.411s]    13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+[89.411s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[91.136s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[91.137s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[91.137s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[91.137s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[91.137s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[91.137s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[91.137s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[91.137s]                  from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+[91.137s]                  from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+[91.137s]                  from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+[91.137s]                  from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+[91.137s]                  from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+[91.138s]                  from [01m[K/usr/include/boost/python.hpp:11[m[K,
+[91.138s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+[91.138s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python/src/export_rotations.cpp:1[m[K:
+[91.138s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[91.138s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[91.138s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[91.170s] [01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+[91.170s]    13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+[91.170s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[109.637s] [ 68%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/random.cpp.o[0m
+[114.104s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[114.105s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[114.105s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[114.106s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[114.106s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[114.106s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[114.107s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[114.107s]                  from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+[114.107s]                  from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+[114.108s]                  from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+[114.108s]                  from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+[114.108s]                  from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+[114.109s]                  from [01m[K/usr/include/boost/python.hpp:11[m[K,
+[114.109s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+[114.109s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python/src/random.cpp:1[m[K:
+[114.110s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[114.110s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[114.110s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[114.115s] [01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+[114.115s]    13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+[114.116s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[114.898s] [ 73%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/exportNsecTime.cpp.o[0m
+[119.449s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[119.450s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[119.450s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[119.451s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[119.451s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[119.451s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[119.452s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[119.452s]                  from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+[119.452s]                  from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+[119.453s]                  from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+[119.453s]                  from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+[119.454s]                  from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+[119.454s]                  from [01m[K/usr/include/boost/python.hpp:11[m[K,
+[119.454s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+[119.455s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python/src/exportNsecTime.cpp:1[m[K:
+[119.455s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[119.455s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[119.456s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[119.459s] [01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+[119.459s]    13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+[119.460s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[120.180s] [ 78%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/Logging.cpp.o[0m
+[125.254s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[125.255s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[125.255s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[125.255s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[125.256s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[125.256s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[125.256s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[125.257s]                  from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+[125.257s]                  from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+[125.257s]                  from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+[125.258s]                  from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+[125.259s]                  from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+[125.259s]                  from [01m[K/usr/include/boost/python.hpp:11[m[K,
+[125.259s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+[125.260s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python/src/Logging.cpp:1[m[K:
+[125.260s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[125.261s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[125.261s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[125.265s] [01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+[125.266s]    13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+[125.267s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[129.379s] [ 84%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/export_eigen_property_tree.cpp.o[0m
+[133.652s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[133.653s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[133.653s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[133.654s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[133.654s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[133.655s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[133.655s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[133.655s]                  from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+[133.656s]                  from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+[133.656s]                  from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+[133.656s]                  from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+[133.657s]                  from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+[133.657s]                  from [01m[K/usr/include/boost/python.hpp:11[m[K,
+[133.657s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+[133.658s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python/src/export_eigen_property_tree.cpp:1[m[K:
+[133.658s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[133.658s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[133.659s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[133.662s] [01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+[133.662s]    13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+[133.662s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[134.333s] [ 89%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/export_kinematics_property_tree.cpp.o[0m
+[134.334s] [ 94%] [32mBuilding CXX object CMakeFiles/sm_python.dir/src/export_rotational_kinematics.cpp.o[0m
+[138.927s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[138.928s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[138.928s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[138.928s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[138.928s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[138.928s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[138.928s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[138.928s]                  from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+[138.929s]                  from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+[138.929s]                  from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+[138.929s]                  from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+[138.929s]                  from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+[138.929s]                  from [01m[K/usr/include/boost/python.hpp:11[m[K,
+[138.929s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+[138.929s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python/src/export_rotational_kinematics.cpp:1[m[K:
+[138.929s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[138.930s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[138.930s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[138.942s] [01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+[138.942s]    13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+[138.943s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[139.176s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[139.177s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[139.177s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[139.177s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[139.178s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[139.178s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[139.178s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[139.179s]                  from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+[139.179s]                  from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+[139.180s]                  from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+[139.180s]                  from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+[139.181s]                  from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+[139.182s]                  from [01m[K/usr/include/boost/python.hpp:11[m[K,
+[139.183s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+[139.183s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python/src/export_kinematics_property_tree.cpp:1[m[K:
+[139.184s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[139.184s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[139.185s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[139.190s] [01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+[139.191s]    13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+[139.191s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[143.525s] [100%] [32m[1mLinking CXX shared library libsm_python.so[0m
+[144.284s] [100%] Built target sm_python
+[144.437s] [100%] Built target ament_cmake_python_copy_sm
+[145.153s] running egg_info
+[145.155s] creating sm.egg-info
+[145.156s] writing sm.egg-info/PKG-INFO
+[145.157s] writing dependency_links to sm.egg-info/dependency_links.txt
+[145.157s] writing top-level names to sm.egg-info/top_level.txt
+[145.158s] writing manifest file 'sm.egg-info/SOURCES.txt'
+[145.159s] reading manifest file 'sm.egg-info/SOURCES.txt'
+[145.160s] writing manifest file 'sm.egg-info/SOURCES.txt'
+[145.234s] [100%] Built target ament_cmake_python_build_sm_egg
+[145.298s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_python' returned '0': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cv_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/incremental_calibration_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cv_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cameras_april:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/bsplines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_splines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_imgproc:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cv_serialization:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/incremental_calibration:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/bsplines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cameras:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_backend_expressions:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sparse_block_matrix:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_opencv:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/ethz_apriltag2:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_time:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_python -- -j8 -l8
+[145.306s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_python': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cv_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/incremental_calibration_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cv_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cameras_april:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/bsplines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_splines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_imgproc:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cv_serialization:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/incremental_calibration:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/bsplines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cameras:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_backend_expressions:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sparse_block_matrix:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_opencv:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/ethz_apriltag2:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_time:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_python
+[145.341s] -- Install configuration: "Release"
+[145.342s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/sm_python/environment/pythonpath.sh
+[145.342s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/sm_python/environment/pythonpath.dsv
+[145.343s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm-1.0.0-py3.10.egg-info
+[145.344s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm-1.0.0-py3.10.egg-info/dependency_links.txt
+[145.344s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm-1.0.0-py3.10.egg-info/SOURCES.txt
+[145.345s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm-1.0.0-py3.10.egg-info/PKG-INFO
+[145.345s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm-1.0.0-py3.10.egg-info/top_level.txt
+[145.346s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm
+[145.347s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm/plotCoordinateFrame.py
+[145.348s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm/saveFigTight.py
+[145.348s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm/experiments
+[145.349s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm/experiments/__init__.py
+[145.350s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm/__init__.py
+[145.350s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm/PlotCollection.py
+[145.351s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm/Progress.py
+[145.492s] Listing '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm'...
+[145.492s] Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm/PlotCollection.py'...
+[145.493s] Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm/Progress.py'...
+[145.494s] Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm/__init__.py'...
+[145.494s] Listing '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm/experiments'...
+[145.495s] Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm/experiments/__init__.py'...
+[145.496s] Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm/plotCoordinateFrame.py'...
+[145.496s] Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm/saveFigTight.py'...
+[145.511s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages/sm/libsm_python.so
+[145.537s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/include
+[145.537s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/include/sm
+[145.538s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/include/sm/python
+[145.539s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/include/sm/python/unique_register_ptr_to_python.hpp
+[145.540s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/include/sm/python/Id.hpp
+[145.542s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/include/sm/python/stl_converters.hpp
+[145.545s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/include/sm/python/boost_serialization_pickle.hpp
+[145.548s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/ament_index/resource_index/package_run_dependencies/sm_python
+[145.553s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/ament_index/resource_index/parent_prefix_path/sm_python
+[145.553s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/sm_python/environment/ament_prefix_path.sh
+[145.553s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/sm_python/environment/ament_prefix_path.dsv
+[145.553s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/sm_python/environment/path.sh
+[145.554s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/sm_python/environment/path.dsv
+[145.555s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/sm_python/local_setup.bash
+[145.556s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/sm_python/local_setup.sh
+[145.557s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/sm_python/local_setup.zsh
+[145.557s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/sm_python/local_setup.dsv
+[145.558s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/sm_python/package.dsv
+[145.562s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/ament_index/resource_index/packages/sm_python
+[145.566s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/sm_python/cmake/ament_cmake_export_dependencies-extras.cmake
+[145.567s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/sm_python/cmake/ament_cmake_export_include_directories-extras.cmake
+[145.573s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/sm_python/cmake/sm_pythonConfig.cmake
+[145.574s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/sm_python/cmake/sm_pythonConfig-version.cmake
+[145.576s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/sm_python/package.xml
+[145.592s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_python' returned '0': AMENT_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cv_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/incremental_calibration_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cv_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cameras_april:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/bsplines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_splines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_imgproc:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cv_serialization:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/incremental_calibration:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/bsplines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_cameras:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_backend_expressions:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sparse_block_matrix:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_opencv:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/ethz_apriltag2:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/kalibr_ros2/install/aslam_time:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_python

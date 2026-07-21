@@ -1,0 +1,3 @@
+source;share/aslam_splines/environment/ament_prefix_path.sh
+source;share/aslam_splines/environment/library_path.sh
+source;share/aslam_splines/environment/path.sh

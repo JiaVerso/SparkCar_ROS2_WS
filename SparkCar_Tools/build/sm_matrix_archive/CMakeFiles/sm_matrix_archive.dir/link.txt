@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsm_matrix_archive.a CMakeFiles/sm_matrix_archive.dir/src/MatrixArchive.cpp.o
+/usr/bin/ranlib libsm_matrix_archive.a

@@ -1,0 +1,537 @@
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTerm.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/ErrorTerm.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianContainer.hpp:16:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   16 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTerm.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/ErrorTerm.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTermDs.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/ErrorTermDs.cpp:3[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTerm.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTermDs.hpp:10[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/ErrorTermDs.cpp:3[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianContainer.hpp:16:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   16 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/TrustRegionPolicy.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/GaussNewtonTrustRegionPolicy.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/GaussNewtonTrustRegionPolicy.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/LinearSystemSolver.hpp:18:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   18 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTerm.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianBuilder.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/JacobianBuilder.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianContainer.hpp:16:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   16 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTerm.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianBuilder.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/JacobianBuilder.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/JacobianContainer.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianContainer.hpp:16:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   16 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/TrustRegionPolicy.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/LevenbergMarquardtTrustRegionPolicy.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/LevenbergMarquardtTrustRegionPolicy.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/LinearSystemSolver.hpp:18:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   18 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/LinearSystemSolver.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/LinearSystemSolver.hpp:18:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   18 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTerm.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/LinearSystemSolver.cpp:3[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianContainer.hpp:16:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   16 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/date_time/time_clock.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_time.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/lock_types.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/thread_data.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_only.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/thread.hpp:13[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/LinearSystemSolver.cpp:2[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/math/distributions/chi_squared.hpp:13[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/MEstimatorPolicies.cpp:7[m[K:
+/usr/include/boost/math/special_functions/gamma.hpp: In instantiation of ‘[01m[Kboost::math::detail::upper_incomplete_gamma_fract<T>::result_type boost::math::detail::upper_incomplete_gamma_fract<T>::operator()() [with T = long double; boost::math::detail::upper_incomplete_gamma_fract<T>::result_type = std::pair<long double, long double>][m[K’:
+[01m[K/usr/include/boost/math/tools/fraction.hpp:216:20:[m[K   required from ‘[01m[Ktypename boost::math::tools::detail::fraction_traits<Gen>::result_type boost::math::tools::continued_fraction_a(Gen&, const U&, uintmax_t&) [with Gen = boost::math::detail::upper_incomplete_gamma_fract<long double>; U = long double; typename boost::math::tools::detail::fraction_traits<Gen>::result_type = long double; uintmax_t = long unsigned int][m[K’
+[01m[K/usr/include/boost/math/tools/fraction.hpp:251:31:[m[K   required from ‘[01m[Ktypename boost::math::tools::detail::fraction_traits<Gen>::result_type boost::math::tools::continued_fraction_a(Gen&, const U&) [with Gen = boost::math::detail::upper_incomplete_gamma_fract<long double>; U = long double; typename boost::math::tools::detail::fraction_traits<Gen>::result_type = long double][m[K’
+[01m[K/usr/include/boost/math/special_functions/gamma.hpp:317:68:[m[K   required from ‘[01m[KT boost::math::detail::upper_gamma_fraction(T, T, T) [with T = long double][m[K’
+[01m[K/usr/include/boost/math/special_functions/gamma.hpp:1157:44:[m[K   required from ‘[01m[KT boost::math::detail::gamma_incomplete_imp(T, T, bool, bool, const Policy&, T*) [with T = long double; Policy = boost::math::policies::policy<boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>][m[K’
+[01m[K/usr/include/boost/math/special_functions/detail/igamma_inverse.hpp:356:67:[m[K   required from ‘[01m[Kstd::tuple<T, T, T> boost::math::detail::gamma_p_inverse_func<T, Policy>::operator()(const T&) const [with T = double; Policy = boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>][m[K’
+[01m[K/usr/include/boost/math/tools/roots.hpp:560:32:[m[K   required from ‘[01m[KT boost::math::tools::detail::second_order_root_finder(F, T, T, T, int, uintmax_t&) [with Stepper = boost::math::tools::detail::halley_step; F = boost::math::detail::gamma_p_inverse_func<double, boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy> >; T = double; uintmax_t = long unsigned int][m[K’
+[01m[K/usr/include/boost/math/tools/roots.hpp:710:64:[m[K   required from ‘[01m[KT boost::math::tools::halley_iterate(F, T, T, T, int, uintmax_t&) [with F = boost::math::detail::gamma_p_inverse_func<double, boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy> >; T = double; uintmax_t = long unsigned int][m[K’
+[01m[K/usr/include/boost/math/special_functions/detail/igamma_inverse.hpp:437:33:[m[K   required from ‘[01m[KT boost::math::detail::gamma_p_inv_imp(T, T, const Policy&) [with T = double; Policy = boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>][m[K’
+[01m[K/usr/include/boost/math/special_functions/detail/igamma_inverse.hpp:516:34:[m[K   required from ‘[01m[Ktypename boost::math::tools::promote_args<RT1, RT2>::type boost::math::gamma_p_inv(T1, T2, const Policy&) [with T1 = double; T2 = double; Policy = boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>; typename boost::math::tools::promote_args<RT1, RT2>::type = double][m[K’
+[01m[K/usr/include/boost/math/distributions/chi_squared.hpp:164:39:[m[K   required from ‘[01m[KRealType boost::math::quantile(const boost::math::chi_squared_distribution<RealType, Policy>&, const RealType&) [with RealType = double; Policy = boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>][m[K’
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/MEstimatorPolicies.cpp:110:31:[m[K   required from here
+[01m[K/usr/include/boost/math/special_functions/gamma.hpp:302:16:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<long double, long double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+  302 |    result_type [01;36m[Koperator[m[K()()
+      |                [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTermDs.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/MarginalizationPriorErrorTerm.hpp:11[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/MarginalizationPriorErrorTerm.cpp:8[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTerm.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTermDs.hpp:10[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/MarginalizationPriorErrorTerm.hpp:11[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/MarginalizationPriorErrorTerm.cpp:8[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianContainer.hpp:16:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   16 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/DesignVariable.hpp:11[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/Marginalizer.hpp:11[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/Marginalizer.cpp:8[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTerm.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTermDs.hpp:10[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/MarginalizationPriorErrorTerm.hpp:11[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/Marginalizer.hpp:12[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/Marginalizer.cpp:8[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianContainer.hpp:16:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   16 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/DenseQrLinearSystemSolver.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/Marginalizer.cpp:10[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/LinearSystemSolver.hpp:18:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   18 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/DenseMatrix.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/DenseQrLinearSystemSolver.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/Marginalizer.cpp:10[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/Matrix.hpp:15:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   15 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/Matrix.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/Matrix.hpp:15:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   15 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/OptimizationProblem.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/OptimizationProblem.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/OptimizationProblemBase.hpp:15:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   15 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTerm.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/OptimizationProblem.cpp:3[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianContainer.hpp:16:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   16 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/OptimizationProblemBase.hpp:6[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/OptimizationProblem.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/OptimizationProblem.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/OptimizationProblemBase.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/OptimizationProblemBase.hpp:15:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   15 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTerm.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/OptimizationProblemBase.cpp:3[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianContainer.hpp:16:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   16 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/OptimizationProblemBase.hpp:6[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/OptimizationProblemBase.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/Optimizer.hpp:12[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/Optimizer.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/OptimizationProblemBase.hpp:15:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   15 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/TrustRegionPolicy.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/DogLegTrustRegionPolicy.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/DogLegTrustRegionPolicy.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/LinearSystemSolver.hpp:18:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   18 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/Optimizer.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/Optimizer.hpp:47:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   47 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTerm.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/Optimizer.cpp:4[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianContainer.hpp:16:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   16 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/Optimizer.hpp:6[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/Optimizer.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/DenseMatrix.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/DenseMatrix.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/Matrix.hpp:15:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   15 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/DenseQrLinearSystemSolver.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/DenseQrLinearSystemSolver.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/LinearSystemSolver.hpp:18:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   18 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/DenseMatrix.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/DenseQrLinearSystemSolver.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/DenseQrLinearSystemSolver.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/Matrix.hpp:15:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   15 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTerm.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/DenseQrLinearSystemSolver.cpp:2[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianContainer.hpp:16:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   16 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTerm.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/DenseQrLinearSystemSolver.cpp:2[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/Optimizer2.hpp:11[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/Optimizer2.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/OptimizationProblemBase.hpp:15:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   15 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/TrustRegionPolicy.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/Optimizer2.hpp:16[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/Optimizer2.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/LinearSystemSolver.hpp:18:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   18 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/Optimizer2.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/Optimizer2.hpp:58:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   58 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTerm.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/Optimizer2.cpp:4[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianContainer.hpp:16:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   16 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/Optimizer2.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/Optimizer2.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnMatrix.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnJacobianTransposeBuilder.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/SparseQrLinearSystemSolver.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/Optimizer2.cpp:12[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/Cholmod.hpp:30:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   30 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnMatrix.hpp:16[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnJacobianTransposeBuilder.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/SparseQrLinearSystemSolver.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/Optimizer2.cpp:12[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/Matrix.hpp:15:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   15 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnJacobianTransposeBuilder.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/SparseQrLinearSystemSolver.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/Optimizer2.cpp:12[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnMatrix.hpp:35:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   35 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/SparseQrLinearSystemSolver.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/SparseQrLinearSystemSolver.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/LinearSystemSolver.hpp:18:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   18 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTerm.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianBuilder.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnJacobianTransposeBuilder.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/SparseQrLinearSystemSolver.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/SparseQrLinearSystemSolver.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianContainer.hpp:16:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   16 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTerm.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianBuilder.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnJacobianTransposeBuilder.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/SparseQrLinearSystemSolver.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/SparseQrLinearSystemSolver.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnMatrix.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnJacobianTransposeBuilder.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/SparseQrLinearSystemSolver.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/SparseQrLinearSystemSolver.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/Cholmod.hpp:30:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   30 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnMatrix.hpp:16[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnJacobianTransposeBuilder.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/SparseQrLinearSystemSolver.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/SparseQrLinearSystemSolver.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/Matrix.hpp:15:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   15 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnJacobianTransposeBuilder.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/SparseQrLinearSystemSolver.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/SparseQrLinearSystemSolver.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnMatrix.hpp:35:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   35 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/TrustRegionPolicy.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/TrustRegionPolicy.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/LinearSystemSolver.hpp:18:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   18 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/SparseCholeskyLinearSystemSolver.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/SparseCholeskyLinearSystemSolver.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/LinearSystemSolver.hpp:18:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   18 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTerm.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianBuilder.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnJacobianTransposeBuilder.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/SparseCholeskyLinearSystemSolver.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/SparseCholeskyLinearSystemSolver.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianContainer.hpp:16:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   16 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTerm.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianBuilder.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnJacobianTransposeBuilder.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/SparseCholeskyLinearSystemSolver.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/SparseCholeskyLinearSystemSolver.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnMatrix.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnJacobianTransposeBuilder.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/SparseCholeskyLinearSystemSolver.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/SparseCholeskyLinearSystemSolver.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/Cholmod.hpp:30:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   30 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnMatrix.hpp:16[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnJacobianTransposeBuilder.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/SparseCholeskyLinearSystemSolver.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/SparseCholeskyLinearSystemSolver.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/Matrix.hpp:15:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   15 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnJacobianTransposeBuilder.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/SparseCholeskyLinearSystemSolver.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/SparseCholeskyLinearSystemSolver.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/CompressedColumnMatrix.hpp:35:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   35 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/SparseBlockMatrixWrapper.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/SparseBlockMatrixWrapper.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/Matrix.hpp:15:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   15 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/SimpleOptimizationProblem.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/SimpleOptimizationProblem.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/OptimizationProblemBase.hpp:15:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   15 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTerm.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/SimpleOptimizationProblem.cpp:3[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianContainer.hpp:16:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   16 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/OptimizationProblemBase.hpp:6[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/SimpleOptimizationProblem.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/SimpleOptimizationProblem.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/BlockCholeskyLinearSystemSolver.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/BlockCholeskyLinearSystemSolver.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/LinearSystemSolver.hpp:18:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   18 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/SparseBlockMatrixWrapper.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/BlockCholeskyLinearSystemSolver.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/BlockCholeskyLinearSystemSolver.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/Matrix.hpp:15:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   15 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/ErrorTerm.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/BlockCholeskyLinearSystemSolver.cpp:4[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/JacobianContainer.hpp:16:55:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   16 |       SM_DEFINE_EXCEPTION(Exception, aslam::Exception)[01;35m[K;[m[K
+      |                                                       [01;35m[K^[m[K
+      |                                                       [31m[K-[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/include/aslam/backend/BlockCholeskyLinearSystemSolver.hpp:6[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend/src/BlockCholeskyLinearSystemSolver.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,4 @@
+source;share/incremental_calibration/local_setup.bash
+source;share/incremental_calibration/local_setup.dsv
+source;share/incremental_calibration/local_setup.sh
+source;share/incremental_calibration/local_setup.zsh

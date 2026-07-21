@@ -1,0 +1,27 @@
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix/include/sparse_block_matrix/marginal_covariance_cholesky.h:21[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix/src/marginal_covariance_cholesky.cpp:17[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix/include/sparse_block_matrix/sparse_block_matrix.h:62:53:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   62 |   SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                     [01;35m[K^[m[K
+      |                                                     [31m[K-[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix/include/sparse_block_matrix/sparse_block_matrix.h:63:49:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   63 |   SM_DEFINE_EXCEPTION(IndexException, Exception)[01;35m[K;[m[K
+      |                                                 [01;35m[K^[m[K
+      |                                                 [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix/include/sparse_block_matrix/sparse_block_matrix.h:266[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix/include/sparse_block_matrix/marginal_covariance_cholesky.h:21[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix/src/marginal_covariance_cholesky.cpp:17[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix/include/sparse_block_matrix/implementation/sparse_block_matrix.hpp:[m[K In member function ‘[01m[Ksparse_block_matrix::SparseBlockMatrix<MatrixType>* sparse_block_matrix::SparseBlockMatrix<MatrixType>::slice(int, int, int, int, bool) const[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix/include/sparse_block_matrix/implementation/sparse_block_matrix.hpp:543:7:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KrowIdx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  543 |   int [01;35m[KrowIdx[m[K[m];
+      |       [01;35m[K^~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix/include/sparse_block_matrix/implementation/sparse_block_matrix.hpp:549:7:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KcolIdx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  549 |   int [01;35m[KcolIdx[m[K[n];
+      |       [01;35m[K^~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix/include/sparse_block_matrix/implementation/sparse_block_matrix.hpp:[m[K In member function ‘[01m[Kbool sparse_block_matrix::SparseBlockMatrix<MatrixType>::symmPermutation(sparse_block_matrix::SparseBlockMatrix<MatrixType>*&, const int*, bool) const[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix/include/sparse_block_matrix/implementation/sparse_block_matrix.hpp:619:7:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KblockSizes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  619 |   int [01;35m[KblockSizes[m[K[_rowBlockIndices.size()];
+      |       [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix/include/sparse_block_matrix/implementation/sparse_block_matrix.hpp:625:7:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KpBlockIndices[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  625 |   int [01;35m[KpBlockIndices[m[K[_rowBlockIndices.size()];
+      |       [01;35m[K^~~~~~~~~~~~~[m[K

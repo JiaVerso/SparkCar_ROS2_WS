@@ -1,0 +1,15 @@
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines/src/BSpline.cpp:3[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines/include/bsplines/BSpline.hpp:75:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   75 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines/src/BSpline.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> bsplines::BSpline::timeInterval() const[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines/src/BSpline.cpp:539:54:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+  539 |     std::pair<double,double> BSpline::timeInterval() [01;36m[Kconst[m[K
+      |                                                      [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines/include/bsplines/BSplinePose.hpp:18[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines/src/BSplinePose.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines/include/bsplines/BSpline.hpp:75:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   75 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K

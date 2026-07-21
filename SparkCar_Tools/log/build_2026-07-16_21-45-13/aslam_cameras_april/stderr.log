@@ -1,0 +1,33 @@
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april/src/GridCalibrationTargetAprilgrid.cpp:10[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april/include/aslam/cameras/GridCalibrationTargetAprilgrid.hpp:25:53:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   25 |   SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                     [01;35m[K^[m[K
+      |                                                     [31m[K-[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april/include/aslam/cameras/GridCalibrationTargetAprilgrid.hpp:61:39:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   61 |     BOOST_SERIALIZATION_SPLIT_MEMBER()[01;35m[K;[m[K
+      |                                       [01;35m[K^[m[K
+      |                                       [31m[K-[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april/src/module.cpp:3[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april/include/aslam/cameras/GridCalibrationTargetAprilgrid.hpp:25:53:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   25 |   SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                     [01;35m[K^[m[K
+      |                                                     [31m[K-[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april/include/aslam/cameras/GridCalibrationTargetAprilgrid.hpp:61:39:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   61 |     BOOST_SERIALIZATION_SPLIT_MEMBER()[01;35m[K;[m[K
+      |                                       [01;35m[K^[m[K
+      |                                       [31m[K-[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april/include/aslam/cameras/GridCalibrationTargetAprilgrid.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april/src/module.cpp:3[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+   13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K

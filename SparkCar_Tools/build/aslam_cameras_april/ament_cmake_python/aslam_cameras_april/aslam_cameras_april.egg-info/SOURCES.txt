@@ -1,0 +1,6 @@
+setup.py
+aslam_cameras_april/__init__.py
+aslam_cameras_april.egg-info/PKG-INFO
+aslam_cameras_april.egg-info/SOURCES.txt
+aslam_cameras_april.egg-info/dependency_links.txt
+aslam_cameras_april.egg-info/top_level.txt

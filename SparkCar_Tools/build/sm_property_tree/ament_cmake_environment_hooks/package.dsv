@@ -1,0 +1,4 @@
+source;share/sm_property_tree/local_setup.bash
+source;share/sm_property_tree/local_setup.dsv
+source;share/sm_property_tree/local_setup.sh
+source;share/sm_property_tree/local_setup.zsh

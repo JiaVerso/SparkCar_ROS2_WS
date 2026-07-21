@@ -1,0 +1,11 @@
+setup.py
+kalibr_camera_calibration/CameraCalibrator.py
+kalibr_camera_calibration/CameraIntializers.py
+kalibr_camera_calibration/CameraUtils.py
+kalibr_camera_calibration/MulticamGraph.py
+kalibr_camera_calibration/ObsDb.py
+kalibr_camera_calibration/__init__.py
+kalibr_camera_calibration.egg-info/PKG-INFO
+kalibr_camera_calibration.egg-info/SOURCES.txt
+kalibr_camera_calibration.egg-info/dependency_links.txt
+kalibr_camera_calibration.egg-info/top_level.txt

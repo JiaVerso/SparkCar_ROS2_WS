@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsparse_block_matrix.a CMakeFiles/sparse_block_matrix.dir/src/matrix_structure.cpp.o CMakeFiles/sparse_block_matrix.dir/src/sparse_helper.cpp.o CMakeFiles/sparse_block_matrix.dir/src/marginal_covariance_cholesky.cpp.o
+/usr/bin/ranlib libsparse_block_matrix.a

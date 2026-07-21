@@ -1,0 +1,8 @@
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_time/src/time.cpp:[m[K In static member function ‘[01m[Kstatic void aslam::Time::setNow(const aslam::Time&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_time/src/time.cpp:228:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knew_now[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  228 | void Time::setNow([01;35m[Kconst Time& new_now[m[K) {
+      |                   [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_time/src/time.cpp:[m[K In static member function ‘[01m[Kstatic bool aslam::Time::waitForValid(const aslam::WallDuration&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_time/src/time.cpp:246:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  246 | bool Time::waitForValid([01;35m[Kconst aslam::WallDuration& timeout[m[K) {
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K

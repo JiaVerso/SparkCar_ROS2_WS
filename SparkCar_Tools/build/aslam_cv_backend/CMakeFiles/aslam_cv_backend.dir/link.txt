@@ -1,0 +1,2 @@
+/usr/bin/ar qc libaslam_cv_backend.a CMakeFiles/aslam_cv_backend.dir/src/GridCalibrationTargetDesignVariableContainer.cpp.o
+/usr/bin/ranlib libaslam_cv_backend.a

@@ -1,0 +1,143 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found sm_common: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/cmake)
+-- Found sm_eigen: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen/share/sm_eigen/cmake)
+-- Found sm_boost: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost/share/sm_boost/cmake)
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization filesystem thread 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_kinematics
+[  6%] [32mBuilding CXX object CMakeFiles/sm_kinematics.dir/src/quaternion_algebra.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/sm_kinematics.dir/src/EulerRodriguez.cpp.o[0m
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/include/sm/kinematics/EulerRodriguez.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/src/EulerRodriguez.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/include/sm/kinematics/RotationalKinematics.hpp:13:56:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   13 |       SM_DEFINE_EXCEPTION(Exception,std::runtime_error)[01;35m[K;[m[K
+      |                                                        [01;35m[K^[m[K
+      |                                                        [31m[K-[m[K
+[ 18%] [32mBuilding CXX object CMakeFiles/sm_kinematics.dir/src/Transformation.cpp.o[0m
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/include/sm/kinematics/Transformation.hpp:8[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/src/Transformation.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/include/sm/kinematics/HomogeneousPoint.hpp:21:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   21 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+[ 25%] [32mBuilding CXX object CMakeFiles/sm_kinematics.dir/src/homogeneous_coordinates.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/sm_kinematics.dir/src/HomogeneousPoint.cpp.o[0m
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/src/HomogeneousPoint.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/include/sm/kinematics/HomogeneousPoint.hpp:21:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   21 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+[ 37%] [32mBuilding CXX object CMakeFiles/sm_kinematics.dir/src/UncertainTransformation.cpp.o[0m
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/include/sm/kinematics/Transformation.hpp:8[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/include/sm/kinematics/UncertainTransformation.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/src/UncertainTransformation.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/include/sm/kinematics/HomogeneousPoint.hpp:21:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   21 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+[ 43%] [32mBuilding CXX object CMakeFiles/sm_kinematics.dir/src/UncertainHomogeneousPoint.cpp.o[0m
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/include/sm/kinematics/UncertainHomogeneousPoint.hpp:3[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/src/UncertainHomogeneousPoint.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/include/sm/kinematics/HomogeneousPoint.hpp:21:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   21 |       SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                         [01;35m[K^[m[K
+      |                                                         [31m[K-[m[K
+[ 50%] [32mBuilding CXX object CMakeFiles/sm_kinematics.dir/src/three_point_methods.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/sm_kinematics.dir/src/EulerAnglesZXY.cpp.o[0m
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/include/sm/kinematics/EulerAnglesZXY.h:29[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/src/EulerAnglesZXY.cpp:19[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/include/sm/kinematics/RotationalKinematics.hpp:13:56:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   13 |       SM_DEFINE_EXCEPTION(Exception,std::runtime_error)[01;35m[K;[m[K
+      |                                                        [01;35m[K^[m[K
+      |                                                        [31m[K-[m[K
+[ 62%] [32mBuilding CXX object CMakeFiles/sm_kinematics.dir/src/EulerAnglesYawPitchRoll.cpp.o[0m
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/include/sm/kinematics/EulerAnglesYawPitchRoll.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/src/EulerAnglesYawPitchRoll.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/include/sm/kinematics/RotationalKinematics.hpp:13:56:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   13 |       SM_DEFINE_EXCEPTION(Exception,std::runtime_error)[01;35m[K;[m[K
+      |                                                        [01;35m[K^[m[K
+      |                                                        [31m[K-[m[K
+[ 68%] [32mBuilding CXX object CMakeFiles/sm_kinematics.dir/src/EulerAnglesZYX.cpp.o[0m
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/include/sm/kinematics/EulerAnglesZYX.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/src/EulerAnglesZYX.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/include/sm/kinematics/RotationalKinematics.hpp:13:56:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   13 |       SM_DEFINE_EXCEPTION(Exception,std::runtime_error)[01;35m[K;[m[K
+      |                                                        [01;35m[K^[m[K
+      |                                                        [31m[K-[m[K
+[ 75%] [32mBuilding CXX object CMakeFiles/sm_kinematics.dir/src/RotationVector.cpp.o[0m
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/include/sm/kinematics/RotationVector.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/src/RotationVector.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/include/sm/kinematics/RotationalKinematics.hpp:13:56:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   13 |       SM_DEFINE_EXCEPTION(Exception,std::runtime_error)[01;35m[K;[m[K
+      |                                                        [01;35m[K^[m[K
+      |                                                        [31m[K-[m[K
+[ 81%] [32mBuilding CXX object CMakeFiles/sm_kinematics.dir/src/RotationalKinematics.cpp.o[0m
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/src/RotationalKinematics.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics/include/sm/kinematics/RotationalKinematics.hpp:13:56:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   13 |       SM_DEFINE_EXCEPTION(Exception,std::runtime_error)[01;35m[K;[m[K
+      |                                                        [01;35m[K^[m[K
+      |                                                        [31m[K-[m[K
+[ 87%] [32mBuilding CXX object CMakeFiles/sm_kinematics.dir/src/transformations.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/sm_kinematics.dir/src/rotations.cpp.o[0m
+[100%] [32m[1mLinking CXX static library libsm_kinematics.a[0m
+[100%] Built target sm_kinematics
+-- Install configuration: "Release"
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/lib/libsm_kinematics.a
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include/sm
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include/sm/kinematics
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include/sm/kinematics/EulerRodriguez.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include/sm/kinematics/EulerAnglesYawPitchRoll.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include/sm/kinematics/UncertainTransformation.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include/sm/kinematics/Transformation.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include/sm/kinematics/quaternion_algebra.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include/sm/kinematics/RotationVector.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include/sm/kinematics/UncertainVector.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include/sm/kinematics/rotations.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include/sm/kinematics/HomogeneousPoint.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include/sm/kinematics/UncertainHomogeneousPoint.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include/sm/kinematics/property_tree.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include/sm/kinematics/RotationalKinematics.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include/sm/kinematics/EulerAnglesZXY.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include/sm/kinematics/transformations.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include/sm/kinematics/EulerAnglesZYX.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include/sm/kinematics/homogeneous_coordinates.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include/sm/kinematics/three_point_methods.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include/sm/kinematics/implementation
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/include/sm/kinematics/implementation/UncertainVector.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/sm_kinematics/environment/library_path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/sm_kinematics/environment/library_path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/ament_index/resource_index/package_run_dependencies/sm_kinematics
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/ament_index/resource_index/parent_prefix_path/sm_kinematics
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/sm_kinematics/environment/ament_prefix_path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/sm_kinematics/environment/ament_prefix_path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/sm_kinematics/environment/path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/sm_kinematics/environment/path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/sm_kinematics/local_setup.bash
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/sm_kinematics/local_setup.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/sm_kinematics/local_setup.zsh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/sm_kinematics/local_setup.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/sm_kinematics/package.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/ament_index/resource_index/packages/sm_kinematics
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/sm_kinematics/cmake/sm_kinematicsTargetsExport.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/sm_kinematics/cmake/sm_kinematicsTargetsExport-release.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/sm_kinematics/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/sm_kinematics/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/sm_kinematics/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/sm_kinematics/cmake/sm_kinematicsConfig.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/sm_kinematics/cmake/sm_kinematicsConfig-version.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/sm_kinematics/package.xml

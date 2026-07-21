@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-ee733b1cd3aa1e63129b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "aslam_cameras_april",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_aslam_cameras_april_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_aslam_cameras_april_egg-Release-4a0c733cb59473d4306d.json",
+					"name" : "ament_cmake_python_build_aslam_cameras_april_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_aslam_cameras_april::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_aslam_cameras_april-Release-fd7fad53af6999ee1703.json",
+					"name" : "ament_cmake_python_copy_aslam_cameras_april",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aslam_cameras_april::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aslam_cameras_april-Release-42c90e317015207a3ba4.json",
+					"name" : "aslam_cameras_april",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aslam_cameras_april_python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aslam_cameras_april_python-Release-fd26cbc5b6aeddb257f0.json",
+					"name" : "aslam_cameras_april_python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aslam_cameras_april_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aslam_cameras_april_uninstall-Release-bd8ffcd7802885994110.json",
+					"name" : "aslam_cameras_april_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-f2648280e03f91065d78.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/aslam_cameras_april",
+		"source" : "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

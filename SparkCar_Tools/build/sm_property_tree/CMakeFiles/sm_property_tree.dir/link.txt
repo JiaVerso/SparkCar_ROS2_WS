@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsm_property_tree.a CMakeFiles/sm_property_tree.dir/src/PropertyTree.cpp.o CMakeFiles/sm_property_tree.dir/src/BoostPropertyTreeImplementation.cpp.o CMakeFiles/sm_property_tree.dir/src/BoostPropertyTree.cpp.o CMakeFiles/sm_property_tree.dir/src/PropertyTreeImplementation.cpp.o CMakeFiles/sm_property_tree.dir/src/BoostPropertyTreeSupport.cpp.o
+/usr/bin/ranlib libsm_property_tree.a

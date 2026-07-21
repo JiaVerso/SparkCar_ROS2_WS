@@ -1,0 +1,133 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found numpy_eigen: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/share/numpy_eigen/cmake)
+-- Found aslam_splines: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines/share/aslam_splines/cmake)
+-- Found bsplines_python: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines_python/share/bsplines_python/cmake)
+-- Found aslam_backend: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/cmake)
+-- Found aslam_backend_expressions: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_expressions/share/aslam_backend_expressions/cmake)
+-- Found aslam_backend_python: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_python/share/aslam_backend_python/cmake)
+-- Found aslam_cameras: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras/share/aslam_cameras/cmake)
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization python thread filesystem regex 
+-- Found Python3: /usr/include/python3.10 (found version "3.10.12") found components: Development NumPy Interpreter Development.Module Development.Embed 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/aslam_splines_python
+[ 25%] [32mBuilding CXX object CMakeFiles/aslam_splines_python.dir/src/spline_module.cpp.o[0m
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/python.hpp:11[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines_python/src/spline_module.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+   13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 50%] [32mBuilding CXX object CMakeFiles/aslam_splines_python.dir/src/SimpleSplineError.cpp.o[0m
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/python.hpp:11[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines_python/src/SimpleSplineError.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+   13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 75%] [32mBuilding CXX object CMakeFiles/aslam_splines_python.dir/src/BSplineMotionError.cpp.o[0m
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/python.hpp:11[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines_python/src/BSplineMotionError.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+   13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libaslam_splines_python.so[0m
+[100%] Built target aslam_splines_python
+[100%] Built target ament_cmake_python_copy_aslam_splines
+running egg_info
+creating aslam_splines.egg-info
+writing aslam_splines.egg-info/PKG-INFO
+writing dependency_links to aslam_splines.egg-info/dependency_links.txt
+writing top-level names to aslam_splines.egg-info/top_level.txt
+writing manifest file 'aslam_splines.egg-info/SOURCES.txt'
+reading manifest file 'aslam_splines.egg-info/SOURCES.txt'
+writing manifest file 'aslam_splines.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_aslam_splines_egg
+-- Install configuration: "Release"
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/share/aslam_splines_python/environment/pythonpath.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/share/aslam_splines_python/environment/pythonpath.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/local/lib/python3.10/dist-packages/aslam_splines-1.0.0-py3.10.egg-info
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/local/lib/python3.10/dist-packages/aslam_splines-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/local/lib/python3.10/dist-packages/aslam_splines-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/local/lib/python3.10/dist-packages/aslam_splines-1.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/local/lib/python3.10/dist-packages/aslam_splines-1.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/local/lib/python3.10/dist-packages/aslam_splines
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/local/lib/python3.10/dist-packages/aslam_splines/__init__.py
+Listing '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/local/lib/python3.10/dist-packages/aslam_splines'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/local/lib/python3.10/dist-packages/aslam_splines/__init__.py'...
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/local/lib/python3.10/dist-packages/aslam_splines/libaslam_splines_python.so
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/share/ament_index/resource_index/package_run_dependencies/aslam_splines_python
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/share/ament_index/resource_index/parent_prefix_path/aslam_splines_python
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/share/aslam_splines_python/environment/ament_prefix_path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/share/aslam_splines_python/environment/ament_prefix_path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/share/aslam_splines_python/environment/path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/share/aslam_splines_python/environment/path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/share/aslam_splines_python/local_setup.bash
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/share/aslam_splines_python/local_setup.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/share/aslam_splines_python/local_setup.zsh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/share/aslam_splines_python/local_setup.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/share/aslam_splines_python/package.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/share/ament_index/resource_index/packages/aslam_splines_python
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/share/aslam_splines_python/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/share/aslam_splines_python/cmake/aslam_splines_pythonConfig.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/share/aslam_splines_python/cmake/aslam_splines_pythonConfig-version.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/share/aslam_splines_python/package.xml

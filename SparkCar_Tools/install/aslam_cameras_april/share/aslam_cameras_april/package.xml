@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>aslam_cameras_april</name>
+  <version>1.0.0</version>
+  <description>Kalibr ROS2 - aslam_cameras_april</description>
+  <maintainer email="your@email.com">Your Name</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <depend>aslam_cameras</depend>
+  <depend>ethz_apriltag2</depend>
+  <depend>sm_opencv</depend>
+  <depend>sm_common</depend>
+  <depend>sm_logging</depend>
+  <depend>sm_boost</depend>
+  <depend>sm_eigen</depend>
+  <depend>sm_python</depend>
+  <depend>numpy_eigen</depend>
+  <depend>python_module</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

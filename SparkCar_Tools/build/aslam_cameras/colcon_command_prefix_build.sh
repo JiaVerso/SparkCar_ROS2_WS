@@ -1,0 +1,10 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/aslam_time/package.sh"
+. "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/package.sh"
+. "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging/share/sm_logging/package.sh"
+. "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random/share/sm_random/package.sh"
+. "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost/share/sm_boost/package.sh"
+. "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen/share/sm_eigen/package.sh"
+. "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_opencv/share/sm_opencv/package.sh"
+. "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree/share/sm_property_tree/package.sh"
+. "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/share/sm_kinematics/package.sh"

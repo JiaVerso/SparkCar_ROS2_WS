@@ -1,0 +1,8 @@
+source;share/sm_boost/hook/cmake_prefix_path.ps1
+source;share/sm_boost/hook/cmake_prefix_path.dsv
+source;share/sm_boost/hook/cmake_prefix_path.sh
+source;share/sm_boost/local_setup.bash
+source;share/sm_boost/local_setup.dsv
+source;share/sm_boost/local_setup.ps1
+source;share/sm_boost/local_setup.sh
+source;share/sm_boost/local_setup.zsh

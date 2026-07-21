@@ -1,0 +1,8 @@
+source;share/bsplines_python/hook/cmake_prefix_path.ps1
+source;share/bsplines_python/hook/cmake_prefix_path.dsv
+source;share/bsplines_python/hook/cmake_prefix_path.sh
+source;share/bsplines_python/local_setup.bash
+source;share/bsplines_python/local_setup.dsv
+source;share/bsplines_python/local_setup.ps1
+source;share/bsplines_python/local_setup.sh
+source;share/bsplines_python/local_setup.zsh

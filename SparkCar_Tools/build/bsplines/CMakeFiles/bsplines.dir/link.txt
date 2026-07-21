@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbsplines.a CMakeFiles/bsplines.dir/src/BSpline.cpp.o CMakeFiles/bsplines.dir/src/BSplinePose.cpp.o
+/usr/bin/ranlib libbsplines.a

@@ -1,0 +1,8 @@
+source;share/aslam_splines_python/hook/cmake_prefix_path.ps1
+source;share/aslam_splines_python/hook/cmake_prefix_path.dsv
+source;share/aslam_splines_python/hook/cmake_prefix_path.sh
+source;share/aslam_splines_python/local_setup.bash
+source;share/aslam_splines_python/local_setup.dsv
+source;share/aslam_splines_python/local_setup.ps1
+source;share/aslam_splines_python/local_setup.sh
+source;share/aslam_splines_python/local_setup.zsh

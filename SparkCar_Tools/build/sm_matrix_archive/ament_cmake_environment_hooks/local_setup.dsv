@@ -1,0 +1,3 @@
+source;share/sm_matrix_archive/environment/ament_prefix_path.sh
+source;share/sm_matrix_archive/environment/library_path.sh
+source;share/sm_matrix_archive/environment/path.sh

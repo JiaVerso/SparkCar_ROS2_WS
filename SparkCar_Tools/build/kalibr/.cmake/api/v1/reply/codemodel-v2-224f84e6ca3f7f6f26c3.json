@@ -1,0 +1,178 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-2c3e187028ceb940fcaf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kalibr",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_kalibr_camera_calibration_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_kalibr_camera_calibration_egg-Release-c987e444803bc7903ab6.json",
+					"name" : "ament_cmake_python_build_kalibr_camera_calibration_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_kalibr_common_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_kalibr_common_egg-Release-9058862c276f2bebe167.json",
+					"name" : "ament_cmake_python_build_kalibr_common_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_kalibr_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_kalibr_egg-Release-920c15e0ff2795c7b6f8.json",
+					"name" : "ament_cmake_python_build_kalibr_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_kalibr_errorterms_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_kalibr_errorterms_egg-Release-1ae5f183f156662fb913.json",
+					"name" : "ament_cmake_python_build_kalibr_errorterms_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_kalibr_imu_camera_calibration_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_kalibr_imu_camera_calibration_egg-Release-d64c3b677841a4dea752.json",
+					"name" : "ament_cmake_python_build_kalibr_imu_camera_calibration_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_kalibr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_kalibr-Release-a0c8071729357bc53c33.json",
+					"name" : "ament_cmake_python_copy_kalibr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_kalibr_camera_calibration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_kalibr_camera_calibration-Release-6409d0a8ce15c851915f.json",
+					"name" : "ament_cmake_python_copy_kalibr_camera_calibration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_kalibr_common::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_kalibr_common-Release-d84cbbd7567705bc1c5a.json",
+					"name" : "ament_cmake_python_copy_kalibr_common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_kalibr_errorterms::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_kalibr_errorterms-Release-4dbdf95a8ff7b51665c9.json",
+					"name" : "ament_cmake_python_copy_kalibr_errorterms",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_kalibr_imu_camera_calibration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_kalibr_imu_camera_calibration-Release-f5cb8399f924ed14c1e3.json",
+					"name" : "ament_cmake_python_copy_kalibr_imu_camera_calibration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kalibr_errorterms::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kalibr_errorterms-Release-01c08ce7d24f81899880.json",
+					"name" : "kalibr_errorterms",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kalibr_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kalibr_uninstall-Release-8d3eb7e9b87fc2a3455a.json",
+					"name" : "kalibr_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libkalibr_errorterms_python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libkalibr_errorterms_python-Release-c7e3989849b6082c5085.json",
+					"name" : "libkalibr_errorterms_python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-5544c6bbca2c912cc6a1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/kalibr",
+		"source" : "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/kalibr"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

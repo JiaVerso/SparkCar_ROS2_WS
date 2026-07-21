@@ -1,0 +1,11 @@
+source;share/kalibr/hook/cmake_prefix_path.ps1
+source;share/kalibr/hook/cmake_prefix_path.dsv
+source;share/kalibr/hook/cmake_prefix_path.sh
+source;share/kalibr/hook/ld_library_path_lib.ps1
+source;share/kalibr/hook/ld_library_path_lib.dsv
+source;share/kalibr/hook/ld_library_path_lib.sh
+source;share/kalibr/local_setup.bash
+source;share/kalibr/local_setup.dsv
+source;share/kalibr/local_setup.ps1
+source;share/kalibr/local_setup.sh
+source;share/kalibr/local_setup.zsh

@@ -1,0 +1,10 @@
+setup.py
+kalibr_imu_camera_calibration/IccCalibrator.py
+kalibr_imu_camera_calibration/IccPlots.py
+kalibr_imu_camera_calibration/IccSensors.py
+kalibr_imu_camera_calibration/IccUtil.py
+kalibr_imu_camera_calibration/__init__.py
+kalibr_imu_camera_calibration.egg-info/PKG-INFO
+kalibr_imu_camera_calibration.egg-info/SOURCES.txt
+kalibr_imu_camera_calibration.egg-info/dependency_links.txt
+kalibr_imu_camera_calibration.egg-info/top_level.txt

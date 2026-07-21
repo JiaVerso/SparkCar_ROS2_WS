@@ -1,0 +1,7 @@
+setup.py
+bsplines/__init__.py
+bsplines/plotPoseSpline.py
+bsplines.egg-info/PKG-INFO
+bsplines.egg-info/SOURCES.txt
+bsplines.egg-info/dependency_links.txt
+bsplines.egg-info/top_level.txt

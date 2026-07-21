@@ -1,0 +1,137 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found numpy_eigen: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/share/numpy_eigen/cmake)
+-- Found sm_python: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/sm_python/cmake)
+-- Found aslam_backend: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/cmake)
+-- Found aslam_backend_expressions: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_expressions/share/aslam_backend_expressions/cmake)
+-- Found aslam_backend_python: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_python/share/aslam_backend_python/cmake)
+-- Found aslam_cameras: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras/share/aslam_cameras/cmake)
+-- Found aslam_cv_error_terms: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_error_terms/share/aslam_cv_error_terms/cmake)
+-- Found aslam_cv_backend: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend/share/aslam_cv_backend/cmake)
+-- Found aslam_cv_python: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_python/share/aslam_cv_python/cmake)
+-- Found aslam_splines: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines/share/aslam_splines/cmake)
+-- Found bsplines: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines/share/bsplines/cmake)
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization python thread filesystem regex 
+-- Found Python3: /usr/include/python3.10 (found version "3.10.12") found components: Development NumPy Interpreter Development.Module Development.Embed 
+-- Found OpenCV: /usr (found version "4.5.4") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/aslam_cv_backend_python
+[  0%] Built target ament_cmake_python_copy_aslam_cv_backend
+[ 33%] [32mBuilding CXX object CMakeFiles/aslam_cv_backend_python.dir/src/module.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/aslam_cv_backend_python.dir/src/GridCalibration.cpp.o[0m
+running egg_info
+creating aslam_cv_backend.egg-info
+writing aslam_cv_backend.egg-info/PKG-INFO
+writing dependency_links to aslam_cv_backend.egg-info/dependency_links.txt
+writing top-level names to aslam_cv_backend.egg-info/top_level.txt
+writing manifest file 'aslam_cv_backend.egg-info/SOURCES.txt'
+reading manifest file 'aslam_cv_backend.egg-info/SOURCES.txt'
+writing manifest file 'aslam_cv_backend.egg-info/SOURCES.txt'
+[ 66%] Built target ament_cmake_python_build_aslam_cv_backend_egg
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/python.hpp:11[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend_python/src/GridCalibration.cpp:3[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+   13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/python.hpp:11[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend_python/src/module.cpp:3[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+   13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend_python/src/module.cpp:4[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend_python/include/aslam/ExportReprojectionError.hpp:[m[K In function ‘[01m[Kvoid aslam::python::exportReprojectionError(const string&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend_python/include/aslam/ExportReprojectionError.hpp:24:26:[m[K [01;35m[Kwarning: [m[Ktypedef ‘[01m[Kdescriptor_t[m[K’ locally defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-local-typedefs-Wunused-local-typedefs]8;;[m[K]
+   24 |   typedef DescriptorBase [01;35m[Kdescriptor_t[m[K;
+      |                          [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend_python/include/aslam/ExportReprojectionError.hpp:27:40:[m[K [01;35m[Kwarning: [m[Ktypedef ‘[01m[Kkeypoint_t[m[K’ locally defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-local-typedefs-Wunused-local-typedefs]8;;[m[K]
+   27 |   typedef typename frame_t::keypoint_t [01;35m[Kkeypoint_t[m[K;
+      |                                        [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend_python/include/aslam/ExportReprojectionError.hpp:[m[K In function ‘[01m[Kvoid aslam::python::exportCovarianceReprojectionError(const string&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend_python/include/aslam/ExportReprojectionError.hpp:71:26:[m[K [01;35m[Kwarning: [m[Ktypedef ‘[01m[Kdescriptor_t[m[K’ locally defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-local-typedefs-Wunused-local-typedefs]8;;[m[K]
+   71 |   typedef DescriptorBase [01;35m[Kdescriptor_t[m[K;
+      |                          [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend_python/include/aslam/ExportReprojectionError.hpp:73:40:[m[K [01;35m[Kwarning: [m[Ktypedef ‘[01m[Kkeypoint_t[m[K’ locally defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-local-typedefs-Wunused-local-typedefs]8;;[m[K]
+   73 |   typedef typename frame_t::keypoint_t [01;35m[Kkeypoint_t[m[K;
+      |                                        [01;35m[K^~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libaslam_cv_backend_python.so[0m
+[100%] Built target aslam_cv_backend_python
+-- Install configuration: "Release"
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/share/aslam_cv_backend_python/environment/pythonpath.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/share/aslam_cv_backend_python/environment/pythonpath.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/local/lib/python3.10/dist-packages/aslam_cv_backend-1.0.0-py3.10.egg-info
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/local/lib/python3.10/dist-packages/aslam_cv_backend-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/local/lib/python3.10/dist-packages/aslam_cv_backend-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/local/lib/python3.10/dist-packages/aslam_cv_backend-1.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/local/lib/python3.10/dist-packages/aslam_cv_backend-1.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/local/lib/python3.10/dist-packages/aslam_cv_backend
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/local/lib/python3.10/dist-packages/aslam_cv_backend/__init__.py
+Listing '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/local/lib/python3.10/dist-packages/aslam_cv_backend'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/local/lib/python3.10/dist-packages/aslam_cv_backend/__init__.py'...
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/local/lib/python3.10/dist-packages/aslam_cv_backend/libaslam_cv_backend_python.so
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/include
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/include/aslam
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/include/aslam/ExportReprojectionError.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/include/aslam/ExportScalarExpressionNodeKeypointTime.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/include/aslam/ExportCameraDesignVariable.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/share/ament_index/resource_index/package_run_dependencies/aslam_cv_backend_python
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/share/ament_index/resource_index/parent_prefix_path/aslam_cv_backend_python
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/share/aslam_cv_backend_python/environment/ament_prefix_path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/share/aslam_cv_backend_python/environment/ament_prefix_path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/share/aslam_cv_backend_python/environment/path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/share/aslam_cv_backend_python/environment/path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/share/aslam_cv_backend_python/local_setup.bash
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/share/aslam_cv_backend_python/local_setup.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/share/aslam_cv_backend_python/local_setup.zsh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/share/aslam_cv_backend_python/local_setup.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/share/aslam_cv_backend_python/package.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/share/ament_index/resource_index/packages/aslam_cv_backend_python
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/share/aslam_cv_backend_python/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/share/aslam_cv_backend_python/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/share/aslam_cv_backend_python/cmake/aslam_cv_backend_pythonConfig.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/share/aslam_cv_backend_python/cmake/aslam_cv_backend_pythonConfig-version.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/share/aslam_cv_backend_python/package.xml

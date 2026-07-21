@@ -1,0 +1,4 @@
+source;share/ethz_apriltag2/local_setup.bash
+source;share/ethz_apriltag2/local_setup.dsv
+source;share/ethz_apriltag2/local_setup.sh
+source;share/ethz_apriltag2/local_setup.zsh

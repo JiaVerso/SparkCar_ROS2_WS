@@ -1,0 +1,20 @@
+[100%] Built target feature_tracker
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/lib/feature_tracker/feature_tracker
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/launch/vins_feature_tracker.launch.py
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/ament_index/resource_index/package_run_dependencies/feature_tracker
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/ament_index/resource_index/parent_prefix_path/feature_tracker
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/environment/path.sh
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/environment/path.dsv
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/local_setup.bash
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/local_setup.sh
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/local_setup.zsh
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/local_setup.dsv
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/package.dsv
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/ament_index/resource_index/packages/feature_tracker
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/cmake/feature_trackerConfig.cmake
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/cmake/feature_trackerConfig-version.cmake
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/feature_tracker/share/feature_tracker/package.xml

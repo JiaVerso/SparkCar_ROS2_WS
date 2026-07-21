@@ -1,0 +1,112 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found aslam_cameras: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras/share/aslam_cameras/cmake)
+-- Found ethz_apriltag2: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ethz_apriltag2/cmake)
+-- Found sm_python: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/sm_python/cmake)
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization python thread filesystem regex 
+-- Found OpenCV: /usr (found version "4.5.4") 
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/aslam_cameras_april
+[ 25%] [32mBuilding CXX object CMakeFiles/aslam_cameras_april.dir/src/GridCalibrationTargetAprilgrid.cpp.o[0m
+[ 25%] Built target ament_cmake_python_copy_aslam_cameras_april
+running egg_info
+creating aslam_cameras_april.egg-info
+writing aslam_cameras_april.egg-info/PKG-INFO
+writing dependency_links to aslam_cameras_april.egg-info/dependency_links.txt
+writing top-level names to aslam_cameras_april.egg-info/top_level.txt
+writing manifest file 'aslam_cameras_april.egg-info/SOURCES.txt'
+reading manifest file 'aslam_cameras_april.egg-info/SOURCES.txt'
+writing manifest file 'aslam_cameras_april.egg-info/SOURCES.txt'
+[ 25%] Built target ament_cmake_python_build_aslam_cameras_april_egg
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april/src/GridCalibrationTargetAprilgrid.cpp:10[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april/include/aslam/cameras/GridCalibrationTargetAprilgrid.hpp:25:53:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   25 |   SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                     [01;35m[K^[m[K
+      |                                                     [31m[K-[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april/include/aslam/cameras/GridCalibrationTargetAprilgrid.hpp:61:39:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   61 |     BOOST_SERIALIZATION_SPLIT_MEMBER()[01;35m[K;[m[K
+      |                                       [01;35m[K^[m[K
+      |                                       [31m[K-[m[K
+[ 50%] [32m[1mLinking CXX shared library libaslam_cameras_april.so[0m
+[ 50%] Built target aslam_cameras_april
+[ 75%] [32mBuilding CXX object CMakeFiles/aslam_cameras_april_python.dir/src/module.cpp.o[0m
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april/src/module.cpp:3[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april/include/aslam/cameras/GridCalibrationTargetAprilgrid.hpp:25:53:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   25 |   SM_DEFINE_EXCEPTION(Exception, std::runtime_error)[01;35m[K;[m[K
+      |                                                     [01;35m[K^[m[K
+      |                                                     [31m[K-[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april/include/aslam/cameras/GridCalibrationTargetAprilgrid.hpp:61:39:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   61 |     BOOST_SERIALIZATION_SPLIT_MEMBER()[01;35m[K;[m[K
+      |                                       [01;35m[K^[m[K
+      |                                       [31m[K-[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april/include/aslam/cameras/GridCalibrationTargetAprilgrid.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april/src/module.cpp:3[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+   13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libaslam_cameras_april_python.so[0m
+[100%] Built target aslam_cameras_april_python
+-- Install configuration: "Release"
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/lib/libaslam_cameras_april.so
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/include
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/include/aslam
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/include/aslam/cameras
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/include/aslam/cameras/GridCalibrationTargetAprilgrid.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/aslam_cameras_april/environment/library_path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/aslam_cameras_april/environment/library_path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/aslam_cameras_april/environment/pythonpath.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/aslam_cameras_april/environment/pythonpath.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/local/lib/python3.10/dist-packages/aslam_cameras_april-1.0.0-py3.10.egg-info
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/local/lib/python3.10/dist-packages/aslam_cameras_april-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/local/lib/python3.10/dist-packages/aslam_cameras_april-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/local/lib/python3.10/dist-packages/aslam_cameras_april-1.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/local/lib/python3.10/dist-packages/aslam_cameras_april-1.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/local/lib/python3.10/dist-packages/aslam_cameras_april
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/local/lib/python3.10/dist-packages/aslam_cameras_april/__init__.py
+Listing '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/local/lib/python3.10/dist-packages/aslam_cameras_april'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/local/lib/python3.10/dist-packages/aslam_cameras_april/__init__.py'...
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/local/lib/python3.10/dist-packages/aslam_cameras_april/libaslam_cameras_april_python.so
+-- Set runtime path of "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/local/lib/python3.10/dist-packages/aslam_cameras_april/libaslam_cameras_april_python.so" to ""
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/ament_index/resource_index/package_run_dependencies/aslam_cameras_april
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/ament_index/resource_index/parent_prefix_path/aslam_cameras_april
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/aslam_cameras_april/environment/ament_prefix_path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/aslam_cameras_april/environment/ament_prefix_path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/aslam_cameras_april/environment/path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/aslam_cameras_april/environment/path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/aslam_cameras_april/local_setup.bash
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/aslam_cameras_april/local_setup.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/aslam_cameras_april/local_setup.zsh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/aslam_cameras_april/local_setup.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/aslam_cameras_april/package.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/ament_index/resource_index/packages/aslam_cameras_april
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/aslam_cameras_april/cmake/aslam_cameras_aprilTargetsExport.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/aslam_cameras_april/cmake/aslam_cameras_aprilTargetsExport-release.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/aslam_cameras_april/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/aslam_cameras_april/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/aslam_cameras_april/cmake/aslam_cameras_aprilConfig.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/aslam_cameras_april/cmake/aslam_cameras_aprilConfig-version.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/aslam_cameras_april/package.xml

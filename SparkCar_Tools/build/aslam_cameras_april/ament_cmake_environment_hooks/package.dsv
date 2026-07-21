@@ -1,0 +1,4 @@
+source;share/aslam_cameras_april/local_setup.bash
+source;share/aslam_cameras_april/local_setup.dsv
+source;share/aslam_cameras_april/local_setup.sh
+source;share/aslam_cameras_april/local_setup.zsh

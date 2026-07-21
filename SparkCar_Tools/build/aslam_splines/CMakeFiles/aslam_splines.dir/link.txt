@@ -1,0 +1,2 @@
+/usr/bin/ar qc libaslam_splines.a CMakeFiles/aslam_splines.dir/src/BSplinePoseDesignVariable.cpp.o CMakeFiles/aslam_splines.dir/src/BSplineExpressions.cpp.o CMakeFiles/aslam_splines.dir/src/EuclideanBSplineDesignVariable.cpp.o
+/usr/bin/ranlib libaslam_splines.a

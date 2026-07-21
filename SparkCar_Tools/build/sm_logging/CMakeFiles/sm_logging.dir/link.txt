@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsm_logging.a CMakeFiles/sm_logging.dir/src/Formatter.cpp.o CMakeFiles/sm_logging.dir/src/Logger.cpp.o CMakeFiles/sm_logging.dir/src/LoggingEvent.cpp.o CMakeFiles/sm_logging.dir/src/LoggingGlobals.cpp.o CMakeFiles/sm_logging.dir/src/StdOutLogger.cpp.o CMakeFiles/sm_logging.dir/src/Tokens.cpp.o
+/usr/bin/ranlib libsm_logging.a

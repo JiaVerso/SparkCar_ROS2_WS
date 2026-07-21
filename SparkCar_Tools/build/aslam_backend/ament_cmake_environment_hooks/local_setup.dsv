@@ -1,0 +1,3 @@
+source;share/aslam_backend/environment/ament_prefix_path.sh
+source;share/aslam_backend/environment/library_path.sh
+source;share/aslam_backend/environment/path.sh

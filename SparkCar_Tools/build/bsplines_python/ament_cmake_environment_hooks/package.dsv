@@ -1,0 +1,4 @@
+source;share/bsplines_python/local_setup.bash
+source;share/bsplines_python/local_setup.dsv
+source;share/bsplines_python/local_setup.sh
+source;share/bsplines_python/local_setup.zsh

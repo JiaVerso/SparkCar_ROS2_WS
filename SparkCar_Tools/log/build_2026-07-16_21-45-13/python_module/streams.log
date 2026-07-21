@@ -1,0 +1,39 @@
+[0.038s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/python_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/python_module -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module
+[0.244s] -- The C compiler identification is GNU 11.4.0
+[0.395s] -- The CXX compiler identification is GNU 11.4.0
+[0.408s] -- Detecting C compiler ABI info
+[0.664s] -- Detecting C compiler ABI info - done
+[0.705s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.706s] -- Detecting C compile features
+[0.708s] -- Detecting C compile features - done
+[0.722s] -- Detecting CXX compiler ABI info
+[1.055s] -- Detecting CXX compiler ABI info - done
+[1.102s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.104s] -- Detecting CXX compile features
+[1.111s] -- Detecting CXX compile features - done
+[1.117s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.624s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.072s] -- Configuring done
+[2.076s] -- Generating done
+[2.079s] -- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/python_module
+[2.099s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/python_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/python_module -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module
+[2.100s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/python_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/python_module -- -j8 -l8
+[4.152s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/python_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/python_module -- -j8 -l8
+[4.155s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/python_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/python_module
+[4.273s] -- Install configuration: "Release"
+[4.274s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module/share/ament_index/resource_index/package_run_dependencies/python_module
+[4.275s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module/share/ament_index/resource_index/parent_prefix_path/python_module
+[4.276s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module/share/python_module/environment/ament_prefix_path.sh
+[4.278s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module/share/python_module/environment/ament_prefix_path.dsv
+[4.279s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module/share/python_module/environment/path.sh
+[4.279s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module/share/python_module/environment/path.dsv
+[4.280s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module/share/python_module/local_setup.bash
+[4.281s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module/share/python_module/local_setup.sh
+[4.281s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module/share/python_module/local_setup.zsh
+[4.282s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module/share/python_module/local_setup.dsv
+[4.282s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module/share/python_module/package.dsv
+[4.282s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module/share/ament_index/resource_index/packages/python_module
+[4.283s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module/share/python_module/cmake/python_moduleConfig.cmake
+[4.283s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module/share/python_module/cmake/python_moduleConfig-version.cmake
+[4.283s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module/share/python_module/package.xml
+[4.494s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/python_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/python_module

@@ -1,0 +1,4 @@
+source;share/aslam_cv_python/local_setup.bash
+source;share/aslam_cv_python/local_setup.dsv
+source;share/aslam_cv_python/local_setup.sh
+source;share/aslam_cv_python/local_setup.zsh

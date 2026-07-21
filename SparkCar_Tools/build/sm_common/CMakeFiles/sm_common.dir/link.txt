@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsm_common.a CMakeFiles/sm_common.dir/src/progress_info.cpp.o
+/usr/bin/ranlib libsm_common.a

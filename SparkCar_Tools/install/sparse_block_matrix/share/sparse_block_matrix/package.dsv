@@ -1,0 +1,8 @@
+source;share/sparse_block_matrix/hook/cmake_prefix_path.ps1
+source;share/sparse_block_matrix/hook/cmake_prefix_path.dsv
+source;share/sparse_block_matrix/hook/cmake_prefix_path.sh
+source;share/sparse_block_matrix/local_setup.bash
+source;share/sparse_block_matrix/local_setup.dsv
+source;share/sparse_block_matrix/local_setup.ps1
+source;share/sparse_block_matrix/local_setup.sh
+source;share/sparse_block_matrix/local_setup.zsh

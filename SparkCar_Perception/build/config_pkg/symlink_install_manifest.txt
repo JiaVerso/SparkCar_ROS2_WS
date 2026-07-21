@@ -17,6 +17,7 @@
 /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/gif/vins_ros2_mh05.gif
 /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/gif/vins_ros2_v101.gif
 /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/gif/vins_ros2_v201.gif
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/realsense/d435_h743_config.yaml
 /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/realsense/realsense_color_config.yaml
 /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/realsense/realsense_fisheye_config.yaml
 /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/realsense/realsense_zr300

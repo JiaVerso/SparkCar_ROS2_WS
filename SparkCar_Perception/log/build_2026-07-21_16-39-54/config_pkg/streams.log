@@ -1,0 +1,52 @@
+[0.125s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/config_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/config_pkg -- -j8 -l8
+[0.409s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/config_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/config_pkg -- -j8 -l8
+[0.483s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/config_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/config_pkg
+[0.508s] -- Install configuration: "Release"
+[0.530s] -- Execute custom install script
+[0.532s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/3dm/3dm_config.yaml
+[0.533s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/AR_demo.rviz
+[0.533s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/ar_demo_rviz.rviz
+[0.534s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/black_box/black_box_config.yaml
+[0.538s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/cla/cla_config.yaml
+[0.539s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/euroc/euroc_config.yaml
+[0.540s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/euroc/euroc_config_no_extrinsic.yaml
+[0.541s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/extrinsic_parameter_example.pdf
+[0.542s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/fisheye_mask.jpg
+[0.542s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/fisheye_mask_752x480.jpg
+[0.543s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/gif/vins_ros2_ar_demo.gif
+[0.544s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/gif/vins_ros2_benchmark_mh01.gif
+[0.546s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/gif/vins_ros2_benchmark_mh02.gif
+[0.546s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/gif/vins_ros2_benchmark_mh05.gif
+[0.547s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/gif/vins_ros2_mh01.gif
+[0.547s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/gif/vins_ros2_mh02.gif
+[0.548s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/gif/vins_ros2_mh05.gif
+[0.549s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/gif/vins_ros2_v101.gif
+[0.550s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/gif/vins_ros2_v201.gif
+[0.551s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/realsense/d435_h743_config.yaml
+[0.552s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/realsense/realsense_color_config.yaml
+[0.552s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/realsense/realsense_fisheye_config.yaml
+[0.553s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/realsense/realsense_zr300
+[0.554s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/tum/tum_config.yaml
+[0.555s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//config/vins_euroc_rviz.rviz
+[0.557s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//support_files/brief_k10L6.bin
+[0.558s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//support_files/brief_pattern.yml
+[0.559s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//support_files/image/vins.png
+[0.560s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//support_files/image/vins_black.png
+[0.561s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//support_files/paper/tro_technical_report.pdf
+[0.561s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg//support_files/paper_bib.txt
+[0.563s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/ament_index/resource_index/package_run_dependencies/config_pkg
+[0.564s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/ament_index/resource_index/parent_prefix_path/config_pkg
+[0.565s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/environment/ament_prefix_path.sh
+[0.567s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/environment/ament_prefix_path.dsv
+[0.570s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/environment/path.sh
+[0.571s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/environment/path.dsv
+[0.572s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/local_setup.bash
+[0.573s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/local_setup.sh
+[0.574s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/local_setup.zsh
+[0.576s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/local_setup.dsv
+[0.577s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/package.dsv
+[0.633s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/ament_index/resource_index/packages/config_pkg
+[0.664s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/cmake/config_pkgConfig.cmake
+[0.670s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/cmake/config_pkgConfig-version.cmake
+[0.671s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/config_pkg/share/config_pkg/package.xml
+[0.699s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/config_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/config_pkg

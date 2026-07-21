@@ -1,0 +1,4 @@
+source;share/sparse_block_matrix/local_setup.bash
+source;share/sparse_block_matrix/local_setup.dsv
+source;share/sparse_block_matrix/local_setup.sh
+source;share/sparse_block_matrix/local_setup.zsh

@@ -1,0 +1,4 @@
+source;share/kalibr/local_setup.bash
+source;share/kalibr/local_setup.dsv
+source;share/kalibr/local_setup.sh
+source;share/kalibr/local_setup.zsh

@@ -1,0 +1,4 @@
+source;share/bsplines/local_setup.bash
+source;share/bsplines/local_setup.dsv
+source;share/bsplines/local_setup.sh
+source;share/bsplines/local_setup.zsh

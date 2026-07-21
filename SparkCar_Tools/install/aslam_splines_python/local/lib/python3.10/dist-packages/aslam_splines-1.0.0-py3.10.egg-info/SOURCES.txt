@@ -1,0 +1,6 @@
+setup.py
+aslam_splines/__init__.py
+aslam_splines.egg-info/PKG-INFO
+aslam_splines.egg-info/SOURCES.txt
+aslam_splines.egg-info/dependency_links.txt
+aslam_splines.egg-info/top_level.txt

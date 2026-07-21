@@ -1,0 +1,67 @@
+[0.041s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/aslam_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_time -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time
+[0.257s] -- The C compiler identification is GNU 11.4.0
+[0.360s] -- The CXX compiler identification is GNU 11.4.0
+[0.372s] -- Detecting C compiler ABI info
+[0.573s] -- Detecting C compiler ABI info - done
+[0.587s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.587s] -- Detecting C compile features
+[0.587s] -- Detecting C compile features - done
+[0.591s] -- Detecting CXX compiler ABI info
+[0.883s] -- Detecting CXX compiler ABI info - done
+[0.896s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.896s] -- Detecting CXX compile features
+[0.899s] -- Detecting CXX compile features - done
+[0.902s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.383s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.691s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[1.833s] -- Configuring done
+[1.843s] -- Generating done
+[1.855s] -- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/aslam_time
+[1.869s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/aslam_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_time -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time
+[1.870s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/aslam_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/aslam_time -- -j8 -l8
+[2.256s] [ 33%] [32mBuilding CXX object CMakeFiles/aslam_time.dir/src/duration.cpp.o[0m
+[2.285s] [ 66%] [32mBuilding CXX object CMakeFiles/aslam_time.dir/src/time.cpp.o[0m
+[11.999s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_time/src/time.cpp:[m[K In static member function ‘[01m[Kstatic void aslam::Time::setNow(const aslam::Time&)[m[K’:
+[11.999s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_time/src/time.cpp:228:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knew_now[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[11.999s]   228 | void Time::setNow([01;35m[Kconst Time& new_now[m[K) {
+[11.999s]       |                   [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[12.000s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_time/src/time.cpp:[m[K In static member function ‘[01m[Kstatic bool aslam::Time::waitForValid(const aslam::WallDuration&)[m[K’:
+[12.000s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_time/src/time.cpp:246:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[12.000s]   246 | bool Time::waitForValid([01;35m[Kconst aslam::WallDuration& timeout[m[K) {
+[12.001s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[19.739s] [100%] [32m[1mLinking CXX static library libaslam_time.a[0m
+[19.963s] [100%] Built target aslam_time
+[20.052s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/aslam_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/aslam_time -- -j8 -l8
+[20.054s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/aslam_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/aslam_time
+[20.082s] -- Install configuration: "Release"
+[20.082s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/lib/libaslam_time.a
+[20.082s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/include
+[20.082s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/include/aslam
+[20.082s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/include/aslam/Duration.hpp
+[20.082s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/include/aslam/Time.hpp
+[20.082s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/include/aslam/implementation
+[20.083s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/include/aslam/implementation/Duration.hpp
+[20.083s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/include/aslam/implementation/Time.hpp
+[20.083s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/aslam_time/environment/library_path.sh
+[20.083s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/aslam_time/environment/library_path.dsv
+[20.083s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/ament_index/resource_index/package_run_dependencies/aslam_time
+[20.083s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/ament_index/resource_index/parent_prefix_path/aslam_time
+[20.083s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/aslam_time/environment/ament_prefix_path.sh
+[20.083s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/aslam_time/environment/ament_prefix_path.dsv
+[20.083s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/aslam_time/environment/path.sh
+[20.083s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/aslam_time/environment/path.dsv
+[20.083s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/aslam_time/local_setup.bash
+[20.083s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/aslam_time/local_setup.sh
+[20.083s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/aslam_time/local_setup.zsh
+[20.083s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/aslam_time/local_setup.dsv
+[20.083s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/aslam_time/package.dsv
+[20.084s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/ament_index/resource_index/packages/aslam_time
+[20.084s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/aslam_time/cmake/aslam_timeTargetsExport.cmake
+[20.084s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/aslam_time/cmake/aslam_timeTargetsExport-release.cmake
+[20.084s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/aslam_time/cmake/ament_cmake_export_targets-extras.cmake
+[20.084s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/aslam_time/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.084s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/aslam_time/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.086s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/aslam_time/cmake/aslam_timeConfig.cmake
+[20.093s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/aslam_time/cmake/aslam_timeConfig-version.cmake
+[20.104s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/share/aslam_time/package.xml
+[20.197s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/aslam_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/aslam_time

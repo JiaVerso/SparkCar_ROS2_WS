@@ -1,0 +1,3 @@
+source;share/aslam_cv_error_terms/environment/ament_prefix_path.sh
+source;share/aslam_cv_error_terms/environment/library_path.sh
+source;share/aslam_cv_error_terms/environment/path.sh

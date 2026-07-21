@@ -1,0 +1,505 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found sm_common: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/cmake)
+-- Found sm_eigen: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen/share/sm_eigen/cmake)
+-- Found sm_logging: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging/share/sm_logging/cmake)
+-- Found sm_boost: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost/share/sm_boost/cmake)
+-- Found aslam_backend: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/cmake)
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system thread filesystem serialization 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/incremental_calibration
+[  3%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/base/Serializable.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/exceptions/Exception.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/exceptions/InvalidOperationException.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/exceptions/NullPointerException.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/exceptions/SystemException.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/statistics/NormalDistribution1v.cpp.o[0m
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/NormalDistribution1v.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::NormalDistribution<1>::read(std::istream&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/NormalDistribution1v.cpp:69:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   69 |     void NormalDistribution<1>::read([01;35m[Kstd::istream& stream[m[K) {
+      |                                      [01;35m[K~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/NormalDistribution1v.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::NormalDistribution<1>::read(std::ifstream&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/NormalDistribution1v.cpp:77:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   77 |     void NormalDistribution<1>::read([01;35m[Kstd::ifstream& stream[m[K) {
+      |                                      [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/NormalDistribution1v.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::NormalDistribution<1>::write(std::ofstream&) const[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/NormalDistribution1v.cpp:80:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   80 |     void NormalDistribution<1>::write([01;35m[Kstd::ofstream& stream[m[K) const {
+      |                                       [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/Randomizer.h:132[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/NormalDistributionMv.tpp:21[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/NormalDistributionMv.h:154[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/NormalDistribution.h:35[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/NormalDistribution1v.cpp:19[m[K:
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/Randomizer.tpp: In instantiation of ‘[01m[Kvoid aslam::calibration::Randomizer<T, M>::read(std::istream&) [with T = double; int M = 1; std::istream = std::basic_istream<char>][m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/Randomizer.tpp:56:10:[m[K   required from here
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/Randomizer.tpp:56:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   56 |     void Randomizer<T, M>::read([01;35m[Kstd::istream& stream[m[K) {
+      |                                 [01;35m[K~~~~~~~~~~~~~~^~~~~~[m[K
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/Randomizer.tpp: In instantiation of ‘[01m[Kvoid aslam::calibration::Randomizer<T, M>::read(std::ifstream&) [with T = double; int M = 1; std::ifstream = std::basic_ifstream<char>][m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/Randomizer.tpp:65:10:[m[K   required from here
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/Randomizer.tpp:65:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   65 |     void Randomizer<T, M>::read([01;35m[Kstd::ifstream& stream[m[K) {
+      |                                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/Randomizer.tpp: In instantiation of ‘[01m[Kvoid aslam::calibration::Randomizer<T, M>::write(std::ofstream&) const [with T = double; int M = 1; std::ofstream = std::basic_ofstream<char>][m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/Randomizer.tpp:69:10:[m[K   required from here
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/Randomizer.tpp:69:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   69 |     void Randomizer<T, M>::write([01;35m[Kstd::ofstream& stream[m[K) const {
+      |                                  [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[ 26%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/statistics/ChiSquareDistribution.cpp.o[0m
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/GammaDistribution.h:133[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/ChiSquareDistribution.h:27[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/ChiSquareDistribution.cpp:19[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/GammaDistribution.tpp:[m[K In member function ‘[01m[Kaslam::calibration::ContinuousDistribution<double>::RandomVariable aslam::calibration::GammaDistribution<T>::invcdf(double) const[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/GammaDistribution.tpp:159:7:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+  159 |       [01;35m[Kif[m[K (probability < 0 || probability > 1)
+      |       [01;35m[K^~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/GammaDistribution.tpp:163:9:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+  163 |         [01;36m[Kreturn[m[K boost::math::quantile(boost::math::gamma_distribution<>(
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/ChiSquareDistribution.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::ChiSquareDistribution::read(std::istream&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/ChiSquareDistribution.cpp:52:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   52 |     void ChiSquareDistribution::read([01;35m[Kstd::istream& stream[m[K) {
+      |                                      [01;35m[K~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/ChiSquareDistribution.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::ChiSquareDistribution::read(std::ifstream&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/ChiSquareDistribution.cpp:59:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   59 |     void ChiSquareDistribution::read([01;35m[Kstd::ifstream& stream[m[K) {
+      |                                      [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/ChiSquareDistribution.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::ChiSquareDistribution::write(std::ofstream&) const[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/ChiSquareDistribution.cpp:62:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   62 |     void ChiSquareDistribution::write([01;35m[Kstd::ofstream& stream[m[K) const {
+      |                                       [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/functions/LogGammaFunction.h:151[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/GammaDistribution.tpp:22[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/GammaDistribution.h:133[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/ChiSquareDistribution.h:27[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/ChiSquareDistribution.cpp:19[m[K:
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/functions/LogGammaFunction.tpp: In instantiation of ‘[01m[Kvoid aslam::calibration::LogGammaFunction<X>::read(std::istream&) [with X = double; std::istream = std::basic_istream<char>][m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/functions/LogGammaFunction.tpp:58:10:[m[K   required from here
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/functions/LogGammaFunction.tpp:58:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   58 |     void LogGammaFunction<X>::read([01;35m[Kstd::istream& stream[m[K) {
+      |                                    [01;35m[K~~~~~~~~~~~~~~^~~~~~[m[K
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/functions/LogGammaFunction.tpp: In instantiation of ‘[01m[Kvoid aslam::calibration::LogGammaFunction<X>::read(std::ifstream&) [with X = double; std::ifstream = std::basic_ifstream<char>][m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/functions/LogGammaFunction.tpp:67:10:[m[K   required from here
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/functions/LogGammaFunction.tpp:67:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   67 |     void LogGammaFunction<X>::read([01;35m[Kstd::ifstream& stream[m[K) {
+      |                                    [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/functions/LogGammaFunction.tpp: In instantiation of ‘[01m[Kvoid aslam::calibration::LogGammaFunction<X>::write(std::ofstream&) const [with X = double; std::ofstream = std::basic_ofstream<char>][m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/functions/LogGammaFunction.tpp:71:10:[m[K   required from here
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/functions/LogGammaFunction.tpp:71:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   71 |     void LogGammaFunction<X>::write([01;35m[Kstd::ofstream& stream[m[K) const {
+      |                                     [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/GammaDistribution.h:133[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/ChiSquareDistribution.h:27[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/ChiSquareDistribution.cpp:19[m[K:
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/GammaDistribution.tpp: In instantiation of ‘[01m[Kvoid aslam::calibration::GammaDistribution<T>::read(std::istream&) [with T = double; std::istream = std::basic_istream<char>][m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/GammaDistribution.tpp:68:10:[m[K   required from here
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/GammaDistribution.tpp:68:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   68 |     void GammaDistribution<T>::read([01;35m[Kstd::istream& stream[m[K) {
+      |                                     [01;35m[K~~~~~~~~~~~~~~^~~~~~[m[K
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/GammaDistribution.tpp: In instantiation of ‘[01m[Kvoid aslam::calibration::GammaDistribution<T>::read(std::ifstream&) [with T = double; std::ifstream = std::basic_ifstream<char>][m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/GammaDistribution.tpp:78:10:[m[K   required from here
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/GammaDistribution.tpp:78:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   78 |     void GammaDistribution<T>::read([01;35m[Kstd::ifstream& stream[m[K) {
+      |                                     [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/GammaDistribution.tpp: In instantiation of ‘[01m[Kvoid aslam::calibration::GammaDistribution<T>::write(std::ofstream&) const [with T = double; std::ofstream = std::basic_ofstream<char>][m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/GammaDistribution.tpp:82:10:[m[K   required from here
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/GammaDistribution.tpp:82:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   82 |     void GammaDistribution<T>::write([01;35m[Kstd::ofstream& stream[m[K) const {
+      |                                      [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/Randomizer.h:132[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/GammaDistribution.tpp:21[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/GammaDistribution.h:133[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/ChiSquareDistribution.h:27[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/ChiSquareDistribution.cpp:19[m[K:
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/Randomizer.tpp: In instantiation of ‘[01m[Kvoid aslam::calibration::Randomizer<T, M>::read(std::istream&) [with T = double; int M = 1; std::istream = std::basic_istream<char>][m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/Randomizer.tpp:56:10:[m[K   required from here
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/Randomizer.tpp:56:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   56 |     void Randomizer<T, M>::read([01;35m[Kstd::istream& stream[m[K) {
+      |                                 [01;35m[K~~~~~~~~~~~~~~^~~~~~[m[K
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/Randomizer.tpp: In instantiation of ‘[01m[Kvoid aslam::calibration::Randomizer<T, M>::read(std::ifstream&) [with T = double; int M = 1; std::ifstream = std::basic_ifstream<char>][m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/Randomizer.tpp:65:10:[m[K   required from here
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/Randomizer.tpp:65:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   65 |     void Randomizer<T, M>::read([01;35m[Kstd::ifstream& stream[m[K) {
+      |                                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/Randomizer.tpp: In instantiation of ‘[01m[Kvoid aslam::calibration::Randomizer<T, M>::write(std::ofstream&) const [with T = double; int M = 1; std::ofstream = std::basic_ofstream<char>][m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/Randomizer.tpp:69:10:[m[K   required from here
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/statistics/Randomizer.tpp:69:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   69 |     void Randomizer<T, M>::write([01;35m[Kstd::ofstream& stream[m[K) const {
+      |                                  [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[ 30%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/statistics/EstimatorMLNormal1v.cpp.o[0m
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/EstimatorMLNormal1v.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::EstimatorML<aslam::calibration::NormalDistribution<1> >::read(std::istream&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/EstimatorMLNormal1v.cpp:63:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   63 |     void EstimatorML<NormalDistribution<1> >::read([01;35m[Kstd::istream& stream[m[K) {
+      |                                                    [01;35m[K~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/EstimatorMLNormal1v.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::EstimatorML<aslam::calibration::NormalDistribution<1> >::read(std::ifstream&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/EstimatorMLNormal1v.cpp:73:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   73 |     void EstimatorML<NormalDistribution<1> >::read([01;35m[Kstd::ifstream& stream[m[K) {
+      |                                                    [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/EstimatorMLNormal1v.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::EstimatorML<aslam::calibration::NormalDistribution<1> >::write(std::ofstream&) const[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/statistics/EstimatorMLNormal1v.cpp:76:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   76 |     void EstimatorML<NormalDistribution<1> >::write([01;35m[Kstd::ofstream& stream[m[K)
+      |                                                     [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[ 34%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/functions/IncompleteGammaPFunction.cpp.o[0m
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/functions/IncompleteGammaPFunction.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::IncompleteGammaPFunction::read(std::istream&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/functions/IncompleteGammaPFunction.cpp:54:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   54 |     void IncompleteGammaPFunction::read([01;35m[Kstd::istream& stream[m[K) {
+      |                                         [01;35m[K~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/functions/IncompleteGammaPFunction.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::IncompleteGammaPFunction::read(std::ifstream&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/functions/IncompleteGammaPFunction.cpp:61:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   61 |     void IncompleteGammaPFunction::read([01;35m[Kstd::ifstream& stream[m[K) {
+      |                                         [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/functions/IncompleteGammaPFunction.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::IncompleteGammaPFunction::write(std::ofstream&) const[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/functions/IncompleteGammaPFunction.cpp:64:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   64 |     void IncompleteGammaPFunction::write([01;35m[Kstd::ofstream& stream[m[K) const {
+      |                                          [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/functions/IncompleteGammaPFunction.cpp:21[m[K:
+/usr/include/boost/math/special_functions/gamma.hpp: In instantiation of ‘[01m[Kboost::math::detail::upper_incomplete_gamma_fract<T>::result_type boost::math::detail::upper_incomplete_gamma_fract<T>::operator()() [with T = long double; boost::math::detail::upper_incomplete_gamma_fract<T>::result_type = std::pair<long double, long double>][m[K’:
+[01m[K/usr/include/boost/math/tools/fraction.hpp:216:20:[m[K   required from ‘[01m[Ktypename boost::math::tools::detail::fraction_traits<Gen>::result_type boost::math::tools::continued_fraction_a(Gen&, const U&, uintmax_t&) [with Gen = boost::math::detail::upper_incomplete_gamma_fract<long double>; U = long double; typename boost::math::tools::detail::fraction_traits<Gen>::result_type = long double; uintmax_t = long unsigned int][m[K’
+[01m[K/usr/include/boost/math/tools/fraction.hpp:251:31:[m[K   required from ‘[01m[Ktypename boost::math::tools::detail::fraction_traits<Gen>::result_type boost::math::tools::continued_fraction_a(Gen&, const U&) [with Gen = boost::math::detail::upper_incomplete_gamma_fract<long double>; U = long double; typename boost::math::tools::detail::fraction_traits<Gen>::result_type = long double][m[K’
+[01m[K/usr/include/boost/math/special_functions/gamma.hpp:317:68:[m[K   required from ‘[01m[KT boost::math::detail::upper_gamma_fraction(T, T, T) [with T = long double][m[K’
+[01m[K/usr/include/boost/math/special_functions/gamma.hpp:1157:44:[m[K   required from ‘[01m[KT boost::math::detail::gamma_incomplete_imp(T, T, bool, bool, const Policy&, T*) [with T = long double; Policy = boost::math::policies::policy<boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>][m[K’
+[01m[K/usr/include/boost/math/special_functions/gamma.hpp:2085:35:[m[K   required from ‘[01m[Ktypename boost::math::tools::promote_args<RT1, RT2>::type boost::math::gamma_p(RT1, RT2, const Policy&) [with RT1 = double; RT2 = double; Policy = boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>; typename boost::math::tools::promote_args<RT1, RT2>::type = double][m[K’
+[01m[K/usr/include/boost/math/special_functions/gamma.hpp:2093:18:[m[K   required from ‘[01m[Ktypename boost::math::tools::promote_args<RT1, RT2>::type boost::math::gamma_p(RT1, RT2) [with RT1 = double; RT2 = double; typename boost::math::tools::promote_args<RT1, RT2>::type = double][m[K’
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/functions/IncompleteGammaPFunction.cpp:73:34:[m[K   required from here
+[01m[K/usr/include/boost/math/special_functions/gamma.hpp:302:16:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<long double, long double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+  302 |    result_type [01;36m[Koperator[m[K()()
+      |                [01;36m[K^~~~~~~~[m[K
+[ 38%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/functions/IncompleteGammaQFunction.cpp.o[0m
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/functions/IncompleteGammaQFunction.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::IncompleteGammaQFunction::read(std::istream&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/functions/IncompleteGammaQFunction.cpp:54:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   54 |     void IncompleteGammaQFunction::read([01;35m[Kstd::istream& stream[m[K) {
+      |                                         [01;35m[K~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/functions/IncompleteGammaQFunction.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::IncompleteGammaQFunction::read(std::ifstream&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/functions/IncompleteGammaQFunction.cpp:61:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   61 |     void IncompleteGammaQFunction::read([01;35m[Kstd::ifstream& stream[m[K) {
+      |                                         [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/functions/IncompleteGammaQFunction.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::IncompleteGammaQFunction::write(std::ofstream&) const[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/functions/IncompleteGammaQFunction.cpp:64:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   64 |     void IncompleteGammaQFunction::write([01;35m[Kstd::ofstream& stream[m[K) const {
+      |                                          [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/functions/IncompleteGammaQFunction.cpp:21[m[K:
+/usr/include/boost/math/special_functions/gamma.hpp: In instantiation of ‘[01m[Kboost::math::detail::upper_incomplete_gamma_fract<T>::result_type boost::math::detail::upper_incomplete_gamma_fract<T>::operator()() [with T = long double; boost::math::detail::upper_incomplete_gamma_fract<T>::result_type = std::pair<long double, long double>][m[K’:
+[01m[K/usr/include/boost/math/tools/fraction.hpp:216:20:[m[K   required from ‘[01m[Ktypename boost::math::tools::detail::fraction_traits<Gen>::result_type boost::math::tools::continued_fraction_a(Gen&, const U&, uintmax_t&) [with Gen = boost::math::detail::upper_incomplete_gamma_fract<long double>; U = long double; typename boost::math::tools::detail::fraction_traits<Gen>::result_type = long double; uintmax_t = long unsigned int][m[K’
+[01m[K/usr/include/boost/math/tools/fraction.hpp:251:31:[m[K   required from ‘[01m[Ktypename boost::math::tools::detail::fraction_traits<Gen>::result_type boost::math::tools::continued_fraction_a(Gen&, const U&) [with Gen = boost::math::detail::upper_incomplete_gamma_fract<long double>; U = long double; typename boost::math::tools::detail::fraction_traits<Gen>::result_type = long double][m[K’
+[01m[K/usr/include/boost/math/special_functions/gamma.hpp:317:68:[m[K   required from ‘[01m[KT boost::math::detail::upper_gamma_fraction(T, T, T) [with T = long double][m[K’
+[01m[K/usr/include/boost/math/special_functions/gamma.hpp:1157:44:[m[K   required from ‘[01m[KT boost::math::detail::gamma_incomplete_imp(T, T, bool, bool, const Policy&, T*) [with T = long double; Policy = boost::math::policies::policy<boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>][m[K’
+[01m[K/usr/include/boost/math/special_functions/gamma.hpp:2054:35:[m[K   required from ‘[01m[Ktypename boost::math::tools::promote_args<RT1, RT2>::type boost::math::gamma_q(RT1, RT2, const Policy&) [with RT1 = double; RT2 = double; Policy = boost::math::policies::policy<boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>; typename boost::math::tools::promote_args<RT1, RT2>::type = double][m[K’
+[01m[K/usr/include/boost/math/special_functions/gamma.hpp:2062:18:[m[K   required from ‘[01m[Ktypename boost::math::tools::promote_args<RT1, RT2>::type boost::math::gamma_q(RT1, RT2) [with RT1 = double; RT2 = double; typename boost::math::tools::promote_args<RT1, RT2>::type = double][m[K’
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/functions/IncompleteGammaQFunction.cpp:73:34:[m[K   required from here
+[01m[K/usr/include/boost/math/special_functions/gamma.hpp:302:16:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<long double, long double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+  302 |    result_type [01;36m[Koperator[m[K()()
+      |                [01;36m[K^~~~~~~~[m[K
+[ 42%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/functions/LogFactorialFunction.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/functions/LogGammaFunction.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/core/IncrementalEstimator.cpp.o[0m
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/core/IncrementalEstimator.h:29[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/core/IncrementalEstimator.cpp:19[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[ 53%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/core/OptimizationProblem.cpp.o[0m
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/core/OptimizationProblem.h:34[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/core/OptimizationProblem.cpp:19[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/core/OptimizationProblem.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::OptimizationProblem::getErrorsImplementation(const DesignVariable*, std::set<aslam::backend::ErrorTerm*>&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/core/OptimizationProblem.cpp:218:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  218 |     void OptimizationProblem::getErrorsImplementation([01;35m[Kconst DesignVariable* dv[m[K,
+      |                                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/core/OptimizationProblem.cpp:219:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KoutErrorSet[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  219 |         [01;35m[Kstd::set<ErrorTerm*>& outErrorSet[m[K) {
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[ 57%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/core/IncrementalOptimizationProblem.cpp.o[0m
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/core/IncrementalOptimizationProblem.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::IncrementalOptimizationProblem::getErrorsImplementation(const DesignVariable*, std::set<aslam::backend::ErrorTerm*>&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/core/IncrementalOptimizationProblem.cpp:323:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  323 |         getErrorsImplementation([01;35m[Kconst DesignVariable* dv[m[K,
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/core/IncrementalOptimizationProblem.cpp:324:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KoutErrorSet[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  324 |         [01;35m[Kstd::set<ErrorTerm*>& outErrorSet[m[K) {
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[ 61%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/core/LinearSolver.cpp.o[0m
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/ErrorTerm.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/JacobianBuilder.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/CompressedColumnJacobianTransposeBuilder.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/include/aslam/calibration/core/LinearSolver.h:36[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/core/LinearSolver.cpp:19[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/core/LinearSolver.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::LinearSolver::initMatrixStructureImplementation(const std::vector<aslam::backend::DesignVariable*>&, const std::vector<aslam::backend::ErrorTerm*>&, bool)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/core/LinearSolver.cpp:294:9:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KuseDiagonalConditioner[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  293 |         std::vector<aslam::backend::ErrorTerm*>& errors, [01;35m[Kbool[m[K
+      |                                                          [01;35m[K~~~~[m[K
+  294 | [01;35m[K        useDiagonalConditioner[m[K) {
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 65%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/core/LinearSolverOptions.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/algorithms/marginalize.cpp.o[0m
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/DesignVariable.hpp:11[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/JacobianContainer.hpp:8[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/CompressedColumnMatrix.hpp:13[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/algorithms/marginalize.cpp:25[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[ 73%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/algorithms/linalg.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/base/Timer.cpp.o[0m
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Timer.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::Timer::read(std::istream&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Timer.cpp:62:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   62 |     void Timer::read([01;35m[Kstd::istream& stream[m[K) {
+      |                      [01;35m[K~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Timer.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::Timer::read(std::ifstream&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Timer.cpp:70:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   70 |     void Timer::read([01;35m[Kstd::ifstream& stream[m[K) {
+      |                      [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Timer.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::Timer::write(std::ofstream&) const[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Timer.cpp:73:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   73 |     void Timer::write([01;35m[Kstd::ofstream& stream[m[K) const {
+      |                       [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[ 80%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/base/Threads.cpp.o[0m
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Threads.cpp:[m[K In destructor ‘[01m[Kvirtual aslam::calibration::Threads::~Threads()[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Threads.cpp:38:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthrow[m[K’ will always call ‘[01m[Kterminate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wterminate-Wterminate]8;;[m[K]
+   38 |         [01;35m[Kthrow SystemException(ret,[m[K
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   39 | [01;35m[K          "Threads::~Threads()::pthread_mutex_destroy()")[m[K;
+      |           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Threads.cpp:38:9:[m[K [01;36m[Knote: [m[Kin C++11 destructors default to ‘[01m[Knoexcept[m[K’
+[ 84%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/base/Thread.cpp.o[0m
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Thread.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::Thread::Identifier::read(std::istream&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Thread.cpp:181:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  181 |     void Thread::Identifier::read([01;35m[Kstd::istream& stream[m[K) {
+      |                                   [01;35m[K~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Thread.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::Thread::Identifier::read(std::ifstream&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Thread.cpp:188:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  188 |     void Thread::Identifier::read([01;35m[Kstd::ifstream& stream[m[K) {
+      |                                   [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Thread.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::Thread::Identifier::write(std::ofstream&) const[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Thread.cpp:191:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  191 |     void Thread::Identifier::write([01;35m[Kstd::ofstream& stream[m[K) const {
+      |                                    [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[ 88%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/base/Mutex.cpp.o[0m
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Mutex.cpp:[m[K In destructor ‘[01m[Kvirtual aslam::calibration::Mutex::~Mutex()[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Mutex.cpp:49:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthrow[m[K’ will always call ‘[01m[Kterminate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wterminate-Wterminate]8;;[m[K]
+   49 |         [01;35m[Kthrow SystemException(ret, "Mutex::~Mutex()::pthread_mutex_destroy()")[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Mutex.cpp:49:9:[m[K [01;36m[Knote: [m[Kin C++11 destructors default to ‘[01m[Knoexcept[m[K’
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Mutex.cpp:[m[K In member function ‘[01m[Kbool aslam::calibration::Mutex::safeEternalWait(const aslam::calibration::Mutex&) const[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Mutex.cpp:175:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmutex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  175 |     bool Mutex::safeEternalWait([01;35m[Kconst Mutex& mutex[m[K) const {
+      |                                 [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Mutex.cpp:[m[K In member function ‘[01m[Kbool aslam::calibration::Mutex::safeWaitUntil(const aslam::calibration::Mutex&, const aslam::calibration::Timestamp&) const[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Mutex.cpp:182:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmutex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  182 |     bool Mutex::safeWaitUntil([01;35m[Kconst Mutex& mutex[m[K, const Timestamp& time) const {
+      |                               [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[ 92%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/base/Condition.cpp.o[0m
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Condition.cpp:[m[K In destructor ‘[01m[Kvirtual aslam::calibration::Condition::~Condition()[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Condition.cpp:39:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kthrow[m[K’ will always call ‘[01m[Kterminate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wterminate-Wterminate]8;;[m[K]
+   39 |         [01;35m[Kthrow SystemException(ret,[m[K
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   40 | [01;35m[K          "Condition::~Condition()::pthread_cond_destroy()")[m[K;
+      |           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Condition.cpp:39:9:[m[K [01;36m[Knote: [m[Kin C++11 destructors default to ‘[01m[Knoexcept[m[K’
+[ 96%] [32mBuilding CXX object CMakeFiles/incremental_calibration.dir/src/base/Timestamp.cpp.o[0m
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Timestamp.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::Timestamp::read(std::istream&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Timestamp.cpp:52:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   52 |     void Timestamp::read([01;35m[Kstd::istream& stream[m[K) {
+      |                          [01;35m[K~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Timestamp.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::Timestamp::read(std::ifstream&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Timestamp.cpp:59:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   59 |     void Timestamp::read([01;35m[Kstd::ifstream& stream[m[K) {
+      |                          [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Timestamp.cpp:[m[K In member function ‘[01m[Kvirtual void aslam::calibration::Timestamp::write(std::ofstream&) const[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration/src/base/Timestamp.cpp:62:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   62 |     void Timestamp::write([01;35m[Kstd::ofstream& stream[m[K) const {
+      |                           [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[100%] [32m[1mLinking CXX static library libincremental_calibration.a[0m
+[100%] Built target incremental_calibration
+-- Install configuration: "Release"
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/lib/libincremental_calibration.a
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/Distribution.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/EstimatorMLNormalMv.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/SampleDistribution.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/EstimatorML.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/HistogramMv.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/ContinuousDistributionMv.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/UniformDistribution1v.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/UniformDistributionMv.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/NormalDistribution1v.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/EstimatorMLNormal1v.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/SampleDistribution.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/NormalDistribution.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/ChiSquareDistribution.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/ContinuousDistribution1v.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/ContinuousDistribution1v.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/HistogramMv.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/UniformDistribution.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/GammaDistribution.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/Distribution.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/Randomizer.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/NormalDistributionMv.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/DiscreteDistributionMv.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/EstimatorMLNormalMv.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/DiscreteDistribution1v.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/UniformDistributionMv.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/UniformDistribution1v.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/Randomizer.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/Histogram1v.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/DiscreteDistributionMv.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/Histogram1v.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/NormalDistributionMv.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/DiscreteDistribution.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/ContinuousDistribution.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/GammaDistribution.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/DiscreteDistribution1v.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/Histogram.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/statistics/ContinuousDistributionMv.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/utils
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/utils/SsizeTSupport.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/utils/OuterProduct.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/utils/SizeTSupport.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/utils/OuterProduct.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/exceptions
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/exceptions/BadArgumentException.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/exceptions/SystemException.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/exceptions/OutOfBoundException.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/exceptions/Exception.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/exceptions/NullPointerException.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/exceptions/InvalidOperationException.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/exceptions/BadArgumentException.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/exceptions/ThreadsManagerException.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/exceptions/OutOfBoundException.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/exceptions/ThreadsManagerException.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/data-structures
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/data-structures/Grid.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/data-structures/VectorDesignVariable.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/data-structures/Grid.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/data-structures/VectorDesignVariable.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/functions
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/functions/LogGammaFunction.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/functions/Function.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/functions/DiscreteFunctionMv.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/functions/IncompleteGammaPFunction.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/functions/ContinuousFunction1v.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/functions/DiscreteFunction1v.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/functions/IncompleteGammaQFunction.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/functions/ContinuousFunction.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/functions/DigammaFunction.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/functions/DiscreteFunctionMv.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/functions/DigammaFunction.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/functions/LogFactorialFunction.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/functions/ContinuousFunctionMv.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/functions/DiscreteFunction1v.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/functions/Function.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/functions/ContinuousFunctionMv.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/functions/ContinuousFunction1v.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/functions/LogGammaFunction.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/functions/DiscreteFunction.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/algorithms
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/algorithms/permute.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/algorithms/marginalize.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/algorithms/linalg.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/algorithms/matrixOperations.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/algorithms/permute.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/algorithms/matrixOperations.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/tpl
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/tpl/IsReal.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/tpl/IsInteger.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/tpl/Or.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/tpl/If.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/tpl/IsNumeric.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/tpl/IsVoid.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/tpl/Boolean.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/tpl/IfThenElse.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/tpl/Equals.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/tpl/Not.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/tpl/And.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/core
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/core/IncrementalEstimator.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/core/LinearSolverOptions.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/core/IncrementalOptimizationProblem.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/core/LinearSolver.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/core/OptimizationProblem.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/base
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/base/Timer.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/base/Singleton.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/base/Mutex.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/base/Threads.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/base/Condition.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/base/Singleton.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/base/Timestamp.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/base/Thread.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/base/Serializable.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/geometry
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/geometry/Transformation2d.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/geometry/Transformation2d.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/geometry/Transformation3d.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/geometry/Transformation3d.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/include/aslam/calibration/geometry/Transformation.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/incremental_calibration/environment/library_path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/incremental_calibration/environment/library_path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/ament_index/resource_index/package_run_dependencies/incremental_calibration
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/ament_index/resource_index/parent_prefix_path/incremental_calibration
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/incremental_calibration/environment/ament_prefix_path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/incremental_calibration/environment/ament_prefix_path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/incremental_calibration/environment/path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/incremental_calibration/environment/path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/incremental_calibration/local_setup.bash
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/incremental_calibration/local_setup.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/incremental_calibration/local_setup.zsh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/incremental_calibration/local_setup.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/incremental_calibration/package.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/ament_index/resource_index/packages/incremental_calibration
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/incremental_calibration/cmake/incremental_calibrationTargetsExport.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/incremental_calibration/cmake/incremental_calibrationTargetsExport-release.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/incremental_calibration/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/incremental_calibration/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/incremental_calibration/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/incremental_calibration/cmake/incremental_calibrationConfig.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/incremental_calibration/cmake/incremental_calibrationConfig-version.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/incremental_calibration/package.xml

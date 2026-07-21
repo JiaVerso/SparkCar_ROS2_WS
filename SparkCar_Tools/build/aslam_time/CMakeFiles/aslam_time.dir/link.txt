@@ -1,0 +1,2 @@
+/usr/bin/ar qc libaslam_time.a CMakeFiles/aslam_time.dir/src/duration.cpp.o CMakeFiles/aslam_time.dir/src/time.cpp.o
+/usr/bin/ranlib libaslam_time.a

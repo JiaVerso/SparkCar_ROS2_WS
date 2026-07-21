@@ -1,0 +1,299 @@
+[0.063s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/ethz_apriltag2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2
+[1.399s] -- The C compiler identification is GNU 11.4.0
+[1.400s] -- The CXX compiler identification is GNU 11.4.0
+[1.404s] -- Detecting C compiler ABI info
+[1.405s] -- Detecting C compiler ABI info - done
+[1.405s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.405s] -- Detecting C compile features
+[1.405s] -- Detecting C compile features - done
+[1.405s] -- Detecting CXX compiler ABI info
+[1.405s] -- Detecting CXX compiler ABI info - done
+[1.405s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.405s] -- Detecting CXX compile features
+[1.405s] -- Detecting CXX compile features - done
+[1.405s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.405s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.405s] -- Found OpenCV: /usr (found version "4.5.4") 
+[1.569s] -- Configuring done
+[1.609s] -- Generating done
+[1.624s] -- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/ethz_apriltag2
+[1.654s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/ethz_apriltag2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2
+[1.656s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/ethz_apriltag2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/ethz_apriltag2 -- -j8 -l8
+[1.951s] [  6%] [32mBuilding CXX object CMakeFiles/ethz_apriltag2.dir/src/Edge.cc.o[0m
+[1.972s] [ 13%] [32mBuilding CXX object CMakeFiles/ethz_apriltag2.dir/src/FloatImage.cc.o[0m
+[1.974s] [ 20%] [32mBuilding CXX object CMakeFiles/ethz_apriltag2.dir/src/GLine2D.cc.o[0m
+[1.997s] [ 33%] [32mBuilding CXX object CMakeFiles/ethz_apriltag2.dir/src/GLineSegment2D.cc.o[0m
+[2.006s] [ 33%] [32mBuilding CXX object CMakeFiles/ethz_apriltag2.dir/src/GrayModel.cc.o[0m
+[2.039s] [ 46%] [32mBuilding CXX object CMakeFiles/ethz_apriltag2.dir/src/Gaussian.cc.o[0m
+[2.039s] [ 46%] [32mBuilding CXX object CMakeFiles/ethz_apriltag2.dir/src/Homography33.cc.o[0m
+[2.041s] [ 53%] [32mBuilding CXX object CMakeFiles/ethz_apriltag2.dir/src/MathUtil.cc.o[0m
+[3.330s] [ 60%] [32mBuilding CXX object CMakeFiles/ethz_apriltag2.dir/src/Quad.cc.o[0m
+[4.039s] [ 66%] [32mBuilding CXX object CMakeFiles/ethz_apriltag2.dir/src/Segment.cc.o[0m
+[4.387s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/GLine2D.cc:[m[K In member function ‘[01m[Kstd::pair<float, float> AprilTags::GLine2D::getPointOfCoordinate(float)[m[K’:
+[4.387s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/GLine2D.cc:22:65:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<float, float>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+[4.387s]    22 | std::pair<float,float> GLine2D::getPointOfCoordinate(float coord[01;36m[K)[m[K {
+[4.387s]       |                                                                 [01;36m[K^[m[K
+[4.549s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/GLineSegment2D.cc:1[m[K:
+[4.549s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags/GLineSegment2D.h:[m[K In member function ‘[01m[Kstd::pair<float, float> AprilTags::GLineSegment2D::getP0() const[m[K’:
+[4.549s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags/GLineSegment2D.h:19:40:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<float, float>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+[4.549s]    19 |   std::pair<float,float> getP0() const [01;36m[K{[m[K return p0; }
+[4.549s]       |                                        [01;36m[K^[m[K
+[4.757s] [ 73%] [32mBuilding CXX object CMakeFiles/ethz_apriltag2.dir/src/TagDetection.cc.o[0m
+[5.373s] [ 80%] [32mBuilding CXX object CMakeFiles/ethz_apriltag2.dir/src/TagDetector.cc.o[0m
+[6.070s] [ 86%] [32mBuilding CXX object CMakeFiles/ethz_apriltag2.dir/src/TagFamily.cc.o[0m
+[6.936s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/TagDetector.cc:152:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma omp parallel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+[6.936s]   152 |   #pragma omp parallel for
+[6.936s]       | 
+[7.563s] [ 93%] [32mBuilding CXX object CMakeFiles/ethz_apriltag2.dir/src/UnionFindSimple.cc.o[0m
+[8.519s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[8.519s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[8.519s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/GrayModel.cc:3[m[K:
+[8.519s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[8.519s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[8.519s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[8.519s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.519s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[8.519s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[8.519s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/GrayModel.cc:3[m[K:
+[8.519s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[8.519s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[8.520s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.561s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[8.561s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[8.561s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/GrayModel.cc:3[m[K:
+[8.561s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[8.561s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[8.561s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[8.561s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.561s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[8.561s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[8.561s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/GrayModel.cc:3[m[K:
+[8.561s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[8.562s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[8.562s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[9.319s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[9.319s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[9.319s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/Quad.cc:1[m[K:
+[9.319s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[9.319s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[9.319s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[9.319s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.319s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[9.320s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[9.320s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/Quad.cc:1[m[K:
+[9.320s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[9.320s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[9.320s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[9.330s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[9.331s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[9.331s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/Quad.cc:1[m[K:
+[9.332s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[9.333s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[9.333s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[9.334s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.335s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[9.335s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[9.336s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/Quad.cc:1[m[K:
+[9.336s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[9.337s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[9.337s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[9.719s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[9.719s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[9.720s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/Homography33.cc:5[m[K:
+[9.720s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[9.720s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[9.720s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[9.720s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.721s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[9.721s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[9.722s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/Homography33.cc:5[m[K:
+[9.722s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[9.722s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[9.722s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[9.731s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[9.731s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[9.732s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/Homography33.cc:5[m[K:
+[9.733s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[9.734s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[9.734s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[9.735s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.738s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[9.738s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[9.738s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/Homography33.cc:5[m[K:
+[9.739s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[9.739s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[9.739s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[11.380s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[11.380s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[11.380s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags//TagDetection.h:4[m[K,
+[11.380s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags/TagFamily.h:10[m[K,
+[11.380s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/TagFamily.cc:3[m[K:
+[11.380s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[11.380s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[11.380s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[11.380s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.380s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[11.380s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[11.380s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags//TagDetection.h:4[m[K,
+[11.381s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags/TagFamily.h:10[m[K,
+[11.381s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/TagFamily.cc:3[m[K:
+[11.381s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[11.381s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[11.381s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[11.381s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[11.381s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[11.381s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags//TagDetection.h:4[m[K,
+[11.381s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags/TagFamily.h:10[m[K,
+[11.381s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/TagFamily.cc:3[m[K:
+[11.381s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[11.381s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[11.381s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[11.381s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.381s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[11.382s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[11.382s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags//TagDetection.h:4[m[K,
+[11.382s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags/TagFamily.h:10[m[K,
+[11.382s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/TagFamily.cc:3[m[K:
+[11.382s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[11.382s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[11.382s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[13.803s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags/Quad.h:9[m[K,
+[13.803s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/Quad.cc:6[m[K:
+[13.803s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags/Homography33.h:[m[K In member function ‘[01m[Kconst std::pair<float, float> Homography33::getCXY() const[m[K’:
+[13.803s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags/Homography33.h:56:47:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<float, float>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+[13.803s]    56 |   const std::pair<float,float> getCXY() const [01;36m[K{[m[K return cxy; }
+[13.803s]       |                                               [01;36m[K^[m[K
+[14.353s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[14.354s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[14.354s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/TagDetector.cc:8[m[K:
+[14.354s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[14.354s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[14.354s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[14.354s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.354s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[14.354s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[14.354s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/TagDetector.cc:8[m[K:
+[14.354s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[14.354s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[14.354s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.356s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[14.356s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[14.356s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/TagDetector.cc:8[m[K:
+[14.356s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[14.356s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[14.357s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[14.357s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.357s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[14.357s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[14.357s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/TagDetector.cc:8[m[K:
+[14.357s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[14.357s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[14.357s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[18.847s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/TagDetector.cc:15[m[K:
+[18.847s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags/GLineSegment2D.h:[m[K In member function ‘[01m[Kstd::pair<float, float> AprilTags::GLineSegment2D::getP0() const[m[K’:
+[18.847s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags/GLineSegment2D.h:19:40:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<float, float>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+[18.847s]    19 |   std::pair<float,float> getP0() const [01;36m[K{[m[K return p0; }
+[18.847s]       |                                        [01;36m[K^[m[K
+[22.466s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[22.466s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[22.466s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags/TagDetection.h:4[m[K,
+[22.467s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/TagDetection.cc:4[m[K:
+[22.467s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[22.467s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[22.467s]  1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[22.467s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.476s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[22.476s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[22.476s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags/TagDetection.h:4[m[K,
+[22.477s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/TagDetection.cc:4[m[K:
+[22.477s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[22.477s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[22.477s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[22.479s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+[22.480s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[22.480s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags/TagDetection.h:4[m[K,
+[22.480s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/TagDetection.cc:4[m[K:
+[22.480s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[22.480s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[22.480s]  1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+[22.480s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.481s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+[22.481s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[22.481s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags/TagDetection.h:4[m[K,
+[22.481s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/TagDetection.cc:4[m[K:
+[22.481s] [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+[22.481s]   159 | struct [01;36m[Keigen_packet_wrapper[m[K
+[22.481s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[23.245s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/Homography33.cc:9[m[K:
+[23.245s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags/Homography33.h:[m[K In member function ‘[01m[Kconst std::pair<float, float> Homography33::getCXY() const[m[K’:
+[23.245s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags/Homography33.h:56:47:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<float, float>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+[23.250s]    56 |   const std::pair<float,float> getCXY() const [01;36m[K{[m[K return cxy; }
+[23.251s]       |                                               [01;36m[K^[m[K
+[27.024s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/TagDetector.cc:[m[K In member function ‘[01m[Kstd::vector<AprilTags::TagDetection> AprilTags::TagDetector::extractTags(const cv::Mat&)[m[K’:
+[27.024s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/TagDetector.cc:100:20:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[KAprilTags::FloatImage::FloatImage(const AprilTags::FloatImage&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[27.024s]   100 |   FloatImage fim = [01;35m[KfimOrig[m[K;
+[27.024s]       |                    [01;35m[K^~~~~~~[m[K
+[27.025s] In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags/Edge.h:6[m[K,
+[27.025s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/TagDetector.cc:10[m[K:
+[27.025s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/include/apriltags/FloatImage.h:32:15:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KAprilTags::FloatImage[m[K’ has user-provided ‘[01m[KAprilTags::FloatImage& AprilTags::FloatImage::operator=(const AprilTags::FloatImage&)[m[K’
+[27.026s]    32 |   FloatImage& [01;36m[Koperator[m[K=(const FloatImage& other);
+[27.026s]       |               [01;36m[K^~~~~~~~[m[K
+[27.191s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/TagDetection.cc:[m[K In member function ‘[01m[Kstd::pair<float, float> AprilTags::TagDetection::interpolate(float, float) const[m[K’:
+[27.192s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2/src/TagDetection.cc:45:68:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<float, float>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+[27.192s]    45 | std::pair<float,float> TagDetection::interpolate(float x, float y) [01;36m[Kconst[m[K {
+[27.192s]       |                                                                    [01;36m[K^~~~~[m[K
+[37.116s] [100%] [32m[1mLinking CXX static library libethz_apriltag2.a[0m
+[37.237s] [100%] Built target ethz_apriltag2
+[37.295s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/ethz_apriltag2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/ethz_apriltag2 -- -j8 -l8
+[37.296s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/ethz_apriltag2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/ethz_apriltag2
+[39.057s] -- Install configuration: "Release"
+[39.057s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/lib/libethz_apriltag2.a
+[39.061s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include
+[39.061s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags
+[39.061s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/Segment.h
+[39.061s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/UnionFindSimple.h
+[39.061s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/Gridder.h
+[39.061s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/Tag16h5_other.h
+[39.061s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/GLine2D.h
+[39.061s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/Gaussian.h
+[39.061s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/Tag16h5.h
+[39.062s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/Tag25h7.h
+[39.062s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/Tag36h11_other.h
+[39.062s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/TagDetection.h
+[39.062s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/Tag36h9.h
+[39.062s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/GLineSegment2D.h
+[39.062s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/pch.h
+[39.062s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/FloatImage.h
+[39.062s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/Tag36h11.h
+[39.062s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/TagFamily.h
+[39.062s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/TagDetector.h
+[39.062s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/Homography33.h
+[39.062s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/XYWeight.h
+[39.062s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/GrayModel.h
+[39.062s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/Quad.h
+[39.062s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/Edge.h
+[39.063s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/Tag25h9.h
+[39.063s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/include/apriltags/MathUtil.h
+[39.063s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ethz_apriltag2/environment/library_path.sh
+[39.063s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ethz_apriltag2/environment/library_path.dsv
+[39.063s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ament_index/resource_index/package_run_dependencies/ethz_apriltag2
+[39.063s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ament_index/resource_index/parent_prefix_path/ethz_apriltag2
+[39.063s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ethz_apriltag2/environment/ament_prefix_path.sh
+[39.063s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ethz_apriltag2/environment/ament_prefix_path.dsv
+[39.063s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ethz_apriltag2/environment/path.sh
+[39.063s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ethz_apriltag2/environment/path.dsv
+[39.063s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ethz_apriltag2/local_setup.bash
+[39.063s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ethz_apriltag2/local_setup.sh
+[39.063s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ethz_apriltag2/local_setup.zsh
+[39.063s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ethz_apriltag2/local_setup.dsv
+[39.063s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ethz_apriltag2/package.dsv
+[39.064s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ament_index/resource_index/packages/ethz_apriltag2
+[39.064s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ethz_apriltag2/cmake/ethz_apriltag2TargetsExport.cmake
+[39.064s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ethz_apriltag2/cmake/ethz_apriltag2TargetsExport-release.cmake
+[39.064s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ethz_apriltag2/cmake/ament_cmake_export_targets-extras.cmake
+[39.064s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ethz_apriltag2/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.064s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ethz_apriltag2/cmake/ament_cmake_export_include_directories-extras.cmake
+[39.064s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ethz_apriltag2/cmake/ethz_apriltag2Config.cmake
+[39.064s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ethz_apriltag2/cmake/ethz_apriltag2Config-version.cmake
+[39.064s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/share/ethz_apriltag2/package.xml
+[39.090s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/ethz_apriltag2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/ethz_apriltag2

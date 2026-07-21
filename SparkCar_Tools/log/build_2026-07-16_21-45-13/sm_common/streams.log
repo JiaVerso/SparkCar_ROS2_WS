@@ -1,0 +1,66 @@
+[0.049s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common
+[0.184s] -- The C compiler identification is GNU 11.4.0
+[0.364s] -- The CXX compiler identification is GNU 11.4.0
+[0.393s] -- Detecting C compiler ABI info
+[0.597s] -- Detecting C compiler ABI info - done
+[0.607s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.607s] -- Detecting C compile features
+[0.608s] -- Detecting C compile features - done
+[0.612s] -- Detecting CXX compiler ABI info
+[0.913s] -- Detecting CXX compiler ABI info - done
+[0.954s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.956s] -- Detecting CXX compile features
+[0.958s] -- Detecting CXX compile features - done
+[0.967s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.267s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.426s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[1.674s] -- Configuring done
+[1.683s] -- Generating done
+[1.697s] -- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_common
+[1.713s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common
+[1.714s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_common -- -j8 -l8
+[1.964s] [ 50%] [32mBuilding CXX object CMakeFiles/sm_common.dir/src/progress_info.cpp.o[0m
+[3.900s] [100%] [32m[1mLinking CXX static library libsm_common.a[0m
+[4.044s] [100%] Built target sm_common
+[4.106s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_common -- -j8 -l8
+[4.156s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_common
+[4.228s] -- Install configuration: "Release"
+[4.236s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/lib/libsm_common.a
+[4.238s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/include
+[4.238s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/include/sm
+[4.239s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/include/sm/hash_id.hpp
+[4.239s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/include/sm/source_file_pos.hpp
+[4.239s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/include/sm/progress_info.hpp
+[4.240s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/include/sm/Id.hpp
+[4.240s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/include/sm/assert_macros.hpp
+[4.241s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/include/sm/typetraits.hpp
+[4.241s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/include/sm/string_routines.hpp
+[4.242s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/include/sm/numerical_comparisons.hpp
+[4.242s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/include/sm/aligned_allocation.h
+[4.242s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/include/sm/is_binary_equal.hpp
+[4.251s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/include/sm/round.hpp
+[4.252s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/include/sm/serialization_macros.hpp
+[4.254s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/include/sm/maths.hpp
+[4.256s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/environment/library_path.sh
+[4.257s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/environment/library_path.dsv
+[4.258s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/ament_index/resource_index/package_run_dependencies/sm_common
+[4.269s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/ament_index/resource_index/parent_prefix_path/sm_common
+[4.270s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/environment/ament_prefix_path.sh
+[4.271s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/environment/ament_prefix_path.dsv
+[4.271s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/environment/path.sh
+[4.272s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/environment/path.dsv
+[4.274s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/local_setup.bash
+[4.274s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/local_setup.sh
+[4.275s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/local_setup.zsh
+[4.276s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/local_setup.dsv
+[4.276s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/package.dsv
+[4.277s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/ament_index/resource_index/packages/sm_common
+[4.278s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/cmake/sm_commonTargetsExport.cmake
+[4.279s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/cmake/sm_commonTargetsExport-release.cmake
+[4.279s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/cmake/ament_cmake_export_targets-extras.cmake
+[4.280s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.281s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.297s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/cmake/sm_commonConfig.cmake
+[4.297s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/cmake/sm_commonConfig-version.cmake
+[4.298s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/package.xml
+[4.333s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/sm_common

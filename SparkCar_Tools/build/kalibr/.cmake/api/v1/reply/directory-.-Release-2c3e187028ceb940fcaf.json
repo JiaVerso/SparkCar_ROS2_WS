@@ -1,0 +1,806 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ament_environment_hooks",
+			"_ament_cmake_python_register_environment_hook",
+			"ament_python_install_package",
+			"_ament_cmake_python_install_package",
+			"ament_index_register_resource",
+			"ament_cmake_environment_generate_package_run_dependencies_marker",
+			"include",
+			"ament_execute_extensions",
+			"ament_package",
+			"ament_cmake_environment_generate_parent_prefix_path_marker",
+			"ament_generate_package_environment",
+			"ament_index_register_package",
+			"_ament_package"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake",
+			"/opt/ros/humble/share/ament_cmake_python/cmake/ament_cmake_python-extras.cmake",
+			"/opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment/ament_cmake_environment_package_hook.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_index_register_package.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_cmake_index_package_hook.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 103,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 38,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 36,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 70,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 87,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 39,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 154,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 181,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 191,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 39,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 154,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 181,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 191,
+				"parent" : 13
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 39,
+				"parent" : 17
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 154,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 181,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 191,
+				"parent" : 18
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 120,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 39,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 154,
+				"parent" : 23
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 181,
+				"parent" : 23
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 191,
+				"parent" : 23
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 124,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 39,
+				"parent" : 27
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 154,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 181,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 191,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 136,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 66,
+				"parent" : 35
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 48,
+				"parent" : 36
+			},
+			{
+				"file" : 5,
+				"parent" : 37
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 47,
+				"parent" : 38
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 29,
+				"parent" : 39
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 105,
+				"parent" : 40
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 48,
+				"parent" : 38
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 43,
+				"parent" : 42
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 105,
+				"parent" : 43
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 48,
+				"parent" : 36
+			},
+			{
+				"file" : 8,
+				"parent" : 45
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 20,
+				"parent" : 46
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 70,
+				"parent" : 47
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 87,
+				"parent" : 47
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 70,
+				"parent" : 47
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 87,
+				"parent" : 47
+			},
+			{
+				"command" : 11,
+				"file" : 8,
+				"line" : 26,
+				"parent" : 46
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 91,
+				"parent" : 52
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 91,
+				"parent" : 52
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 91,
+				"parent" : 52
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 107,
+				"parent" : 52
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 119,
+				"parent" : 52
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 48,
+				"parent" : 36
+			},
+			{
+				"file" : 11,
+				"parent" : 58
+			},
+			{
+				"command" : 12,
+				"file" : 11,
+				"line" : 16,
+				"parent" : 59
+			},
+			{
+				"command" : 5,
+				"file" : 10,
+				"line" : 29,
+				"parent" : 60
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 105,
+				"parent" : 61
+			},
+			{
+				"command" : 13,
+				"file" : 7,
+				"line" : 68,
+				"parent" : 35
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 150,
+				"parent" : 63
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 157,
+				"parent" : 63
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libkalibr_errorterms.so"
+			],
+			"targetId" : "kalibr_errorterms::@6890427a1f51a3e7e1df",
+			"targetIndex" : 10,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "local/lib/python3.10/dist-packages",
+			"paths" : 
+			[
+				"libkalibr_errorterms_python.so"
+			],
+			"targetId" : "libkalibr_errorterms_python::@6890427a1f51a3e7e1df",
+			"targetIndex" : 12,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "share/kalibr/environment",
+			"paths" : 
+			[
+				"/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/kalibr/ament_cmake_environment_hooks/pythonpath.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "share/kalibr/environment",
+			"paths" : 
+			[
+				"/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/kalibr/ament_cmake_environment_hooks/pythonpath.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "local/lib/python3.10/dist-packages/kalibr-1.0.0-py3.10.egg-info",
+			"paths" : 
+			[
+				{
+					"from" : "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/kalibr/ament_cmake_python/kalibr/kalibr.egg-info",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "local/lib/python3.10/dist-packages/kalibr",
+			"paths" : 
+			[
+				{
+					"from" : "python/kalibr",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "local/lib/python3.10/dist-packages/kalibr_common-1.0.0-py3.10.egg-info",
+			"paths" : 
+			[
+				{
+					"from" : "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/kalibr/ament_cmake_python/kalibr_common/kalibr_common.egg-info",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "local/lib/python3.10/dist-packages/kalibr_common",
+			"paths" : 
+			[
+				{
+					"from" : "python/kalibr_common",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"destination" : "local/lib/python3.10/dist-packages/kalibr_camera_calibration-1.0.0-py3.10.egg-info",
+			"paths" : 
+			[
+				{
+					"from" : "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/kalibr/ament_cmake_python/kalibr_camera_calibration/kalibr_camera_calibration.egg-info",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "local/lib/python3.10/dist-packages/kalibr_camera_calibration",
+			"paths" : 
+			[
+				{
+					"from" : "python/kalibr_camera_calibration",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "local/lib/python3.10/dist-packages/kalibr_imu_camera_calibration-1.0.0-py3.10.egg-info",
+			"paths" : 
+			[
+				{
+					"from" : "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/kalibr/ament_cmake_python/kalibr_imu_camera_calibration/kalibr_imu_camera_calibration.egg-info",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "local/lib/python3.10/dist-packages/kalibr_imu_camera_calibration",
+			"paths" : 
+			[
+				{
+					"from" : "python/kalibr_imu_camera_calibration",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "local/lib/python3.10/dist-packages/kalibr_errorterms-1.0.0-py3.10.egg-info",
+			"paths" : 
+			[
+				{
+					"from" : "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/kalibr/ament_cmake_python/kalibr_errorterms/kalibr_errorterms.egg-info",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "local/lib/python3.10/dist-packages/kalibr_errorterms",
+			"paths" : 
+			[
+				{
+					"from" : "python/kalibr_errorterms",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "lib/kalibr",
+			"paths" : 
+			[
+				"python/kalibr_calibrate_imu_camera",
+				"scripts/kalibr_calibrate_cameras"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Unspecified",
+			"destination" : "share/kalibr/",
+			"paths" : 
+			[
+				"launch"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "share/kalibr/",
+			"paths" : 
+			[
+				"config"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 41,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/package_run_dependencies",
+			"paths" : 
+			[
+				"/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/kalibr/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/kalibr"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/parent_prefix_path",
+			"paths" : 
+			[
+				"/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/kalibr/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/kalibr"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 48,
+			"component" : "Unspecified",
+			"destination" : "share/kalibr/environment",
+			"paths" : 
+			[
+				"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 49,
+			"component" : "Unspecified",
+			"destination" : "share/kalibr/environment",
+			"paths" : 
+			[
+				"/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/kalibr/ament_cmake_environment_hooks/ament_prefix_path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 50,
+			"component" : "Unspecified",
+			"destination" : "share/kalibr/environment",
+			"paths" : 
+			[
+				"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 51,
+			"component" : "Unspecified",
+			"destination" : "share/kalibr/environment",
+			"paths" : 
+			[
+				"/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/kalibr/ament_cmake_environment_hooks/path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 53,
+			"component" : "Unspecified",
+			"destination" : "share/kalibr",
+			"paths" : 
+			[
+				"/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/kalibr/ament_cmake_environment_hooks/local_setup.bash"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 54,
+			"component" : "Unspecified",
+			"destination" : "share/kalibr",
+			"paths" : 
+			[
+				"/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/kalibr/ament_cmake_environment_hooks/local_setup.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 55,
+			"component" : "Unspecified",
+			"destination" : "share/kalibr",
+			"paths" : 
+			[
+				"/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/kalibr/ament_cmake_environment_hooks/local_setup.zsh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 56,
+			"component" : "Unspecified",
+			"destination" : "share/kalibr",
+			"paths" : 
+			[
+				"/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/kalibr/ament_cmake_environment_hooks/local_setup.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 57,
+			"component" : "Unspecified",
+			"destination" : "share/kalibr",
+			"paths" : 
+			[
+				"/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/kalibr/ament_cmake_environment_hooks/package.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 62,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/packages",
+			"paths" : 
+			[
+				"/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/kalibr/ament_cmake_index/share/ament_index/resource_index/packages/kalibr"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 64,
+			"component" : "Unspecified",
+			"destination" : "share/kalibr/cmake",
+			"paths" : 
+			[
+				"/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/kalibr/ament_cmake_core/kalibrConfig.cmake",
+				"/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/kalibr/ament_cmake_core/kalibrConfig-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 65,
+			"component" : "Unspecified",
+			"destination" : "share/kalibr",
+			"paths" : 
+			[
+				"package.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

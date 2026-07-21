@@ -1,0 +1,130 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found sparse_block_matrix: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sparse_block_matrix/share/sparse_block_matrix/cmake)
+-- Found sm_boost: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost/share/sm_boost/cmake)
+-- Found sm_timing: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing/share/sm_timing/cmake)
+-- Found sm_logging: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging/share/sm_logging/cmake)
+-- Found sm_property_tree: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree/share/sm_property_tree/cmake)
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system thread filesystem serialization 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/aslam_backend
+[  3%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/BlockCholeskyLinearSolverOptions.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/ErrorTerm.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/ErrorTermDs.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/GaussNewtonTrustRegionPolicy.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/JacobianBuilder.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/JacobianContainer.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/LevenbergMarquardtTrustRegionPolicy.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/LinearSystemSolver.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/MEstimatorPolicies.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/MarginalizationPriorErrorTerm.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/Marginalizer.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/Matrix.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/OptimizationProblem.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/OptimizationProblemBase.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/Optimizer.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/Optimizer2.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/DogLegTrustRegionPolicy.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/DesignVariable.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/DenseQrLinearSystemSolver.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/DenseQRLinearSolverOptions.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/DenseMatrix.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/SparseQrLinearSystemSolver.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/TrustRegionPolicy.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/sparse_matrix_functions.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/SparseQRLinearSolverOptions.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/SparseCholeskyLinearSystemSolver.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/SparseBlockMatrixWrapper.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/SparseCholeskyLinearSolverOptions.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/SimpleOptimizationProblem.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/aslam_backend.dir/src/BlockCholeskyLinearSystemSolver.cpp.o[0m
+[100%] [32m[1mLinking CXX static library libaslam_backend.a[0m
+[100%] Built target aslam_backend
+-- Install configuration: "Release"
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/lib/libaslam_backend.a
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/Optimizer2.tpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/TrustRegionPolicy.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/LevenbergMarquardtTrustRegionPolicy.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/DesignVariable.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/test
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/test/ErrorTermTestHarness.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/SimpleOptimizationProblem.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/SparseBlockMatrixWrapper.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/DogLegTrustRegionPolicy.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/sparse_matrix_functions.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/JacobianContainer.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/OptimizerOptions.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/JacobianBuilder.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/DenseQRLinearSolverOptions.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/CompressedRowJacobianBuilder.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/MarginalizationPriorErrorTerm.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/DenseMatrix.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/SparseQrLinearSystemSolver.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/OptimizationProblem.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/BlockCholeskyLinearSolverOptions.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/Optimizer2.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/SparseCholeskyLinearSolverOptions.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/LinearSystemSolver.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/MEstimatorPolicies.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/OptimizationProblemBase.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/CompressedColumnMatrix.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/DesignVariableAdapter.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/SparseQRLinearSolverOptions.h
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/BlockCholeskyLinearSystemSolver.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/ErrorTerm.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/SparseCholeskyLinearSystemSolver.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/Optimizer2Options.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/Matrix.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/CompressedColumnJacobianTransposeBuilder.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/Optimizer.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/DenseQrLinearSystemSolver.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/ErrorTermDs.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/implementation
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/implementation/CompressedColumnMatrix.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/implementation/DesignVariableAdapter.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/implementation/ErrorTerm.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/implementation/CompressedColumnJacobianTransposeBuilder.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/implementation/Cholmod.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/backend.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/GaussNewtonTrustRegionPolicy.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/Marginalizer.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/Cholmod.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/Exceptions.hpp
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/environment/library_path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/environment/library_path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/ament_index/resource_index/package_run_dependencies/aslam_backend
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/ament_index/resource_index/parent_prefix_path/aslam_backend
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/environment/ament_prefix_path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/environment/ament_prefix_path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/environment/path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/environment/path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/local_setup.bash
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/local_setup.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/local_setup.zsh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/local_setup.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/package.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/ament_index/resource_index/packages/aslam_backend
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/cmake/aslam_backendTargetsExport.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/cmake/aslam_backendTargetsExport-release.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/cmake/aslam_backendConfig.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/cmake/aslam_backendConfig-version.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/package.xml

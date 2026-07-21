@@ -1,0 +1,13 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/share/numpy_eigen/package.sh"
+. "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module/share/python_module/package.sh"
+. "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/package.sh"
+. "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging/share/sm_logging/package.sh"
+. "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random/share/sm_random/package.sh"
+. "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost/share/sm_boost/package.sh"
+. "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen/share/sm_eigen/package.sh"
+. "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree/share/sm_property_tree/package.sh"
+. "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing/share/sm_timing/package.sh"
+. "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sparse_block_matrix/share/sparse_block_matrix/package.sh"
+. "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/share/aslam_backend/package.sh"
+. "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/share/incremental_calibration/package.sh"

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libaslam_imgproc.a CMakeFiles/aslam_imgproc.dir/src/UndistorterBase.cpp.o CMakeFiles/aslam_imgproc.dir/src/calculateOverlappingFov.cpp.o
+/usr/bin/ranlib libaslam_imgproc.a

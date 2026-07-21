@@ -1,0 +1,263 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+-- Found rosbag2_py: 0.15.16 (/opt/ros/humble/share/rosbag2_py/cmake)
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found sm_common: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/share/sm_common/cmake)
+-- Found sm_python: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/share/sm_python/cmake)
+-- Found aslam_cv_python: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_python/share/aslam_cv_python/cmake)
+-- Found aslam_cv_backend_python: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/share/aslam_cv_backend_python/cmake)
+-- Found aslam_splines_python: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/share/aslam_splines_python/cmake)
+-- Found aslam_cameras_april: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/share/aslam_cameras_april/cmake)
+-- Found incremental_calibration_python: 1.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration_python/share/incremental_calibration_python/cmake)
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization python thread filesystem regex 
+-- Found Python3: /usr/include/python3.10 (found version "3.10.12") found components: Development NumPy Interpreter Development.Module Development.Embed 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/kalibr
+[ 16%] [32mBuilding CXX object CMakeFiles/kalibr_errorterms.dir/src/EuclideanError.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/kalibr_errorterms.dir/src/GyroscopeError.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/kalibr_errorterms.dir/src/AccelerometerError.cpp.o[0m
+[ 50%] Built target ament_cmake_python_copy_kalibr_imu_camera_calibration
+[ 50%] Built target ament_cmake_python_copy_kalibr_common
+[ 50%] Built target ament_cmake_python_copy_kalibr_camera_calibration
+[ 50%] Built target ament_cmake_python_copy_kalibr
+[ 50%] Built target ament_cmake_python_copy_kalibr_errorterms
+running egg_info
+creating kalibr.egg-info
+writing kalibr.egg-info/PKG-INFO
+writing dependency_links to kalibr.egg-info/dependency_links.txt
+writing top-level names to kalibr.egg-info/top_level.txt
+writing manifest file 'kalibr.egg-info/SOURCES.txt'
+reading manifest file 'kalibr.egg-info/SOURCES.txt'
+writing manifest file 'kalibr.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_kalibr_egg
+running egg_info
+creating kalibr_camera_calibration.egg-info
+writing kalibr_camera_calibration.egg-info/PKG-INFO
+writing dependency_links to kalibr_camera_calibration.egg-info/dependency_links.txt
+writing top-level names to kalibr_camera_calibration.egg-info/top_level.txt
+writing manifest file 'kalibr_camera_calibration.egg-info/SOURCES.txt'
+reading manifest file 'kalibr_camera_calibration.egg-info/SOURCES.txt'
+writing manifest file 'kalibr_camera_calibration.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_kalibr_camera_calibration_egg
+running egg_info
+creating kalibr_common.egg-info
+writing kalibr_common.egg-info/PKG-INFO
+writing dependency_links to kalibr_common.egg-info/dependency_links.txt
+writing top-level names to kalibr_common.egg-info/top_level.txt
+writing manifest file 'kalibr_common.egg-info/SOURCES.txt'
+reading manifest file 'kalibr_common.egg-info/SOURCES.txt'
+writing manifest file 'kalibr_common.egg-info/SOURCES.txt'
+running egg_info
+creating kalibr_imu_camera_calibration.egg-info
+writing kalibr_imu_camera_calibration.egg-info/PKG-INFO
+writing dependency_links to kalibr_imu_camera_calibration.egg-info/dependency_links.txt
+writing top-level names to kalibr_imu_camera_calibration.egg-info/top_level.txt
+writing manifest file 'kalibr_imu_camera_calibration.egg-info/SOURCES.txt'
+reading manifest file 'kalibr_imu_camera_calibration.egg-info/SOURCES.txt'
+writing manifest file 'kalibr_imu_camera_calibration.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_kalibr_common_egg
+[ 50%] Built target ament_cmake_python_build_kalibr_imu_camera_calibration_egg
+running egg_info
+creating kalibr_errorterms.egg-info
+writing kalibr_errorterms.egg-info/PKG-INFO
+writing dependency_links to kalibr_errorterms.egg-info/dependency_links.txt
+writing top-level names to kalibr_errorterms.egg-info/top_level.txt
+writing manifest file 'kalibr_errorterms.egg-info/SOURCES.txt'
+reading manifest file 'kalibr_errorterms.egg-info/SOURCES.txt'
+writing manifest file 'kalibr_errorterms.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_kalibr_errorterms_egg
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/ErrorTerm.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/kalibr/include/kalibr_errorterms/AccelerometerError.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/kalibr/src/AccelerometerError.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/ErrorTerm.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/kalibr/include/kalibr_errorterms/EuclideanError.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/kalibr/src/EuclideanError.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/include/aslam/backend/ErrorTerm.hpp:5[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/kalibr/include/kalibr_errorterms/GyroscopeError.hpp:4[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/kalibr/src/GyroscopeError.cpp:1[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[ 66%] [32m[1mLinking CXX shared library libkalibr_errorterms.so[0m
+[ 66%] Built target kalibr_errorterms
+[ 83%] [32mBuilding CXX object CMakeFiles/libkalibr_errorterms_python.dir/src/module.cpp.o[0m
+In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+                 from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/python/converter/shared_ptr_to_python.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/python/converter/arg_to_python.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/python/call.hpp:15[m[K,
+                 from [01m[K/usr/include/boost/python/object_core.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/python/args.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/python.hpp:11[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/include/numpy_eigen/boost_python_headers.hpp:24[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/kalibr/src/module.cpp:3[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/detail/iterator.hpp:13:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header is deprecated. Use <iterator> instead.[m[K’
+   13 | [01;36m[KBOOST_HEADER_DEPRECATED[m[K("<iterator>")
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libkalibr_errorterms_python.so[0m
+[100%] Built target libkalibr_errorterms_python
+-- Install configuration: "Release"
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/lib/libkalibr_errorterms.so
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/libkalibr_errorterms_python.so
+-- Set runtime path of "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/libkalibr_errorterms_python.so" to ""
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr/environment/pythonpath.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr/environment/pythonpath.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr-1.0.0-py3.10.egg-info
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr-1.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr-1.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr/calibrate_imu_camera.py
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr/__init__.py
+Listing '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr/__init__.py'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr/calibrate_imu_camera.py'...
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_common-1.0.0-py3.10.egg-info
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_common-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_common-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_common-1.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_common-1.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_common
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_common/ImuDatasetReader.py
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_common/ConfigReader.py
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_common/bag_storage.py
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_common/TargetExtractor.py
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_common/ImageDatasetReader.py
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_common/__init__.py
+Listing '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_common'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_common/ConfigReader.py'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_common/ImageDatasetReader.py'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_common/ImuDatasetReader.py'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_common/TargetExtractor.py'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_common/__init__.py'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_common/bag_storage.py'...
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_camera_calibration-1.0.0-py3.10.egg-info
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_camera_calibration-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_camera_calibration-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_camera_calibration-1.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_camera_calibration-1.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_camera_calibration
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_camera_calibration/CameraIntializers.py
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_camera_calibration/ObsDb.py
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_camera_calibration/CameraUtils.py
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_camera_calibration/CameraCalibrator.py
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_camera_calibration/MulticamGraph.py
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_camera_calibration/__init__.py
+Listing '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_camera_calibration'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_camera_calibration/CameraCalibrator.py'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_camera_calibration/CameraIntializers.py'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_camera_calibration/CameraUtils.py'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_camera_calibration/MulticamGraph.py'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_camera_calibration/ObsDb.py'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_camera_calibration/__init__.py'...
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_imu_camera_calibration-1.0.0-py3.10.egg-info
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_imu_camera_calibration-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_imu_camera_calibration-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_imu_camera_calibration-1.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_imu_camera_calibration-1.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_imu_camera_calibration
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_imu_camera_calibration/IccCalibrator.py
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_imu_camera_calibration/IccUtil.py
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_imu_camera_calibration/IccSensors.py
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_imu_camera_calibration/IccPlots.py
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_imu_camera_calibration/__init__.py
+Listing '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_imu_camera_calibration'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_imu_camera_calibration/IccCalibrator.py'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_imu_camera_calibration/IccPlots.py'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_imu_camera_calibration/IccSensors.py'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_imu_camera_calibration/IccUtil.py'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_imu_camera_calibration/__init__.py'...
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_errorterms-1.0.0-py3.10.egg-info
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_errorterms-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_errorterms-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_errorterms-1.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_errorterms-1.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_errorterms
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_errorterms/__init__.py
+Listing '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_errorterms'...
+Compiling '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages/kalibr_errorterms/__init__.py'...
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/lib/kalibr/kalibr_calibrate_imu_camera
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/lib/kalibr/kalibr_calibrate_cameras
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr//launch
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr//launch/calibrate_imu_camera.launch.py
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr//launch/calibrate_cameras.launch.py
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr//launch/calibrate_multi_imu.launch.py
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr//config
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr//config/target_checkerboard_example.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr//config/imu_example.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr//config/imu1_example.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr//config/example_cameras.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr//config/target_april_example.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr//config/imu0_example.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr//config/camchain_example.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/ament_index/resource_index/package_run_dependencies/kalibr
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/ament_index/resource_index/parent_prefix_path/kalibr
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr/environment/ament_prefix_path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr/environment/ament_prefix_path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr/environment/path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr/environment/path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr/local_setup.bash
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr/local_setup.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr/local_setup.zsh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr/local_setup.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr/package.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/ament_index/resource_index/packages/kalibr
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr/cmake/kalibrConfig.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr/cmake/kalibrConfig-version.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/share/kalibr/package.xml

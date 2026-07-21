@@ -1,0 +1,5 @@
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_logging/src/LoggingGlobals.cpp:1[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_logging/include/sm/logging/LoggingGlobals.hpp:86:167:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   86 |             void print(const char * streamName, Level level, const char* file, int line, const char* function, const char* fmt, ... ) SMCONSOLE_PRINTF_ATTRIBUTE(7, 8)[01;35m[K;[m[K
+      |                                                                                                                                                                       [01;35m[K^[m[K
+      |                                                                                                                                                                       [31m[K-[m[K

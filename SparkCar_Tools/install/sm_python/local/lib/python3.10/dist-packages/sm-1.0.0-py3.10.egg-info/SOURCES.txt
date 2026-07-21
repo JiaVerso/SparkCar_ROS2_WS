@@ -1,0 +1,11 @@
+setup.py
+sm/PlotCollection.py
+sm/Progress.py
+sm/__init__.py
+sm/plotCoordinateFrame.py
+sm/saveFigTight.py
+sm.egg-info/PKG-INFO
+sm.egg-info/SOURCES.txt
+sm.egg-info/dependency_links.txt
+sm.egg-info/top_level.txt
+sm/experiments/__init__.py

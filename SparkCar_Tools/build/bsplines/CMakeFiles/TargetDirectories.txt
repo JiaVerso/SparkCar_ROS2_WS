@@ -1,0 +1,10 @@
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/bsplines/CMakeFiles/uninstall.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/bsplines/CMakeFiles/bsplines_uninstall.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/bsplines/CMakeFiles/bsplines.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/bsplines/CMakeFiles/test.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/bsplines/CMakeFiles/edit_cache.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/bsplines/CMakeFiles/rebuild_cache.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/bsplines/CMakeFiles/list_install_components.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/bsplines/CMakeFiles/install.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/bsplines/CMakeFiles/install/local.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/build/bsplines/CMakeFiles/install/strip.dir

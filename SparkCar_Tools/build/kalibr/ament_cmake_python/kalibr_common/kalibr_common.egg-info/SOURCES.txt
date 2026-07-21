@@ -1,0 +1,11 @@
+setup.py
+kalibr_common/ConfigReader.py
+kalibr_common/ImageDatasetReader.py
+kalibr_common/ImuDatasetReader.py
+kalibr_common/TargetExtractor.py
+kalibr_common/__init__.py
+kalibr_common/bag_storage.py
+kalibr_common.egg-info/PKG-INFO
+kalibr_common.egg-info/SOURCES.txt
+kalibr_common.egg-info/dependency_links.txt
+kalibr_common.egg-info/top_level.txt

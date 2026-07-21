@@ -1,0 +1,7 @@
+setup.py
+kalibr/__init__.py
+kalibr/calibrate_imu_camera.py
+kalibr.egg-info/PKG-INFO
+kalibr.egg-info/SOURCES.txt
+kalibr.egg-info/dependency_links.txt
+kalibr.egg-info/top_level.txt

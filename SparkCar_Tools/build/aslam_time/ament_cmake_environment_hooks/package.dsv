@@ -1,0 +1,4 @@
+source;share/aslam_time/local_setup.bash
+source;share/aslam_time/local_setup.dsv
+source;share/aslam_time/local_setup.sh
+source;share/aslam_time/local_setup.zsh

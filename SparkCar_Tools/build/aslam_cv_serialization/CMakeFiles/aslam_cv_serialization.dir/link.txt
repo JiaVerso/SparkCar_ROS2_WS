@@ -1,0 +1,2 @@
+/usr/bin/ar qc libaslam_cv_serialization.a CMakeFiles/aslam_cv_serialization.dir/src/FrameBaseSerialization.cpp.o CMakeFiles/aslam_cv_serialization.dir/src/LinkCvSerialization.cpp.o
+/usr/bin/ranlib libaslam_cv_serialization.a

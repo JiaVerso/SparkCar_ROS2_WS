@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>sm_python</name>
+  <version>1.0.0</version>
+  <description>Kalibr ROS2 - sm_python</description>
+  <maintainer email="your@email.com">Your Name</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <depend>sm_common</depend>
+  <depend>numpy_eigen</depend>
+  <depend>sm_kinematics</depend>
+  <depend>sm_timing</depend>
+  <depend>sm_logging</depend>
+  <depend>sm_matrix_archive</depend>
+  <depend>sm_property_tree</depend>
+  <depend>python_module</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

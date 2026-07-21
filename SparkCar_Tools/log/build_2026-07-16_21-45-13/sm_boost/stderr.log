@@ -1,0 +1,12 @@
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_boost/src/portable_binary_iarchive.cpp:[m[K In member function ‘[01m[Kvoid boost::archive::portable_binary_iarchive::load_impl(intmax_t&, char)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_boost/src/portable_binary_iarchive.cpp:32:27:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+   32 |     bool negative = ([01;35m[Ksize < 0[m[K);
+      |                      [01;35m[K~~~~~^~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_boost/src/portable_binary_oarchive.cpp:18[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_boost/include/boost/portable_binary_oarchive.hpp:[m[K In member function ‘[01m[Kvirtual const char* boost::archive::portable_binary_oarchive_exception::what() const[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_boost/include/boost/portable_binary_oarchive.hpp:55:17:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+   55 |             [01;35m[Kmsg = "cannot be both big and little endian"[m[K;
+      |             [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_boost/include/boost/portable_binary_oarchive.hpp:56:9:[m[K [01;36m[Knote: [m[Khere
+   56 |         [01;36m[Kdefault[m[K:
+      |         [01;36m[K^~~~~~~[m[K

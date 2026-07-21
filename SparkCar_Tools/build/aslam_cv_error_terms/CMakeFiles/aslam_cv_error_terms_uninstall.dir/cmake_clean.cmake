@@ -1,0 +1,8 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/aslam_cv_error_terms_uninstall"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/aslam_cv_error_terms_uninstall.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

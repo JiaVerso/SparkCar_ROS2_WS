@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsm_boost.a CMakeFiles/sm_boost.dir/src/JobQueue.cpp.o CMakeFiles/sm_boost.dir/src/portable_binary_iarchive.cpp.o CMakeFiles/sm_boost.dir/src/portable_binary_oarchive.cpp.o
+/usr/bin/ranlib libsm_boost.a

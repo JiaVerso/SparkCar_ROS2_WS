@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsm_random.a CMakeFiles/sm_random.dir/src/random.cpp.o
+/usr/bin/ranlib libsm_random.a

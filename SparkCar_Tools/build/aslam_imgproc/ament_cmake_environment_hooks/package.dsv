@@ -1,0 +1,4 @@
+source;share/aslam_imgproc/local_setup.bash
+source;share/aslam_imgproc/local_setup.dsv
+source;share/aslam_imgproc/local_setup.sh
+source;share/aslam_imgproc/local_setup.zsh
