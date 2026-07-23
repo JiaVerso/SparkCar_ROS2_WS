@@ -1,0 +1,122 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found camera_models: 0.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/cmake)
+-- Found image_transport: 3.1.13 (/opt/ros/humble/share/image_transport/cmake)
+-- Found AMD headers in: /usr/include/suitesparse
+-- Found AMD library: /usr/lib/aarch64-linux-gnu/libamd.so
+-- Found CAMD headers in: /usr/include/suitesparse
+-- Found CAMD library: /usr/lib/aarch64-linux-gnu/libcamd.so
+-- Found CCOLAMD headers in: /usr/include/suitesparse
+-- Found CCOLAMD library: /usr/lib/aarch64-linux-gnu/libccolamd.so
+-- Found CHOLMOD headers in: /usr/include/suitesparse
+-- Found CHOLMOD library: /usr/lib/aarch64-linux-gnu/libcholmod.so
+-- Found COLAMD headers in: /usr/include/suitesparse
+-- Found COLAMD library: /usr/lib/aarch64-linux-gnu/libcolamd.so
+-- Found SPQR headers in: /usr/include/suitesparse
+-- Found SPQR library: /usr/lib/aarch64-linux-gnu/libspqr.so
+-- Found Config headers in: /usr/include/suitesparse
+-- Found Config library: /usr/lib/aarch64-linux-gnu/libsuitesparseconfig.so
+-- Found Intel Thread Building Blocks (TBB) library (2021.5 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+-- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+-- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.1.0 installed in: /home/orangepi/.local/ceres-2.1 with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins
+[35m[1mConsolidate compiler generated dependencies of target vins_lib[0m
+[ 73%] Built target vins_lib
+[35m[1mConsolidate compiler generated dependencies of target kitti_gps_test[0m
+[35m[1mConsolidate compiler generated dependencies of target kitti_odom_test[0m
+[35m[1mConsolidate compiler generated dependencies of target vins_node[0m
+[ 82%] Built target kitti_odom_test
+[ 91%] Built target kitti_gps_test
+[100%] Built target vins_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/launch//euroc.launch.py
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/launch//vins_rviz.launch.py
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/launch//vins_rviz.launch.xml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//A3_ptgrey/a3_ptgrey_mono_imu_config.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//A3_ptgrey/a3_ptgrey_stereo_config.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//A3_ptgrey/a3_ptgrey_stereo_imu_config.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//A3_ptgrey/a3_ptgrey_stereo_imu_config_backup.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//A3_ptgrey/left.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//A3_ptgrey/right.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//euroc/cam0_mei.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//euroc/cam0_pinhole.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//euroc/cam1_mei.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//euroc/cam1_pinhole.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//euroc/euroc_mono_imu_config.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//euroc/euroc_stereo_config.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//euroc/euroc_stereo_imu_config.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//extrinsic_parameter_example.pdf
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//fastdds_profile.xml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//fisheye_mask.jpg
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//fisheye_mask_752x480.jpg
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_odom/cam00-02.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_odom/cam03.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_odom/cam04-12.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_odom/cam13-21.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_odom/kitti_config00-02.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_odom/kitti_config03.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_odom/kitti_config04-12.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_odom/kitti_config13-21.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_raw/cam_09_30.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_raw/cam_10_03.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_raw/kitti_09_30_config.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_raw/kitti_10_03_config.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//mynteye/left_mei.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//mynteye/mynteye_mono_imu_config.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//mynteye/mynteye_stereo_config.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//mynteye/mynteye_stereo_imu_config.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//mynteye/right_mei.yaml
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//realsense_d435/d435_stereo_h743_vins_fusion.yaml
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//realsense_d435/left.yaml
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//realsense_d435/right.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//realsense_d435i/left.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//realsense_d435i/realsense_stereo_imu_config.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//realsense_d435i/right.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//realsense_d435i/rs_camera.launch
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//simulation/cam0_mei.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//simulation/cam1_mei.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//simulation/simulation_config.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//vi_car/cam0_mei.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//vi_car/cam0_pinhole.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//vi_car/cam1_mei.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//vi_car/cam1_pinhole.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//vi_car/vi_car.yaml
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//vins_rviz_config.rviz
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/lib/vins/vins_node
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/ament_index/resource_index/package_run_dependencies/vins
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/ament_index/resource_index/parent_prefix_path/vins
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/environment/path.sh
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/environment/path.dsv
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/local_setup.bash
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/local_setup.sh
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/local_setup.zsh
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/local_setup.dsv
+-- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/package.dsv
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/ament_index/resource_index/packages/vins
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/cmake/vinsConfig.cmake
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/cmake/vinsConfig-version.cmake
+-- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/package.xml

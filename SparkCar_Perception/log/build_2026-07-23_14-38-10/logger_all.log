@@ -1,0 +1,487 @@
+[0.197s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'vins', '--symlink-install', '--cmake-clean-cache', '--cmake-args', '-DCeres_DIR=/home/orangepi/.local/ceres-2.1/lib/cmake/Ceres', '-DCMAKE_INSTALL_RPATH=/home/orangepi/.local/ceres-2.1/lib', '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH=ON']
+[0.197s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['vins'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=['-DCeres_DIR=/home/orangepi/.local/ceres-2.1/lib/cmake/Ceres', '-DCMAKE_INSTALL_RPATH=/home/orangepi/.local/ceres-2.1/lib', '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH=ON'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=True, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fa00f7bb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa00f7700>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa00f7700>>, mixin_verb=('build',))
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.518s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extensions ['ignore', 'ignore_ament_install']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extension 'ignore'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extension 'ignore_ament_install'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extensions ['colcon_pkg']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extension 'colcon_pkg'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extensions ['colcon_meta']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extension 'colcon_meta'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extensions ['ros']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extension 'ros'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extensions ['cmake', 'python']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extension 'cmake'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extension 'python'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extensions ['python_setup_py']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extension 'python_setup_py'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/camera_models) by extensions ['ignore', 'ignore_ament_install']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/camera_models) by extension 'ignore'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/camera_models) by extension 'ignore_ament_install'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/camera_models) by extensions ['colcon_pkg']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/camera_models) by extension 'colcon_pkg'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/camera_models) by extensions ['colcon_meta']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/camera_models) by extension 'colcon_meta'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/camera_models) by extensions ['ros']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/camera_models) by extension 'ros'
+[0.553s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-Fusion-ROS2/camera_models' with type 'ros.ament_cmake' and name 'camera_models'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extension 'ignore'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extension 'ignore_ament_install'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extensions ['colcon_pkg']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extension 'colcon_pkg'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extensions ['colcon_meta']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extension 'colcon_meta'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extensions ['ros']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extension 'ros'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extensions ['cmake', 'python']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extension 'cmake'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extension 'python'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extensions ['python_setup_py']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extension 'python_setup_py'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extensions ['ignore', 'ignore_ament_install']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extension 'ignore'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extension 'ignore_ament_install'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extensions ['colcon_pkg']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extension 'colcon_pkg'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extensions ['colcon_meta']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extension 'colcon_meta'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extensions ['ros']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extension 'ros'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extensions ['cmake', 'python']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extension 'cmake'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extension 'python'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extensions ['python_setup_py']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extension 'python_setup_py'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extensions ['ignore', 'ignore_ament_install']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extension 'ignore'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extension 'ignore_ament_install'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extensions ['colcon_pkg']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extension 'colcon_pkg'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extensions ['colcon_meta']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extension 'colcon_meta'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extensions ['ros']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extension 'ros'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extensions ['cmake', 'python']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extension 'cmake'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extension 'python'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extensions ['python_setup_py']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extension 'python_setup_py'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extensions ['ignore', 'ignore_ament_install']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extension 'ignore'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extension 'ignore_ament_install'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extensions ['colcon_pkg']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extension 'colcon_pkg'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extensions ['colcon_meta']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extension 'colcon_meta'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extensions ['ros']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extension 'ros'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extensions ['cmake', 'python']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extension 'cmake'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extension 'python'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extensions ['python_setup_py']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extension 'python_setup_py'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extensions ['ignore', 'ignore_ament_install']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extension 'ignore'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extension 'ignore_ament_install'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extensions ['colcon_pkg']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extension 'colcon_pkg'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extensions ['colcon_meta']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extension 'colcon_meta'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extensions ['ros']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extension 'ros'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extensions ['cmake', 'python']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extension 'cmake'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extension 'python'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extensions ['python_setup_py']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extension 'python_setup_py'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extensions ['ignore', 'ignore_ament_install']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extension 'ignore'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extension 'ignore_ament_install'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extensions ['colcon_pkg']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extension 'colcon_pkg'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extensions ['colcon_meta']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extension 'colcon_meta'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extensions ['ros']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extension 'ros'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extensions ['cmake', 'python']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extension 'cmake'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extension 'python'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extensions ['python_setup_py']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extension 'python_setup_py'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435) by extension 'ignore_ament_install'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435) by extensions ['colcon_pkg']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435) by extension 'colcon_pkg'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435) by extensions ['colcon_meta']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435) by extension 'colcon_meta'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435) by extensions ['ros']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435) by extension 'ros'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435) by extensions ['cmake', 'python']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435) by extension 'cmake'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435) by extension 'python'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435) by extensions ['python_setup_py']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435) by extension 'python_setup_py'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extensions ['ignore', 'ignore_ament_install']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extension 'ignore'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extension 'ignore_ament_install'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extensions ['colcon_pkg']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extension 'colcon_pkg'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extensions ['colcon_meta']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extension 'colcon_meta'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extensions ['ros']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extension 'ros'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extensions ['cmake', 'python']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extension 'cmake'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extension 'python'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extensions ['python_setup_py']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extension 'python_setup_py'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extension 'ignore'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extension 'ignore_ament_install'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extensions ['colcon_pkg']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extension 'colcon_pkg'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extensions ['colcon_meta']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extension 'colcon_meta'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extensions ['ros']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extension 'ros'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extensions ['cmake', 'python']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extension 'cmake'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extension 'python'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extensions ['python_setup_py']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extension 'python_setup_py'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extensions ['ignore', 'ignore_ament_install']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extension 'ignore'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extension 'ignore_ament_install'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extensions ['colcon_pkg']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extension 'colcon_pkg'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extensions ['colcon_meta']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extension 'colcon_meta'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extensions ['ros']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extension 'ros'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extensions ['cmake', 'python']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extension 'cmake'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extension 'python'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extensions ['python_setup_py']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extension 'python_setup_py'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extension 'ignore'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extension 'ignore_ament_install'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extensions ['colcon_pkg']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extension 'colcon_pkg'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extensions ['colcon_meta']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extension 'colcon_meta'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extensions ['ros']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extension 'ros'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extensions ['cmake', 'python']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extension 'cmake'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extension 'python'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extensions ['python_setup_py']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extension 'python_setup_py'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/global_fusion) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/global_fusion) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/global_fusion) by extension 'ignore_ament_install'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/global_fusion) by extensions ['colcon_pkg']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/global_fusion) by extension 'colcon_pkg'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/global_fusion) by extensions ['colcon_meta']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/global_fusion) by extension 'colcon_meta'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/global_fusion) by extensions ['ros']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/global_fusion) by extension 'ros'
+[0.568s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-Fusion-ROS2/global_fusion' with type 'ros.ament_cmake' and name 'global_fusion'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/loop_fusion) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/loop_fusion) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/loop_fusion) by extension 'ignore_ament_install'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/loop_fusion) by extensions ['colcon_pkg']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/loop_fusion) by extension 'colcon_pkg'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/loop_fusion) by extensions ['colcon_meta']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/loop_fusion) by extension 'colcon_meta'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/loop_fusion) by extensions ['ros']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/loop_fusion) by extension 'ros'
+[0.571s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-Fusion-ROS2/loop_fusion' with type 'ros.ament_cmake' and name 'loop_fusion'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extension 'ignore_ament_install'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extensions ['colcon_pkg']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extension 'colcon_pkg'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extensions ['colcon_meta']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extension 'colcon_meta'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extensions ['ros']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extension 'ros'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extensions ['cmake', 'python']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extension 'cmake'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extension 'python'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extensions ['python_setup_py']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extension 'python_setup_py'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extension 'ignore'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extension 'ignore_ament_install'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extensions ['colcon_pkg']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extension 'colcon_pkg'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extensions ['colcon_meta']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extension 'colcon_meta'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extensions ['ros']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extension 'ros'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extensions ['cmake', 'python']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extension 'cmake'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extension 'python'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extensions ['python_setup_py']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extension 'python_setup_py'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/vins) by extensions ['ignore', 'ignore_ament_install']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/vins) by extension 'ignore'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/vins) by extension 'ignore_ament_install'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/vins) by extensions ['colcon_pkg']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/vins) by extension 'colcon_pkg'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/vins) by extensions ['colcon_meta']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/vins) by extension 'colcon_meta'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/vins) by extensions ['ros']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/vins) by extension 'ros'
+[0.577s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-Fusion-ROS2/vins' with type 'ros.ament_cmake' and name 'vins'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'ignore_ament_install'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extensions ['colcon_pkg']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'colcon_pkg'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extensions ['colcon_meta']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'colcon_meta'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extensions ['ros']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'ros'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extensions ['cmake', 'python']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'cmake'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'python'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extensions ['python_setup_py']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'python_setup_py'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_pkg'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_meta']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_meta'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ros']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ros'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['cmake', 'python']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'cmake'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'python'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['python_setup_py']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'python_setup_py'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore_ament_install'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_pkg']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_pkg'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_meta']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_meta'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ros']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ros'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['cmake', 'python']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'cmake'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['python_setup_py']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python_setup_py'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ros']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ros'
+[0.591s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[0.594s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ros']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ros'
+[0.597s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_rgbd_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_rgbd_plugin) by extension 'ignore'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_rgbd_plugin) by extension 'ignore_ament_install'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_rgbd_plugin) by extensions ['colcon_pkg']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_rgbd_plugin) by extension 'colcon_pkg'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_rgbd_plugin) by extensions ['colcon_meta']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_rgbd_plugin) by extension 'colcon_meta'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_rgbd_plugin) by extensions ['ros']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_rgbd_plugin) by extension 'ros'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_rgbd_plugin) ignored
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_ros_mqtt_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_ros_mqtt_bridge) by extension 'ignore'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_ros_mqtt_bridge) by extension 'ignore_ament_install'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_ros_mqtt_bridge) by extensions ['colcon_pkg']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_ros_mqtt_bridge) by extension 'colcon_pkg'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_ros_mqtt_bridge) by extensions ['colcon_meta']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_ros_mqtt_bridge) by extension 'colcon_meta'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_ros_mqtt_bridge) by extensions ['ros']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_ros_mqtt_bridge) by extension 'ros'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_ros_mqtt_bridge) ignored
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extensions ['ignore', 'ignore_ament_install']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extension 'ignore'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extension 'ignore_ament_install'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extensions ['colcon_pkg']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extension 'colcon_pkg'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extensions ['colcon_meta']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extension 'colcon_meta'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extensions ['ros']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extension 'ros'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extensions ['cmake', 'python']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extension 'cmake'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extension 'python'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extensions ['python_setup_py']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extension 'python_setup_py'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore_ament_install'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_pkg']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_pkg'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_meta']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_meta'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ros']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ros'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['cmake', 'python']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'cmake'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['python_setup_py']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python_setup_py'
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.605s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.605s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.605s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.669s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera_models' in 'src/VINS-Fusion-ROS2/camera_models'
+[0.669s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'global_fusion' in 'src/VINS-Fusion-ROS2/global_fusion'
+[0.669s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense2_camera_msgs' in 'src/realsense-ros/realsense2_camera_msgs'
+[0.669s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'loop_fusion' in 'src/VINS-Fusion-ROS2/loop_fusion'
+[0.669s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense2_camera' in 'src/realsense-ros/realsense2_camera'
+[0.669s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense2_description' in 'src/realsense-ros/realsense2_description'
+[0.670s] Level 5:colcon.colcon_core.verb:set package 'vins' build argument 'cmake_args' from command line to '['-DCeres_DIR=/home/orangepi/.local/ceres-2.1/lib/cmake/Ceres', '-DCMAKE_INSTALL_RPATH=/home/orangepi/.local/ceres-2.1/lib', '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH=ON']'
+[0.670s] Level 5:colcon.colcon_core.verb:set package 'vins' build argument 'cmake_target' from command line to 'None'
+[0.670s] Level 5:colcon.colcon_core.verb:set package 'vins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'vins' build argument 'cmake_clean_cache' from command line to 'True'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'vins' build argument 'cmake_clean_first' from command line to 'False'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'vins' build argument 'cmake_force_configure' from command line to 'False'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'vins' build argument 'ament_cmake_args' from command line to 'None'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'vins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'vins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.671s] DEBUG:colcon.colcon_core.verb:Building package 'vins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCeres_DIR=/home/orangepi/.local/ceres-2.1/lib/cmake/Ceres', '-DCMAKE_INSTALL_RPATH=/home/orangepi/.local/ceres-2.1/lib', '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH=ON'], 'cmake_clean_cache': True, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins', 'merge_install': False, 'path': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/vins', 'symlink_install': True, 'test_result_base': None}
+[0.672s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.675s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.677s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/vins' with build type 'ament_cmake'
+[0.677s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/vins'
+[0.683s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.683s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.683s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins': CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion:/home/orangepi/.local/ceres-2.1:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_error_terms:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_expressions:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sparse_block_matrix:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_imgproc:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_serialization:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_opencv:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time:/opt/ros/humble PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/bin:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/bin:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/opt/ros/humble/bin:/home/orangepi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/vins -DCeres_DIR=/home/orangepi/.local/ceres-2.1/lib/cmake/Ceres -DCMAKE_INSTALL_RPATH=/home/orangepi/.local/ceres-2.1/lib -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins
+[7.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins' returned '0': CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion:/home/orangepi/.local/ceres-2.1:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_error_terms:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_expressions:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sparse_block_matrix:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_imgproc:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_serialization:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_opencv:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time:/opt/ros/humble PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/bin:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/bin:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/opt/ros/humble/bin:/home/orangepi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/vins -DCeres_DIR=/home/orangepi/.local/ceres-2.1/lib/cmake/Ceres -DCMAKE_INSTALL_RPATH=/home/orangepi/.local/ceres-2.1/lib -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins
+[7.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins': CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion:/home/orangepi/.local/ceres-2.1:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_error_terms:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_expressions:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sparse_block_matrix:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_imgproc:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_serialization:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_opencv:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time:/opt/ros/humble PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/bin:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/bin:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/opt/ros/humble/bin:/home/orangepi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins -- -j8 -l8
+[11.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins' returned '0': CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion:/home/orangepi/.local/ceres-2.1:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_error_terms:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_expressions:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sparse_block_matrix:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_imgproc:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_serialization:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_opencv:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time:/opt/ros/humble PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/bin:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/bin:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/opt/ros/humble/bin:/home/orangepi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins -- -j8 -l8
+[11.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins': CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion:/home/orangepi/.local/ceres-2.1:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_error_terms:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_expressions:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sparse_block_matrix:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_imgproc:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_serialization:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_opencv:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time:/opt/ros/humble PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/bin:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/bin:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/opt/ros/humble/bin:/home/orangepi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins
+[13.888s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vins)
+[13.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins' returned '0': CMAKE_PREFIX_PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion:/home/orangepi/.local/ceres-2.1:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_error_terms:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_expressions:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sparse_block_matrix:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_imgproc:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_serialization:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_opencv:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time:/opt/ros/humble PATH=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/bin:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/bin:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/opt/ros/humble/bin:/home/orangepi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins
+[13.920s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins' for CMake module files
+[13.924s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins' for CMake config files
+[13.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('vins', 'cmake_prefix_path')
+[13.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/hook/cmake_prefix_path.ps1'
+[13.934s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/hook/cmake_prefix_path.dsv'
+[13.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/hook/cmake_prefix_path.sh'
+[13.946s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/lib'
+[13.946s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/bin'
+[13.946s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/lib/pkgconfig/vins.pc'
+[13.949s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/lib/python3.10/site-packages'
+[13.950s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/bin'
+[13.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/package.ps1'
+[13.953s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/package.dsv'
+[13.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/package.sh'
+[13.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/package.bash'
+[13.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/package.zsh'
+[13.959s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/colcon-core/packages/vins)
+[13.960s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vins)
+[13.961s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins' for CMake module files
+[13.961s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins' for CMake config files
+[13.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('vins', 'cmake_prefix_path')
+[13.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/hook/cmake_prefix_path.ps1'
+[13.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/hook/cmake_prefix_path.dsv'
+[13.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/hook/cmake_prefix_path.sh'
+[13.966s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/lib'
+[13.966s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/bin'
+[13.966s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/lib/pkgconfig/vins.pc'
+[13.966s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/lib/python3.10/site-packages'
+[13.967s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/bin'
+[13.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/package.ps1'
+[13.969s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/package.dsv'
+[13.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/package.sh'
+[13.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/package.bash'
+[13.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/package.zsh'
+[13.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/colcon-core/packages/vins)
+[13.981s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.989s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.990s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.990s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.992s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.993s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/local_setup.ps1'
+[13.995s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/_local_setup_util_ps1.py'
+[13.998s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.ps1'
+[14.004s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/local_setup.sh'
+[14.007s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/_local_setup_util_sh.py'
+[14.014s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.sh'
+[14.024s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/local_setup.bash'
+[14.025s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.bash'
+[14.032s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/local_setup.zsh'
+[14.034s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.zsh'

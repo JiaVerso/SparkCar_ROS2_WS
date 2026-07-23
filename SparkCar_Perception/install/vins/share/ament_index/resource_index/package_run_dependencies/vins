@@ -1,1 +1,1 @@
-rclcpp;rcpputils;std_msgs;geometry_msgs;visualization_msgs;nav_msgs;tf2;tf2_ros;cv_bridge;camera_models;image_transport;ament_lint_auto;ament_lint_common
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/vins

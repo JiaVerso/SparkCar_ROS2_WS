@@ -1,0 +1,1027 @@
+[0.162s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'config_pkg', '--symlink-install']
+[0.162s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['config_pkg'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f9c08b9a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9c08b4f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9c08b4f0>>, mixin_verb=('build',))
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.384s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orangepi/Desktop/SparkCar_ROS2_WS'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller) by extension 'ignore_ament_install'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller) by extensions ['colcon_pkg']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller) by extension 'colcon_pkg'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller) by extensions ['colcon_meta']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller) by extension 'colcon_meta'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller) by extensions ['ros']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller) by extension 'ros'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller) by extensions ['cmake', 'python']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller) by extension 'cmake'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller) by extension 'python'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller) by extensions ['python_setup_py']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller) by extension 'python_setup_py'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/build) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/build) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/build) ignored
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/install) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/install) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/install) ignored
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/log) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/log) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/log) ignored
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src) by extension 'ignore'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src) by extension 'ignore_ament_install'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src) by extensions ['colcon_pkg']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src) by extension 'colcon_pkg'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src) by extensions ['colcon_meta']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src) by extension 'colcon_meta'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src) by extensions ['ros']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src) by extension 'ros'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src) by extensions ['cmake', 'python']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src) by extension 'cmake'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src) by extension 'python'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src) by extensions ['python_setup_py']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src) by extension 'python_setup_py'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src/target_follower) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src/target_follower) by extension 'ignore'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src/target_follower) by extension 'ignore_ament_install'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src/target_follower) by extensions ['colcon_pkg']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src/target_follower) by extension 'colcon_pkg'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src/target_follower) by extensions ['colcon_meta']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src/target_follower) by extension 'colcon_meta'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src/target_follower) by extensions ['ros']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Controller/src/target_follower) by extension 'ros'
+[0.412s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Controller/src/target_follower' with type 'ros.ament_cmake' and name 'target_follower'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation) by extension 'ignore_ament_install'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation) by extensions ['colcon_pkg']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation) by extension 'colcon_pkg'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation) by extensions ['colcon_meta']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation) by extension 'colcon_meta'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation) by extensions ['ros']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation) by extension 'ros'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation) by extensions ['cmake', 'python']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation) by extension 'cmake'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation) by extension 'python'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation) by extensions ['python_setup_py']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation) by extension 'python_setup_py'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/build) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/build) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/build) ignored
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/install) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/install) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/install) ignored
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/log) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/log) by extension 'ignore'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/log) ignored
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/src) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/src) by extension 'ignore'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/src) by extension 'ignore_ament_install'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/src) by extensions ['colcon_pkg']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/src) by extension 'colcon_pkg'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/src) by extensions ['colcon_meta']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/src) by extension 'colcon_meta'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/src) by extensions ['ros']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/src) by extension 'ros'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/src) by extensions ['cmake', 'python']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/src) by extension 'cmake'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/src) by extension 'python'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/src) by extensions ['python_setup_py']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Navigation/src) by extension 'python_setup_py'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception) by extension 'ignore'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception) by extension 'ignore_ament_install'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception) by extensions ['colcon_pkg']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception) by extension 'colcon_pkg'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception) by extensions ['colcon_meta']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception) by extension 'colcon_meta'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception) by extensions ['ros']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception) by extension 'ros'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception) by extensions ['cmake', 'python']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception) by extension 'cmake'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception) by extension 'python'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception) by extensions ['python_setup_py']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception) by extension 'python_setup_py'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/build) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/build) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/build) ignored
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/install) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/install) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/install) ignored
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/log) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/log) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/log) ignored
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src) by extension 'ignore_ament_install'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src) by extensions ['colcon_pkg']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src) by extension 'colcon_pkg'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src) by extensions ['colcon_meta']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src) by extension 'colcon_meta'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src) by extensions ['ros']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src) by extension 'ros'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src) by extensions ['cmake', 'python']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src) by extension 'cmake'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src) by extension 'python'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src) by extensions ['python_setup_py']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src) by extension 'python_setup_py'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2) by extension 'ignore_ament_install'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2) by extensions ['colcon_pkg']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2) by extension 'colcon_pkg'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2) by extensions ['colcon_meta']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2) by extension 'colcon_meta'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2) by extensions ['ros']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2) by extension 'ros'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2) by extensions ['cmake', 'python']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2) by extension 'cmake'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2) by extension 'python'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2) by extensions ['python_setup_py']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2) by extension 'python_setup_py'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/ar_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/ar_demo) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/ar_demo) by extension 'ignore_ament_install'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/ar_demo) by extensions ['colcon_pkg']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/ar_demo) by extension 'colcon_pkg'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/ar_demo) by extensions ['colcon_meta']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/ar_demo) by extension 'colcon_meta'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/ar_demo) by extensions ['ros']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/ar_demo) by extension 'ros'
+[0.419s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Perception/src/VINS-MONO-ROS2/ar_demo' with type 'ros.ament_cmake' and name 'ar_demo'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/benchmark_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/benchmark_publisher) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/benchmark_publisher) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/benchmark_publisher) by extensions ['colcon_pkg']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/benchmark_publisher) by extension 'colcon_pkg'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/benchmark_publisher) by extensions ['colcon_meta']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/benchmark_publisher) by extension 'colcon_meta'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/benchmark_publisher) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/benchmark_publisher) by extension 'ros'
+[0.421s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Perception/src/VINS-MONO-ROS2/benchmark_publisher' with type 'ros.ament_cmake' and name 'benchmark_publisher'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/camera_model) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/camera_model) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/camera_model) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/camera_model) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/camera_model) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/camera_model) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/camera_model) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/camera_model) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/camera_model) by extension 'ros'
+[0.422s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Perception/src/VINS-MONO-ROS2/camera_model' with type 'ros.ament_cmake' and name 'camera_model'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/config_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/config_pkg) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/config_pkg) by extension 'ignore_ament_install'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/config_pkg) by extensions ['colcon_pkg']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/config_pkg) by extension 'colcon_pkg'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/config_pkg) by extensions ['colcon_meta']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/config_pkg) by extension 'colcon_meta'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/config_pkg) by extensions ['ros']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/config_pkg) by extension 'ros'
+[0.424s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Perception/src/VINS-MONO-ROS2/config_pkg' with type 'ros.ament_cmake' and name 'config_pkg'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker) by extension 'ignore_ament_install'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker) by extensions ['colcon_pkg']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker) by extension 'colcon_pkg'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker) by extensions ['colcon_meta']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker) by extension 'colcon_meta'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker) by extensions ['ros']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker) by extension 'ros'
+[0.425s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker' with type 'ros.ament_cmake' and name 'feature_tracker'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/pose_graph) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/pose_graph) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/pose_graph) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/pose_graph) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/pose_graph) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/pose_graph) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/pose_graph) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/pose_graph) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/pose_graph) by extension 'ros'
+[0.427s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Perception/src/VINS-MONO-ROS2/pose_graph' with type 'ros.ament_cmake' and name 'pose_graph'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator) by extension 'ros'
+[0.430s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator' with type 'ros.ament_cmake' and name 'vins_estimator'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/fastlio2_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/fastlio2_ros2) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/fastlio2_ros2) by extension 'ignore_ament_install'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/fastlio2_ros2) by extensions ['colcon_pkg']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/fastlio2_ros2) by extension 'colcon_pkg'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/fastlio2_ros2) by extensions ['colcon_meta']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/fastlio2_ros2) by extension 'colcon_meta'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/fastlio2_ros2) by extensions ['ros']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/fastlio2_ros2) by extension 'ros'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/fastlio2_ros2) by extensions ['cmake', 'python']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/fastlio2_ros2) by extension 'cmake'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/fastlio2_ros2) by extension 'python'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/fastlio2_ros2) by extensions ['python_setup_py']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/fastlio2_ros2) by extension 'python_setup_py'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/livox_ros_driver2) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/livox_ros_driver2) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/livox_ros_driver2) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/livox_ros_driver2) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/livox_ros_driver2) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/livox_ros_driver2) by extension 'ros'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/livox_ros_driver2) by extensions ['cmake', 'python']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/livox_ros_driver2) by extension 'cmake'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/livox_ros_driver2) by extension 'python'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/livox_ros_driver2) by extensions ['python_setup_py']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/livox_ros_driver2) by extension 'python_setup_py'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros) by extension 'ros'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros) by extensions ['cmake', 'python']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros) by extension 'cmake'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros) by extension 'python'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros) by extensions ['python_setup_py']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros) by extension 'python_setup_py'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_camera) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_camera) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_camera) by extension 'ros'
+[0.484s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Perception/src/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[0.486s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_description) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_description) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_description) by extension 'ros'
+[0.488s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Perception/src/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_rgbd_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_rgbd_plugin) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_rgbd_plugin) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_rgbd_plugin) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_rgbd_plugin) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_rgbd_plugin) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_rgbd_plugin) by extension 'colcon_meta'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_rgbd_plugin) by extensions ['ros']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_rgbd_plugin) by extension 'ros'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_rgbd_plugin) ignored
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_ros_mqtt_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_ros_mqtt_bridge) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_ros_mqtt_bridge) by extension 'ignore_ament_install'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_ros_mqtt_bridge) by extensions ['colcon_pkg']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_ros_mqtt_bridge) by extension 'colcon_pkg'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_ros_mqtt_bridge) by extensions ['colcon_meta']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_ros_mqtt_bridge) by extension 'colcon_meta'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_ros_mqtt_bridge) by extensions ['ros']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_ros_mqtt_bridge) by extension 'ros'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/realsense2_ros_mqtt_bridge) ignored
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/res) by extensions ['ignore', 'ignore_ament_install']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/res) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/res) by extension 'ignore_ament_install'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/res) by extensions ['colcon_pkg']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/res) by extension 'colcon_pkg'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/res) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/res) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/res) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/res) by extension 'ros'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/res) by extensions ['cmake', 'python']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/res) by extension 'cmake'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/res) by extension 'python'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/res) by extensions ['python_setup_py']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/res) by extension 'python_setup_py'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/scripts) by extension 'ignore'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/scripts) by extension 'ignore_ament_install'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/scripts) by extensions ['colcon_pkg']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/scripts) by extension 'colcon_pkg'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/scripts) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/scripts) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/scripts) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/scripts) by extension 'ros'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/scripts) by extensions ['cmake', 'python']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/scripts) by extension 'cmake'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/scripts) by extension 'python'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/scripts) by extensions ['python_setup_py']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Perception/src/realsense-ros/scripts) by extension 'python_setup_py'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools) by extension 'ignore_ament_install'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools) by extensions ['colcon_pkg']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools) by extension 'colcon_pkg'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools) by extensions ['colcon_meta']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools) by extension 'colcon_meta'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools) by extensions ['ros']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools) by extension 'ros'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools) by extensions ['cmake', 'python']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools) by extension 'cmake'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools) by extension 'python'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools) by extensions ['python_setup_py']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools) by extension 'python_setup_py'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/build) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/build) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/build) ignored
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/install) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/install) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/install) ignored
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/log) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/log) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/log) ignored
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src) by extension 'ignore_ament_install'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src) by extensions ['colcon_pkg']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src) by extension 'colcon_pkg'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src) by extensions ['colcon_meta']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src) by extension 'colcon_meta'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src) by extension 'ros'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src) by extensions ['cmake', 'python']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src) by extension 'cmake'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src) by extension 'python'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src) by extensions ['python_setup_py']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src) by extension 'python_setup_py'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2) by extension 'ignore_ament_install'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2) by extensions ['colcon_pkg']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2) by extension 'colcon_pkg'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2) by extensions ['colcon_meta']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2) by extension 'colcon_meta'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2) by extension 'ros'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2) by extensions ['cmake', 'python']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2) by extension 'cmake'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2) by extension 'python'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2) by extensions ['python_setup_py']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2) by extension 'python_setup_py'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/doc) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/doc) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/doc) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/doc) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/doc) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/doc) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/doc) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/doc) by extension 'ros'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/doc) by extensions ['cmake', 'python']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/doc) by extension 'cmake'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/doc) by extension 'python'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/doc) by extensions ['python_setup_py']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/doc) by extension 'python_setup_py'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src) by extensions ['ignore', 'ignore_ament_install']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src) by extension 'ignore'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src) by extension 'ignore_ament_install'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src) by extensions ['colcon_pkg']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src) by extension 'colcon_pkg'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src) by extensions ['colcon_meta']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src) by extension 'colcon_meta'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src) by extensions ['ros']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src) by extension 'ros'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src) by extensions ['cmake', 'python']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src) by extension 'cmake'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src) by extension 'python'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src) by extensions ['python_setup_py']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src) by extension 'python_setup_py'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer) by extensions ['ignore', 'ignore_ament_install']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer) by extension 'ignore'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer) by extension 'ignore_ament_install'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer) by extensions ['colcon_pkg']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer) by extension 'colcon_pkg'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer) by extensions ['colcon_meta']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer) by extension 'colcon_meta'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer) by extensions ['ros']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer) by extension 'ros'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer) by extensions ['cmake', 'python']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer) by extension 'cmake'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer) by extension 'python'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer) by extensions ['python_setup_py']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer) by extension 'python_setup_py'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/numpy_eigen) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/numpy_eigen) by extension 'ignore'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/numpy_eigen) by extension 'ignore_ament_install'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/numpy_eigen) by extensions ['colcon_pkg']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/numpy_eigen) by extension 'colcon_pkg'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/numpy_eigen) by extensions ['colcon_meta']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/numpy_eigen) by extension 'colcon_meta'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/numpy_eigen) by extensions ['ros']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/numpy_eigen) by extension 'ros'
+[0.497s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/numpy_eigen' with type 'ros.ament_cmake' and name 'numpy_eigen'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/python_module) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/python_module) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/python_module) by extension 'ignore_ament_install'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/python_module) by extensions ['colcon_pkg']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/python_module) by extension 'colcon_pkg'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/python_module) by extensions ['colcon_meta']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/python_module) by extension 'colcon_meta'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/python_module) by extensions ['ros']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/python_module) by extension 'ros'
+[0.498s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/python_module' with type 'ros.ament_cmake' and name 'python_module'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_boost) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_boost) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_boost) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_boost) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_boost) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_boost) by extensions ['colcon_meta']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_boost) by extension 'colcon_meta'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_boost) by extensions ['ros']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_boost) by extension 'ros'
+[0.500s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_boost' with type 'ros.ament_cmake' and name 'sm_boost'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_common) by extensions ['ignore', 'ignore_ament_install']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_common) by extension 'ignore'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_common) by extension 'ignore_ament_install'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_common) by extensions ['colcon_pkg']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_common) by extension 'colcon_pkg'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_common) by extensions ['colcon_meta']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_common) by extension 'colcon_meta'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_common) by extensions ['ros']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_common) by extension 'ros'
+[0.501s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_common' with type 'ros.ament_cmake' and name 'sm_common'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_eigen) by extensions ['ignore', 'ignore_ament_install']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_eigen) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_eigen) by extension 'ignore_ament_install'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_eigen) by extensions ['colcon_pkg']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_eigen) by extension 'colcon_pkg'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_eigen) by extensions ['colcon_meta']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_eigen) by extension 'colcon_meta'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_eigen) by extensions ['ros']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_eigen) by extension 'ros'
+[0.502s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_eigen' with type 'ros.ament_cmake' and name 'sm_eigen'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics) by extension 'ignore_ament_install'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics) by extensions ['colcon_pkg']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics) by extension 'ros'
+[0.503s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics' with type 'ros.ament_cmake' and name 'sm_kinematics'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_logging) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_logging) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_logging) by extension 'ignore_ament_install'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_logging) by extensions ['colcon_pkg']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_logging) by extension 'colcon_pkg'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_logging) by extensions ['colcon_meta']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_logging) by extension 'colcon_meta'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_logging) by extensions ['ros']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_logging) by extension 'ros'
+[0.505s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_logging' with type 'ros.ament_cmake' and name 'sm_logging'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_matrix_archive) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_matrix_archive) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_matrix_archive) by extension 'ignore_ament_install'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_matrix_archive) by extensions ['colcon_pkg']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_matrix_archive) by extension 'colcon_pkg'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_matrix_archive) by extensions ['colcon_meta']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_matrix_archive) by extension 'colcon_meta'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_matrix_archive) by extensions ['ros']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_matrix_archive) by extension 'ros'
+[0.506s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_matrix_archive' with type 'ros.ament_cmake' and name 'sm_matrix_archive'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_opencv) by extension 'ignore'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_opencv) by extension 'ignore_ament_install'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_opencv) by extensions ['colcon_pkg']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_opencv) by extension 'colcon_pkg'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_opencv) by extensions ['colcon_meta']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_opencv) by extension 'colcon_meta'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_opencv) by extensions ['ros']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_opencv) by extension 'ros'
+[0.507s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_opencv' with type 'ros.ament_cmake' and name 'sm_opencv'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_property_tree) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_property_tree) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_property_tree) by extension 'ignore_ament_install'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_property_tree) by extensions ['colcon_pkg']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_property_tree) by extension 'colcon_pkg'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_property_tree) by extensions ['colcon_meta']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_property_tree) by extension 'colcon_meta'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_property_tree) by extensions ['ros']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_property_tree) by extension 'ros'
+[0.508s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_property_tree' with type 'ros.ament_cmake' and name 'sm_property_tree'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python) by extension 'ignore_ament_install'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python) by extensions ['colcon_pkg']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python) by extension 'colcon_pkg'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python) by extensions ['colcon_meta']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python) by extension 'colcon_meta'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python) by extensions ['ros']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python) by extension 'ros'
+[0.510s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python' with type 'ros.ament_cmake' and name 'sm_python'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_random) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_random) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_random) by extension 'ignore_ament_install'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_random) by extensions ['colcon_pkg']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_random) by extension 'colcon_pkg'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_random) by extensions ['colcon_meta']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_random) by extension 'colcon_meta'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_random) by extensions ['ros']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_random) by extension 'ros'
+[0.511s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_random' with type 'ros.ament_cmake' and name 'sm_random'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_timing) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_timing) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_timing) by extension 'ignore_ament_install'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_timing) by extensions ['colcon_pkg']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_timing) by extension 'colcon_pkg'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_timing) by extensions ['colcon_meta']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_timing) by extension 'colcon_meta'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_timing) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_timing) by extension 'ros'
+[0.512s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_timing' with type 'ros.ament_cmake' and name 'sm_timing'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv) by extension 'ignore_ament_install'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv) by extensions ['colcon_pkg']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv) by extension 'colcon_pkg'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv) by extensions ['colcon_meta']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv) by extension 'colcon_meta'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv) by extensions ['ros']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv) by extension 'ros'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv) by extensions ['cmake', 'python']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv) by extension 'cmake'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv) by extension 'python'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv) by extensions ['python_setup_py']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv) by extension 'python_setup_py'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras) by extension 'ignore_ament_install'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras) by extensions ['colcon_pkg']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras) by extension 'colcon_pkg'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras) by extensions ['colcon_meta']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras) by extension 'colcon_meta'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras) by extensions ['ros']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras) by extension 'ros'
+[0.515s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras' with type 'ros.ament_cmake' and name 'aslam_cameras'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april) by extensions ['ignore', 'ignore_ament_install']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april) by extension 'ignore'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april) by extension 'ignore_ament_install'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april) by extensions ['colcon_pkg']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april) by extension 'colcon_pkg'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april) by extensions ['colcon_meta']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april) by extension 'colcon_meta'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april) by extensions ['ros']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april) by extension 'ros'
+[0.517s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april' with type 'ros.ament_cmake' and name 'aslam_cameras_april'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend) by extensions ['ignore', 'ignore_ament_install']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend) by extension 'ignore'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend) by extension 'ignore_ament_install'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend) by extensions ['colcon_pkg']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend) by extension 'colcon_pkg'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend) by extensions ['colcon_meta']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend) by extension 'colcon_meta'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend) by extensions ['ros']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend) by extension 'ros'
+[0.519s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend' with type 'ros.ament_cmake' and name 'aslam_cv_backend'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend_python) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend_python) by extension 'ignore'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend_python) by extension 'ignore_ament_install'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend_python) by extensions ['colcon_pkg']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend_python) by extension 'colcon_pkg'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend_python) by extensions ['colcon_meta']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend_python) by extension 'colcon_meta'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend_python) by extensions ['ros']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend_python) by extension 'ros'
+[0.521s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend_python' with type 'ros.ament_cmake' and name 'aslam_cv_backend_python'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_error_terms) by extensions ['ignore', 'ignore_ament_install']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_error_terms) by extension 'ignore'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_error_terms) by extension 'ignore_ament_install'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_error_terms) by extensions ['colcon_pkg']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_error_terms) by extension 'colcon_pkg'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_error_terms) by extensions ['colcon_meta']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_error_terms) by extension 'colcon_meta'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_error_terms) by extensions ['ros']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_error_terms) by extension 'ros'
+[0.523s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_error_terms' with type 'ros.ament_cmake' and name 'aslam_cv_error_terms'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_python) by extensions ['ignore', 'ignore_ament_install']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_python) by extension 'ignore'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_python) by extension 'ignore_ament_install'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_python) by extensions ['colcon_pkg']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_python) by extension 'colcon_pkg'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_python) by extensions ['colcon_meta']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_python) by extension 'colcon_meta'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_python) by extensions ['ros']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_python) by extension 'ros'
+[0.525s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_python' with type 'ros.ament_cmake' and name 'aslam_cv_python'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_serialization) by extensions ['ignore', 'ignore_ament_install']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_serialization) by extension 'ignore'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_serialization) by extension 'ignore_ament_install'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_serialization) by extensions ['colcon_pkg']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_serialization) by extension 'colcon_pkg'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_serialization) by extensions ['colcon_meta']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_serialization) by extension 'colcon_meta'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_serialization) by extensions ['ros']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_serialization) by extension 'ros'
+[0.526s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_serialization' with type 'ros.ament_cmake' and name 'aslam_cv_serialization'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_imgproc) by extensions ['ignore', 'ignore_ament_install']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_imgproc) by extension 'ignore'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_imgproc) by extension 'ignore_ament_install'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_imgproc) by extensions ['colcon_pkg']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_imgproc) by extension 'colcon_pkg'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_imgproc) by extensions ['colcon_meta']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_imgproc) by extension 'colcon_meta'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_imgproc) by extensions ['ros']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_imgproc) by extension 'ros'
+[0.528s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_imgproc' with type 'ros.ament_cmake' and name 'aslam_imgproc'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_time) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_time) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_time) by extension 'ignore_ament_install'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_time) by extensions ['colcon_pkg']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_time) by extension 'colcon_pkg'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_time) by extensions ['colcon_meta']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_time) by extension 'colcon_meta'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_time) by extensions ['ros']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_time) by extension 'ros'
+[0.529s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_time' with type 'ros.ament_cmake' and name 'aslam_time'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration) by extension 'ignore_ament_install'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration) by extensions ['colcon_pkg']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration) by extension 'colcon_pkg'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration) by extensions ['colcon_meta']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration) by extension 'colcon_meta'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration) by extensions ['ros']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration) by extension 'ros'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration) by extensions ['cmake', 'python']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration) by extension 'cmake'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration) by extension 'python'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration) by extensions ['python_setup_py']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration) by extension 'python_setup_py'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration) by extension 'ignore'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration) by extension 'ignore_ament_install'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration) by extensions ['colcon_pkg']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration) by extension 'colcon_pkg'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration) by extensions ['colcon_meta']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration) by extension 'colcon_meta'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration) by extensions ['ros']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration) by extension 'ros'
+[0.532s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration' with type 'ros.ament_cmake' and name 'incremental_calibration'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration_python) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration_python) by extension 'ignore'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration_python) by extension 'ignore_ament_install'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration_python) by extensions ['colcon_pkg']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration_python) by extension 'colcon_pkg'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration_python) by extensions ['colcon_meta']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration_python) by extension 'colcon_meta'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration_python) by extensions ['ros']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration_python) by extension 'ros'
+[0.533s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration_python' with type 'ros.ament_cmake' and name 'incremental_calibration_python'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation) by extensions ['ignore', 'ignore_ament_install']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation) by extension 'ignore'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation) by extension 'ignore_ament_install'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation) by extensions ['colcon_pkg']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation) by extension 'colcon_pkg'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation) by extensions ['colcon_meta']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation) by extension 'colcon_meta'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation) by extensions ['ros']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation) by extension 'ros'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation) by extensions ['cmake', 'python']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation) by extension 'cmake'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation) by extension 'python'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation) by extensions ['python_setup_py']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation) by extension 'python_setup_py'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines) by extension 'ignore_ament_install'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines) by extensions ['colcon_pkg']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines) by extension 'colcon_pkg'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines) by extensions ['colcon_meta']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines) by extension 'colcon_meta'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines) by extensions ['ros']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines) by extension 'ros'
+[0.535s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines' with type 'ros.ament_cmake' and name 'aslam_splines'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines_python) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines_python) by extension 'ignore'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines_python) by extension 'ignore_ament_install'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines_python) by extensions ['colcon_pkg']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines_python) by extension 'colcon_pkg'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines_python) by extensions ['colcon_meta']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines_python) by extension 'colcon_meta'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines_python) by extensions ['ros']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines_python) by extension 'ros'
+[0.538s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines_python' with type 'ros.ament_cmake' and name 'aslam_splines_python'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines) by extensions ['ignore', 'ignore_ament_install']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines) by extension 'ignore'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines) by extension 'ignore_ament_install'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines) by extensions ['colcon_pkg']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines) by extension 'colcon_pkg'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines) by extensions ['colcon_meta']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines) by extension 'colcon_meta'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines) by extensions ['ros']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines) by extension 'ros'
+[0.539s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines' with type 'ros.ament_cmake' and name 'bsplines'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines_python) by extensions ['ignore', 'ignore_ament_install']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines_python) by extension 'ignore'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines_python) by extension 'ignore_ament_install'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines_python) by extensions ['colcon_pkg']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines_python) by extension 'colcon_pkg'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines_python) by extensions ['colcon_meta']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines_python) by extension 'colcon_meta'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines_python) by extensions ['ros']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines_python) by extension 'ros'
+[0.541s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines_python' with type 'ros.ament_cmake' and name 'bsplines_python'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration) by extension 'ignore'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration) by extension 'ignore_ament_install'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration) by extensions ['colcon_pkg']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration) by extension 'colcon_pkg'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration) by extensions ['colcon_meta']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration) by extension 'colcon_meta'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration) by extensions ['ros']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration) by extension 'ros'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration) by extensions ['cmake', 'python']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration) by extension 'cmake'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration) by extension 'python'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration) by extensions ['python_setup_py']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration) by extension 'python_setup_py'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2) by extensions ['ignore', 'ignore_ament_install']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2) by extension 'ignore'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2) by extension 'ignore_ament_install'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2) by extensions ['colcon_pkg']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2) by extension 'colcon_pkg'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2) by extensions ['colcon_meta']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2) by extension 'colcon_meta'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2) by extensions ['ros']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2) by extension 'ros'
+[0.543s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2' with type 'ros.ament_cmake' and name 'ethz_apriltag2'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/kalibr) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/kalibr) by extension 'ignore'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/kalibr) by extension 'ignore_ament_install'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/kalibr) by extensions ['colcon_pkg']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/kalibr) by extension 'colcon_pkg'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/kalibr) by extensions ['colcon_meta']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/kalibr) by extension 'colcon_meta'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/kalibr) by extensions ['ros']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/kalibr) by extension 'ros'
+[0.548s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/kalibr' with type 'ros.ament_cmake' and name 'kalibr'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer) by extensions ['ignore', 'ignore_ament_install']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer) by extension 'ignore'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer) by extension 'ignore_ament_install'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer) by extensions ['colcon_pkg']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer) by extension 'colcon_pkg'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer) by extensions ['colcon_meta']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer) by extension 'colcon_meta'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer) by extensions ['ros']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer) by extension 'ros'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer) by extensions ['cmake', 'python']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer) by extension 'cmake'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer) by extension 'python'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer) by extensions ['python_setup_py']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer) by extension 'python_setup_py'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend) by extensions ['ignore', 'ignore_ament_install']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend) by extension 'ignore'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend) by extension 'ignore_ament_install'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend) by extensions ['colcon_pkg']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend) by extension 'colcon_pkg'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend) by extensions ['colcon_meta']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend) by extension 'colcon_meta'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend) by extensions ['ros']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend) by extension 'ros'
+[0.551s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend' with type 'ros.ament_cmake' and name 'aslam_backend'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_expressions) by extensions ['ignore', 'ignore_ament_install']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_expressions) by extension 'ignore'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_expressions) by extension 'ignore_ament_install'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_expressions) by extensions ['colcon_pkg']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_expressions) by extension 'colcon_pkg'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_expressions) by extensions ['colcon_meta']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_expressions) by extension 'colcon_meta'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_expressions) by extensions ['ros']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_expressions) by extension 'ros'
+[0.552s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_expressions' with type 'ros.ament_cmake' and name 'aslam_backend_expressions'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_python) by extensions ['ignore', 'ignore_ament_install']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_python) by extension 'ignore'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_python) by extension 'ignore_ament_install'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_python) by extensions ['colcon_pkg']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_python) by extension 'colcon_pkg'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_python) by extensions ['colcon_meta']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_python) by extension 'colcon_meta'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_python) by extensions ['ros']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_python) by extension 'ros'
+[0.554s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_python' with type 'ros.ament_cmake' and name 'aslam_backend_python'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix) by extension 'ignore'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix) by extension 'ignore_ament_install'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix) by extensions ['colcon_pkg']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix) by extension 'colcon_pkg'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix) by extensions ['colcon_meta']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix) by extension 'colcon_meta'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix) by extensions ['ros']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix) by extension 'ros'
+[0.555s] DEBUG:colcon.colcon_core.package_identification:Package 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix' with type 'ros.ament_cmake' and name 'sparse_block_matrix'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/catkin_simple) by extensions ['ignore', 'ignore_ament_install']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/catkin_simple) by extension 'ignore'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/catkin_simple) by extension 'ignore_ament_install'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/catkin_simple) by extensions ['colcon_pkg']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/catkin_simple) by extension 'colcon_pkg'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/catkin_simple) by extensions ['colcon_meta']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/catkin_simple) by extension 'colcon_meta'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/catkin_simple) by extensions ['ros']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/catkin_simple) by extension 'ros'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/catkin_simple) by extensions ['cmake', 'python']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/catkin_simple) by extension 'cmake'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/catkin_simple) by extension 'python'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/catkin_simple) by extensions ['python_setup_py']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/catkin_simple) by extension 'python_setup_py'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/opencv2_catkin) by extensions ['ignore', 'ignore_ament_install']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/opencv2_catkin) by extension 'ignore'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/opencv2_catkin) by extension 'ignore_ament_install'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/opencv2_catkin) by extensions ['colcon_pkg']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/opencv2_catkin) by extension 'colcon_pkg'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/opencv2_catkin) by extensions ['colcon_meta']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/opencv2_catkin) by extension 'colcon_meta'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/opencv2_catkin) by extensions ['ros']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/opencv2_catkin) by extension 'ros'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/opencv2_catkin) by extensions ['cmake', 'python']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/opencv2_catkin) by extension 'cmake'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/opencv2_catkin) by extension 'python'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/opencv2_catkin) by extensions ['python_setup_py']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(SparkCar_Tools/src/Kalibr_ROS2/src/opencv2_catkin) by extension 'python_setup_py'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.612s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'aslam_time' in 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_time'
+[0.612s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'benchmark_publisher' in 'SparkCar_Perception/src/VINS-MONO-ROS2/benchmark_publisher'
+[0.612s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera_model' in 'SparkCar_Perception/src/VINS-MONO-ROS2/camera_model'
+[0.612s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ethz_apriltag2' in 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/ethz_apriltag2'
+[0.612s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'numpy_eigen' in 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/numpy_eigen'
+[0.612s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'python_module' in 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/python_module'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense2_camera_msgs' in 'SparkCar_Perception/src/realsense-ros/realsense2_camera_msgs'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sm_common' in 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_common'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sm_logging' in 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_logging'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sm_random' in 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_random'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'target_follower' in 'SparkCar_Controller/src/target_follower'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ar_demo' in 'SparkCar_Perception/src/VINS-MONO-ROS2/ar_demo'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'feature_tracker' in 'SparkCar_Perception/src/VINS-MONO-ROS2/feature_tracker'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pose_graph' in 'SparkCar_Perception/src/VINS-MONO-ROS2/pose_graph'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense2_camera' in 'SparkCar_Perception/src/realsense-ros/realsense2_camera'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense2_description' in 'SparkCar_Perception/src/realsense-ros/realsense2_description'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sm_boost' in 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_boost'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sm_eigen' in 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_eigen'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sm_matrix_archive' in 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_matrix_archive'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sm_opencv' in 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_opencv'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sm_property_tree' in 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_property_tree'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sm_timing' in 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_timing'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vins_estimator' in 'SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sm_kinematics' in 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_kinematics'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sparse_block_matrix' in 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/sparse_block_matrix'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'aslam_backend' in 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'aslam_cameras' in 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'bsplines' in 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sm_python' in 'SparkCar_Tools/src/Kalibr_ROS2/src/Schweizer-Messer/sm_python'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'aslam_backend_expressions' in 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_expressions'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'aslam_cameras_april' in 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cameras_april'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'aslam_cv_serialization' in 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_serialization'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'aslam_imgproc' in 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_imgproc'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'bsplines_python' in 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/bsplines_python'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'incremental_calibration' in 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'aslam_backend_python' in 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_optimizer/aslam_backend_python'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'aslam_splines' in 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'incremental_calibration_python' in 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_incremental_calibration/incremental_calibration_python'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'aslam_cv_backend' in 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'aslam_splines_python' in 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_nonparametric_estimation/aslam_splines_python'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'aslam_cv_error_terms' in 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_error_terms'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'aslam_cv_python' in 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_python'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'aslam_cv_backend_python' in 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_cv/aslam_cv_backend_python'
+[0.613s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kalibr' in 'SparkCar_Tools/src/Kalibr_ROS2/src/aslam_offline_calibration/kalibr'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'cmake_args' from command line to 'None'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'cmake_target' from command line to 'None'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.614s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.614s] DEBUG:colcon.colcon_core.verb:Building package 'config_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/build/config_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg', 'merge_install': False, 'path': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/config_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.615s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.617s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.617s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/config_pkg' with build type 'ament_cmake'
+[0.617s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/config_pkg'
+[0.622s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.622s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.622s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/build/config_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/config_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg
+[4.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/build/config_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/config_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg
+[4.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/build/config_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/build/config_pkg -- -j8 -l8
+[4.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/build/config_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/build/config_pkg -- -j8 -l8
+[4.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/build/config_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/build/config_pkg
+[6.475s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(config_pkg)
+[6.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/build/config_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/build/config_pkg
+[6.487s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg' for CMake module files
+[6.488s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg' for CMake config files
+[6.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('config_pkg', 'cmake_prefix_path')
+[6.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/share/config_pkg/hook/cmake_prefix_path.ps1'
+[6.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/share/config_pkg/hook/cmake_prefix_path.dsv'
+[6.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/share/config_pkg/hook/cmake_prefix_path.sh'
+[6.493s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/bin'
+[6.493s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/lib/pkgconfig/config_pkg.pc'
+[6.496s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/lib/python3.10/site-packages'
+[6.497s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/bin'
+[6.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/share/config_pkg/package.ps1'
+[6.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/share/config_pkg/package.dsv'
+[6.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/share/config_pkg/package.sh'
+[6.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/share/config_pkg/package.bash'
+[6.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/share/config_pkg/package.zsh'
+[6.503s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/share/colcon-core/packages/config_pkg)
+[6.504s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(config_pkg)
+[6.504s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg' for CMake module files
+[6.505s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg' for CMake config files
+[6.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('config_pkg', 'cmake_prefix_path')
+[6.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/share/config_pkg/hook/cmake_prefix_path.ps1'
+[6.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/share/config_pkg/hook/cmake_prefix_path.dsv'
+[6.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/share/config_pkg/hook/cmake_prefix_path.sh'
+[6.507s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/bin'
+[6.507s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/lib/pkgconfig/config_pkg.pc'
+[6.508s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/lib/python3.10/site-packages'
+[6.508s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/bin'
+[6.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/share/config_pkg/package.ps1'
+[6.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/share/config_pkg/package.dsv'
+[6.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/share/config_pkg/package.sh'
+[6.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/share/config_pkg/package.bash'
+[6.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/share/config_pkg/package.zsh'
+[6.511s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/install/config_pkg/share/colcon-core/packages/config_pkg)
+[6.512s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.512s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.512s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.512s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.547s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.547s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.548s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.563s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[6.564s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.566s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/local_setup.ps1'
+[6.571s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/_local_setup_util_ps1.py'
+[6.577s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/setup.ps1'
+[6.583s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/local_setup.sh'
+[6.584s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/_local_setup_util_sh.py'
+[6.585s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/setup.sh'
+[6.589s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/local_setup.bash'
+[6.590s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/setup.bash'
+[6.593s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/local_setup.zsh'
+[6.594s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/Desktop/SparkCar_ROS2_WS/install/setup.zsh'

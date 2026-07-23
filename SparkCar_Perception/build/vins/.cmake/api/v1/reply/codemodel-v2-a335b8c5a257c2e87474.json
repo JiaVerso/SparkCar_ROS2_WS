@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-afae5f16bb660178b200.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "vins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "kitti_gps_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kitti_gps_test-Release-45c0538b8757e2102052.json",
+					"name" : "kitti_gps_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kitti_odom_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kitti_odom_test-Release-08637e6f12b08f8459ff.json",
+					"name" : "kitti_odom_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-d67199c46600e0c1ea03.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vins_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vins_lib-Release-d56ab5ffa356067dafd1.json",
+					"name" : "vins_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vins_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vins_node-Release-e6e3543a0ca8916e7aaa.json",
+					"name" : "vins_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vins_uninstall-Release-4131b0445010089f41b5.json",
+					"name" : "vins_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins",
+		"source" : "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/vins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

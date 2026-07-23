@@ -1,0 +1,60 @@
+[  7%] [32mBuilding CXX object CMakeFiles/loop_fusion_node.dir/src/pose_graph.cpp.o[0m
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:[m[K In member function ‘[01m[Kint PoseGraph::detectLoop(KeyFrame*, int)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:419:47:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KDBoW2::EntryId[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  419 |             if (min_index == -1 || (ret[i].Id < min_index && ret[i].Score > 0.015))
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:[m[K In member function ‘[01m[Kvoid PoseGraph::optimize4DoF()[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:468:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kt_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  468 |             double [01;35m[Kt_array[m[K[max_length][3];
+      |                    [01;35m[K^~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:469:25:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kq_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  469 |             Quaterniond [01;35m[Kq_array[m[K[max_length];
+      |                         [01;35m[K^~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:470:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Keuler_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  470 |             double [01;35m[Keuler_array[m[K[max_length][3];
+      |                    [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:471:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Ksequence_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  471 |             double [01;35m[Ksequence_array[m[K[max_length];
+      |                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:[m[K In member function ‘[01m[Kvoid PoseGraph::optimize6DoF()[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:648:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kt_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  648 |             double [01;35m[Kt_array[m[K[max_length][3];
+      |                    [01;35m[K^~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:649:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kq_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  649 |             double [01;35m[Kq_array[m[K[max_length][4];
+      |                    [01;35m[K^~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:650:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Ksequence_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  650 |             double [01;35m[Ksequence_array[m[K[max_length];
+      |                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:687:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kquaternion_parameterization[m[K’ was not declared in this scope
+  687 |                 problem.AddParameterBlock(q_array[i], 4, [01;31m[Kquaternion_parameterization[m[K);
+      |                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/ThirdParty/DBoW/DBoW2.h:63[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/keyframe.h:24[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.h:28[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:12[m[K:
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/ThirdParty/DBoW/TemplatedVocabulary.h: In instantiation of ‘[01m[Kvoid DBoW2::TemplatedVocabulary<TDescriptor, F>::loadBin(const string&) [with TDescriptor = boost::dynamic_bitset<>; F = DBoW2::FBrief; std::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/ThirdParty/DBoW/TemplatedVocabulary.h:439:5:[m[K   required from ‘[01m[KDBoW2::TemplatedVocabulary<TDescriptor, F>::TemplatedVocabulary(const string&) [with TDescriptor = boost::dynamic_bitset<>; F = DBoW2::FBrief; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:64:39:[m[K   required from here
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/ThirdParty/DBoW/TemplatedVocabulary.h:1530:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1530 |   for(unsigned int i = 0; [01;35m[Ki < voc.nNodes[m[K; ++i)
+      |                           [01;35m[K~~^~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/ThirdParty/DBoW/TemplatedVocabulary.h:1554:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1554 |   for(unsigned int i = 0; [01;35m[Ki < voc.nWords[m[K; ++i)
+      |                           [01;35m[K~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/utility:70[m[K,
+                 from [01m[K/usr/include/c++/11/tuple:38[m[K,
+                 from [01m[K/usr/include/c++/11/bits/std_thread.h:40[m[K,
+                 from [01m[K/usr/include/c++/11/thread:43[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.h:14[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:12[m[K:
+/usr/include/c++/11/bits/stl_pair.h: In instantiation of ‘[01m[Kconstexpr std::pair<typename std::__strip_reference_wrapper<typename std::decay<_Tp>::type>::__type, typename std::__strip_reference_wrapper<typename std::decay<_Tp2>::type>::__type> std::make_pair(_T1&&, _T2&&) [with _T1 = const double&; _T2 = const double&; typename std::__strip_reference_wrapper<typename std::decay<_Tp2>::type>::__type = double; typename std::decay<_Tp2>::type = double; typename std::__strip_reference_wrapper<typename std::decay<_Tp>::type>::__type = double; typename std::decay<_Tp>::type = double][m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/ThirdParty/DBoW/TemplatedDatabase.h:879:29:[m[K   required from ‘[01m[Kvoid DBoW2::TemplatedDatabase<TDescriptor, F>::queryChiSquare(const DBoW2::BowVector&, DBoW2::QueryResults&, int, int) const [with TDescriptor = boost::dynamic_bitset<>; F = DBoW2::FBrief][m[K’
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/ThirdParty/DBoW/TemplatedDatabase.h:639:7:[m[K   required from ‘[01m[Kvoid DBoW2::TemplatedDatabase<TDescriptor, F>::query(const DBoW2::BowVector&, DBoW2::QueryResults&, int, int) const [with TDescriptor = boost::dynamic_bitset<>; F = DBoW2::FBrief][m[K’
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/ThirdParty/DBoW/TemplatedDatabase.h:616:8:[m[K   required from ‘[01m[Kvoid DBoW2::TemplatedDatabase<TDescriptor, F>::query(const std::vector<_Tp>&, DBoW2::QueryResults&, int, int) const [with TDescriptor = boost::dynamic_bitset<>; F = DBoW2::FBrief][m[K’
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:360:13:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/stl_pair.h:567:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+  567 |     [01;36m[Kmake_pair[m[K(_T1&& __x, _T2&& __y)
+      |     [01;36m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/loop_fusion_node.dir/build.make:90: CMakeFiles/loop_fusion_node.dir/src/pose_graph.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/loop_fusion_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
