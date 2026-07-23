@@ -1,7 +1,0 @@
-In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/parameters.h:7[m[K,
-                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/estimator.h:3[m[K,
-                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/estimator_node.cpp:11[m[K:
-[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-MONO-ROS2/vins_estimator/src/utility/utility.h:143:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
-  143 |     }[01;35m[K;[m[K
-      |      [01;35m[K^[m[K
-      |      [31m[K-[m[K

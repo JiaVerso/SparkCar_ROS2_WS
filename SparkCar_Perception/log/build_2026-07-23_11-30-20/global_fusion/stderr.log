@@ -1,0 +1,42 @@
+[0mCMake Deprecation Warning at ThirdParty/GeographicLib/CMakeLists.txt:19 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOptNode.cpp:[m[K In function ‘[01m[Kvoid vio_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOptNode.cpp:101:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::NavSatFix_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  101 |         sensor_msgs::msg::NavSatFix::ConstPtr [01;35m[KGPS_msg[m[K = gpsQueue.front();
+      |                                               [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/nav_sat_fix.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOpt.h:28[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOptNode.cpp:13[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__struct.hpp:186:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  186 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOptNode.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOptNode.cpp:179:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kqos_profile[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  179 |     auto [01;35m[Kqos_profile[m[K = rclcpp::QoS(rclcpp::KeepLast(100));
+      |          [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOpt.cpp:[m[K In member function ‘[01m[Kvoid GlobalOptimization::optimize()[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOpt.cpp:115:20:[m[K [01;31m[Kerror: [m[K‘[01m[KManifold[m[K’ is not a member of ‘[01m[Kceres[m[K’
+  115 |             ceres::[01;31m[KManifold[m[K* quaternion_manifold = new ceres::QuaternionManifold();
+      |                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOpt.cpp:115:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kquaternion_manifold[m[K’ was not declared in this scope
+  115 |             ceres::Manifold* [01;31m[Kquaternion_manifold[m[K = new ceres::QuaternionManifold();
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOpt.cpp:115:56:[m[K [01;31m[Kerror: [m[Kexpected type-specifier
+  115 |             ceres::Manifold* quaternion_manifold = new [01;31m[Kceres[m[K::QuaternionManifold();
+      |                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOpt.cpp:121:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kt_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  121 |             double [01;35m[Kt_array[m[K[length][3];
+      |                    [01;35m[K^~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOpt.cpp:122:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kq_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  122 |             double [01;35m[Kq_array[m[K[length][4];
+      |                    [01;35m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/global_fusion_node.dir/build.make:90: CMakeFiles/global_fusion_node.dir/src/globalOpt.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:154: CMakeFiles/global_fusion_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

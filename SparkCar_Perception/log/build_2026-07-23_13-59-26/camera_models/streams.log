@@ -1,0 +1,88 @@
+[0.051s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models
+[0.090s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.413s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.426s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.464s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.469s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.477s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.493s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.561s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.565s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.737s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.136s] -- Found AMD headers in: /usr/include/suitesparse
+[1.137s] -- Found AMD library: /usr/lib/aarch64-linux-gnu/libamd.so
+[1.137s] -- Found CAMD headers in: /usr/include/suitesparse
+[1.137s] -- Found CAMD library: /usr/lib/aarch64-linux-gnu/libcamd.so
+[1.137s] -- Found CCOLAMD headers in: /usr/include/suitesparse
+[1.137s] -- Found CCOLAMD library: /usr/lib/aarch64-linux-gnu/libccolamd.so
+[1.137s] -- Found CHOLMOD headers in: /usr/include/suitesparse
+[1.137s] -- Found CHOLMOD library: /usr/lib/aarch64-linux-gnu/libcholmod.so
+[1.137s] -- Found COLAMD headers in: /usr/include/suitesparse
+[1.137s] -- Found COLAMD library: /usr/lib/aarch64-linux-gnu/libcolamd.so
+[1.138s] -- Found SPQR headers in: /usr/include/suitesparse
+[1.138s] -- Found SPQR library: /usr/lib/aarch64-linux-gnu/libspqr.so
+[1.138s] -- Found Config headers in: /usr/include/suitesparse
+[1.138s] -- Found Config library: /usr/lib/aarch64-linux-gnu/libsuitesparseconfig.so
+[1.138s] -- Found Intel Thread Building Blocks (TBB) library (2021.5 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+[1.138s] -- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+[1.149s] -- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+[1.156s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake
+[1.160s] -- Found required Ceres dependency: glog
+[1.160s] -- Found required Ceres dependency: gflags
+[1.167s] -- Found Ceres version: 2.1.0 installed in: /home/orangepi/.local/ceres-2.1 with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[1.304s] -- Configuring done
+[1.340s] -- Generating done
+[1.353s] -- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models
+[1.379s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models
+[1.383s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models -- -j8 -l8
+[1.477s] [35m[1mConsolidate compiler generated dependencies of target Calibrations[0m
+[1.556s] [35m[1mConsolidate compiler generated dependencies of target camera_models[0m
+[1.699s] [ 51%] Built target Calibrations
+[1.720s] [100%] Built target camera_models
+[1.782s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models -- -j8 -l8
+[1.783s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models
+[1.815s] -- Install configuration: ""
+[1.817s] -- Execute custom install script
+[1.819s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/environment/library_path.sh
+[1.819s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/environment/library_path.dsv
+[1.825s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/lib/camera_models/Calibrations
+[1.826s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/bin/Calibrations
+[1.826s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/lib/libcamera_models.a
+[1.827s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/lib/camera_models/Calibrations
+[1.827s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/include//camodocal/calib/CameraCalibration.h
+[1.828s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/include//camodocal/camera_models/Camera.h
+[1.828s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/include//camodocal/camera_models/CameraFactory.h
+[1.828s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/include//camodocal/camera_models/CataCamera.h
+[1.829s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/include//camodocal/camera_models/CostFunctionFactory.h
+[1.829s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/include//camodocal/camera_models/EquidistantCamera.h
+[1.829s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/include//camodocal/camera_models/PinholeCamera.h
+[1.829s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/include//camodocal/camera_models/PinholeFullCamera.h
+[1.829s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/include//camodocal/camera_models/ScaramuzzaCamera.h
+[1.830s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/include//camodocal/chessboard/Chessboard.h
+[1.830s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/include//camodocal/chessboard/ChessboardCorner.h
+[1.830s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/include//camodocal/chessboard/ChessboardQuad.h
+[1.830s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/include//camodocal/chessboard/Spline.h
+[1.830s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/include//camodocal/gpl/EigenQuaternionParameterization.h
+[1.830s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/include//camodocal/gpl/EigenUtils.h
+[1.830s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/include//camodocal/gpl/gpl.h
+[1.831s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/include//camodocal/sparse_graph/Transform.h
+[1.831s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/ament_index/resource_index/package_run_dependencies/camera_models
+[1.831s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/ament_index/resource_index/parent_prefix_path/camera_models
+[1.832s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/environment/ament_prefix_path.sh
+[1.835s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/environment/ament_prefix_path.dsv
+[1.835s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/environment/path.sh
+[1.836s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/environment/path.dsv
+[1.836s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/local_setup.bash
+[1.837s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/local_setup.sh
+[1.837s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/local_setup.zsh
+[1.837s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/local_setup.dsv
+[1.837s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/package.dsv
+[1.908s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/ament_index/resource_index/packages/camera_models
+[1.908s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.909s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/cmake/ament_cmake_export_libraries-extras.cmake
+[1.909s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.909s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/cmake/camera_modelsConfig.cmake
+[1.910s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/cmake/camera_modelsConfig-version.cmake
+[1.910s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/package.xml
+[1.918s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models

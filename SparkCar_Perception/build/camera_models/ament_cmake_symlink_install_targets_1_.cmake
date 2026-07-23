@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models/Calibrations" "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models/libcamera_models.a" "TARGETS" "Calibrations" "camera_models" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

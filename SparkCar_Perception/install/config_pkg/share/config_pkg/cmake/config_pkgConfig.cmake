@@ -1,1 +1,0 @@
-/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/config_pkg/ament_cmake_core/config_pkgConfig.cmake

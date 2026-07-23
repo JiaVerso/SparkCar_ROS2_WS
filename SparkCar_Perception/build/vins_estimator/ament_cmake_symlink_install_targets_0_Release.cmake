@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins_estimator/vins_estimator" "TARGETS" "vins_estimator" "DESTINATION" "lib/vins_estimator")

@@ -1,0 +1,13 @@
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins/CMakeFiles/uninstall.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins/CMakeFiles/vins_uninstall.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins/CMakeFiles/vins_lib.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins/CMakeFiles/vins_node.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins/CMakeFiles/kitti_odom_test.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins/CMakeFiles/kitti_gps_test.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins/CMakeFiles/test.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins/CMakeFiles/edit_cache.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins/CMakeFiles/rebuild_cache.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins/CMakeFiles/list_install_components.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins/CMakeFiles/install.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins/CMakeFiles/install/local.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vins/CMakeFiles/install/strip.dir

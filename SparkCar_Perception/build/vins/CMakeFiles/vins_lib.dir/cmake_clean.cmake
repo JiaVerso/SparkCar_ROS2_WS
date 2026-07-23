@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/vins_lib.dir/src/estimator/estimator.cpp.o"
+  "CMakeFiles/vins_lib.dir/src/estimator/estimator.cpp.o.d"
+  "CMakeFiles/vins_lib.dir/src/estimator/feature_manager.cpp.o"
+  "CMakeFiles/vins_lib.dir/src/estimator/feature_manager.cpp.o.d"
+  "CMakeFiles/vins_lib.dir/src/estimator/parameters.cpp.o"
+  "CMakeFiles/vins_lib.dir/src/estimator/parameters.cpp.o.d"
+  "CMakeFiles/vins_lib.dir/src/factor/marginalization_factor.cpp.o"
+  "CMakeFiles/vins_lib.dir/src/factor/marginalization_factor.cpp.o.d"
+  "CMakeFiles/vins_lib.dir/src/factor/pose_local_parameterization.cpp.o"
+  "CMakeFiles/vins_lib.dir/src/factor/pose_local_parameterization.cpp.o.d"
+  "CMakeFiles/vins_lib.dir/src/factor/projectionOneFrameTwoCamFactor.cpp.o"
+  "CMakeFiles/vins_lib.dir/src/factor/projectionOneFrameTwoCamFactor.cpp.o.d"
+  "CMakeFiles/vins_lib.dir/src/factor/projectionTwoFrameOneCamFactor.cpp.o"
+  "CMakeFiles/vins_lib.dir/src/factor/projectionTwoFrameOneCamFactor.cpp.o.d"
+  "CMakeFiles/vins_lib.dir/src/factor/projectionTwoFrameTwoCamFactor.cpp.o"
+  "CMakeFiles/vins_lib.dir/src/factor/projectionTwoFrameTwoCamFactor.cpp.o.d"
+  "CMakeFiles/vins_lib.dir/src/featureTracker/feature_tracker.cpp.o"
+  "CMakeFiles/vins_lib.dir/src/featureTracker/feature_tracker.cpp.o.d"
+  "CMakeFiles/vins_lib.dir/src/initial/initial_aligment.cpp.o"
+  "CMakeFiles/vins_lib.dir/src/initial/initial_aligment.cpp.o.d"
+  "CMakeFiles/vins_lib.dir/src/initial/initial_ex_rotation.cpp.o"
+  "CMakeFiles/vins_lib.dir/src/initial/initial_ex_rotation.cpp.o.d"
+  "CMakeFiles/vins_lib.dir/src/initial/initial_sfm.cpp.o"
+  "CMakeFiles/vins_lib.dir/src/initial/initial_sfm.cpp.o.d"
+  "CMakeFiles/vins_lib.dir/src/initial/solve_5pts.cpp.o"
+  "CMakeFiles/vins_lib.dir/src/initial/solve_5pts.cpp.o.d"
+  "CMakeFiles/vins_lib.dir/src/utility/CameraPoseVisualization.cpp.o"
+  "CMakeFiles/vins_lib.dir/src/utility/CameraPoseVisualization.cpp.o.d"
+  "CMakeFiles/vins_lib.dir/src/utility/utility.cpp.o"
+  "CMakeFiles/vins_lib.dir/src/utility/utility.cpp.o.d"
+  "CMakeFiles/vins_lib.dir/src/utility/visualization.cpp.o"
+  "CMakeFiles/vins_lib.dir/src/utility/visualization.cpp.o.d"
+  "libvins_lib.a"
+  "libvins_lib.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/vins_lib.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

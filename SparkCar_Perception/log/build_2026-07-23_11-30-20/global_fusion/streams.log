@@ -1,0 +1,94 @@
+[0.040s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion
+[0.184s] -- The C compiler identification is GNU 11.4.0
+[0.332s] -- The CXX compiler identification is GNU 11.4.0
+[0.345s] -- Detecting C compiler ABI info
+[0.600s] -- Detecting C compiler ABI info - done
+[0.636s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.637s] -- Detecting C compile features
+[0.638s] -- Detecting C compile features - done
+[0.645s] -- Detecting CXX compiler ABI info
+[0.876s] -- Detecting CXX compiler ABI info - done
+[0.888s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.888s] -- Detecting CXX compile features
+[0.889s] -- Detecting CXX compile features - done
+[0.895s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.254s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.504s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.594s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.607s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.624s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.651s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.687s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.785s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.794s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.058s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.108s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.190s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.211s] -- Looking for pthread.h
+[2.419s] -- Looking for pthread.h - found
+[2.421s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.704s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.704s] -- Found Threads: TRUE  
+[2.803s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[2.808s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.867s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.901s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.955s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[2.970s] -- Found required Ceres dependency: glog
+[2.971s] -- Found required Ceres dependency: gflags
+[2.972s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[2.974s] [0mCMake Deprecation Warning at ThirdParty/GeographicLib/CMakeLists.txt:19 (cmake_minimum_required):
+[2.976s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[2.976s]   CMake.
+[2.977s] 
+[2.977s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[2.978s]   CMake that the project does not need compatibility with older versions.
+[2.978s] 
+[2.978s] [0m
+[3.123s] -- Configuring done
+[3.148s] -- Generating done
+[3.157s] -- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion
+[3.215s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion
+[3.217s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion -- -j8 -l8
+[3.502s] [ 14%] [32mBuilding CXX object ThirdParty/GeographicLib/CMakeFiles/libGeographiccc.dir/src/LocalCartesian.cpp.o[0m
+[3.508s] [ 28%] [32mBuilding CXX object ThirdParty/GeographicLib/CMakeFiles/libGeographiccc.dir/src/Geocentric.cpp.o[0m
+[3.519s] [ 42%] [32mBuilding CXX object ThirdParty/GeographicLib/CMakeFiles/libGeographiccc.dir/src/Math.cpp.o[0m
+[5.011s] [ 57%] [32m[1mLinking CXX static library liblibGeographiccc.a[0m
+[5.284s] [ 57%] Built target libGeographiccc
+[5.478s] [ 85%] [32mBuilding CXX object CMakeFiles/global_fusion_node.dir/src/globalOptNode.cpp.o[0m
+[5.491s] [ 85%] [32mBuilding CXX object CMakeFiles/global_fusion_node.dir/src/globalOpt.cpp.o[0m
+[24.616s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOptNode.cpp:[m[K In function ‘[01m[Kvoid vio_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[24.616s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOptNode.cpp:101:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::NavSatFix_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[24.617s]   101 |         sensor_msgs::msg::NavSatFix::ConstPtr [01;35m[KGPS_msg[m[K = gpsQueue.front();
+[24.617s]       |                                               [01;35m[K^~~~~~~[m[K
+[24.617s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/nav_sat_fix.hpp:7[m[K,
+[24.617s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOpt.h:28[m[K,
+[24.617s]                  from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOptNode.cpp:13[m[K:
+[24.617s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__struct.hpp:186:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[24.617s]   186 |     [01;36m[KConstPtr[m[K;
+[24.617s]       |     [01;36m[K^~~~~~~~[m[K
+[25.000s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOptNode.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[25.001s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOptNode.cpp:179:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kqos_profile[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[25.001s]   179 |     auto [01;35m[Kqos_profile[m[K = rclcpp::QoS(rclcpp::KeepLast(100));
+[25.001s]       |          [01;35m[K^~~~~~~~~~~[m[K
+[26.839s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOpt.cpp:[m[K In member function ‘[01m[Kvoid GlobalOptimization::optimize()[m[K’:
+[26.840s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOpt.cpp:115:20:[m[K [01;31m[Kerror: [m[K‘[01m[KManifold[m[K’ is not a member of ‘[01m[Kceres[m[K’
+[26.840s]   115 |             ceres::[01;31m[KManifold[m[K* quaternion_manifold = new ceres::QuaternionManifold();
+[26.841s]       |                    [01;31m[K^~~~~~~~[m[K
+[26.877s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOpt.cpp:115:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kquaternion_manifold[m[K’ was not declared in this scope
+[26.878s]   115 |             ceres::Manifold* [01;31m[Kquaternion_manifold[m[K = new ceres::QuaternionManifold();
+[26.878s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[26.879s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOpt.cpp:115:56:[m[K [01;31m[Kerror: [m[Kexpected type-specifier
+[26.879s]   115 |             ceres::Manifold* quaternion_manifold = new [01;31m[Kceres[m[K::QuaternionManifold();
+[26.880s]       |                                                        [01;31m[K^~~~~[m[K
+[26.880s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOpt.cpp:121:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kt_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[26.881s]   121 |             double [01;35m[Kt_array[m[K[length][3];
+[26.881s]       |                    [01;35m[K^~~~~~~[m[K
+[26.881s] [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOpt.cpp:122:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kq_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[26.882s]   122 |             double [01;35m[Kq_array[m[K[length][4];
+[26.882s]       |                    [01;35m[K^~~~~~~[m[K
+[29.679s] gmake[2]: *** [CMakeFiles/global_fusion_node.dir/build.make:90: CMakeFiles/global_fusion_node.dir/src/globalOpt.cpp.o] Error 1
+[29.680s] gmake[2]: *** Waiting for unfinished jobs....
+[51.856s] gmake[1]: *** [CMakeFiles/Makefile2:154: CMakeFiles/global_fusion_node.dir/all] Error 2
+[51.858s] gmake: *** [Makefile:146: all] Error 2
+[51.870s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion -- -j8 -l8

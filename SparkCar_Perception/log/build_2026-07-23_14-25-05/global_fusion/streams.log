@@ -1,0 +1,26 @@
+[0.046s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion -- -j8 -l8
+[0.266s] [ 57%] Built target libGeographiccc
+[0.335s] [100%] Built target global_fusion_node
+[0.349s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion -- -j8 -l8
+[0.351s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion
+[0.363s] -- Install configuration: "Release"
+[0.363s] -- Execute custom install script
+[0.363s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/lib/global_fusion/global_fusion_node
+[0.364s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/bin/global_fusion_node
+[0.365s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/lib/global_fusion/global_fusion_node
+[0.365s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/ament_index/resource_index/package_run_dependencies/global_fusion
+[0.365s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/ament_index/resource_index/parent_prefix_path/global_fusion
+[0.366s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/environment/ament_prefix_path.sh
+[0.366s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/environment/ament_prefix_path.dsv
+[0.366s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/environment/path.sh
+[0.366s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/environment/path.dsv
+[0.367s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/local_setup.bash
+[0.367s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/local_setup.sh
+[0.367s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/local_setup.zsh
+[0.368s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/local_setup.dsv
+[0.368s] -- Symlinking: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/package.dsv
+[0.381s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/ament_index/resource_index/packages/global_fusion
+[0.382s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/cmake/global_fusionConfig.cmake
+[0.383s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/cmake/global_fusionConfig-version.cmake
+[0.385s] -- Up-to-date symlink: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/package.xml
+[0.432s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion

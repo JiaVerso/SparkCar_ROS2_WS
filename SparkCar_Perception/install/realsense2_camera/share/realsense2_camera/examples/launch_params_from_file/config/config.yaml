@@ -1,1 +1,7 @@
-/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/realsense-ros/realsense2_camera/examples/launch_params_from_file/config/config.yaml
+enable_color: true
+rgb_camera.color_profile: 1280x720x15
+enable_depth: true
+align_depth.enable: true
+enable_sync: true
+publish_tf: true
+tf_publish_rate: 1.0

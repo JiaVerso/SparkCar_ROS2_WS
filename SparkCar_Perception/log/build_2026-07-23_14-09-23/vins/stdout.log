@@ -1,0 +1,91 @@
+[35m[1mConsolidate compiler generated dependencies of target vins_lib[0m
+[  4%] [32mBuilding CXX object CMakeFiles/vins_lib.dir/src/initial/initial_sfm.cpp.o[0m
+[  8%] [32m[1mLinking CXX static library libvins_lib.a[0m
+[ 73%] Built target vins_lib
+[ 82%] [32mBuilding CXX object CMakeFiles/vins_node.dir/src/rosNodeTest.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/kitti_gps_test.dir/src/KITTIGPSTest.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/kitti_odom_test.dir/src/KITTIOdomTest.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable kitti_odom_test[0m
+[ 95%] [32m[1mLinking CXX executable kitti_gps_test[0m
+[ 95%] Built target kitti_odom_test
+[ 95%] Built target kitti_gps_test
+[100%] [32m[1mLinking CXX executable vins_node[0m
+[100%] Built target vins_node
+-- Install configuration: "Release"
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/launch/
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/launch//euroc.launch.py
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/launch//vins_rviz.launch.py
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/launch//vins_rviz.launch.xml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config/
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//vins_rviz_config.rviz
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//extrinsic_parameter_example.pdf
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//fastdds_profile.xml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//vi_car
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//vi_car/cam1_pinhole.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//vi_car/cam1_mei.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//vi_car/cam0_pinhole.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//vi_car/cam0_mei.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//vi_car/vi_car.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//A3_ptgrey
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//A3_ptgrey/a3_ptgrey_stereo_config.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//A3_ptgrey/a3_ptgrey_mono_imu_config.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//A3_ptgrey/right.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//A3_ptgrey/left.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//A3_ptgrey/a3_ptgrey_stereo_imu_config_backup.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//A3_ptgrey/a3_ptgrey_stereo_imu_config.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//simulation
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//simulation/cam1_mei.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//simulation/cam0_mei.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//simulation/simulation_config.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//fisheye_mask_752x480.jpg
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//realsense_d435i
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//realsense_d435i/right.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//realsense_d435i/left.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//realsense_d435i/realsense_stereo_imu_config.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//realsense_d435i/rs_camera.launch
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//fisheye_mask.jpg
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//euroc
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//euroc/euroc_mono_imu_config.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//euroc/cam1_pinhole.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//euroc/cam1_mei.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//euroc/euroc_stereo_imu_config.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//euroc/cam0_pinhole.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//euroc/cam0_mei.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//euroc/euroc_stereo_config.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_odom
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_odom/kitti_config03.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_odom/kitti_config00-02.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_odom/kitti_config13-21.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_odom/kitti_config04-12.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_odom/cam04-12.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_odom/cam00-02.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_odom/cam13-21.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_odom/cam03.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//mynteye
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//mynteye/left_mei.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//mynteye/mynteye_stereo_config.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//mynteye/mynteye_stereo_imu_config.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//mynteye/right_mei.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//mynteye/mynteye_mono_imu_config.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_raw
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_raw/kitti_09_30_config.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_raw/cam_09_30.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_raw/cam_10_03.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/config//kitti_raw/kitti_10_03_config.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/lib/vins/vins_node
+-- Set runtime path of "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/lib/vins/vins_node" to ""
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/ament_index/resource_index/package_run_dependencies/vins
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/ament_index/resource_index/parent_prefix_path/vins
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/environment/ament_prefix_path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/environment/ament_prefix_path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/environment/path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/environment/path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/local_setup.bash
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/local_setup.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/local_setup.zsh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/local_setup.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/package.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/ament_index/resource_index/packages/vins
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/cmake/vinsConfig.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/cmake/vinsConfig-version.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins/share/vins/package.xml

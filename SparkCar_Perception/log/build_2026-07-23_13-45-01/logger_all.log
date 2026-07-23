@@ -1,0 +1,560 @@
+[0.552s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'camera_models', 'global_fusion', '--symlink-install', '--cmake-clean-cache', '--cmake-args', '-DCeres_DIR=/home/orangepi/.local/ceres-2.1/lib/cmake/Ceres', '--event-handlers', 'console_direct+']
+[0.553s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=['console_direct+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['camera_models', 'global_fusion'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=['-DCeres_DIR=/home/orangepi/.local/ceres-2.1/lib/cmake/Ceres'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=True, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f94fe3bb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f94fe3700>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f94fe3700>>, mixin_verb=('build',))
+[0.989s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.989s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.989s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.989s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.990s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.990s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.990s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extensions ['ignore', 'ignore_ament_install']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extension 'ignore'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extension 'ignore_ament_install'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extensions ['colcon_pkg']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extension 'colcon_pkg'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extensions ['colcon_meta']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extension 'colcon_meta'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extensions ['ros']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extension 'ros'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extensions ['cmake', 'python']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extension 'cmake'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extension 'python'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extensions ['python_setup_py']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2) by extension 'python_setup_py'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/camera_models) by extensions ['ignore', 'ignore_ament_install']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/camera_models) by extension 'ignore'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/camera_models) by extension 'ignore_ament_install'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/camera_models) by extensions ['colcon_pkg']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/camera_models) by extension 'colcon_pkg'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/camera_models) by extensions ['colcon_meta']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/camera_models) by extension 'colcon_meta'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/camera_models) by extensions ['ros']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/camera_models) by extension 'ros'
+[1.031s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-Fusion-ROS2/camera_models' with type 'ros.ament_cmake' and name 'camera_models'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extensions ['ignore', 'ignore_ament_install']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extension 'ignore'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extension 'ignore_ament_install'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extensions ['colcon_pkg']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extension 'colcon_pkg'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extensions ['colcon_meta']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extension 'colcon_meta'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extensions ['ros']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extension 'ros'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extensions ['cmake', 'python']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extension 'cmake'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extension 'python'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extensions ['python_setup_py']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config) by extension 'python_setup_py'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extensions ['ignore', 'ignore_ament_install']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extension 'ignore'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extension 'ignore_ament_install'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extensions ['colcon_pkg']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extension 'colcon_pkg'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extensions ['colcon_meta']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extension 'colcon_meta'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extensions ['ros']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extension 'ros'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extensions ['cmake', 'python']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extension 'cmake'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extension 'python'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extensions ['python_setup_py']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/A3_ptgrey) by extension 'python_setup_py'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extensions ['ignore', 'ignore_ament_install']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extension 'ignore'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extension 'ignore_ament_install'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extensions ['colcon_pkg']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extension 'colcon_pkg'
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extensions ['colcon_meta']
+[1.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extension 'colcon_meta'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extensions ['ros']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extension 'ros'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extensions ['cmake', 'python']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extension 'cmake'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extension 'python'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extensions ['python_setup_py']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/euroc) by extension 'python_setup_py'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extensions ['ignore', 'ignore_ament_install']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extension 'ignore'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extension 'ignore_ament_install'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extensions ['colcon_pkg']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extension 'colcon_pkg'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extensions ['colcon_meta']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extension 'colcon_meta'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extensions ['ros']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extension 'ros'
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extensions ['cmake', 'python']
+[1.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extension 'cmake'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extension 'python'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extensions ['python_setup_py']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_odom) by extension 'python_setup_py'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extensions ['ignore', 'ignore_ament_install']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extension 'ignore'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extension 'ignore_ament_install'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extensions ['colcon_pkg']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extension 'colcon_pkg'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extensions ['colcon_meta']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extension 'colcon_meta'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extensions ['ros']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extension 'ros'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extensions ['cmake', 'python']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extension 'cmake'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extension 'python'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extensions ['python_setup_py']
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/kitti_raw) by extension 'python_setup_py'
+[1.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extensions ['ignore', 'ignore_ament_install']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extension 'ignore'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extension 'ignore_ament_install'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extensions ['colcon_pkg']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extension 'colcon_pkg'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extensions ['colcon_meta']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extension 'colcon_meta'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extensions ['ros']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extension 'ros'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extensions ['cmake', 'python']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extension 'cmake'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extension 'python'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extensions ['python_setup_py']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/mynteye) by extension 'python_setup_py'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extensions ['ignore', 'ignore_ament_install']
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extension 'ignore'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extension 'ignore_ament_install'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extensions ['colcon_pkg']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extension 'colcon_pkg'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extensions ['colcon_meta']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extension 'colcon_meta'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extensions ['ros']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extension 'ros'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extensions ['cmake', 'python']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extension 'cmake'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extension 'python'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extensions ['python_setup_py']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/realsense_d435i) by extension 'python_setup_py'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extensions ['ignore', 'ignore_ament_install']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extension 'ignore'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extension 'ignore_ament_install'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extensions ['colcon_pkg']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extension 'colcon_pkg'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extensions ['colcon_meta']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extension 'colcon_meta'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extensions ['ros']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extension 'ros'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extensions ['cmake', 'python']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extension 'cmake'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extension 'python'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extensions ['python_setup_py']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/simulation) by extension 'python_setup_py'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extensions ['ignore', 'ignore_ament_install']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extension 'ignore'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extension 'ignore_ament_install'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extensions ['colcon_pkg']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extension 'colcon_pkg'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extensions ['colcon_meta']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extension 'colcon_meta'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extensions ['ros']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extension 'ros'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extensions ['cmake', 'python']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extension 'cmake'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extension 'python'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extensions ['python_setup_py']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/config/vi_car) by extension 'python_setup_py'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extensions ['ignore', 'ignore_ament_install']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extension 'ignore'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extension 'ignore_ament_install'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extensions ['colcon_pkg']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extension 'colcon_pkg'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extensions ['colcon_meta']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extension 'colcon_meta'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extensions ['ros']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extension 'ros'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extensions ['cmake', 'python']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extension 'cmake'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extension 'python'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extensions ['python_setup_py']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/docker) by extension 'python_setup_py'
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/global_fusion) by extensions ['ignore', 'ignore_ament_install']
+[1.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/global_fusion) by extension 'ignore'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/global_fusion) by extension 'ignore_ament_install'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/global_fusion) by extensions ['colcon_pkg']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/global_fusion) by extension 'colcon_pkg'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/global_fusion) by extensions ['colcon_meta']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/global_fusion) by extension 'colcon_meta'
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/global_fusion) by extensions ['ros']
+[1.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/global_fusion) by extension 'ros'
+[1.042s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-Fusion-ROS2/global_fusion' with type 'ros.ament_cmake' and name 'global_fusion'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/loop_fusion) by extensions ['ignore', 'ignore_ament_install']
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/loop_fusion) by extension 'ignore'
+[1.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/loop_fusion) by extension 'ignore_ament_install'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/loop_fusion) by extensions ['colcon_pkg']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/loop_fusion) by extension 'colcon_pkg'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/loop_fusion) by extensions ['colcon_meta']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/loop_fusion) by extension 'colcon_meta'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/loop_fusion) by extensions ['ros']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/loop_fusion) by extension 'ros'
+[1.045s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-Fusion-ROS2/loop_fusion' with type 'ros.ament_cmake' and name 'loop_fusion'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extensions ['ignore', 'ignore_ament_install']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extension 'ignore'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extension 'ignore_ament_install'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extensions ['colcon_pkg']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extension 'colcon_pkg'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extensions ['colcon_meta']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extension 'colcon_meta'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extensions ['ros']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extension 'ros'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extensions ['cmake', 'python']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extension 'cmake'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extension 'python'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extensions ['python_setup_py']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files) by extension 'python_setup_py'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extensions ['ignore', 'ignore_ament_install']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extension 'ignore'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extension 'ignore_ament_install'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extensions ['colcon_pkg']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extension 'colcon_pkg'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extensions ['colcon_meta']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extension 'colcon_meta'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extensions ['ros']
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extension 'ros'
+[1.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extensions ['cmake', 'python']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extension 'cmake'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extension 'python'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extensions ['python_setup_py']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/support_files/image) by extension 'python_setup_py'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/vins) by extensions ['ignore', 'ignore_ament_install']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/vins) by extension 'ignore'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/vins) by extension 'ignore_ament_install'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/vins) by extensions ['colcon_pkg']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/vins) by extension 'colcon_pkg'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/vins) by extensions ['colcon_meta']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/vins) by extension 'colcon_meta'
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/vins) by extensions ['ros']
+[1.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-Fusion-ROS2/vins) by extension 'ros'
+[1.049s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-Fusion-ROS2/vins' with type 'ros.ament_cmake' and name 'vins'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'ignore'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'ignore_ament_install'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extensions ['colcon_pkg']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'colcon_pkg'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extensions ['colcon_meta']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'colcon_meta'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extensions ['ros']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'ros'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extensions ['cmake', 'python']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'cmake'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'python'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extensions ['python_setup_py']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/fastlio2_ros2) by extension 'python_setup_py'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore_ament_install'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_pkg']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_pkg'
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_meta']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_meta'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ros']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ros'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['cmake', 'python']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'cmake'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'python'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['python_setup_py']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'python_setup_py'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore_ament_install'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_pkg']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_pkg'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_meta']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_meta'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ros']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ros'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['cmake', 'python']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'cmake'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['python_setup_py']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python_setup_py'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ros']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ros'
+[1.064s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[1.067s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ros']
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ros'
+[1.069s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_rgbd_plugin) by extensions ['ignore', 'ignore_ament_install']
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_rgbd_plugin) by extension 'ignore'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_rgbd_plugin) by extension 'ignore_ament_install'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_rgbd_plugin) by extensions ['colcon_pkg']
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_rgbd_plugin) by extension 'colcon_pkg'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_rgbd_plugin) by extensions ['colcon_meta']
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_rgbd_plugin) by extension 'colcon_meta'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_rgbd_plugin) by extensions ['ros']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_rgbd_plugin) by extension 'ros'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_rgbd_plugin) ignored
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_ros_mqtt_bridge) by extensions ['ignore', 'ignore_ament_install']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_ros_mqtt_bridge) by extension 'ignore'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_ros_mqtt_bridge) by extension 'ignore_ament_install'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_ros_mqtt_bridge) by extensions ['colcon_pkg']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_ros_mqtt_bridge) by extension 'colcon_pkg'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_ros_mqtt_bridge) by extensions ['colcon_meta']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_ros_mqtt_bridge) by extension 'colcon_meta'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_ros_mqtt_bridge) by extensions ['ros']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_ros_mqtt_bridge) by extension 'ros'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_ros_mqtt_bridge) ignored
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extensions ['ignore', 'ignore_ament_install']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extension 'ignore'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extension 'ignore_ament_install'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extensions ['colcon_pkg']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extension 'colcon_pkg'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extensions ['colcon_meta']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extension 'colcon_meta'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extensions ['ros']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extension 'ros'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extensions ['cmake', 'python']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extension 'cmake'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extension 'python'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extensions ['python_setup_py']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/res) by extension 'python_setup_py'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore_ament_install'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_pkg']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_pkg'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_meta']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_meta'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ros']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ros'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['cmake', 'python']
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'cmake'
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python'
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['python_setup_py']
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python_setup_py'
+[1.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.174s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense2_camera_msgs' in 'src/realsense-ros/realsense2_camera_msgs'
+[1.174s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'loop_fusion' in 'src/VINS-Fusion-ROS2/loop_fusion'
+[1.174s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense2_camera' in 'src/realsense-ros/realsense2_camera'
+[1.174s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense2_description' in 'src/realsense-ros/realsense2_description'
+[1.174s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vins' in 'src/VINS-Fusion-ROS2/vins'
+[1.175s] Level 5:colcon.colcon_core.verb:set package 'camera_models' build argument 'cmake_args' from command line to '['-DCeres_DIR=/home/orangepi/.local/ceres-2.1/lib/cmake/Ceres']'
+[1.175s] Level 5:colcon.colcon_core.verb:set package 'camera_models' build argument 'cmake_target' from command line to 'None'
+[1.175s] Level 5:colcon.colcon_core.verb:set package 'camera_models' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.175s] Level 5:colcon.colcon_core.verb:set package 'camera_models' build argument 'cmake_clean_cache' from command line to 'True'
+[1.175s] Level 5:colcon.colcon_core.verb:set package 'camera_models' build argument 'cmake_clean_first' from command line to 'False'
+[1.175s] Level 5:colcon.colcon_core.verb:set package 'camera_models' build argument 'cmake_force_configure' from command line to 'False'
+[1.175s] Level 5:colcon.colcon_core.verb:set package 'camera_models' build argument 'ament_cmake_args' from command line to 'None'
+[1.175s] Level 5:colcon.colcon_core.verb:set package 'camera_models' build argument 'catkin_cmake_args' from command line to 'None'
+[1.175s] Level 5:colcon.colcon_core.verb:set package 'camera_models' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.175s] DEBUG:colcon.colcon_core.verb:Building package 'camera_models' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCeres_DIR=/home/orangepi/.local/ceres-2.1/lib/cmake/Ceres'], 'cmake_clean_cache': True, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models', 'merge_install': False, 'path': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models', 'symlink_install': True, 'test_result_base': None}
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'global_fusion' build argument 'cmake_args' from command line to '['-DCeres_DIR=/home/orangepi/.local/ceres-2.1/lib/cmake/Ceres']'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'global_fusion' build argument 'cmake_target' from command line to 'None'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'global_fusion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'global_fusion' build argument 'cmake_clean_cache' from command line to 'True'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'global_fusion' build argument 'cmake_clean_first' from command line to 'False'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'global_fusion' build argument 'cmake_force_configure' from command line to 'False'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'global_fusion' build argument 'ament_cmake_args' from command line to 'None'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'global_fusion' build argument 'catkin_cmake_args' from command line to 'None'
+[1.176s] Level 5:colcon.colcon_core.verb:set package 'global_fusion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.176s] DEBUG:colcon.colcon_core.verb:Building package 'global_fusion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCeres_DIR=/home/orangepi/.local/ceres-2.1/lib/cmake/Ceres'], 'cmake_clean_cache': True, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion', 'merge_install': False, 'path': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion', 'symlink_install': True, 'test_result_base': None}
+[1.177s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.179s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.180s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models' with build type 'ament_cmake'
+[1.180s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models'
+[1.191s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.192s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.192s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.212s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion' with build type 'ament_cmake'
+[1.213s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion'
+[1.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models -DCeres_DIR=/home/orangepi/.local/ceres-2.1/lib/cmake/Ceres -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models
+[1.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion -DCeres_DIR=/home/orangepi/.local/ceres-2.1/lib/cmake/Ceres -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion
+[6.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models -DCeres_DIR=/home/orangepi/.local/ceres-2.1/lib/cmake/Ceres -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models
+[6.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models -- -j8 -l8
+[6.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion -DCeres_DIR=/home/orangepi/.local/ceres-2.1/lib/cmake/Ceres -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion
+[6.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion -- -j8 -l8
+[68.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion -- -j8 -l8
+[68.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion
+[69.537s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(global_fusion)
+[69.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion
+[69.560s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion' for CMake module files
+[69.563s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion' for CMake config files
+[69.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('global_fusion', 'cmake_prefix_path')
+[69.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/hook/cmake_prefix_path.ps1'
+[69.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/hook/cmake_prefix_path.dsv'
+[69.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/hook/cmake_prefix_path.sh'
+[69.580s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/lib'
+[69.581s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/bin'
+[69.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('global_fusion', 'path')
+[69.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/hook/path.ps1'
+[69.585s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/hook/path.dsv'
+[69.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/hook/path.sh'
+[69.590s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/lib/pkgconfig/global_fusion.pc'
+[69.595s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/lib/python3.10/site-packages'
+[69.597s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/bin'
+[69.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('global_fusion', 'pythonscriptspath')
+[69.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/hook/pythonscriptspath.ps1'
+[69.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/hook/pythonscriptspath.dsv'
+[69.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/hook/pythonscriptspath.sh'
+[69.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/package.ps1'
+[69.607s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/package.dsv'
+[69.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/package.sh'
+[69.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/package.bash'
+[69.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/package.zsh'
+[69.614s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/colcon-core/packages/global_fusion)
+[69.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(global_fusion)
+[69.616s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion' for CMake module files
+[69.616s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion' for CMake config files
+[69.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('global_fusion', 'cmake_prefix_path')
+[69.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/hook/cmake_prefix_path.ps1'
+[69.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/hook/cmake_prefix_path.dsv'
+[69.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/hook/cmake_prefix_path.sh'
+[69.619s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/lib'
+[69.619s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/bin'
+[69.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('global_fusion', 'path')
+[69.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/hook/path.ps1'
+[69.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/hook/path.dsv'
+[69.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/hook/path.sh'
+[69.622s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/lib/pkgconfig/global_fusion.pc'
+[69.622s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/lib/python3.10/site-packages'
+[69.623s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/bin'
+[69.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('global_fusion', 'pythonscriptspath')
+[69.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/hook/pythonscriptspath.ps1'
+[69.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/hook/pythonscriptspath.dsv'
+[69.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/hook/pythonscriptspath.sh'
+[69.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/package.ps1'
+[69.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/package.dsv'
+[69.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/package.sh'
+[69.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/package.bash'
+[69.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/global_fusion/package.zsh'
+[69.630s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/share/colcon-core/packages/global_fusion)
+[127.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models -- -j8 -l8
+[127.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models
+[128.681s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_models)
+[128.682s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models' for CMake module files
+[128.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/camera_models
+[128.684s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models' for CMake config files
+[128.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_models', 'cmake_prefix_path')
+[128.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/hook/cmake_prefix_path.ps1'
+[128.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/hook/cmake_prefix_path.dsv'
+[128.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/hook/cmake_prefix_path.sh'
+[128.688s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/lib'
+[128.688s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/bin'
+[128.689s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_models', 'path')
+[128.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/hook/path.ps1'
+[128.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/hook/path.dsv'
+[128.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/hook/path.sh'
+[128.690s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/lib/pkgconfig/camera_models.pc'
+[128.691s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/lib/python3.10/site-packages'
+[128.692s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/bin'
+[128.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_models', 'pythonscriptspath')
+[128.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/hook/pythonscriptspath.ps1'
+[128.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/hook/pythonscriptspath.dsv'
+[128.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/hook/pythonscriptspath.sh'
+[128.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/package.ps1'
+[128.698s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/package.dsv'
+[128.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/package.sh'
+[128.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/package.bash'
+[128.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/package.zsh'
+[128.703s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/colcon-core/packages/camera_models)
+[128.704s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_models)
+[128.705s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models' for CMake module files
+[128.706s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models' for CMake config files
+[128.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_models', 'cmake_prefix_path')
+[128.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/hook/cmake_prefix_path.ps1'
+[128.708s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/hook/cmake_prefix_path.dsv'
+[128.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/hook/cmake_prefix_path.sh'
+[128.710s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/lib'
+[128.710s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/bin'
+[128.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_models', 'path')
+[128.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/hook/path.ps1'
+[128.712s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/hook/path.dsv'
+[128.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/hook/path.sh'
+[128.713s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/lib/pkgconfig/camera_models.pc'
+[128.713s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/lib/python3.10/site-packages'
+[128.714s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/bin'
+[128.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_models', 'pythonscriptspath')
+[128.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/hook/pythonscriptspath.ps1'
+[128.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/hook/pythonscriptspath.dsv'
+[128.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/hook/pythonscriptspath.sh'
+[128.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/package.ps1'
+[128.723s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/package.dsv'
+[128.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/package.sh'
+[128.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/package.bash'
+[128.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/package.zsh'
+[128.727s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/colcon-core/packages/camera_models)
+[128.728s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[128.728s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[128.729s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[128.729s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[128.736s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[128.737s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/local_setup.ps1'
+[128.740s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/_local_setup_util_ps1.py'
+[128.743s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.ps1'
+[128.748s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/local_setup.sh'
+[128.750s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/_local_setup_util_sh.py'
+[128.752s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.sh'
+[128.759s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/local_setup.bash'
+[128.760s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.bash'
+[128.764s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/local_setup.zsh'
+[128.766s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/setup.zsh'

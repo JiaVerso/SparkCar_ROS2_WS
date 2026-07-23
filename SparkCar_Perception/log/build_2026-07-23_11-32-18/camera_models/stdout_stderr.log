@@ -1,0 +1,44 @@
+[35m[1mConsolidate compiler generated dependencies of target Calibrations[0m
+[  3%] [32mBuilding CXX object CMakeFiles/Calibrations.dir/src/calib/CameraCalibration.cc.o[0m
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models/src/calib/CameraCalibration.cc:15[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models/include/camodocal/sparse_graph/Transform.h:22:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   22 |     [01;35m[Kconst[m[K double* const rotationData(void) const;
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models/include/camodocal/sparse_graph/Transform.h:27:5:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+   27 |     [01;35m[Kconst[m[K double* const translationData(void) const;
+      |     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models/src/calib/CameraCalibration.cc:16[m[K:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models/include/camodocal/gpl/EigenQuaternionParameterization.h:10:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+   10 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models/include/camodocal/gpl/EigenQuaternionParameterization.h:13:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool camodocal::EigenQuaternionParameterization::Plus(const double*, const double*, double*) const[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   13 |     bool [01;31m[KPlus[m[K(const double* x,
+      |          [01;31m[K^~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models/include/camodocal/gpl/EigenQuaternionParameterization.h:16:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool camodocal::EigenQuaternionParameterization::PlusJacobian(const double*, double*) const[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   16 |     bool [01;31m[KPlusJacobian[m[K(const double* x,
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models/include/camodocal/gpl/EigenQuaternionParameterization.h:18:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool camodocal::EigenQuaternionParameterization::Minus(const double*, const double*, double*) const[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   18 |     bool [01;31m[KMinus[m[K(const double* y,
+      |          [01;31m[K^~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models/include/camodocal/gpl/EigenQuaternionParameterization.h:21:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool camodocal::EigenQuaternionParameterization::MinusJacobian(const double*, double*) const[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   21 |     bool [01;31m[KMinusJacobian[m[K(const double* x,
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models/include/camodocal/gpl/EigenQuaternionParameterization.h:23:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kint camodocal::EigenQuaternionParameterization::AmbientSize() const[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   23 |     int [01;31m[KAmbientSize[m[K() const override { return 4; }
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models/include/camodocal/gpl/EigenQuaternionParameterization.h:24:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kint camodocal::EigenQuaternionParameterization::TangentSize() const[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   24 |     int [01;31m[KTangentSize[m[K() const override { return 3; }
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models/src/calib/CameraCalibration.cc:[m[K In member function ‘[01m[Kvoid camodocal::CameraCalibration::optimize(camodocal::CameraPtr&, std::vector<cv::Mat>&, std::vector<cv::Mat>&) const[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models/src/calib/CameraCalibration.cc:507:16:[m[K [01;31m[Kerror: [m[K‘[01m[KManifold[m[K’ is not a member of ‘[01m[Kceres[m[K’
+  507 |         ceres::[01;31m[KManifold[m[K* quaternionManifold =
+      |                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models/src/calib/CameraCalibration.cc:507:26:[m[K [01;31m[Kerror: [m[K‘[01m[KquaternionManifold[m[K’ was not declared in this scope
+  507 |         ceres::Manifold* [01;31m[KquaternionManifold[m[K =
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/camera_models/src/calib/CameraCalibration.cc:510:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ceres::Problem[m[K’ has no member named ‘[01m[KSetManifold[m[K’
+  510 |         problem.[01;31m[KSetManifold[m[K(transformVec.at(i).rotationData(),
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Calibrations.dir/build.make:104: CMakeFiles/Calibrations.dir/src/calib/CameraCalibration.cc.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/Calibrations.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/benchmark_publisher/benchmark_publisher" "TARGETS" "benchmark_publisher" "DESTINATION" "lib/benchmark_publisher")

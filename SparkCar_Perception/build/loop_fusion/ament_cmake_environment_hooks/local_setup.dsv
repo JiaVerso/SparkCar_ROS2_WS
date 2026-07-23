@@ -1,0 +1,2 @@
+source;share/loop_fusion/environment/ament_prefix_path.sh
+source;share/loop_fusion/environment/path.sh

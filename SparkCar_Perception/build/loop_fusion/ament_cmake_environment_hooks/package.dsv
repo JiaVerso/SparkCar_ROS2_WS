@@ -1,0 +1,4 @@
+source;share/loop_fusion/local_setup.bash
+source;share/loop_fusion/local_setup.dsv
+source;share/loop_fusion/local_setup.sh
+source;share/loop_fusion/local_setup.zsh

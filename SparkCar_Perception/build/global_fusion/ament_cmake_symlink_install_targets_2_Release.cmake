@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/global_fusion/global_fusion_node" "TARGETS" "global_fusion_node" "RUNTIME_DESTINATION" "lib/global_fusion")

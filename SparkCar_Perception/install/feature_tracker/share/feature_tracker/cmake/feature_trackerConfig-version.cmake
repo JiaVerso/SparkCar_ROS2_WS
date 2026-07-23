@@ -1,1 +1,0 @@
-/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/feature_tracker/ament_cmake_core/feature_trackerConfig-version.cmake

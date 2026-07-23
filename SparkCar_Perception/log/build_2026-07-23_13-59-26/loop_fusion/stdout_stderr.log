@@ -1,0 +1,199 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found camera_models: 0.0.0 (/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/share/camera_models/cmake)
+-- Found OpenCV: /usr (found version "4.5.4") 
+-- Found CXSparse: /usr/include/suitesparse (found suitable version "3.2.0", minimum required is "3.2.0") 
+-- Found AMD headers in: /usr/include/suitesparse
+-- Found AMD library: /usr/lib/aarch64-linux-gnu/libamd.so
+-- Found CAMD headers in: /usr/include/suitesparse
+-- Found CAMD library: /usr/lib/aarch64-linux-gnu/libcamd.so
+-- Found CCOLAMD headers in: /usr/include/suitesparse
+-- Found CCOLAMD library: /usr/lib/aarch64-linux-gnu/libccolamd.so
+-- Found CHOLMOD headers in: /usr/include/suitesparse
+-- Found CHOLMOD library: /usr/lib/aarch64-linux-gnu/libcholmod.so
+-- Found COLAMD headers in: /usr/include/suitesparse
+-- Found COLAMD library: /usr/lib/aarch64-linux-gnu/libcolamd.so
+-- Found SPQR headers in: /usr/include/suitesparse
+-- Found SPQR library: /usr/lib/aarch64-linux-gnu/libspqr.so
+-- Found Config headers in: /usr/include/suitesparse
+-- Found Config library: /usr/lib/aarch64-linux-gnu/libsuitesparseconfig.so
+-- Found Intel Thread Building Blocks (TBB) library (2021.5 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+-- Looking for shm_open in rt
+-- Looking for shm_open in rt - found
+-- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+-- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+-- Found SuiteSparse: /usr/include/suitesparse (found suitable version "5.10.1", minimum required is "5.10.1") found components: AMD CAMD CCOLAMD CHOLMOD COLAMD SPQR Config 
+-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.1.0 installed in: /home/orangepi/.local/ceres-2.1 with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/loop_fusion
+[  7%] [32mBuilding CXX object CMakeFiles/loop_fusion_node.dir/src/pose_graph_node.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/loop_fusion_node.dir/src/keyframe.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/loop_fusion_node.dir/src/ThirdParty/DBoW/BowVector.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/loop_fusion_node.dir/src/utility/CameraPoseVisualization.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/loop_fusion_node.dir/src/pose_graph.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/loop_fusion_node.dir/src/ThirdParty/DBoW/FeatureVector.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/loop_fusion_node.dir/src/ThirdParty/DBoW/FBrief.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/loop_fusion_node.dir/src/ThirdParty/DBoW/QueryResults.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/loop_fusion_node.dir/src/ThirdParty/DBoW/ScoringObject.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/loop_fusion_node.dir/src/ThirdParty/DUtils/Random.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/loop_fusion_node.dir/src/ThirdParty/DUtils/Timestamp.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/loop_fusion_node.dir/src/ThirdParty/DVision/BRIEF.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/loop_fusion_node.dir/src/ThirdParty/VocabularyBinary.cpp.o[0m
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph_node.cpp:41:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   41 | queue<sensor_msgs::msg::Image::[01;35m[KConstPtr[m[K> image_buf;
+      |                                [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph_node.cpp:17[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  174 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph_node.cpp:42:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   42 | queue<sensor_msgs::msg::PointCloud::[01;35m[KConstPtr[m[K> point_buf;
+      |                                     [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph_node.cpp:16[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.hpp:125:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  125 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph_node.cpp:44:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   44 | queue<nav_msgs::msg::Odometry::[01;35m[KConstPtr[m[K> pose_buf;
+      |                                [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph_node.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:147:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  147 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph_node.cpp:[m[K In function ‘[01m[Kvoid process()[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph_node.cpp:258:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  258 |         sensor_msgs::msg::Image::ConstPtr [01;35m[Kimage_msg[m[K = NULL;
+      |                                           [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph_node.cpp:17[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  174 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph_node.cpp:259:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  259 |         sensor_msgs::msg::PointCloud::ConstPtr [01;35m[Kpoint_msg[m[K = NULL;
+      |                                                [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph_node.cpp:16[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.hpp:125:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  125 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph_node.cpp:260:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  260 |         nav_msgs::msg::Odometry::ConstPtr [01;35m[Kpose_msg[m[K = NULL;
+      |                                           [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph_node.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:147:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  147 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:[m[K In member function ‘[01m[Kint PoseGraph::detectLoop(KeyFrame*, int)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:419:47:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KDBoW2::EntryId[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  419 |             if (min_index == -1 || (ret[i].Id < min_index && ret[i].Score > 0.015))
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:[m[K In member function ‘[01m[Kvoid PoseGraph::optimize4DoF()[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:468:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kt_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  468 |             double [01;35m[Kt_array[m[K[max_length][3];
+      |                    [01;35m[K^~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:469:25:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kq_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  469 |             Quaterniond [01;35m[Kq_array[m[K[max_length];
+      |                         [01;35m[K^~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:470:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Keuler_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  470 |             double [01;35m[Keuler_array[m[K[max_length][3];
+      |                    [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:471:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Ksequence_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  471 |             double [01;35m[Ksequence_array[m[K[max_length];
+      |                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:[m[K In member function ‘[01m[Kvoid PoseGraph::optimize6DoF()[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:648:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kt_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  648 |             double [01;35m[Kt_array[m[K[max_length][3];
+      |                    [01;35m[K^~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:649:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kq_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  649 |             double [01;35m[Kq_array[m[K[max_length][4];
+      |                    [01;35m[K^~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:650:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Ksequence_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  650 |             double [01;35m[Ksequence_array[m[K[max_length];
+      |                    [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/ThirdParty/DBoW/DBoW2.h:63[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/keyframe.h:24[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.h:28[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:12[m[K:
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/ThirdParty/DBoW/TemplatedVocabulary.h: In instantiation of ‘[01m[Kvoid DBoW2::TemplatedVocabulary<TDescriptor, F>::loadBin(const string&) [with TDescriptor = boost::dynamic_bitset<>; F = DBoW2::FBrief; std::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/ThirdParty/DBoW/TemplatedVocabulary.h:439:5:[m[K   required from ‘[01m[KDBoW2::TemplatedVocabulary<TDescriptor, F>::TemplatedVocabulary(const string&) [with TDescriptor = boost::dynamic_bitset<>; F = DBoW2::FBrief; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:64:39:[m[K   required from here
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/ThirdParty/DBoW/TemplatedVocabulary.h:1530:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1530 |   for(unsigned int i = 0; [01;35m[Ki < voc.nNodes[m[K; ++i)
+      |                           [01;35m[K~~^~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/ThirdParty/DBoW/TemplatedVocabulary.h:1554:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1554 |   for(unsigned int i = 0; [01;35m[Ki < voc.nWords[m[K; ++i)
+      |                           [01;35m[K~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/utility:70[m[K,
+                 from [01m[K/usr/include/c++/11/tuple:38[m[K,
+                 from [01m[K/usr/include/c++/11/bits/std_thread.h:40[m[K,
+                 from [01m[K/usr/include/c++/11/thread:43[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.h:14[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:12[m[K:
+/usr/include/c++/11/bits/stl_pair.h: In instantiation of ‘[01m[Kconstexpr std::pair<typename std::__strip_reference_wrapper<typename std::decay<_Tp>::type>::__type, typename std::__strip_reference_wrapper<typename std::decay<_Tp2>::type>::__type> std::make_pair(_T1&&, _T2&&) [with _T1 = const double&; _T2 = const double&; typename std::__strip_reference_wrapper<typename std::decay<_Tp2>::type>::__type = double; typename std::decay<_Tp2>::type = double; typename std::__strip_reference_wrapper<typename std::decay<_Tp>::type>::__type = double; typename std::decay<_Tp>::type = double][m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/ThirdParty/DBoW/TemplatedDatabase.h:879:29:[m[K   required from ‘[01m[Kvoid DBoW2::TemplatedDatabase<TDescriptor, F>::queryChiSquare(const DBoW2::BowVector&, DBoW2::QueryResults&, int, int) const [with TDescriptor = boost::dynamic_bitset<>; F = DBoW2::FBrief][m[K’
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/ThirdParty/DBoW/TemplatedDatabase.h:639:7:[m[K   required from ‘[01m[Kvoid DBoW2::TemplatedDatabase<TDescriptor, F>::query(const DBoW2::BowVector&, DBoW2::QueryResults&, int, int) const [with TDescriptor = boost::dynamic_bitset<>; F = DBoW2::FBrief][m[K’
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/ThirdParty/DBoW/TemplatedDatabase.h:616:8:[m[K   required from ‘[01m[Kvoid DBoW2::TemplatedDatabase<TDescriptor, F>::query(const std::vector<_Tp>&, DBoW2::QueryResults&, int, int) const [with TDescriptor = boost::dynamic_bitset<>; F = DBoW2::FBrief][m[K’
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/loop_fusion/src/pose_graph.cpp:360:13:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/stl_pair.h:567:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+  567 |     [01;36m[Kmake_pair[m[K(_T1&& __x, _T2&& __y)
+      |     [01;36m[K^~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable loop_fusion_node[0m
+[100%] Built target loop_fusion_node
+-- Install configuration: "Release"
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion/lib/loop_fusion/loop_fusion_node
+-- Set runtime path of "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion/lib/loop_fusion/loop_fusion_node" to ""
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion/share/ament_index/resource_index/package_run_dependencies/loop_fusion
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion/share/ament_index/resource_index/parent_prefix_path/loop_fusion
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion/share/loop_fusion/environment/ament_prefix_path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion/share/loop_fusion/environment/ament_prefix_path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion/share/loop_fusion/environment/path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion/share/loop_fusion/environment/path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion/share/loop_fusion/local_setup.bash
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion/share/loop_fusion/local_setup.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion/share/loop_fusion/local_setup.zsh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion/share/loop_fusion/local_setup.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion/share/loop_fusion/package.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion/share/ament_index/resource_index/packages/loop_fusion
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion/share/loop_fusion/cmake/loop_fusionConfig.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion/share/loop_fusion/cmake/loop_fusionConfig-version.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion/share/loop_fusion/package.xml

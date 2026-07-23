@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target libGeographiccc[0m
+[ 57%] Built target libGeographiccc
+[35m[1mConsolidate compiler generated dependencies of target global_fusion_node[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/global_fusion_node.dir/src/globalOpt.cpp.o[0m
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOpt.cpp:[m[K In member function ‘[01m[Kvoid GlobalOptimization::optimize()[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOpt.cpp:121:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kt_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  121 |             double [01;35m[Kt_array[m[K[length][3];
+      |                    [01;35m[K^~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/global_fusion/src/globalOpt.cpp:122:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kq_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  122 |             double [01;35m[Kq_array[m[K[length][4];
+      |                    [01;35m[K^~~~~~~[m[K
+[ 85%] [32m[1mLinking CXX executable global_fusion_node[0m
+[100%] Built target global_fusion_node

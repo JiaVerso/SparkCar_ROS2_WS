@@ -1,0 +1,4 @@
+source;share/vins/local_setup.bash
+source;share/vins/local_setup.dsv
+source;share/vins/local_setup.sh
+source;share/vins/local_setup.zsh

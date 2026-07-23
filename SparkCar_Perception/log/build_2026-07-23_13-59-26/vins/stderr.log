@@ -1,0 +1,33 @@
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/vins/src/estimator/estimator.cpp:[m[K In member function ‘[01m[Kbool Estimator::initialStructure()[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/vins/src/estimator/estimator.cpp:663:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KQ[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  663 |     Quaterniond [01;35m[KQ[m[K[frame_count + 1];
+      |                 [01;35m[K^[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/vins/src/estimator/estimator.cpp:664:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KT[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  664 |     Vector3d [01;35m[KT[m[K[frame_count + 1];
+      |              [01;35m[K^[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/vins/src/initial/initial_sfm.cpp:[m[K In member function ‘[01m[Kbool GlobalSFM::construct(int, Eigen::Quaterniond*, Eigen::Vector3d*, int, Eigen::Matrix3d, Eigen::Vector3d, std::vector<SFMFeature>&, std::map<int, Eigen::Matrix<double, 3, 1> >&)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/vins/src/initial/initial_sfm.cpp:147:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kc_Rotation[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  147 |         Matrix3d [01;35m[Kc_Rotation[m[K[frame_num];
+      |                  [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/vins/src/initial/initial_sfm.cpp:148:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kc_Translation[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  148 |         Vector3d [01;35m[Kc_Translation[m[K[frame_num];
+      |                  [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/vins/src/initial/initial_sfm.cpp:149:21:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kc_Quat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  149 |         Quaterniond [01;35m[Kc_Quat[m[K[frame_num];
+      |                     [01;35m[K^~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/vins/src/initial/initial_sfm.cpp:150:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kc_rotation[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  150 |         double [01;35m[Kc_rotation[m[K[frame_num][4];
+      |                [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/vins/src/initial/initial_sfm.cpp:151:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kc_translation[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  151 |         double [01;35m[Kc_translation[m[K[frame_num][3];
+      |                [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/vins/src/initial/initial_sfm.cpp:152:37:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KPose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  152 |         Eigen::Matrix<double, 3, 4> [01;35m[KPose[m[K[frame_num];
+      |                                     [01;35m[K^~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/VINS-Fusion-ROS2/vins/src/initial/initial_sfm.cpp:257:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kquaternion_parameterization[m[K’ was not declared in this scope
+  257 |                 problem.AddParameterBlock(c_rotation[i], 4, [01;31m[Kquaternion_parameterization[m[K);
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/vins_lib.dir/build.make:258: CMakeFiles/vins_lib.dir/src/initial/initial_sfm.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/vins_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
