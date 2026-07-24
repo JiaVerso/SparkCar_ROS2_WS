@@ -1,3 +1,7 @@
 [submodule "SparkCar_Perception/src/VINS-Fusion-ROS2"]
 	path = SparkCar_Perception/src/VINS-Fusion-ROS2
 	url = https://gh-proxy.org/https://github.com/zinuok/VINS-Fusion-ROS2
+[submodule "SparkCar_Navigation/src/ego-planner-swarm"]
+	path = SparkCar_Navigation/src/ego-planner-swarm
+	url = https://gh-proxy.org/https://github.com/JiaVerso/ego-planner-swarm.git
+	branch = ros2_version

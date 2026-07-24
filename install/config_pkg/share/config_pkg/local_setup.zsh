@@ -1,1 +1,0 @@
-/home/orangepi/Desktop/SparkCar_ROS2_WS/build/config_pkg/ament_cmake_environment_hooks/local_setup.zsh
