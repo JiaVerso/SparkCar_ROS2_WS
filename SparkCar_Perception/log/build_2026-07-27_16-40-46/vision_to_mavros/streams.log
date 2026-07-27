@@ -1,0 +1,64 @@
+[0.056s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros': /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/vision_to_mavros -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros
+[0.452s] -- The C compiler identification is GNU 11.4.0
+[0.701s] -- The CXX compiler identification is GNU 11.4.0
+[0.727s] -- Detecting C compiler ABI info
+[0.976s] -- Detecting C compiler ABI info - done
+[0.986s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.988s] -- Detecting C compile features
+[0.991s] -- Detecting C compile features - done
+[1.007s] -- Detecting CXX compiler ABI info
+[1.251s] -- Detecting CXX compiler ABI info - done
+[1.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.258s] -- Detecting CXX compile features
+[1.260s] -- Detecting CXX compile features - done
+[1.273s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.638s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.916s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.043s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.063s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.092s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.135s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.182s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.287s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.331s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[2.465s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.478s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.775s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.843s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.939s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.969s] -- Looking for pthread.h
+[3.246s] -- Looking for pthread.h - found
+[3.246s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.464s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.466s] -- Found Threads: TRUE  
+[3.596s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[3.637s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[3.772s] Error parsing '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/vision_to_mavros/package.xml':
+[3.858s] Traceback (most recent call last):
+[3.858s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[3.858s]     main()
+[3.858s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[3.858s]     raise e
+[3.858s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[3.858s]     package = parse_package_string(
+[3.858s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[3.860s]     pkg.validate(warnings=warnings)
+[3.860s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[3.860s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[3.861s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/vision_to_mavros/package.xml':
+[3.861s] Invalid email "orangepi@localhost" for person "orangepi"
+[3.924s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[3.925s]   execute_process(/usr/bin/python3
+[3.925s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[3.925s]   /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/vision_to_mavros/package.xml
+[3.925s]   /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros/ament_cmake_core/package.cmake)
+[3.925s]   returned error code 1
+[3.925s] Call Stack (most recent call first):
+[3.925s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[3.925s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[3.925s]   CMakeLists.txt:34 (ament_package)
+[3.925s] 
+[3.925s] [0m
+[3.925s] -- Configuring incomplete, errors occurred!
+[3.925s] See also "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros/CMakeFiles/CMakeOutput.log".
+[3.966s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros' returned '1': /usr/bin/cmake /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/vision_to_mavros -DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros

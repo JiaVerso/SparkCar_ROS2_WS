@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target vision_to_mavros_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/vision_to_mavros_node.dir/src/vision_to_mavros_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable vision_to_mavros_node[0m
+[100%] Built target vision_to_mavros_node
+-- Install configuration: ""
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/lib/vision_to_mavros/vision_to_mavros_node
+-- Set runtime path of "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/lib/vision_to_mavros/vision_to_mavros_node" to ""
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/launch
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/launch/vision_to_mavros.launch.py
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/config
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/config/vision_to_mavros.yaml
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/ament_index/resource_index/package_run_dependencies/vision_to_mavros
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/ament_index/resource_index/parent_prefix_path/vision_to_mavros
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/environment/ament_prefix_path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/environment/ament_prefix_path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/environment/path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/environment/path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/local_setup.bash
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/local_setup.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/local_setup.zsh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/local_setup.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/package.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/ament_index/resource_index/packages/vision_to_mavros
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/cmake/vision_to_mavrosConfig.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/cmake/vision_to_mavrosConfig-version.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/package.xml

@@ -1,0 +1,37 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros
+[ 50%] [32mBuilding CXX object CMakeFiles/vision_to_mavros_node.dir/src/vision_to_mavros_node.cpp.o[0m
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/vision_to_mavros/src/vision_to_mavros_node.cpp:[m[K In member function ‘[01m[Kvoid VisionToMavros::odometryCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/vision_to_mavros/src/vision_to_mavros_node.cpp:299:16:[m[K [01;31m[Kerror: [m[Kcall of overloaded ‘[01m[Kfinite(const double&)[m[K’ is ambiguous
+  299 |     if (![01;31m[Kfinite(quaternion_norm)[m[K || quaternion_norm < 1.0e-6) {
+      |          [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/features.h:486[m[K,
+                 from [01m[K/usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h:39[m[K,
+                 from [01m[K/usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h:586[m[K,
+                 from [01m[K/usr/include/c++/11/utility:68[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:60[m[K,
+                 from [01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/vision_to_mavros/src/vision_to_mavros_node.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/bits/mathcalls.h:183:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kint finite(double)[m[K’
+  183 | [01;36m[K__MATHDECL_ALIAS[m[K (int,finite,, (_Mdouble_ __value), finite)
+      | [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/src/vision_to_mavros/src/vision_to_mavros_node.cpp:25:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool {anonymous}::finite(double)[m[K’
+   25 | bool [01;36m[Kfinite[m[K(double value) { return std::isfinite(value); }
+      |      [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/vision_to_mavros_node.dir/build.make:76: CMakeFiles/vision_to_mavros_node.dir/src/vision_to_mavros_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/vision_to_mavros_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

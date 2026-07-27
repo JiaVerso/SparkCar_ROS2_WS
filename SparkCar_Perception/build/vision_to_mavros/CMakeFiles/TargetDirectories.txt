@@ -1,0 +1,10 @@
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros/CMakeFiles/uninstall.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros/CMakeFiles/vision_to_mavros_uninstall.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros/CMakeFiles/vision_to_mavros_node.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros/CMakeFiles/test.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros/CMakeFiles/edit_cache.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros/CMakeFiles/rebuild_cache.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros/CMakeFiles/list_install_components.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros/CMakeFiles/install.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros/CMakeFiles/install/local.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros/CMakeFiles/install/strip.dir
