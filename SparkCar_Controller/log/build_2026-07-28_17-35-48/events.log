@@ -1,0 +1,222 @@
+[0.000000] (-) TimerEvent: {}
+[0.000691] (-) JobUnselected: {'identifier': 'target_follower'}
+[0.000900] (mission_manager) JobQueued: {'identifier': 'mission_manager', 'dependencies': OrderedDict()}
+[0.001049] (mission_manager) JobStarted: {'identifier': 'mission_manager'}
+[0.043672] (mission_manager) JobProgress: {'identifier': 'mission_manager', 'progress': 'cmake'}
+[0.044938] (mission_manager) Command: {'cmd': ['/usr/bin/cmake', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/mission_manager', '-DCMAKE_INSTALL_PREFIX=/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager'], 'cwd': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '192.168.110.167 64272 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_error_terms/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_expressions/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sparse_block_matrix/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_imgproc/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_serialization/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-78cb7c5d-c13d-4d36-8ea2-f140137ed44f.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', '5'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/bin:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/bin:/opt/ros/humble/bin:/home/orangepi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3d806f3df3.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_error_terms:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_expressions:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sparse_block_matrix:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_imgproc:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_serialization:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_opencv:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time:/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager'), ('LC_ALL', 'en_US.UTF-8'), ('COPILOT_DEBUG_NONCE', 'eea91dafbd2eb1b0ec653fb18529b126'), ('SSH_CONNECTION', '192.168.110.167 64272 192.168.110.240 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration_python/local/lib/python3.10/dist-packages:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/local/lib/python3.10/dist-packages:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines_python/local/lib/python3.10/dist-packages:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/local/lib/python3.10/dist-packages:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_python/local/lib/python3.10/dist-packages:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_python/local/lib/python3.10/dist-packages:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/local/lib/python3.10/dist-packages:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('UMS_MOUNT', '0'), ('CLASH_FOR_LINUX_BASH_COMPLETION_LOADED', '1'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_error_terms:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_expressions:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sparse_block_matrix:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_imgproc:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_serialization:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_opencv:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time:/opt/ros/humble'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[0.098058] (-) TimerEvent: {}
+[0.200087] (-) TimerEvent: {}
+[0.301435] (-) TimerEvent: {}
+[0.361130] (mission_manager) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.401813] (-) TimerEvent: {}
+[0.503288] (-) TimerEvent: {}
+[0.605047] (-) TimerEvent: {}
+[0.625481] (mission_manager) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.652568] (mission_manager) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.705367] (-) TimerEvent: {}
+[0.806667] (-) TimerEvent: {}
+[0.907988] (-) TimerEvent: {}
+[0.925262] (mission_manager) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.943575] (mission_manager) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.944447] (mission_manager) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.945497] (mission_manager) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.951599] (mission_manager) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.008295] (-) TimerEvent: {}
+[1.109657] (-) TimerEvent: {}
+[1.210934] (-) TimerEvent: {}
+[1.212365] (mission_manager) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.236105] (mission_manager) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.237170] (mission_manager) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.237778] (mission_manager) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.256154] (mission_manager) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.311201] (-) TimerEvent: {}
+[1.412362] (-) TimerEvent: {}
+[1.513624] (-) TimerEvent: {}
+[1.615200] (-) TimerEvent: {}
+[1.711539] (mission_manager) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.715332] (-) TimerEvent: {}
+[1.816319] (-) TimerEvent: {}
+[1.917501] (-) TimerEvent: {}
+[2.018807] (-) TimerEvent: {}
+[2.071052] (mission_manager) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.119086] (-) TimerEvent: {}
+[2.220358] (mission_manager) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.221373] (-) TimerEvent: {}
+[2.239153] (mission_manager) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.267591] (mission_manager) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.310293] (mission_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.321756] (-) TimerEvent: {}
+[2.360497] (mission_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.422124] (-) TimerEvent: {}
+[2.504290] (mission_manager) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.517280] (mission_manager) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.522200] (-) TimerEvent: {}
+[2.622971] (-) TimerEvent: {}
+[2.724347] (-) TimerEvent: {}
+[2.811320] (mission_manager) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.824494] (-) TimerEvent: {}
+[2.891072] (mission_manager) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.924894] (-) TimerEvent: {}
+[2.986858] (mission_manager) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.019167] (mission_manager) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.025042] (-) TimerEvent: {}
+[3.126101] (-) TimerEvent: {}
+[3.227456] (-) TimerEvent: {}
+[3.284806] (mission_manager) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.286875] (mission_manager) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.327823] (-) TimerEvent: {}
+[3.429340] (-) TimerEvent: {}
+[3.530492] (-) TimerEvent: {}
+[3.546305] (mission_manager) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.550482] (mission_manager) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.630812] (-) TimerEvent: {}
+[3.732123] (-) TimerEvent: {}
+[3.755791] (mission_manager) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[3.803159] (mission_manager) StdoutLine: {'line': b'-- Found mavros_msgs: 2.14.0 (/opt/ros/humble/share/mavros_msgs/cmake)\n'}
+[3.832251] (-) TimerEvent: {}
+[3.933328] (-) TimerEvent: {}
+[4.034459] (-) TimerEvent: {}
+[4.135518] (-) TimerEvent: {}
+[4.184541] (mission_manager) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.203113] (mission_manager) StdoutLine: {'line': b'-- Generating done\n'}
+[4.209925] (mission_manager) StdoutLine: {'line': b'-- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager\n'}
+[4.235908] (mission_manager) CommandEnded: {'returncode': 0}
+[4.241831] (-) TimerEvent: {}
+[4.242705] (mission_manager) JobProgress: {'identifier': 'mission_manager', 'progress': 'build'}
+[4.243079] (mission_manager) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager', '--', '-j8', '-l8'], 'cwd': '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '192.168.110.167 64272 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_error_terms/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_expressions/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sparse_block_matrix/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_imgproc/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_serialization/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2/lib:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-78cb7c5d-c13d-4d36-8ea2-f140137ed44f.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', '5'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/orangepi/.vscode-server/cli/servers/Stable-7e7950df89d055b5a378379db9ee14290772148a/server/bin/remote-cli:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/.local/bin:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion/bin:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models/bin:/opt/ros/humble/bin:/home/orangepi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3d806f3df3.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_error_terms:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_expressions:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sparse_block_matrix:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_imgproc:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_serialization:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_opencv:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time:/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager'), ('LC_ALL', 'en_US.UTF-8'), ('COPILOT_DEBUG_NONCE', 'eea91dafbd2eb1b0ec653fb18529b126'), ('SSH_CONNECTION', '192.168.110.167 64272 192.168.110.240 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr/local/lib/python3.10/dist-packages:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration_python/local/lib/python3.10/dist-packages:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python/local/lib/python3.10/dist-packages:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines_python/local/lib/python3.10/dist-packages:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python/local/lib/python3.10/dist-packages:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_python/local/lib/python3.10/dist-packages:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_python/local/lib/python3.10/dist-packages:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april/local/lib/python3.10/dist-packages:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python/local/lib/python3.10/dist-packages:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('UMS_MOUNT', '0'), ('CLASH_FOR_LINUX_BASH_COMPLETION_LOADED', '1'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vins:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_description:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/realsense2_camera_msgs:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/loop_fusion:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/global_fusion:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/camera_models:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/target_follower:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/kalibr:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/incremental_calibration:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_error_terms:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_splines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/bsplines:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend_expressions:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_backend:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sparse_block_matrix:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras_april:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_python:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_timing:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_imgproc:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cv_serialization:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_cameras:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_kinematics:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_random:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_property_tree:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_opencv:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_matrix_archive:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_logging:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_boost:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/sm_common:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/python_module:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/numpy_eigen:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/ethz_apriltag2:/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Tools/install/aslam_time:/opt/ros/humble'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[4.342272] (-) TimerEvent: {}
+[4.443100] (mission_manager) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/apm_takeoff_node.dir/src/apm_takeoff_node.cpp.o\x1b[0m\n'}
+[4.444205] (-) TimerEvent: {}
+[4.545271] (-) TimerEvent: {}
+[4.646608] (-) TimerEvent: {}
+[4.747967] (-) TimerEvent: {}
+[4.849233] (-) TimerEvent: {}
+[4.950709] (-) TimerEvent: {}
+[5.052245] (-) TimerEvent: {}
+[5.154061] (-) TimerEvent: {}
+[5.256504] (-) TimerEvent: {}
+[5.357886] (-) TimerEvent: {}
+[5.459177] (-) TimerEvent: {}
+[5.560775] (-) TimerEvent: {}
+[5.662104] (-) TimerEvent: {}
+[5.763490] (-) TimerEvent: {}
+[5.864856] (-) TimerEvent: {}
+[5.966309] (-) TimerEvent: {}
+[6.067733] (-) TimerEvent: {}
+[6.169082] (-) TimerEvent: {}
+[6.270514] (-) TimerEvent: {}
+[6.371903] (-) TimerEvent: {}
+[6.473141] (-) TimerEvent: {}
+[6.574514] (-) TimerEvent: {}
+[6.675852] (-) TimerEvent: {}
+[6.777132] (-) TimerEvent: {}
+[6.878440] (-) TimerEvent: {}
+[6.979748] (-) TimerEvent: {}
+[7.081094] (-) TimerEvent: {}
+[7.182424] (-) TimerEvent: {}
+[7.283902] (-) TimerEvent: {}
+[7.385008] (-) TimerEvent: {}
+[7.486143] (-) TimerEvent: {}
+[7.587266] (-) TimerEvent: {}
+[7.688306] (-) TimerEvent: {}
+[7.789415] (-) TimerEvent: {}
+[7.890359] (-) TimerEvent: {}
+[7.991309] (-) TimerEvent: {}
+[8.092334] (-) TimerEvent: {}
+[8.193374] (-) TimerEvent: {}
+[8.294575] (-) TimerEvent: {}
+[8.395746] (-) TimerEvent: {}
+[8.496749] (-) TimerEvent: {}
+[8.597948] (-) TimerEvent: {}
+[8.698982] (-) TimerEvent: {}
+[8.800126] (-) TimerEvent: {}
+[8.901222] (-) TimerEvent: {}
+[9.002440] (-) TimerEvent: {}
+[9.103836] (-) TimerEvent: {}
+[9.173510] (mission_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/mission_manager/src/apm_takeoff_node.cpp:33:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kconstexpr const char* const {anonymous}::kColorCyan\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.174723] (mission_manager) StderrLine: {'line': b'   33 |     constexpr const char * \x1b[01;31m\x1b[KkColorCyan\x1b[m\x1b[K      = "\\033[36m";   // \xe5\xa4\xa9\xe8\x93\x9d\xe8\x89\xb2\n'}
+[9.175555] (mission_manager) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.176454] (mission_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/mission_manager/src/apm_takeoff_node.cpp:28:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconstexpr const char* const {anonymous}::kColorCyan\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[9.177009] (mission_manager) StderrLine: {'line': b'   28 |     constexpr const char * \x1b[01;36m\x1b[KkColorCyan\x1b[m\x1b[K    = "\\033[36m";     // \xe9\x9d\x92\xe8\x89\xb2\n'}
+[9.177423] (mission_manager) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.204098] (-) TimerEvent: {}
+[9.305373] (-) TimerEvent: {}
+[9.406926] (-) TimerEvent: {}
+[9.508243] (-) TimerEvent: {}
+[9.609533] (-) TimerEvent: {}
+[9.710931] (-) TimerEvent: {}
+[9.812342] (-) TimerEvent: {}
+[9.913731] (-) TimerEvent: {}
+[10.015088] (-) TimerEvent: {}
+[10.116199] (-) TimerEvent: {}
+[10.217322] (-) TimerEvent: {}
+[10.318302] (-) TimerEvent: {}
+[10.419494] (-) TimerEvent: {}
+[10.520644] (-) TimerEvent: {}
+[10.621823] (-) TimerEvent: {}
+[10.722943] (-) TimerEvent: {}
+[10.824064] (-) TimerEvent: {}
+[10.925235] (-) TimerEvent: {}
+[11.026214] (-) TimerEvent: {}
+[11.127156] (-) TimerEvent: {}
+[11.228265] (-) TimerEvent: {}
+[11.329271] (-) TimerEvent: {}
+[11.430329] (-) TimerEvent: {}
+[11.531355] (-) TimerEvent: {}
+[11.632410] (-) TimerEvent: {}
+[11.733532] (-) TimerEvent: {}
+[11.834574] (-) TimerEvent: {}
+[11.935666] (-) TimerEvent: {}
+[12.036815] (-) TimerEvent: {}
+[12.137997] (-) TimerEvent: {}
+[12.239150] (-) TimerEvent: {}
+[12.340322] (-) TimerEvent: {}
+[12.441461] (-) TimerEvent: {}
+[12.542563] (-) TimerEvent: {}
+[12.643740] (-) TimerEvent: {}
+[12.744891] (-) TimerEvent: {}
+[12.846029] (-) TimerEvent: {}
+[12.947160] (-) TimerEvent: {}
+[13.048133] (-) TimerEvent: {}
+[13.148865] (-) TimerEvent: {}
+[13.250066] (-) TimerEvent: {}
+[13.351231] (-) TimerEvent: {}
+[13.452408] (-) TimerEvent: {}
+[13.553600] (-) TimerEvent: {}
+[13.654706] (-) TimerEvent: {}
+[13.755872] (-) TimerEvent: {}
+[13.856994] (-) TimerEvent: {}
+[13.958071] (-) TimerEvent: {}
+[14.059236] (-) TimerEvent: {}
+[14.160256] (-) TimerEvent: {}
+[14.261304] (-) TimerEvent: {}
+[14.362468] (-) TimerEvent: {}
+[14.463645] (-) TimerEvent: {}
+[14.564725] (-) TimerEvent: {}
+[14.665739] (-) TimerEvent: {}
+[14.766926] (-) TimerEvent: {}
+[14.868385] (-) TimerEvent: {}
+[14.969667] (-) TimerEvent: {}
+[15.070941] (-) TimerEvent: {}
+[15.172171] (-) TimerEvent: {}
+[15.273340] (-) TimerEvent: {}
+[15.374614] (-) TimerEvent: {}
+[15.475872] (-) TimerEvent: {}
+[15.577211] (-) TimerEvent: {}
+[15.678649] (-) TimerEvent: {}
+[15.779804] (-) TimerEvent: {}
+[15.880976] (-) TimerEvent: {}
+[15.982159] (-) TimerEvent: {}
+[16.083215] (-) TimerEvent: {}
+[16.184307] (-) TimerEvent: {}
+[16.285439] (-) TimerEvent: {}
+[16.386557] (-) TimerEvent: {}
+[16.487728] (-) TimerEvent: {}
+[16.588997] (-) TimerEvent: {}
+[16.684880] (mission_manager) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/apm_takeoff_node.dir/build.make:76: CMakeFiles/apm_takeoff_node.dir/src/apm_takeoff_node.cpp.o] Error 1\n'}
+[16.685725] (mission_manager) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/apm_takeoff_node.dir/all] Error 2\n'}
+[16.686593] (mission_manager) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[16.689267] (-) TimerEvent: {}
+[16.692420] (mission_manager) CommandEnded: {'returncode': 2}
+[16.749022] (mission_manager) JobEnded: {'identifier': 'mission_manager', 'rc': 2}
+[16.761217] (-) EventReactorShutdown: {}

@@ -1,0 +1,26 @@
+[0.052s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager -- -j8 -l8
+[0.266s] [35m[1mConsolidate compiler generated dependencies of target apm_takeoff_node[0m
+[0.330s] [ 50%] [32mBuilding CXX object CMakeFiles/apm_takeoff_node.dir/src/apm_takeoff_node.cpp.o[0m
+[24.015s] [100%] [32m[1mLinking CXX executable apm_takeoff_node[0m
+[25.859s] [100%] Built target apm_takeoff_node
+[25.909s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager -- -j8 -l8
+[25.942s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager
+[25.958s] -- Install configuration: ""
+[25.959s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/lib/mission_manager/apm_takeoff_node
+[25.971s] -- Set runtime path of "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/lib/mission_manager/apm_takeoff_node" to ""
+[25.972s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/ament_index/resource_index/package_run_dependencies/mission_manager
+[25.972s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/ament_index/resource_index/parent_prefix_path/mission_manager
+[25.972s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/environment/ament_prefix_path.sh
+[25.973s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/environment/ament_prefix_path.dsv
+[25.973s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/environment/path.sh
+[25.974s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/environment/path.dsv
+[25.974s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/local_setup.bash
+[25.975s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/local_setup.sh
+[25.975s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/local_setup.zsh
+[25.975s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/local_setup.dsv
+[25.976s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/package.dsv
+[25.976s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/ament_index/resource_index/packages/mission_manager
+[25.977s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/cmake/mission_managerConfig.cmake
+[25.978s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/cmake/mission_managerConfig-version.cmake
+[25.980s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/package.xml
+[25.981s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager

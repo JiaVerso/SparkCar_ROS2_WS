@@ -1,0 +1,45 @@
+[0.040s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager -- -j8 -l8
+[0.148s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.453s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.493s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.495s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.503s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.519s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.537s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.582s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.586s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.785s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.859s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.877s] -- Found mavros_msgs: 2.14.0 (/opt/ros/humble/share/mavros_msgs/cmake)
+[1.127s] -- Configuring done
+[1.150s] -- Generating done
+[1.159s] -- Build files have been written to: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager
+[1.257s] [35m[1mConsolidate compiler generated dependencies of target apm_takeoff_node[0m
+[1.314s] [ 50%] [32mBuilding CXX object CMakeFiles/apm_takeoff_node.dir/src/apm_takeoff_node.cpp.o[0m
+[24.434s] [100%] [32m[1mLinking CXX executable apm_takeoff_node[0m
+[26.111s] [100%] Built target apm_takeoff_node
+[26.159s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager -- -j8 -l8
+[26.206s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager
+[26.237s] -- Install configuration: ""
+[26.237s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/lib/mission_manager/apm_takeoff_node
+[26.253s] -- Set runtime path of "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/lib/mission_manager/apm_takeoff_node" to ""
+[26.253s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/config
+[26.254s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/config/apm_takeoff.yaml
+[26.254s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/launch
+[26.255s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/launch/apm_takeoff.launch.py
+[26.256s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/ament_index/resource_index/package_run_dependencies/mission_manager
+[26.256s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/ament_index/resource_index/parent_prefix_path/mission_manager
+[26.256s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/environment/ament_prefix_path.sh
+[26.257s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/environment/ament_prefix_path.dsv
+[26.258s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/environment/path.sh
+[26.260s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/environment/path.dsv
+[26.260s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/local_setup.bash
+[26.260s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/local_setup.sh
+[26.261s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/local_setup.zsh
+[26.262s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/local_setup.dsv
+[26.262s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/package.dsv
+[26.263s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/ament_index/resource_index/packages/mission_manager
+[26.263s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/cmake/mission_managerConfig.cmake
+[26.264s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/cmake/mission_managerConfig-version.cmake
+[26.264s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/package.xml
+[26.265s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager

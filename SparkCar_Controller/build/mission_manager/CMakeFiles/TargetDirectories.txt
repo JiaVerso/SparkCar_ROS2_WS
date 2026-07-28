@@ -1,0 +1,10 @@
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager/CMakeFiles/uninstall.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager/CMakeFiles/mission_manager_uninstall.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager/CMakeFiles/apm_takeoff_node.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager/CMakeFiles/test.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager/CMakeFiles/edit_cache.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager/CMakeFiles/rebuild_cache.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager/CMakeFiles/list_install_components.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager/CMakeFiles/install.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager/CMakeFiles/install/local.dir
+/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/build/mission_manager/CMakeFiles/install/strip.dir

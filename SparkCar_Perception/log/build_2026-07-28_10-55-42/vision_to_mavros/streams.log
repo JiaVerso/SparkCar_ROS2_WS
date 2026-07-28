@@ -1,0 +1,30 @@
+[0.060s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros -- -j8 -l8
+[0.224s] [35m[1mConsolidate compiler generated dependencies of target vision_to_mavros_node[0m
+[0.423s] [ 50%] [32mBuilding CXX object CMakeFiles/vision_to_mavros_node.dir/src/vision_to_mavros_node.cpp.o[0m
+[17.994s] [100%] [32m[1mLinking CXX executable vision_to_mavros_node[0m
+[19.351s] [100%] Built target vision_to_mavros_node
+[19.381s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros -- -j8 -l8
+[19.387s] Invoking command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros
+[19.410s] -- Install configuration: ""
+[19.411s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/lib/vision_to_mavros/vision_to_mavros_node
+[19.420s] -- Set runtime path of "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/lib/vision_to_mavros/vision_to_mavros_node" to ""
+[19.421s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/launch
+[19.421s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/launch/vision_to_mavros.launch.py
+[19.422s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/config
+[19.422s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/config/vision_to_mavros.yaml
+[19.422s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/ament_index/resource_index/package_run_dependencies/vision_to_mavros
+[19.423s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/ament_index/resource_index/parent_prefix_path/vision_to_mavros
+[19.423s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/environment/ament_prefix_path.sh
+[19.423s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/environment/ament_prefix_path.dsv
+[19.424s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/environment/path.sh
+[19.424s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/environment/path.dsv
+[19.425s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/local_setup.bash
+[19.426s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/local_setup.sh
+[19.428s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/local_setup.zsh
+[19.429s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/local_setup.dsv
+[19.429s] -- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/package.dsv
+[19.430s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/ament_index/resource_index/packages/vision_to_mavros
+[19.430s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/cmake/vision_to_mavrosConfig.cmake
+[19.431s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/cmake/vision_to_mavrosConfig-version.cmake
+[19.431s] -- Up-to-date: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/install/vision_to_mavros/share/vision_to_mavros/package.xml
+[19.433s] Invoked command in '/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Perception/build/vision_to_mavros

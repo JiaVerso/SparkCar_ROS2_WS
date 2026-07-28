@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target apm_takeoff_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/apm_takeoff_node.dir/src/apm_takeoff_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable apm_takeoff_node[0m
+[100%] Built target apm_takeoff_node
+-- Install configuration: ""
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/lib/mission_manager/apm_takeoff_node
+-- Set runtime path of "/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/lib/mission_manager/apm_takeoff_node" to ""
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/ament_index/resource_index/package_run_dependencies/mission_manager
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/ament_index/resource_index/parent_prefix_path/mission_manager
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/environment/ament_prefix_path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/environment/ament_prefix_path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/environment/path.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/environment/path.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/local_setup.bash
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/local_setup.sh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/local_setup.zsh
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/local_setup.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/package.dsv
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/ament_index/resource_index/packages/mission_manager
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/cmake/mission_managerConfig.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/cmake/mission_managerConfig-version.cmake
+-- Installing: /home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/install/mission_manager/share/mission_manager/package.xml

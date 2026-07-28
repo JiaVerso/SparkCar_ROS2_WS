@@ -1,0 +1,9 @@
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/mission_manager/src/apm_takeoff_node.cpp:33:28:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kconstexpr const char* const {anonymous}::kColorCyan[m[K’
+   33 |     constexpr const char * [01;31m[KkColorCyan[m[K      = "\033[36m";   // 天蓝色
+      |                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/orangepi/Desktop/SparkCar_ROS2_WS/SparkCar_Controller/src/mission_manager/src/apm_takeoff_node.cpp:28:28:[m[K [01;36m[Knote: [m[K‘[01m[Kconstexpr const char* const {anonymous}::kColorCyan[m[K’ previously defined here
+   28 |     constexpr const char * [01;36m[KkColorCyan[m[K    = "\033[36m";     // 青色
+      |                            [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/apm_takeoff_node.dir/build.make:76: CMakeFiles/apm_takeoff_node.dir/src/apm_takeoff_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/apm_takeoff_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

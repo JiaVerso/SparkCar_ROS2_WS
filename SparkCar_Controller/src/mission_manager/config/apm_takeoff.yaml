@@ -1,0 +1,18 @@
+apm_takeoff_node:
+  ros__parameters:
+    # 飞行参数
+    takeoff_height: 1.5
+    arrival_tolerance: 0.3
+    control_rate: 20.0
+    guided_mode: "GUIDED"
+    frame_id: "map"
+
+    # MAVROS话题
+    state_topic: "/mavros/state"
+    local_pose_topic: "/mavros/local_position/pose"
+    setpoint_topic: "/mavros/setpoint_position/local"
+
+    # MAVROS服务
+    set_mode_service: "/mavros/set_mode"
+    arming_service: "/mavros/cmd/arming"
+    takeoff_service: "/mavros/cmd/takeoff"

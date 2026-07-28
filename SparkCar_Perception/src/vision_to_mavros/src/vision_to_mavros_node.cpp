@@ -21,6 +21,17 @@
 // 匿名命令空间
 namespace
 {
+// 定义终端 ANSI 彩色字体转义码
+constexpr const char * kColorReset   = "\033[0m";
+constexpr const char * kColorRed     = "\033[31m";
+constexpr const char * kColorGreen   = "\033[32m";
+constexpr const char * kColorYellow  = "\033[33m";
+constexpr const char * kColorBlue    = "\033[34m";
+constexpr const char * kColorMagenta = "\033[35m"; // 紫红色
+constexpr const char * kColorCyan    = "\033[36m"; // 青色
+constexpr const char * kColorBold    = "\033[1m";  // 高亮粗体
+constexpr const char * kColorBoldGreen = "\033[1;32m"; // 高亮粗体绿
+
 constexpr double kPi = 3.14159265358979323846;
 
 // &：引用传递
@@ -165,6 +176,8 @@ public:
       declare_parameter<std::string>("input_linear_velocity_frame", "world");
     angular_velocity_frame_ =
       declare_parameter<std::string>("input_angular_velocity_frame", "body");
+
+    // Safety & Fault Tolerance
     max_input_age_s_ = declare_parameter<double>("max_input_age_s", 0.25);
     max_message_gap_s_ = declare_parameter<double>("max_message_gap_s", 0.50);
     max_position_jump_m_ = declare_parameter<double>("max_position_jump_m", 1.0);
@@ -172,6 +185,8 @@ public:
       declare_parameter<double>("max_orientation_jump_deg", 60.0) * kPi / 180.0;
     reject_zero_stamp_ = declare_parameter<bool>("reject_zero_stamp", true);
     latch_faults_ = declare_parameter<bool>("latch_faults", true);
+
+    // Covariance & Stddevs
     fill_covariance_if_zero_ = declare_parameter<bool>("fill_covariance_if_zero", true);
     position_stddev_m_ = declare_parameter<double>("position_stddev_m", 0.10);
     orientation_stddev_rad_ = declare_parameter<double>("orientation_stddev_rad", 0.10);
@@ -196,6 +211,7 @@ public:
       input_topic_, rclcpp::SensorDataQoS().keep_last(5),
       std::bind(&VisionToMavros::odometryCallback, this, std::placeholders::_1));
 
+    // Reset Service
     reset_service_ = create_service<std_srvs::srv::Trigger>(
       "~/reset",
       std::bind(
@@ -207,8 +223,8 @@ public:
 
     publishValidity(false);
     RCLCPP_INFO(
-      get_logger(), "Bridging %s -> %s (local Z-up/ENU-compatible, MAVROS performs NED conversion)",
-      input_topic_.c_str(), output_topic_.c_str());
+      get_logger(), "%s Bridging %s%s -> %s%s (local Z-up/ENU-compatible, MAVROS performs NED conversion) %s",
+      kColorBoldGreen, kColorYellow, input_topic_.c_str(), output_topic_.c_str(), kColorReset, kColorReset);
   }
 
 private:
@@ -250,8 +266,11 @@ private:
     initialized_ = true;
 
     RCLCPP_INFO(
-      get_logger(), "Reference initialized: origin=[%.3f %.3f %.3f], world yaw offset=%.3f deg",
-      origin_v_.x(), origin_v_.y(), origin_v_.z(), alignment_yaw * 180.0 / kPi);
+      get_logger(),
+      "Origin initialized: origin=[%.3f %.3f %.3f], yaw offset: %s%.3f deg %s",
+      origin_v_.x(), origin_v_.y(), origin_v_.z(),
+      kColorMagenta, alignment_yaw * 180.0 / kPi, kColorReset ); 
+
   }
 
   void odometryCallback(const nav_msgs::msg::Odometry::SharedPtr input)
