@@ -1,7 +1,7 @@
 vision_to_mavros:
   ros__parameters:
     input_topic: /vins_estimator/odometry
-    output_topic: /mavros/odometry/in
+    output_topic: /mavros/odometry/out
     output_frame_id: map
     output_child_frame_id: base_link
 
@@ -16,7 +16,7 @@ vision_to_mavros:
     input_linear_velocity_frame: world
     input_angular_velocity_frame: body
 
-    max_input_age_s: 0.25
+    max_input_age_s: 0.40
     max_message_gap_s: 0.50
     max_position_jump_m: 1.0
     max_orientation_jump_deg: 60.0
