@@ -1,33 +1,66 @@
+# vision_to_mavros:
+#   ros__parameters:
+#     input_topic: /vins_estimator/odometry
+#     output_topic: /mavros/odometry/out
+#     output_frame_id: map
+#     output_child_frame_id: base_link
+
+#     # VINS is gravity aligned (Z-up), but its horizontal heading is arbitrary.
+#     # Set this to the measured VINS-world -> local-ENU yaw alignment when needed.
+#     yaw_offset_deg: 0.0
+#     align_initial_yaw: false
+#     zero_position: true
+
+#     # VINS-Fusion normally publishes Vs in its world frame. nav_msgs/Odometry
+#     # requires twist in child_frame_id, so the bridge rotates it into body FLU.
+#     input_linear_velocity_frame: world
+#     input_angular_velocity_frame: body
+
+#     max_input_age_s: 0.40
+#     max_message_gap_s: 0.50
+#     max_position_jump_m: 1.0
+#     max_orientation_jump_deg: 60.0
+#     reject_zero_stamp: true
+#     latch_faults: true
+
+#     fill_covariance_if_zero: true
+#     position_stddev_m: 0.10
+#     orientation_stddev_rad: 0.10
+#     linear_velocity_stddev_mps: 0.20
+#     angular_velocity_stddev_radps: 0.10
+
+
+
 vision_to_mavros:
   ros__parameters:
-    input_topic: /vins_estimator/odometry
+    input_topic: /vins_estimator/imu_propagate
     output_topic: /mavros/odometry/out
+
+    # VINS已经完成IMU propagation，桥接节点不再重复积分
+    enable_internal_imu_propagation: false
+
+    # 输入200 Hz，但只向飞控发送50 Hz
+    output_rate_hz: 50.0
+
     output_frame_id: map
     output_child_frame_id: base_link
-
-    # VINS is gravity aligned (Z-up), but its horizontal heading is arbitrary.
-    # Set this to the measured VINS-world -> local-ENU yaw alignment when needed.
-    yaw_offset_deg: 0.0
-    align_initial_yaw: false
-    zero_position: true
-
-    # VINS-Fusion normally publishes Vs in its world frame. nav_msgs/Odometry
-    # requires twist in child_frame_id, so the bridge rotates it into body FLU.
     input_linear_velocity_frame: world
     input_angular_velocity_frame: body
 
-    max_input_age_s: 0.40
-    max_message_gap_s: 0.50
+    zero_position: true
+    align_initial_yaw: false
+    yaw_offset_deg: 0.0
+
+    max_input_age_s: 0.10
+    max_vins_silence_s: 0.10
+    max_message_gap_s: 0.05
     max_position_jump_m: 1.0
     max_orientation_jump_deg: 60.0
     reject_zero_stamp: true
-    latch_faults: true
+    latch_faults: false
 
     fill_covariance_if_zero: true
     position_stddev_m: 0.10
     orientation_stddev_rad: 0.10
     linear_velocity_stddev_mps: 0.20
     angular_velocity_stddev_radps: 0.10
-
-
-
